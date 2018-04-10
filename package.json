@@ -1,0 +1,76 @@
+{
+  "name": "sequoia-client-sdk",
+  "version": "2.4.0",
+  "description": "Sequoia client SDK for Javascript",
+  "main": "dist/sequoia-client.js",
+  "scripts": {
+    "prepublish": "NODE_ENV=production webpack --bail --progress --profile --optimize-minimize",
+    "build": "webpack --bail --progress --profile",
+    "doc": "jsdoc -c jsdoc.conf.json -r lib -p -R README.md -P package.json --verbose --pedantic",
+    "lint": "eslint lib && eslint test/spec",
+    "test": "NODE_ENV=test jest --coverage",
+    "test:watch": "NODE_ENV=test jest --watch",
+    "test:mutate": "NODE_ENV=test stryker run"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/spec/**/*.js"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "coverageDirectory": "test/results",
+    "setupFiles": [
+      "./test/setup.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.piksel.com:experiencements/sequoia-client-sdk.git"
+  },
+  "keywords": [
+    "sequoia",
+    "es6",
+    "javascript",
+    "sdk"
+  ],
+  "author": "Piksel Product",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.22.0",
+    "babel-loader": "6.2.10",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-istanbul": "3.1.2",
+    "babel-polyfill": "6.22.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-stage-2": "6.22.0",
+    "eslint": "3.14.0",
+    "eslint-config-airbnb-base": "11.0.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jest": "^21.12.1",
+    "exports-loader": "0.6.3",
+    "fetch-mock": "5.8.1",
+    "imports-loader": "0.7.0",
+    "ink-docstrap": "1.3.0",
+    "jest": "^22.3.0",
+    "jest-fetch-mock": "^1.4.1",
+    "jsdoc": "^3.5.5",
+    "json-loader": "0.5.4",
+    "request": "^2.83.0",
+    "stryker": "^0.19.3",
+    "stryker-api": "^0.13.0",
+    "stryker-babel-transpiler": "^0.3.1",
+    "stryker-html-reporter": "^0.12.1",
+    "stryker-javascript-mutator": "^0.4.0",
+    "stryker-jest-runner": "^0.4.2",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
+  },
+  "dependencies": {
+    "query-string": "4.2.3",
+    "whatwg-fetch": "2.0.2"
+  },
+  "publishConfig": {
+    "registry": "http://npm.sequoia.piksel.com/"
+  }
+}

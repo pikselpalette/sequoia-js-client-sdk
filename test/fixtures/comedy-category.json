@@ -1,0 +1,17 @@
+{
+ "ref": "demo:genre_comedy",
+ "owner": "demo",
+ "name": "genre_comedy",
+ "tags": [
+  "showcase",
+  "fuse"
+ ],
+ "createdAt": "2016-09-30T08:00:22.856Z",
+ "createdBy": "demo:demo-admin",
+ "updatedAt": "2016-09-30T08:00:22.856Z",
+ "updatedBy": "demo:demo-admin",
+ "version": "dc4aa346884f0f29e74c09fdba845bd7791977da",
+ "title": "Comedy",
+ "scheme": "genre",
+ "value": "Comedy"
+}

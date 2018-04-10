@@ -1,0 +1,98 @@
+{
+	"services": [{
+		"owner": "root",
+		"name": "geolocation",
+		"title": "Geo Location Service",
+		"location": "https://geolocation-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "identity",
+		"title": "Identity Service",
+		"location": "https://identity-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "publish",
+		"title": "Publish Service",
+		"location": "https://publish-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "console",
+		"title": "Console Service",
+		"location": "https://console-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "registry",
+		"title": "Registry Service",
+		"location": "https://registry-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "userprofile",
+		"title": "User Profile Service",
+		"location": "https://userprofile-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "airside",
+		"title": "Airside Service",
+		"location": "https://airside-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "player",
+		"title": "Player Service",
+		"location": "https://player-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "task",
+		"title": "Task Service",
+		"location": "https://task-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "callbacks",
+		"title": "Callbacks Service",
+		"location": "https://callbacks-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "payment",
+		"title": "Payment Service",
+		"location": "https://payment-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "gateway",
+		"title": "Gateway Service",
+		"location": "https://gateway-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "notification",
+		"title": "Notification Service",
+		"location": "https://notification-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "metadata",
+		"title": "Metadata Service",
+		"location": "https://metadata-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "workflow",
+		"title": "Workflow Service",
+		"location": "https://workflow-euw1shared.sequoia.piksel.com"
+	},
+	{
+		"owner": "root",
+		"name": "ingest",
+		"title": "Ingest Service",
+		"location": "https://ingest-euw1shared.sequoia.piksel.com"
+	}]
+}

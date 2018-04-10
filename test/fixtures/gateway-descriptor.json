@@ -1,0 +1,2075 @@
+{
+  "name": "gateway",
+  "urn": "urn:piksel:service:gateway",
+  "title": "Gateway Service",
+  "description": "A service that allows for the creation of non-authorised access, high-availability feeds over one or more Sequoia resources",
+  "resourcefuls": {
+    "feedConfigs": {
+      "path": "/data",
+      "consistency": "eventual",
+      "stability": "experimental",
+      "displayPriority": 1,
+      "operations": {
+        "browse": {
+          "description": "Fetches a list of feed configs that may be filtered",
+          "actions": [
+            "gateway:feed-configs:read",
+            "gateway:feed-configs:read:browse"
+          ]
+        },
+        "get": {
+          "description": "Fetches one or more feed configs using the supplied id(s)",
+          "actions": [
+            "gateway:feed-configs:read",
+            "gateway:feed-configs:read:get"
+          ]
+        },
+        "storeBatch": {
+          "description": "Stores one or more feed configs, either creating or wholly replacing",
+          "actions": [
+            "gateway:feed-configs:write",
+            "gateway:feed-configs:write:store",
+            "gateway:feed-configs:write:store:batch"
+          ],
+          "limit": 100
+        },
+        "storeOne": {
+          "description": "Stores the supplied feed config with the supplied id, either creating or wholly replacing",
+          "actions": [
+            "gateway:feed-configs:write",
+            "gateway:feed-configs:write:store",
+            "gateway:feed-configs:write:store:one"
+          ]
+        },
+        "patch": {
+          "enabled": false,
+          "description": "Partially updates the existing stored feed config with the supplied id",
+          "actions": [
+            "gateway:feed-configs:write",
+            "gateway:feed-configs:write:store",
+            "gateway:feed-configs:write:store:patch"
+          ]
+        },
+        "delete": {
+          "description": "Delete one or more feed configs using the supplied id(s)",
+          "actions": [
+            "gateway:feed-configs:write",
+            "gateway:feed-configs:write:delete"
+          ]
+        }
+      },
+      "pagination": {
+        "pageSize": {
+          "min": 1,
+          "max": 100,
+          "default": 100
+        },
+        "pages": {
+          "max": 1000
+        }
+      },
+      "display": {
+        "priority": 1,
+        "overview": {
+          "label": "title",
+          "descriptive": [
+            "title",
+            "service",
+            "resource"
+          ],
+          "quickInfo": [
+            "service",
+            "resource"
+          ]
+        },
+        "info": {
+          "primary": [
+            "ref",
+            "owner",
+            "name"
+          ],
+          "secondary": [
+            "alternativeIdentifiers",
+            "tags",
+            "custom"
+          ],
+          "history": [
+            "createdAt",
+            "createdBy",
+            "updatedAt",
+            "updatedBy",
+            "deletedAt",
+            "deletedBy",
+            "reapAt",
+            "version"
+          ]
+        },
+        "singularName": "feed config",
+        "pluralName": "feed configs"
+      },
+      "fields": {
+        "ref": {
+          "description": "The derived owner:name reference",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:resource-name",
+          "fieldName": "ref",
+          "fieldNamePath": "ref",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withRef"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "ref",
+              "fieldNamePath": "ref",
+              "description": "filter by the supplied ref",
+              "name": "withRef",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ]
+        },
+        "alternativeIdentifiers": {
+          "type": "stringMap",
+          "description": "A map of alternative identifiers for this resource",
+          "example": {
+            "tel": "0800100100",
+            "said": "something"
+          },
+          "fieldName": "alternativeIdentifiers",
+          "fieldNamePath": "alternativeIdentifiers",
+          "typeInfo": {
+            "keys": {
+              "pattern": "[a-zA-Z0-9]+"
+            },
+            "desc": "key-value pairs",
+            "name": "stringMap"
+          },
+          "filteredBy": [
+            "withAlternativeIdentifiers"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "alternativeIdentifiers",
+              "fieldNamePath": "alternativeIdentifiers",
+              "description": "filter by the supplied alternative identifiers",
+              "prefix": true,
+              "name": "withAlternativeIdentifiers",
+              "and": true,
+              "or": true,
+              "valueType": "stringMap"
+            }
+          ]
+        },
+        "owner": {
+          "description": "The tenant owner name",
+          "type": "name",
+          "required": true,
+          "sort": true,
+          "example": "test",
+          "fieldName": "owner",
+          "fieldNamePath": "owner",
+          "typeInfo": {
+            "desc": "name",
+            "pattern": "[a-zA-Z0-9_-]+",
+            "name": "name"
+          }
+        },
+        "name": {
+          "description": "The tenant specific unique name",
+          "type": "name",
+          "sort": true,
+          "example": "resource-name",
+          "fieldName": "name",
+          "fieldNamePath": "name",
+          "typeInfo": {
+            "desc": "name",
+            "pattern": "[a-zA-Z0-9_-]+",
+            "name": "name"
+          },
+          "filteredBy": [
+            "withName"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "name",
+              "fieldNamePath": "name",
+              "description": "filter by the supplied name",
+              "name": "withName",
+              "and": true,
+              "or": true,
+              "valueType": "name"
+            }
+          ]
+        },
+        "tags": {
+          "description": "tags for the resource",
+          "type": "string",
+          "array": true,
+          "example": [
+            "todo",
+            "usage:boxart"
+          ],
+          "fieldName": "tags",
+          "fieldNamePath": "tags",
+          "typeInfo": {
+            "desc": "string",
+            "pattern": ".+",
+            "name": "string"
+          },
+          "filteredBy": [
+            "withTags"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "tags",
+              "fieldNamePath": "tags",
+              "description": "filter by the supplied tags",
+              "name": "withTags",
+              "and": true,
+              "or": true,
+              "valueType": "string"
+            }
+          ]
+        },
+        "scores": {
+          "description": "scores for the resource",
+          "type": "scores",
+          "example": {
+            "imdb.a3431": 0.9,
+            "fuse": 2
+          },
+          "fieldName": "scores",
+          "fieldNamePath": "scores",
+          "typeInfo": {
+            "keys": {
+              "pattern": "(?:[a-zA-Z0-9]+)(?:\\.[a-zA-Z0-9]+)*"
+            },
+            "values": {},
+            "desc": "Map of FieldNamePath:Number pairs",
+            "name": "scores"
+          },
+          "filteredBy": [
+            "withScore"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "scores",
+              "fieldNamePath": "scores",
+              "description": "filter by the supplied score",
+              "range": true,
+              "name": "withScore",
+              "and": true,
+              "or": true,
+              "valueType": "scores"
+            }
+          ]
+        },
+        "custom": {
+          "description": "The tenant specific custom fields.  This may be used to hold tenant specific data alongside the document, but it should not be used as a substitute for normal fields.",
+          "type": "map",
+          "max": 100,
+          "fieldName": "custom",
+          "fieldNamePath": "custom",
+          "typeInfo": {
+            "keys": {
+              "pattern": "[a-zA-Z0-9]+"
+            },
+            "values": {},
+            "desc": "key-value pairs"
+          }
+        },
+        "createdAt": {
+          "description": "The timestamp when created",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "createdAt",
+          "fieldNamePath": "createdAt",
+          "filteredBy": [
+            "withCreatedAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "createdAt",
+              "fieldNamePath": "createdAt",
+              "description": "filter by the supplied createdAt",
+              "range": true,
+              "name": "withCreatedAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "createdBy": {
+          "description": "The user that created",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:test-admin",
+          "sort": true,
+          "fieldName": "createdBy",
+          "fieldNamePath": "createdBy",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withCreatedBy"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "createdBy",
+              "fieldNamePath": "createdBy",
+              "description": "filter by the supplied createdBy",
+              "name": "withCreatedBy",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ]
+        },
+        "updatedAt": {
+          "description": "The timestamp when last updated",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "updatedAt",
+          "fieldNamePath": "updatedAt",
+          "filteredBy": [
+            "withUpdatedAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "updatedAt",
+              "fieldNamePath": "updatedAt",
+              "description": "filter by the supplied updatedAt",
+              "range": true,
+              "name": "withUpdatedAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "updatedBy": {
+          "description": "The user that last updated",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:test-admin",
+          "sort": true,
+          "fieldName": "updatedBy",
+          "fieldNamePath": "updatedBy",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withUpdatedBy"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "updatedBy",
+              "fieldNamePath": "updatedBy",
+              "description": "filter by the supplied updatedBy",
+              "name": "withUpdatedBy",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ]
+        },
+        "deletedAt": {
+          "description": "The timestamp when deleted (only applicable to deleted  resources)",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "deletedAt",
+          "fieldNamePath": "deletedAt",
+          "filteredBy": [
+            "withDeletedAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "deletedAt",
+              "fieldNamePath": "deletedAt",
+              "prohibited": [
+                "enduser"
+              ],
+              "description": "filter by the supplied deletedAt",
+              "range": true,
+              "name": "withDeletedAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "deletedBy": {
+          "description": "The user that deleted (only applicable to deleted  resources)",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:test-admin",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "deletedBy",
+          "fieldNamePath": "deletedBy",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withDeletedBy"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "deletedBy",
+              "fieldNamePath": "deletedBy",
+              "prohibited": [
+                "enduser"
+              ],
+              "description": "filter by the supplied deletedBy",
+              "name": "withDeletedBy",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ]
+        },
+        "reapAt": {
+          "description": "The timestamp for reaping (only applicable to deleted  resources)",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "reapAt",
+          "fieldNamePath": "reapAt",
+          "filteredBy": [
+            "withReapAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "reapAt",
+              "fieldNamePath": "reapAt",
+              "prohibited": [
+                "enduser",
+                "service",
+                "admin"
+              ],
+              "description": "filter by the supplied reapAt",
+              "range": true,
+              "name": "withReapAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "version": {
+          "description": "The version hash (computed)",
+          "type": "version",
+          "readOnly": true,
+          "example": "356b54eb90cd04566159dfb9c95a0426998a2f7b",
+          "excludeFromVersion": true,
+          "fieldName": "version",
+          "fieldNamePath": "version",
+          "typeInfo": {
+            "desc": "sha1 hex encoded hash",
+            "pattern": "[a-f0-9]{40}",
+            "name": "version"
+          },
+          "filteredBy": [
+            "withVersion"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "version",
+              "fieldNamePath": "version",
+              "description": "filter by the supplied version",
+              "name": "withVersion",
+              "and": true,
+              "or": true,
+              "valueType": "version"
+            }
+          ]
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "primary": true,
+          "example": "New this week",
+          "description": "A friendly name for the feed",
+          "fieldName": "title",
+          "fieldNamePath": "title",
+          "typeInfo": {
+            "desc": "string",
+            "pattern": ".+",
+            "name": "string"
+          }
+        },
+        "service": {
+          "type": "string",
+          "required": true,
+          "primary": true,
+          "allowedValues": [
+            {
+              "value": "metadata",
+              "alternatives": [],
+              "label": "metadata",
+              "description": "metadata"
+            },
+            {
+              "value": "placement",
+              "alternatives": [],
+              "label": "placement",
+              "description": "placement"
+            }
+          ],
+          "example": "metadata",
+          "description": "The name of the service that the feed will pull data from",
+          "fieldName": "service",
+          "fieldNamePath": "service",
+          "allowedValueMappings": {
+            "metadata": "metadata",
+            "placement": "placement"
+          },
+          "typeInfo": {
+            "desc": "string",
+            "pattern": ".+",
+            "name": "string"
+          },
+          "filteredBy": [
+            "withService"
+          ],
+          "filters": [
+            {
+              "description": "filter by supplied service name",
+              "type": "with",
+              "fieldNamePath": "service",
+              "label": "service",
+              "name": "withService",
+              "and": true,
+              "or": true,
+              "valueType": "string"
+            }
+          ]
+        },
+        "resource": {
+          "type": "string",
+          "required": true,
+          "primary": true,
+          "example": "contents",
+          "description": "The name of the resource that the feed will pull data from",
+          "fieldName": "resource",
+          "fieldNamePath": "resource",
+          "typeInfo": {
+            "desc": "string",
+            "pattern": ".+",
+            "name": "string"
+          },
+          "filteredBy": [
+            "withResource"
+          ],
+          "filters": [
+            {
+              "description": "filter by supplied resource name",
+              "type": "with",
+              "fieldNamePath": "resource",
+              "label": "resource",
+              "name": "withResource",
+              "and": true,
+              "or": true,
+              "valueType": "string"
+            }
+          ]
+        },
+        "defaults": {
+          "required": true,
+          "description": "The default pre-configured query parameters to be applied to the feed",
+          "fields": {
+            "count": {
+              "type": "fieldName",
+              "example": "title",
+              "description": "The name of the field to return a facetted count for; 'true' for a total count",
+              "fieldName": "count",
+              "fieldNamePath": "defaults.count",
+              "typeInfo": {
+                "desc": "field name",
+                "pattern": "[a-zA-Z0-9]+"
+              },
+              "primary": true
+            },
+            "fields": {
+              "type": "fieldName",
+              "array": true,
+              "min": 1,
+              "required": true,
+              "example": [
+                "ref",
+                "title"
+              ],
+              "description": "The names of the fields to pull from the resource.",
+              "fieldName": "fields",
+              "fieldNamePath": "defaults.fields",
+              "typeInfo": {
+                "desc": "field name",
+                "pattern": "[a-zA-Z0-9]+"
+              },
+              "primary": true
+            },
+            "sort": {
+              "array": true,
+              "type": "string",
+              "example": "-createdAt",
+              "description": "The name of a field on which to sort. Start with `-` for descending order.",
+              "fieldName": "sort",
+              "fieldNamePath": "defaults.sort",
+              "typeInfo": {
+                "desc": "string",
+                "pattern": ".+",
+                "name": "string"
+              },
+              "primary": true
+            },
+            "active": {
+              "type": "boolean",
+              "default": false,
+              "description": "The default active filter, shorthand for `withActive=true`.\n            Setting this to false means the filter will not be applied. If the `withActive` filter is also specified\n            in `filters` or in the query, it will be superceded by this setting when set to `true`.",
+              "fieldName": "active",
+              "fieldNamePath": "defaults.active",
+              "typeInfo": {
+                "desc": "true or false",
+                "pattern": "(?:true|false)"
+              }
+            },
+            "available": {
+              "type": "boolean",
+              "default": false,
+              "description": "The default availability filter, shorthand for `withAvailabilityStartAt=/NOW&withAvailabilityEndAt=NOW/`. Setting this to false means the filter will not be applied. If one or both of these filters are also specified in `filters` or in the query, the above queries will be merged with them using a `&&` relationship.",
+              "fieldName": "available",
+              "fieldNamePath": "defaults.available",
+              "typeInfo": {
+                "desc": "true or false",
+                "pattern": "(?:true|false)"
+              }
+            },
+            "filters": {
+              "type": "stringMap",
+              "example": {
+                "withAvailabilityStartAt": "{NOW}/{NOW+P20D}",
+                "withCreatedAt": "{NOW-P20D}",
+                "withMemberRefs": "test:best-of-collection&&test:got-season-1",
+                "withTitle": "The Walking Dead||Game of Thrones",
+                "withType": "show"
+              },
+              "description": "Filters to be applied to the resourceful request made by the feed service. These filters cannot be overriden and will be applied to all requests.",
+              "fieldName": "filters",
+              "fieldNamePath": "defaults.filters",
+              "typeInfo": {
+                "keys": {
+                  "pattern": "[a-zA-Z0-9]+"
+                },
+                "desc": "key-value pairs",
+                "name": "stringMap"
+              }
+            },
+            "lang": {
+              "type": "language",
+              "example": "en",
+              "description": "The default language in which to serve up content if no `lang` is specified in the query",
+              "fieldName": "lang",
+              "fieldNamePath": "defaults.lang",
+              "typeInfo": {
+                "keys": {},
+                "values": {},
+                "desc": "languages",
+                "codes": [
+                  "ar",
+                  "de",
+                  "de-AT",
+                  "de-CH",
+                  "el",
+                  "en",
+                  "es",
+                  "fa",
+                  "fr",
+                  "fr-CH",
+                  "hi",
+                  "hu",
+                  "it",
+                  "it-CH",
+                  "nl",
+                  "ru",
+                  "tl",
+                  "tr",
+                  "vi",
+                  "zh"
+                ],
+                "pattern": "(ar)|(de)|(de-AT)|(de-CH)|(el)|(en)|(es)|(fa)|(fr)|(fr-CH)|(hi)|(hu)|(it)|(it-CH)|(nl)|(ru)|(tl)|(tr)|(vi)|(zh)"
+              }
+            },
+            "perPage": {
+              "type": "nonNegativeInteger",
+              "default": 100,
+              "required": true,
+              "example": "50",
+              "description": "The default number of items to be returned per page. It can be overriden.",
+              "fieldName": "perPage",
+              "fieldNamePath": "defaults.perPage",
+              "typeInfo": {
+                "desc": "non-negative integer",
+                "pattern": "\\d+"
+              }
+            },
+            "relationships": {
+              "description": "Relationships to include",
+              "array": true,
+              "fields": {
+                "name": {
+                  "required": true,
+                  "type": "fieldNamePath",
+                  "example": "parent",
+                  "description": "Relationships to include in the result set.",
+                  "fieldName": "name",
+                  "fieldNamePath": "defaults.relationships.name",
+                  "typeInfo": {
+                    "desc": "field name path",
+                    "pattern": "(?:[a-zA-Z0-9]+)(?:\\.[a-zA-Z0-9]+)*"
+                  },
+                  "primary": true
+                },
+                "fields": {
+                  "type": "fieldName",
+                  "array": true,
+                  "required": true,
+                  "example": [
+                    "ref",
+                    "title"
+                  ],
+                  "description": "The names of the fields to pull from the resource.",
+                  "fieldName": "fields",
+                  "fieldNamePath": "defaults.relationships.fields",
+                  "typeInfo": {
+                    "desc": "field name",
+                    "pattern": "[a-zA-Z0-9]+"
+                  },
+                  "primary": true
+                },
+                "sort": {
+                  "array": true,
+                  "type": "string",
+                  "example": "-createdAt",
+                  "description": "The name of a field on which to sort. Start with `-` for descending order.",
+                  "fieldName": "sort",
+                  "fieldNamePath": "defaults.relationships.sort",
+                  "typeInfo": {
+                    "desc": "string",
+                    "pattern": ".+",
+                    "name": "string"
+                  },
+                  "primary": true
+                },
+                "filters": {
+                  "type": "stringMap",
+                  "example": {
+                    "withAvailabilityStartAt": "{NOW}/{NOW+P20D}",
+                    "withCreatedAt": "{NOW-P20D}",
+                    "withMemberRefs": "test:best-of-collection&&test:got-season-1",
+                    "withTitle": "The Walking Dead||Game of Thrones",
+                    "withType": "show"
+                  },
+                  "description": "Filters that are applied to the resourceful request made by the feed service. These cannot\n                be overriden by filters supplied in the query, however, filters not listed be may be applied in the\n                query.",
+                  "fieldName": "filters",
+                  "fieldNamePath": "defaults.relationships.filters",
+                  "typeInfo": {
+                    "keys": {
+                      "pattern": "[a-zA-Z0-9]+"
+                    },
+                    "desc": "key-value pairs",
+                    "name": "stringMap"
+                  }
+                }
+              },
+              "fieldName": "relationships",
+              "fieldNamePath": "defaults.relationships",
+              "typeInfo": {}
+            }
+          },
+          "fieldName": "defaults",
+          "fieldNamePath": "defaults",
+          "typeInfo": {}
+        },
+        "optional": {
+          "description": "The optional query parameters that can be applied to the feed",
+          "fields": {
+            "count": {
+              "array": true,
+              "type": "fieldName",
+              "example": [
+                "title",
+                "name"
+              ],
+              "description": "The name(s) of the fields for which a facetted count can be requested",
+              "fieldName": "count",
+              "fieldNamePath": "optional.count",
+              "typeInfo": {
+                "desc": "field name",
+                "pattern": "[a-zA-Z0-9]+"
+              },
+              "primary": true
+            },
+            "fields": {
+              "type": "fieldName",
+              "array": true,
+              "example": [
+                "ref",
+                "title"
+              ],
+              "description": "The names of the fields to pull from the resource.",
+              "fieldName": "fields",
+              "fieldNamePath": "optional.fields",
+              "typeInfo": {
+                "desc": "field name",
+                "pattern": "[a-zA-Z0-9]+"
+              },
+              "primary": true
+            },
+            "filters": {
+              "type": "string",
+              "array": true,
+              "example": [
+                "withAvailabilityStartAt",
+                "withTitle"
+              ],
+              "description": "Filters that can optionally be applied to the resourceful request made by the feed service.",
+              "fieldName": "filters",
+              "fieldNamePath": "optional.filters",
+              "typeInfo": {
+                "desc": "string",
+                "pattern": ".+",
+                "name": "string"
+              },
+              "primary": true
+            },
+            "sort": {
+              "type": "fieldName",
+              "array": true,
+              "example": [
+                "createdAt",
+                "title"
+              ],
+              "description": "The field(s) that can be used to override the default sort via query string",
+              "fieldName": "sort",
+              "fieldNamePath": "optional.sort",
+              "typeInfo": {
+                "desc": "field name",
+                "pattern": "[a-zA-Z0-9]+"
+              }
+            },
+            "relationships": {
+              "description": "Relationships that can be included",
+              "array": true,
+              "fields": {
+                "name": {
+                  "required": true,
+                  "type": "fieldNamePath",
+                  "example": "content.parent",
+                  "description": "Relationships to include in the result set.",
+                  "fieldName": "name",
+                  "fieldNamePath": "optional.relationships.name",
+                  "typeInfo": {
+                    "desc": "field name path",
+                    "pattern": "(?:[a-zA-Z0-9]+)(?:\\.[a-zA-Z0-9]+)*"
+                  },
+                  "primary": true
+                },
+                "fields": {
+                  "type": "fieldName",
+                  "array": true,
+                  "example": [
+                    "ref",
+                    "title"
+                  ],
+                  "description": "The names of the fields to pull from the resource.",
+                  "fieldName": "fields",
+                  "fieldNamePath": "optional.relationships.fields",
+                  "typeInfo": {
+                    "desc": "field name",
+                    "pattern": "[a-zA-Z0-9]+"
+                  },
+                  "primary": true
+                },
+                "sort": {
+                  "array": true,
+                  "type": "fieldName",
+                  "example": "createdAt",
+                  "description": "The name of a field on which to sort.",
+                  "fieldName": "sort",
+                  "fieldNamePath": "optional.relationships.sort",
+                  "typeInfo": {
+                    "desc": "field name",
+                    "pattern": "[a-zA-Z0-9]+"
+                  },
+                  "primary": true
+                },
+                "filters": {
+                  "type": "fieldName",
+                  "array": true,
+                  "example": "withType",
+                  "description": "Filters on the relationship that are allowed to be overriden",
+                  "fieldName": "filters",
+                  "fieldNamePath": "optional.relationships.filters",
+                  "typeInfo": {
+                    "desc": "field name",
+                    "pattern": "[a-zA-Z0-9]+"
+                  }
+                }
+              },
+              "fieldName": "relationships",
+              "fieldNamePath": "optional.relationships",
+              "typeInfo": {}
+            }
+          },
+          "fieldName": "optional",
+          "fieldNamePath": "optional",
+          "typeInfo": {}
+        },
+        "cachePolicy": {
+          "default": {},
+          "description": "Options affecting the caching strategy for the feed",
+          "fields": {
+            "ttl": {
+              "type": "positiveInteger",
+              "default": 60,
+              "min": 5,
+              "example": 60,
+              "description": "The lifespan of each cached item in seconds",
+              "fieldName": "ttl",
+              "fieldNamePath": "cachePolicy.ttl",
+              "typeInfo": {
+                "desc": "positive integer",
+                "pattern": "(?:[1-9](?:\\d*))"
+              },
+              "primary": true
+            }
+          },
+          "fieldName": "cachePolicy",
+          "fieldNamePath": "cachePolicy",
+          "typeInfo": {}
+        },
+        "limit": {
+          "description": "The maximum number of items in the feed",
+          "type": "number",
+          "required": true,
+          "default": 100,
+          "min": 1,
+          "fieldName": "limit",
+          "fieldNamePath": "limit",
+          "typeInfo": {
+            "desc": "number",
+            "pattern": "-?\\d+(?:\\.\\d+)?"
+          }
+        }
+      },
+      "filters": {
+        "q": {
+          "type": "q",
+          "label": "q",
+          "description": "filter by text",
+          "includes": [
+            "title"
+          ],
+          "name": "q",
+          "valueType": "string",
+          "text": true
+        },
+        "withName": {
+          "type": "with",
+          "label": "name",
+          "fieldNamePath": "name",
+          "description": "filter by the supplied name",
+          "name": "withName",
+          "and": true,
+          "or": true,
+          "valueType": "name"
+        },
+        "withRef": {
+          "type": "with",
+          "label": "ref",
+          "fieldNamePath": "ref",
+          "description": "filter by the supplied ref",
+          "name": "withRef",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withAlternativeIdentifiers": {
+          "type": "with",
+          "label": "alternativeIdentifiers",
+          "fieldNamePath": "alternativeIdentifiers",
+          "description": "filter by the supplied alternative identifiers",
+          "prefix": true,
+          "name": "withAlternativeIdentifiers",
+          "and": true,
+          "or": true,
+          "valueType": "stringMap"
+        },
+        "withTags": {
+          "type": "with",
+          "label": "tags",
+          "fieldNamePath": "tags",
+          "description": "filter by the supplied tags",
+          "name": "withTags",
+          "and": true,
+          "or": true,
+          "valueType": "string"
+        },
+        "withScore": {
+          "type": "with",
+          "label": "scores",
+          "fieldNamePath": "scores",
+          "description": "filter by the supplied score",
+          "range": true,
+          "name": "withScore",
+          "and": true,
+          "or": true,
+          "valueType": "scores"
+        },
+        "withCreatedAt": {
+          "type": "with",
+          "label": "createdAt",
+          "fieldNamePath": "createdAt",
+          "description": "filter by the supplied createdAt",
+          "range": true,
+          "name": "withCreatedAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withCreatedBy": {
+          "type": "with",
+          "label": "createdBy",
+          "fieldNamePath": "createdBy",
+          "description": "filter by the supplied createdBy",
+          "name": "withCreatedBy",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withUpdatedAt": {
+          "type": "with",
+          "label": "updatedAt",
+          "fieldNamePath": "updatedAt",
+          "description": "filter by the supplied updatedAt",
+          "range": true,
+          "name": "withUpdatedAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withUpdatedBy": {
+          "type": "with",
+          "label": "updatedBy",
+          "fieldNamePath": "updatedBy",
+          "description": "filter by the supplied updatedBy",
+          "name": "withUpdatedBy",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withDeletedAt": {
+          "type": "with",
+          "label": "deletedAt",
+          "fieldNamePath": "deletedAt",
+          "prohibited": [
+            "enduser"
+          ],
+          "description": "filter by the supplied deletedAt",
+          "range": true,
+          "name": "withDeletedAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withDeletedBy": {
+          "type": "with",
+          "label": "deletedBy",
+          "fieldNamePath": "deletedBy",
+          "prohibited": [
+            "enduser"
+          ],
+          "description": "filter by the supplied deletedBy",
+          "name": "withDeletedBy",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withReapAt": {
+          "type": "with",
+          "label": "reapAt",
+          "fieldNamePath": "reapAt",
+          "prohibited": [
+            "enduser",
+            "service",
+            "admin"
+          ],
+          "description": "filter by the supplied reapAt",
+          "range": true,
+          "name": "withReapAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withVersion": {
+          "type": "with",
+          "label": "version",
+          "fieldNamePath": "version",
+          "description": "filter by the supplied version",
+          "name": "withVersion",
+          "and": true,
+          "or": true,
+          "valueType": "version"
+        },
+        "withService": {
+          "description": "filter by supplied service name",
+          "type": "with",
+          "fieldNamePath": "service",
+          "label": "service",
+          "name": "withService",
+          "and": true,
+          "or": true,
+          "valueType": "string"
+        },
+        "withResource": {
+          "description": "filter by supplied resource name",
+          "type": "with",
+          "fieldNamePath": "resource",
+          "label": "resource",
+          "name": "withResource",
+          "and": true,
+          "or": true,
+          "valueType": "string"
+        }
+      },
+      "restrictions": [
+        {
+          "type": "ownership",
+          "message": "must contain an owner for which you have permission",
+          "description": "users can only interact with resources that are owned by a tenant they have access to"
+        },
+        {
+          "type": "unmodifiable",
+          "message": "not allowed to modify resources created by root:root",
+          "description": "users are not allowed to modify resources that were created by root:root"
+        },
+        {
+          "type": "primaryKey",
+          "message": "primaryKey must be unique",
+          "description": "the primary key (ref) is derived from owner and name, allowing name to be a tenant specific unique external id"
+        },
+        {
+          "type": "prohibited",
+          "userTypes": [
+            "enduser"
+          ],
+          "message": "'enduser' user types are not permitted to create feed configs",
+          "description": "A restriction preventing 'enduser' user types from creating feed configs"
+        }
+      ],
+      "relationships": {},
+      "serviceName": "gateway",
+      "singularName": "feedConfig",
+      "pluralName": "feedConfigs",
+      "description": "Describes a feed configuration object",
+      "hyphenatedPluralName": "feed-configs",
+      "displaySingularName": "feed config",
+      "displayPluralName": "feed configs",
+      "retentionPeriod": "P30D",
+      "typeInfo": {}
+    },
+    "tenancyConfigurations": {
+      "path": "/data",
+      "consistency": "eventual",
+      "stability": "experimental",
+      "operations": {
+        "browse": {
+          "description": "Fetches a list of tenancy configurations that may be filtered",
+          "actions": [
+            "gateway:tenancy-configurations:read",
+            "gateway:tenancy-configurations:read:browse"
+          ]
+        },
+        "get": {
+          "description": "Fetches one or more tenancy configurations using the supplied id(s)",
+          "actions": [
+            "gateway:tenancy-configurations:read",
+            "gateway:tenancy-configurations:read:get"
+          ]
+        },
+        "storeBatch": {
+          "description": "Stores one or more tenancy configurations, either creating or wholly replacing",
+          "actions": [
+            "gateway:tenancy-configurations:write",
+            "gateway:tenancy-configurations:write:store",
+            "gateway:tenancy-configurations:write:store:batch"
+          ],
+          "limit": 100
+        },
+        "storeOne": {
+          "description": "Stores the supplied tenancy configuration with the supplied id, either creating or wholly replacing",
+          "actions": [
+            "gateway:tenancy-configurations:write",
+            "gateway:tenancy-configurations:write:store",
+            "gateway:tenancy-configurations:write:store:one"
+          ]
+        },
+        "patch": {
+          "enabled": false,
+          "description": "Partially updates the existing stored tenancy configuration with the supplied id",
+          "actions": [
+            "gateway:tenancy-configurations:write",
+            "gateway:tenancy-configurations:write:store",
+            "gateway:tenancy-configurations:write:store:patch"
+          ]
+        },
+        "delete": {
+          "description": "Delete one or more tenancy configurations using the supplied id(s)",
+          "actions": [
+            "gateway:tenancy-configurations:write",
+            "gateway:tenancy-configurations:write:delete"
+          ]
+        }
+      },
+      "pagination": {
+        "pageSize": {
+          "min": 1,
+          "max": 100,
+          "default": 100
+        },
+        "pages": {
+          "max": 1000
+        }
+      },
+      "display": {
+        "priority": 10,
+        "overview": {
+          "label": "name"
+        },
+        "info": {
+          "primary": [
+            "ref",
+            "owner",
+            "name"
+          ],
+          "secondary": [
+            "alternativeIdentifiers",
+            "tags",
+            "custom"
+          ],
+          "history": [
+            "createdAt",
+            "createdBy",
+            "updatedAt",
+            "updatedBy",
+            "deletedAt",
+            "deletedBy",
+            "reapAt",
+            "version"
+          ]
+        },
+        "singularName": "tenancy configuration",
+        "pluralName": "tenancy configurations"
+      },
+      "fields": {
+        "ref": {
+          "description": "The derived owner:name reference",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:resource-name",
+          "fieldName": "ref",
+          "fieldNamePath": "ref",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withRef"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "ref",
+              "fieldNamePath": "ref",
+              "description": "filter by the supplied ref",
+              "name": "withRef",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ],
+          "primary": true
+        },
+        "alternativeIdentifiers": {
+          "type": "stringMap",
+          "description": "A map of alternative identifiers for this resource",
+          "example": {
+            "tel": "0800100100",
+            "said": "something"
+          },
+          "fieldName": "alternativeIdentifiers",
+          "fieldNamePath": "alternativeIdentifiers",
+          "typeInfo": {
+            "keys": {
+              "pattern": "[a-zA-Z0-9]+"
+            },
+            "desc": "key-value pairs",
+            "name": "stringMap"
+          },
+          "filteredBy": [
+            "withAlternativeIdentifiers"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "alternativeIdentifiers",
+              "fieldNamePath": "alternativeIdentifiers",
+              "description": "filter by the supplied alternative identifiers",
+              "prefix": true,
+              "name": "withAlternativeIdentifiers",
+              "and": true,
+              "or": true,
+              "valueType": "stringMap"
+            }
+          ],
+          "primary": true
+        },
+        "owner": {
+          "description": "The tenant owner name",
+          "type": "name",
+          "required": true,
+          "sort": true,
+          "example": "test",
+          "fieldName": "owner",
+          "fieldNamePath": "owner",
+          "typeInfo": {
+            "desc": "name",
+            "pattern": "[a-zA-Z0-9_-]+",
+            "name": "name"
+          },
+          "primary": true
+        },
+        "name": {
+          "description": "The tenant specific unique name",
+          "type": "name",
+          "sort": true,
+          "example": "resource-name",
+          "fieldName": "name",
+          "fieldNamePath": "name",
+          "typeInfo": {
+            "desc": "name",
+            "pattern": "[a-zA-Z0-9_-]+",
+            "name": "name"
+          },
+          "filteredBy": [
+            "withName"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "name",
+              "fieldNamePath": "name",
+              "description": "filter by the supplied name",
+              "name": "withName",
+              "and": true,
+              "or": true,
+              "valueType": "name"
+            }
+          ]
+        },
+        "tags": {
+          "description": "tags for the resource",
+          "type": "string",
+          "array": true,
+          "example": [
+            "todo",
+            "usage:boxart"
+          ],
+          "fieldName": "tags",
+          "fieldNamePath": "tags",
+          "typeInfo": {
+            "desc": "string",
+            "pattern": ".+",
+            "name": "string"
+          },
+          "filteredBy": [
+            "withTags"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "tags",
+              "fieldNamePath": "tags",
+              "description": "filter by the supplied tags",
+              "name": "withTags",
+              "and": true,
+              "or": true,
+              "valueType": "string"
+            }
+          ]
+        },
+        "scores": {
+          "description": "scores for the resource",
+          "type": "scores",
+          "example": {
+            "imdb.a3431": 0.9,
+            "fuse": 2
+          },
+          "fieldName": "scores",
+          "fieldNamePath": "scores",
+          "typeInfo": {
+            "keys": {
+              "pattern": "(?:[a-zA-Z0-9]+)(?:\\.[a-zA-Z0-9]+)*"
+            },
+            "values": {},
+            "desc": "Map of FieldNamePath:Number pairs",
+            "name": "scores"
+          },
+          "filteredBy": [
+            "withScore"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "scores",
+              "fieldNamePath": "scores",
+              "description": "filter by the supplied score",
+              "range": true,
+              "name": "withScore",
+              "and": true,
+              "or": true,
+              "valueType": "scores"
+            }
+          ]
+        },
+        "custom": {
+          "description": "The tenant specific custom fields.  This may be used to hold tenant specific data alongside the document, but it should not be used as a substitute for normal fields.",
+          "type": "map",
+          "max": 100,
+          "fieldName": "custom",
+          "fieldNamePath": "custom",
+          "typeInfo": {
+            "keys": {
+              "pattern": "[a-zA-Z0-9]+"
+            },
+            "values": {},
+            "desc": "key-value pairs"
+          }
+        },
+        "createdAt": {
+          "description": "The timestamp when created",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "createdAt",
+          "fieldNamePath": "createdAt",
+          "filteredBy": [
+            "withCreatedAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "createdAt",
+              "fieldNamePath": "createdAt",
+              "description": "filter by the supplied createdAt",
+              "range": true,
+              "name": "withCreatedAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "createdBy": {
+          "description": "The user that created",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:test-admin",
+          "sort": true,
+          "fieldName": "createdBy",
+          "fieldNamePath": "createdBy",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withCreatedBy"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "createdBy",
+              "fieldNamePath": "createdBy",
+              "description": "filter by the supplied createdBy",
+              "name": "withCreatedBy",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ]
+        },
+        "updatedAt": {
+          "description": "The timestamp when last updated",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "updatedAt",
+          "fieldNamePath": "updatedAt",
+          "filteredBy": [
+            "withUpdatedAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "updatedAt",
+              "fieldNamePath": "updatedAt",
+              "description": "filter by the supplied updatedAt",
+              "range": true,
+              "name": "withUpdatedAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "updatedBy": {
+          "description": "The user that last updated",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:test-admin",
+          "sort": true,
+          "fieldName": "updatedBy",
+          "fieldNamePath": "updatedBy",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withUpdatedBy"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "updatedBy",
+              "fieldNamePath": "updatedBy",
+              "description": "filter by the supplied updatedBy",
+              "name": "withUpdatedBy",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ]
+        },
+        "deletedAt": {
+          "description": "The timestamp when deleted (only applicable to deleted  resources)",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "deletedAt",
+          "fieldNamePath": "deletedAt",
+          "filteredBy": [
+            "withDeletedAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "deletedAt",
+              "fieldNamePath": "deletedAt",
+              "prohibited": [
+                "enduser"
+              ],
+              "description": "filter by the supplied deletedAt",
+              "range": true,
+              "name": "withDeletedAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "deletedBy": {
+          "description": "The user that deleted (only applicable to deleted  resources)",
+          "type": "ref",
+          "readOnly": true,
+          "example": "test:test-admin",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "deletedBy",
+          "fieldNamePath": "deletedBy",
+          "typeInfo": {
+            "desc": "owner:name pair",
+            "pattern": "[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+",
+            "name": "ref"
+          },
+          "filteredBy": [
+            "withDeletedBy"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "deletedBy",
+              "fieldNamePath": "deletedBy",
+              "prohibited": [
+                "enduser"
+              ],
+              "description": "filter by the supplied deletedBy",
+              "name": "withDeletedBy",
+              "and": true,
+              "or": true,
+              "valueType": "ref"
+            }
+          ]
+        },
+        "reapAt": {
+          "description": "The timestamp for reaping (only applicable to deleted  resources)",
+          "type": "timestamp",
+          "readOnly": true,
+          "example": "2014-12-25T12:00:00.000Z",
+          "sort": true,
+          "excludeFromVersion": true,
+          "fieldName": "reapAt",
+          "fieldNamePath": "reapAt",
+          "filteredBy": [
+            "withReapAt"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "reapAt",
+              "fieldNamePath": "reapAt",
+              "prohibited": [
+                "enduser",
+                "service",
+                "admin"
+              ],
+              "description": "filter by the supplied reapAt",
+              "range": true,
+              "name": "withReapAt",
+              "and": true,
+              "or": true,
+              "valueType": "timestamp"
+            }
+          ]
+        },
+        "version": {
+          "description": "The version hash (computed)",
+          "type": "version",
+          "readOnly": true,
+          "example": "356b54eb90cd04566159dfb9c95a0426998a2f7b",
+          "excludeFromVersion": true,
+          "fieldName": "version",
+          "fieldNamePath": "version",
+          "typeInfo": {
+            "desc": "sha1 hex encoded hash",
+            "pattern": "[a-f0-9]{40}",
+            "name": "version"
+          },
+          "filteredBy": [
+            "withVersion"
+          ],
+          "filters": [
+            {
+              "type": "with",
+              "label": "version",
+              "fieldNamePath": "version",
+              "description": "filter by the supplied version",
+              "name": "withVersion",
+              "and": true,
+              "or": true,
+              "valueType": "version"
+            }
+          ]
+        },
+        "retentionPeriods": {
+          "description": "Represents data retention periods",
+          "array": true,
+          "fields": {
+            "resource": {
+              "description": "the resource the retention period applies to",
+              "type": "string",
+              "allowedValues": [
+                {
+                  "value": "default",
+                  "alternatives": [],
+                  "label": "default",
+                  "description": "default"
+                },
+                {
+                  "value": "feedConfigs",
+                  "alternatives": [],
+                  "label": "feedConfigs",
+                  "description": "feedConfigs"
+                }
+              ],
+              "example": "feedConfigs",
+              "fieldName": "resource",
+              "fieldNamePath": "retentionPeriods.resource",
+              "allowedValueMappings": {
+                "default": "default",
+                "feedConfigs": "feedConfigs"
+              },
+              "typeInfo": {
+                "desc": "string",
+                "pattern": ".+",
+                "name": "string"
+              },
+              "primary": true
+            },
+            "period": {
+              "description": "the period of retention after which a resource should be deleted",
+              "type": "duration",
+              "example": "P1M1D",
+              "fieldName": "period",
+              "fieldNamePath": "retentionPeriods.period",
+              "typeInfo": {
+                "desc": "represents a duration of time expressed as a number of years, months, days, hours, minutes, and seconds",
+                "pattern": "-?P(?=[T\\d])(\\d+Y)?(\\d+M)?(\\d+D)?(T(?=\\d)(\\d+H)?(\\d+M)?(\\d+(\\.\\d+)?S)?)?"
+              },
+              "primary": true
+            }
+          },
+          "fieldName": "retentionPeriods",
+          "fieldNamePath": "retentionPeriods",
+          "typeInfo": {}
+        }
+      },
+      "filters": {
+        "q": {
+          "type": "q",
+          "label": "q",
+          "description": "filter by the supplied text",
+          "includes": [],
+          "name": "q",
+          "valueType": "string",
+          "text": true
+        },
+        "withName": {
+          "type": "with",
+          "label": "name",
+          "fieldNamePath": "name",
+          "description": "filter by the supplied name",
+          "name": "withName",
+          "and": true,
+          "or": true,
+          "valueType": "name"
+        },
+        "withRef": {
+          "type": "with",
+          "label": "ref",
+          "fieldNamePath": "ref",
+          "description": "filter by the supplied ref",
+          "name": "withRef",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withAlternativeIdentifiers": {
+          "type": "with",
+          "label": "alternativeIdentifiers",
+          "fieldNamePath": "alternativeIdentifiers",
+          "description": "filter by the supplied alternative identifiers",
+          "prefix": true,
+          "name": "withAlternativeIdentifiers",
+          "and": true,
+          "or": true,
+          "valueType": "stringMap"
+        },
+        "withTags": {
+          "type": "with",
+          "label": "tags",
+          "fieldNamePath": "tags",
+          "description": "filter by the supplied tags",
+          "name": "withTags",
+          "and": true,
+          "or": true,
+          "valueType": "string"
+        },
+        "withScore": {
+          "type": "with",
+          "label": "scores",
+          "fieldNamePath": "scores",
+          "description": "filter by the supplied score",
+          "range": true,
+          "name": "withScore",
+          "and": true,
+          "or": true,
+          "valueType": "scores"
+        },
+        "withCreatedAt": {
+          "type": "with",
+          "label": "createdAt",
+          "fieldNamePath": "createdAt",
+          "description": "filter by the supplied createdAt",
+          "range": true,
+          "name": "withCreatedAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withCreatedBy": {
+          "type": "with",
+          "label": "createdBy",
+          "fieldNamePath": "createdBy",
+          "description": "filter by the supplied createdBy",
+          "name": "withCreatedBy",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withUpdatedAt": {
+          "type": "with",
+          "label": "updatedAt",
+          "fieldNamePath": "updatedAt",
+          "description": "filter by the supplied updatedAt",
+          "range": true,
+          "name": "withUpdatedAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withUpdatedBy": {
+          "type": "with",
+          "label": "updatedBy",
+          "fieldNamePath": "updatedBy",
+          "description": "filter by the supplied updatedBy",
+          "name": "withUpdatedBy",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withDeletedAt": {
+          "type": "with",
+          "label": "deletedAt",
+          "fieldNamePath": "deletedAt",
+          "prohibited": [
+            "enduser"
+          ],
+          "description": "filter by the supplied deletedAt",
+          "range": true,
+          "name": "withDeletedAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withDeletedBy": {
+          "type": "with",
+          "label": "deletedBy",
+          "fieldNamePath": "deletedBy",
+          "prohibited": [
+            "enduser"
+          ],
+          "description": "filter by the supplied deletedBy",
+          "name": "withDeletedBy",
+          "and": true,
+          "or": true,
+          "valueType": "ref"
+        },
+        "withReapAt": {
+          "type": "with",
+          "label": "reapAt",
+          "fieldNamePath": "reapAt",
+          "prohibited": [
+            "enduser",
+            "service",
+            "admin"
+          ],
+          "description": "filter by the supplied reapAt",
+          "range": true,
+          "name": "withReapAt",
+          "and": true,
+          "or": true,
+          "valueType": "timestamp"
+        },
+        "withVersion": {
+          "type": "with",
+          "label": "version",
+          "fieldNamePath": "version",
+          "description": "filter by the supplied version",
+          "name": "withVersion",
+          "and": true,
+          "or": true,
+          "valueType": "version"
+        }
+      },
+      "restrictions": [
+        {
+          "type": "ownership",
+          "message": "must contain an owner for which you have permission",
+          "description": "users can only interact with resources that are owned by a tenant they have access to"
+        },
+        {
+          "type": "unmodifiable",
+          "message": "not allowed to modify resources created by root:root",
+          "description": "users are not allowed to modify resources that were created by root:root"
+        },
+        {
+          "type": "primaryKey",
+          "message": "primaryKey must be unique",
+          "description": "the primary key (ref) is derived from owner and name, allowing name to be a tenant specific unique external id"
+        },
+        {
+          "type": "prohibited",
+          "userTypes": [
+            "enduser"
+          ],
+          "message": "endusers are not permitted to read or write tenancy configurations",
+          "description": "endusers are not permitted to read or write tenancy configurations"
+        },
+        {
+          "type": "readOnly",
+          "userTypes": [
+            "service"
+          ],
+          "message": "service user type are not permitted to write to tenancy configurations",
+          "description": "service user type are not permitted to write to tenancy configurations"
+        },
+        {
+          "description": "name must match owner",
+          "message": "name must match owner",
+          "type": "nameMatchesOwner"
+        }
+      ],
+      "relationships": {},
+      "description": "Represents the tenancy configuration for the service",
+      "singularName": "tenancyConfiguration",
+      "pluralName": "tenancyConfigurations",
+      "serviceName": "gateway",
+      "hyphenatedPluralName": "tenancy-configurations",
+      "displaySingularName": "tenancy configuration",
+      "displayPluralName": "tenancy configurations",
+      "retentionPeriod": "P30D",
+      "typeInfo": {}
+    }
+  },
+  "routes": [
+    {
+      "name": "root",
+      "title": "root",
+      "actions": [],
+      "path": "/robots.txt",
+      "method": "GET",
+      "description": "robots.txt for search engines and crawlers",
+      "stability": "stable",
+      "inputs": {},
+      "responses": []
+    },
+    {
+      "name": "root",
+      "title": "root",
+      "actions": [],
+      "path": "/",
+      "method": "GET",
+      "description": "Redirect '/' to '/docs'",
+      "stability": "stable",
+      "inputs": {},
+      "responses": []
+    },
+    {
+      "name": "feeds",
+      "title": "Feeds",
+      "group": "feeds",
+      "actions": [],
+      "path": "/f/{owner}/{name}",
+      "method": "GET",
+      "description": "Endpoint to provide unauthenticated access to defined service resource",
+      "tags": [
+        "auth",
+        "api"
+      ],
+      "auth": false,
+      "stability": "unstable",
+      "inputs": {
+        "query": [
+          {
+            "type": "name",
+            "meta": [
+              {
+                "sequoiaType": "name"
+              }
+            ],
+            "invalids": [
+              ""
+            ],
+            "name": "count",
+            "required": false
+          },
+          {
+            "type": "string",
+            "description": "language to localise response to",
+            "invalids": [
+              ""
+            ],
+            "name": "lang",
+            "required": false
+          },
+          {
+            "type": "number",
+            "invalids": [
+              null,
+              null
+            ],
+            "name": "page",
+            "required": false
+          },
+          {
+            "type": "number",
+            "invalids": [
+              null,
+              null
+            ],
+            "name": "perPage",
+            "required": false
+          }
+        ]
+      },
+      "responses": []
+    }
+  ]
+}
