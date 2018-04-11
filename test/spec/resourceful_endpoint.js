@@ -311,19 +311,6 @@ describe('ResourcefulEndpoint', () => {
       });
     });
 
-    describe('read', () => {
-      it('should perform a GET on a single piece of content', async () => {
-        await expect(resourcefulEndpoint.readOne(testRef)).resolves.toBeTruthy();
-        expect(fetchMock.lastUrl()).toEqual(`http://localhost/metadata/contents/${testRef}?owner=test`);
-        expect(fetchMock.lastOptions()).toEqual(expect.objectContaining({ method: 'GET' }));
-      });
-
-      it('should resolve with a Resource', async () =>
-        expect(resourcefulEndpoint.readOne(testRef)).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof Resource
-        }));
-    });
-
     describe('readOne', () => {
       it('should perform a GET on a single piece of content', async () => {
         await expect(resourcefulEndpoint.readOne(testRef)).resolves.toBeTruthy();
