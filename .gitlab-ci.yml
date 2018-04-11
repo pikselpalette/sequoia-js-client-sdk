@@ -12,7 +12,7 @@ install:
     - shared
   script:
     - npm install
-    - npm outdated
+    - npm outdated | cat
   artifacts:
     expire_in: 30 mins
     paths:
