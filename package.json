@@ -62,8 +62,7 @@
     "stryker-html-reporter": "^0.13.0",
     "stryker-javascript-mutator": "^0.5.0",
     "stryker-jest-runner": "^0.6.0",
-    "webpack": "2.2.0",
-    "webpack-dev-server": "2.2.0"
+    "webpack": "2.2.0"
   },
   "dependencies": {
     "query-string": "^6.0.0"
