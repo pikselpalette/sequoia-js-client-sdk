@@ -41,8 +41,8 @@ Generate documentation (jsdoc):
 ## Usage
 
 ```javascript
-import Client from 'sequoia-client-sdk/lib/client';
-import { where, field } from 'sequoia-client-sdk/lib/query';
+import Client from '@pikselpalette/sequoia-js-client-sdk/lib/client';
+import { where, field } from '@pikselpalette/sequoia-js-client-sdk/lib/query';
 
 // Create a client:
 const client = new Client({
@@ -89,7 +89,7 @@ client
 // Use e.g.  #!/usr/bin/env node --harmony_async_await
 
 require('isomorphic-fetch');
-const Client = require('sequoia-client-sdk/dist/sequoia-client.js');
+const Client = require('@pikselpalette/sequoia-js-client-sdk/dist/sequoia-client.js');
 const { where, field, param, textSearch } = Client;
 
 // Create a client:

@@ -210,5 +210,3 @@ before then saving back to the server
 * Query registry for available services
 * Fluent interface for query Resourceful endpoints returned from a Sequoia
   Service
-
-[unreleased]: https://gitlab.piksel.com/experiencements/sequoia-client-sdk/compare/v0.3.0...master
