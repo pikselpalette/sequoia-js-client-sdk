@@ -68,7 +68,7 @@ pages:
   script:
   - npm run -s doc
   - mkdir .public
-  - cp -r  doc/generated/@pikselpalette/sequoia-js/client-sdk/*/* .public
+  - cp -r  doc/generated/@pikselpalette/sequoia-js-client-sdk/*/* .public
   - mv .public public
   dependencies:
     - install
