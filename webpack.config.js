@@ -2,10 +2,9 @@ const path = require('path');
 
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'none';
 
-
 module.exports = {
   mode,
-  entry: ['babel-polyfill', './index.js'],
+  entry: ['./index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'sequoia-client.js',
@@ -19,7 +18,8 @@ module.exports = {
         loader: 'babel-loader',
         query: {
           presets: ['babel-preset-env'],
-          plugins: process.env.NODE_ENV === 'test' ? ['istanbul', 'add-module-exports'] : ['add-module-exports']
+          plugins:
+            process.env.NODE_ENV === 'test' ? ['istanbul', 'transform-runtime', 'add-module-exports'] : ['transform-runtime', 'add-module-exports']
         }
       }
     ]
