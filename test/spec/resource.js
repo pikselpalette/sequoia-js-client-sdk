@@ -70,14 +70,12 @@ describe('Resource', () => {
 
     describe('save', () => {
       it('should reject with an error message as there is no endpoint to save to', async () =>
-        expect(resource.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR)
-      );
+        expect(resource.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
     });
 
     describe('destroy', () => {
       it('should reject with an error message as there is no endpoint to delete to', async () =>
-        expect(resource.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR)
-      );
+        expect(resource.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
     });
   });
 
@@ -285,19 +283,20 @@ describe('Resource', () => {
 
   describe('validate', () => {
     it('should resolve with the resource when it is valid', async () =>
-      expect(resource.validate()).resolves.toEqual(resource)
-    );
+      expect(resource.validate()).resolves.toEqual(resource));
 
     it('should reject when the Resource is invalid', async () => {
       jest.spyOn(resource, 'validateField').mockImplementation((field) => {
         if (field === 'owner') {
-          return { code: 1, field: 'owner', message: 'reject', valid: false };
+          return {
+            code: 1, field: 'owner', message: 'reject', valid: false
+          };
         }
 
         return { code: 0, valid: true };
       });
 
-      await expect(resource.validate()).rejects.toEqual(resource);
+      await expect(resource.validate()).rejects.toEqual(new Error(resource));
       expect(resource.errors.length).toEqual(1);
       expect(resource.errors[0]).toEqual(expect.objectContaining({ code: 1, valid: false }));
     });

@@ -19,10 +19,12 @@ describe('Registry', () => {
   beforeEach(() => {
     transport = new Transport();
     fetchMock.mock(servicesUri, servicesFixture)
-             .mock(descriptorUri, metadataDescriptorFixture)
-             .mock(gatewayDescriptorUri, gatewayDescriptorFixture);
+      .mock(descriptorUri, metadataDescriptorFixture)
+      .mock(gatewayDescriptorUri, gatewayDescriptorFixture);
     registry = new Registry(transport, registryUri);
   });
+
+  afterEach(fetchMock.restore);
 
   describe('constructor', () => {
     it('should initialise its registryUri property to be the argument passed in', () => {
@@ -60,8 +62,7 @@ describe('Registry', () => {
     beforeEach(async () => registry.fetch(testTenant));
 
     it('should reject when it can\'t find a service with the supplied name', async () =>
-      expect(registry.getService('thisdoesnotexist')).rejects.toThrow()
-    );
+      expect(registry.getService('thisdoesnotexist')).rejects.toThrow());
 
     it('should perform a GET on the services descriptor/raw endpoint', async () => {
       await registry.getService('metadata');

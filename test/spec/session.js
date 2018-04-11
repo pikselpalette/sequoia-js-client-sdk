@@ -27,12 +27,12 @@ describe('session', () => {
     transport = new Transport();
 
     fetchMock.mock(accessUri, accessFixture)
-             .mock(accessWithTenantUri, accessFixture)
-             .mock(servicesUri, servicesFixture)
-             .mock(tenantsUri, tenantsFixture)
-             .mock(tokenUri, tokenFixture)
-             .mock(oauthTokenUri, tokenFixture)
-             .mock(customTokenUri, tokenFixture);
+      .mock(accessWithTenantUri, accessFixture)
+      .mock(servicesUri, servicesFixture)
+      .mock(tenantsUri, tenantsFixture)
+      .mock(tokenUri, tokenFixture)
+      .mock(oauthTokenUri, tokenFixture)
+      .mock(customTokenUri, tokenFixture);
 
     registry = new Registry(transport, registryUri);
     session = new Session(transport, directory, registry, identityUri);
@@ -129,8 +129,7 @@ describe('session', () => {
 
     it('should reject when no secret is provided for oauth login', async () =>
       expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth' }))
-        .rejects.toEqual(NO_OAUTH_SECRET_PROVIDED)
-    );
+        .rejects.toEqual(NO_OAUTH_SECRET_PROVIDED));
   });
 
   describe('authenticateWithToken', () => {

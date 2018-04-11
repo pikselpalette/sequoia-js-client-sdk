@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: ['babel-polyfill', 'whatwg-fetch', './index.js'],
+  entry: ['babel-polyfill', './index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'sequoia-client.js',
@@ -15,7 +15,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015'],
+          presets: ['env'],
           plugins: process.env.NODE_ENV === 'test' ? ['istanbul', 'add-module-exports'] : ['add-module-exports']
         }
       },
@@ -25,10 +25,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new webpack.ProvidePlugin({
-      fetch: 'imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch'
-    })
-  ],
   devtool: 'source-map'
 };

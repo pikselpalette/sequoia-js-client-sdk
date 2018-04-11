@@ -246,8 +246,7 @@ describe('ResourcefulEndpoint', () => {
       it('should resolve with a ResourceCollection', async () =>
         expect(resourcefulEndpoint.browse()).resolves.toEqual({
           asymmetricMatch: actual => actual instanceof ResourceCollection
-        })
-      );
+        }));
     });
 
     describe('all', () => {
@@ -258,7 +257,7 @@ describe('ResourcefulEndpoint', () => {
           const match = url.match(/page=([\d]+)/);
 
           if (match && match.length > 1) {
-            page = match[1];
+            [, page] = match;
           }
 
           return require(`../fixtures/media-items-${page}.json`); // eslint-disable-line global-require, import/no-dynamic-require
@@ -285,8 +284,7 @@ describe('ResourcefulEndpoint', () => {
       it('should resolve with an Object', async () =>
         expect(resourcefulEndpoint.all()).resolves.toEqual({
           asymmetricMatch: actual => actual instanceof Object
-        })
-      );
+        }));
 
       it('should return every value in the endpoint', async () => {
         const resourceCollection = await resourcefulEndpoint.all();
@@ -323,8 +321,7 @@ describe('ResourcefulEndpoint', () => {
       it('should resolve with a Resource', async () =>
         expect(resourcefulEndpoint.readOne(testRef)).resolves.toEqual({
           asymmetricMatch: actual => actual instanceof Resource
-        })
-      );
+        }));
     });
 
     describe('readOne', () => {
@@ -337,8 +334,7 @@ describe('ResourcefulEndpoint', () => {
       it('should resolve with a Resource', async () =>
         expect(resourcefulEndpoint.readOne(testRef)).resolves.toEqual({
           asymmetricMatch: actual => actual instanceof Resource
-        })
-      );
+        }));
     });
 
     describe('readMany', () => {
@@ -352,8 +348,7 @@ describe('ResourcefulEndpoint', () => {
       it('should resolve with a Resource', async () =>
         expect(resourcefulEndpoint.readMany([testRef])).resolves.toEqual({
           asymmetricMatch: actual => actual instanceof ResourceCollection
-        })
-      );
+        }));
     });
 
     describe('store', () => {

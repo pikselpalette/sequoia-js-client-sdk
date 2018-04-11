@@ -11,6 +11,7 @@ describe('transport', () => {
   });
 
   afterEach(() => {
+    fetchMock.restore();
     transport = undefined;
   });
 
@@ -28,9 +29,7 @@ describe('transport', () => {
         body: { test: 'response' }
       });
 
-      return expect(transport.get('/')).resolves.toEqual(
-        expect.objectContaining({ test: 'response' })
-      );
+      return expect(transport.get('/')).resolves.toEqual(expect.objectContaining({ test: 'response' }));
     });
 
     it('should return an empty object when the respinse is a 204', async () => {

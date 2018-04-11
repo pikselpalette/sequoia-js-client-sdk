@@ -24,14 +24,14 @@ describe('Client', () => {
 
   beforeEach(() => {
     fetchMock.mock(servicesUri, servicesFixture)
-             .mock(testServicesUri, servicesFixture)
-             .mock(consoleServicesUri, servicesFixture)
-             .mock(`${accessUri}?tenants=fakeside-transavia`, accessFixture)
-             .mock(`${prodAccessUri}?tenants=test`, accessFixture)
-             .mock(`${prodAccessUri}?tenants=console`, accessFixture)
-             .mock(tenantsUri, tenantsFixture)
-             .mock(tokenUri, tokenFixture)
-             .mock(descriptorUri, metadataDescriptorFixture);
+      .mock(testServicesUri, servicesFixture)
+      .mock(consoleServicesUri, servicesFixture)
+      .mock(`${accessUri}?tenants=fakeside-transavia`, accessFixture)
+      .mock(`${prodAccessUri}?tenants=test`, accessFixture)
+      .mock(`${prodAccessUri}?tenants=console`, accessFixture)
+      .mock(tenantsUri, tenantsFixture)
+      .mock(tokenUri, tokenFixture)
+      .mock(descriptorUri, metadataDescriptorFixture);
 
     client = new Client(directory, registryUri, identityUri);
   });
@@ -114,7 +114,7 @@ describe('Client', () => {
         const serviceName = 'thisdoesnotexist';
 
         return expect(client.service(serviceName)).rejects
-          .toEqual('No service with name thisdoesnotexist exists');
+          .toEqual(new Error('No service with name thisdoesnotexist exists'));
       });
     });
 

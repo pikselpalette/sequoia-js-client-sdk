@@ -184,8 +184,7 @@ describe('ResourceCollection', () => {
 
     describe('nextPage', () => {
       it('should call "fetch" when there is a next page of results', async () =>
-        expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch)
-      );
+        expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch));
 
       it('should reject when there is no next page of results', async () => {
         delete resourceCollection.rawData.meta.next;
@@ -245,8 +244,7 @@ describe('ResourceCollection', () => {
     describe('save', () => {
       describe('without a resourceful collection', () => {
         it('should reject', async () =>
-          expect(resourceCollection.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR)
-        );
+          expect(resourceCollection.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
       });
 
       describe('with a resourceful collection', () => {
@@ -282,8 +280,7 @@ describe('ResourceCollection', () => {
     describe('destroy', () => {
       describe('without a resourceful collection', () => {
         it('should reject', async () =>
-          expect(resourceCollection.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR)
-        );
+          expect(resourceCollection.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
       });
 
       describe('with a resourceful collection', () => {
@@ -339,8 +336,7 @@ describe('ResourceCollection', () => {
   describe('fetch', () => {
     describe('without a resourceful collection', () => {
       it('should reject', async () =>
-        expect(resourceCollection.fetch()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR)
-      );
+        expect(resourceCollection.fetch()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
     });
 
     describe('with a resourceful collection', () => {
@@ -352,8 +348,7 @@ describe('ResourceCollection', () => {
       });
 
       it('should resolve', async () =>
-        expect(resourceCollection.fetch()).resolves.toBeTruthy()
-      );
+        expect(resourceCollection.fetch()).resolves.toBeTruthy());
 
       it('should call resourcefulEndpoint.browse with the initially set criteria', async () => {
         await expect(resourceCollection.fetch()).resolves.toBeTruthy();
