@@ -23,7 +23,8 @@ describe('Client', () => {
   const descriptorUri = 'https://metadata-euw1shared.sequoia.piksel.com/descriptor/raw?owner=fakeside-transavia';
 
   beforeEach(() => {
-    fetchMock.mock(servicesUri, servicesFixture)
+    fetchMock
+      .mock(servicesUri, servicesFixture)
       .mock(testServicesUri, servicesFixture)
       .mock(consoleServicesUri, servicesFixture)
       .mock(`${accessUri}?tenants=fakeside-transavia`, accessFixture)
@@ -33,7 +34,7 @@ describe('Client', () => {
       .mock(tokenUri, tokenFixture)
       .mock(descriptorUri, metadataDescriptorFixture);
 
-    client = new Client(directory, registryUri, identityUri);
+    client = new Client({ directory, registryUri, identityUri });
   });
 
   afterEach(fetchMock.restore);
@@ -54,7 +55,7 @@ describe('Client', () => {
     });
 
     it('should accept an optional `identityUri` and set the `identityUri` property', () => {
-      client = new Client(directory, registryUri);
+      client = new Client({ directory, registryUri });
 
       expect(client.transport).toBeDefined();
       expect(client.session.identityUri).not.toBeDefined();
@@ -110,11 +111,10 @@ describe('Client', () => {
         expect(client.registry.getService).toHaveBeenCalledWith(serviceName);
       });
 
-      it('should reject when the service doesn\'t exist in the registry', async () => {
+      it("should reject when the service doesn't exist in the registry", async () => {
         const serviceName = 'thisdoesnotexist';
 
-        return expect(client.service(serviceName)).rejects
-          .toEqual(new Error('No service with name thisdoesnotexist exists'));
+        return expect(client.service(serviceName)).rejects.toEqual(new Error('No service with name thisdoesnotexist exists'));
       });
     });
 
@@ -154,7 +154,7 @@ describe('Client', () => {
         expect(client.registry.fetch).toHaveBeenCalledWith('test');
       });
 
-      it('should throw an error if tenant is not in the client\'s tenants', async () => {
+      it("should throw an error if tenant is not in the client's tenants", async () => {
         client.registry.services = [];
 
         await expect(client.setTenancy('noTenantHere')).rejects.toThrow('Tenant does not exist');

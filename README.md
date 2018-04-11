@@ -45,11 +45,10 @@ import Client from 'sequoia-client-sdk/lib/client';
 import { where, field } from 'sequoia-client-sdk/lib/query';
 
 // Create a client:
-const client = new Client(
-  'piksel',
-  'https://registry-sandbox.sequoia.piksel.com',
-  'https://identity-sandbox.sequoia.piksel.com'
-);
+const client = new Client({
+  directory: 'piksel',
+  registryUri: 'https://registry-sandbox.sequoia.piksel.com'
+});
 
 client
   .login('username', 'password')
@@ -94,11 +93,10 @@ const Client = require('sequoia-client-sdk/dist/sequoia-client.js');
 const { where, field, param, textSearch } = Client;
 
 // Create a client:
-const client = new Client(
-  'piksel',
-  'https://registry-sandbox.sequoia.piksel.com',
-  'https://identity-sandbox.sequoia.piksel.com'
-);
+const client = new Client({
+  directory: 'piksel',
+  registryUri: 'https://registry-sandbox.sequoia.piksel.com'
+});
 
 (async function init() {
   await client.generate(bearerToken);
