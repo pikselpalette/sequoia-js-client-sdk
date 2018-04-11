@@ -40,7 +40,6 @@ mutate:
   script:
     - npm install
     - npm run -s test:mutate
-  when: manual
   artifacts:
     paths:
     - test/results
