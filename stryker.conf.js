@@ -1,18 +1,16 @@
 const getMutatePattern = () => {
-  const sharedProps = { included: false, mutated: true };
-
   for (let i = 0; i < process.argv.length; i++) {
     const argument = process.argv[i].split('=');
 
     if (argument[0] === '--file') {
       return [
-        { pattern: argument.slice(1).join('='), ...sharedProps },
+        argument.slice(1).join('='),
         'lib/**/*.js'
       ];
     }
   }
 
-  return [{ pattern: 'lib/**/*.js', ...sharedProps }];
+  return ['lib/**/*.js'];
 };
 
 module.exports = (config) => {
