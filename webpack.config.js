@@ -1,7 +1,10 @@
 const path = require('path');
-const webpack = require('webpack');
+
+const mode = process.env.NODE_ENV === 'production' ? 'production' : 'none';
+
 
 module.exports = {
+  mode,
   entry: ['babel-polyfill', './index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -9,19 +12,15 @@ module.exports = {
     libraryTarget: 'umd'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['env'],
+          presets: ['babel-preset-env'],
           plugins: process.env.NODE_ENV === 'test' ? ['istanbul', 'add-module-exports'] : ['add-module-exports']
         }
-      },
-      {
-        test: /\.(json|\/package)$/,
-        loader: 'json-loader'
       }
     ]
   },
