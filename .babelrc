@@ -9,12 +9,8 @@
   ],
   "env": {
     "test": {
-      "presets": [
-        "env"
-      ],
-      "plugins": [
-        "istanbul"
-      ]
+      "presets": ["env"],
+      "plugins": ["istanbul", "transform-runtime"]
     }
   }
 }
