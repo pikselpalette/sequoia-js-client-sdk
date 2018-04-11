@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.4.1 - 2018-04-10
+
+  * Fix accumulation of linked resources on `ResourcefulEndpoint.all()`
+
 ## v2.4.0 - 2018-04-03
 
   * Allow client.generate() to be called without a token for an anonymous client

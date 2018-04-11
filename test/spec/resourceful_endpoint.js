@@ -294,6 +294,16 @@ describe('ResourcefulEndpoint', () => {
           .toEqual(resourceCollection.rawData.meta.totalCount);
       });
 
+      it('should return every value in the endpoint should have linked resources', async () => {
+        const resourceCollection = await resourcefulEndpoint.all();
+        expect(resourceCollection.collection.length)
+          .toEqual(resourceCollection.rawData.meta.totalCount);
+        resourceCollection.collection.forEach((r) => {
+          expect(r.linked).not.toBe(null);
+          expect(Object.keys[r.linked]).not.toBe(0);
+        });
+      });
+
       it('should still throw backend errors', async () => {
         fetchMock.restore();
         fetchMock.mock(/page=2/, { status: 401, body: 'unauthorised' });
