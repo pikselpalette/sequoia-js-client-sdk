@@ -1,6 +1,6 @@
 {
-  "name": "sequoia-client-sdk",
-  "version": "2.4.0",
+  "name": "@pikselpalette/sequoia-js-client-sdk",
+  "version": "0.1.0",
   "description": "Sequoia client SDK for Javascript",
   "main": "dist/sequoia-client.js",
   "scripts": {
@@ -71,6 +71,6 @@
     "whatwg-fetch": "2.0.2"
   },
   "publishConfig": {
-    "registry": "http://npm.sequoia.piksel.com/"
+    "registry": "https://npmjs.org"
   }
 }
