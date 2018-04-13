@@ -2,12 +2,13 @@ const path = require('path');
 
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'none';
 
-module.exports = {
+const config = target => ({
   mode,
   entry: ['./index.js'],
+  target,
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'sequoia-client.js',
+    filename: `${target}/sequoia-client.js`,
     libraryTarget: 'umd'
   },
   module: {
@@ -25,4 +26,9 @@ module.exports = {
     ]
   },
   devtool: 'source-map'
-};
+});
+
+const web = config('web');
+const node = config('node');
+
+module.exports = [web, node];
