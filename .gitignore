@@ -4,5 +4,6 @@ doc/generated
 node_modules
 npm-debug.log
 test/results
+coverage
 public
 .stryker-tmp

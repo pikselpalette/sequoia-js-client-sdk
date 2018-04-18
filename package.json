@@ -8,7 +8,7 @@
     "build": "webpack --bail --progress --profile",
     "doc": "jsdoc -c jsdoc.conf.json -r lib -p -R README.md -P package.json --verbose --pedantic",
     "lint": "eslint lib && eslint test/spec",
-    "test": "NODE_ENV=test jest --coverage",
+    "test": "NODE_ENV=test jest --coverage && codecov",
     "test:watch": "NODE_ENV=test jest --watch",
     "test:mutate": "NODE_ENV=test stryker run"
   },
@@ -23,7 +23,8 @@
     "transform": {
       "^.+\\.js$": "babel-jest"
     },
-    "coverageDirectory": "test/results",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
     "setupFiles": [
       "./test/setup.js"
     ]
@@ -47,6 +48,7 @@
     "babel-plugin-istanbul": "^4.1.6",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
+    "codecov": "^3.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
