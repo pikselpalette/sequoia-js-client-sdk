@@ -1,27 +1,23 @@
-# Sequoia Javascript Client SDK
+# Getting started
 
-[![build status](https://gitlab.piksel.com/product-ignite/sequoia-js-client-sdk/badges/master/build.svg)](https://gitlab.piksel.com/product-ignite/sequoia-js-client-sdk/commits/master)
-[![coverage report](https://gitlab.piksel.com/product-ignite/sequoia-js-client-sdk/badges/master/coverage.svg)](https://gitlab.piksel.com/product-ignite/sequoia-js-client-sdk/commits/master)
+## Installation
 
-The sequoia-js-client-sdk provides convenient access to the Sequoia RESTful services through a set of JS abstractions. The JavaScript SDK lets you easily integrate Sequoia services into your website, webapp or node.js app.
+```sh
+npm install --save @pikselpalette/sequoia-js-client-sdk
+```
 
-## Install
+## Basic Usage (get some filtered contents)
 
-`npm i @pikselpalette/sequoia-js-client-sdk`
-
-## Usage
-
-### Web
+### In es6 module loader environments (webpack, rollup, browserify etc)
 
 ```javascript
-// point to @pikselpalette/sequoia-js-client-sdk/dist/web/sequoia-client for a minified bundle
 import Client from '@pikselpalette/sequoia-js-client-sdk/lib/client';
 import { where, field } from '@pikselpalette/sequoia-js-client-sdk/lib/query';
 
 // Create a client:
 const client = new Client({
   directory: 'piksel',
-  registryUri: 'https://registry-sandbox.sequoia.piksel.com'
+  registryUri: 'https://identity-sandbox.sequoia.piksel.com'
 });
 
 client
@@ -60,20 +56,21 @@ client
 ### In non-es6 module loader environments (e.g. node)
 
 ```javascript
-// If you find a fetch alternative that works well with AWS, and is in active development, let us know.
-// Until then, we are using isomorphic-fetch.
+// Use e.g.  #!/usr/bin/env node --harmony_async_await
+
 require('isomorphic-fetch');
-const Client = require('@pikselpalette/sequoia-js-client-sdk/dist/node/sequoia-client.js');
+const Client = require('@pikselpalette/sequoia-js-client-sdk/dist/sequoia-client.js');
 const { where, field, param, textSearch } = Client;
 
 // Create a client:
 const client = new Client({
   directory: 'piksel',
-  registryUri: 'https://registry-sandbox.sequoia.piksel.com',
-  token: bearerToken
+  registryUri: 'https://identity-sandbox.sequoia.piksel.com'
 });
 
 (async function init() {
+  await client.generate(bearerToken);
+
   const service = await client.service('metadata');
   const contents = service.resourcefulEndpoint('contents');
   const collection = await contents.browse(
@@ -89,35 +86,4 @@ const client = new Client({
 
   // Do something with the ResourceCollection returned
 })();
-```
-
-## Development
-
-Building:
-
-```sh
-  npm run build
-```
-
-Testing:
-
-```sh
-  npm run test
-  npm run test:watch
-```
-
-Note, it is recommended to use node >= 6.6 to have proper handling for Promise
-rejections in the tests
-
-Mutation testing:
-
-```sh
-  npm run test:mutate
-  npm run test:mutate -- --file=path/to/file/**/*.js
-```
-
-Generate documentation (jsdoc):
-
-```sh
-  npm run doc
 ```

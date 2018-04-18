@@ -1,0 +1,14 @@
+{
+	"libs": [
+		"browser",
+    "ecmascript"
+	],
+	"loadEagerly": [
+		"lib/**/*.js"
+	],
+	"plugins": {
+		"node": {},
+		"es_modules": {},
+		"jasmine": {}
+	}
+}

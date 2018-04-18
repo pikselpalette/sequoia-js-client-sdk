@@ -1,0 +1,76 @@
+image: node:9.5.0
+
+stages:
+  - install
+  - test
+  - build
+  - doc
+
+install:
+  stage: install
+  tags:
+    - shared
+  script:
+    - npm install
+  artifacts:
+    expire_in: 30 mins
+    paths:
+      - node_modules/
+
+lint:
+  stage: test
+  script:
+    - npm run -s lint
+  dependencies:
+    - install
+
+test:
+  stage: test
+  script:
+    - npm run -s test
+  dependencies:
+    - install
+  coverage: /All files\s*\|\s*([\d\.]+)/
+  artifacts:
+    paths:
+    - test/results/
+
+mutate:
+  stage: test
+  script:
+    - npm install
+    - npm run -s test:mutate
+  artifacts:
+    paths:
+    - test/results
+
+doc:
+  stage: doc
+  script:
+    - npm run -s doc
+  dependencies:
+    - install
+  only:
+    - master
+  artifacts:
+    paths:
+    - doc/generated/
+
+build:
+  stage: build
+  script:
+    - npm run -s build
+  dependencies:
+    - install
+
+pages:
+  script:
+  - npm run -s doc
+  - mkdir .public
+  - cp -r  doc/generated/@pikselpalette/sequoia-js-client-sdk/*/* .public
+  - mv .public public
+  dependencies:
+    - install
+  artifacts:
+    paths:
+    - public
