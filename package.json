@@ -1,6 +1,6 @@
 {
   "name": "@pikselpalette/sequoia-js-client-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sequoia client SDK for Javascript",
   "main": "dist/web/sequoia-client.js",
   "scripts": {
@@ -31,8 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.piksel.com:product-ignite/sequoia-js-client-sdk.git"
+    "url": "git@github.com:pikselpalette/sequoia-js-client-sdk.git"
   },
+  "homepage": "https://github.com/pikselpalette/sequoia-js-client-sdk",
   "keywords": [
     "sequoia",
     "es6",
