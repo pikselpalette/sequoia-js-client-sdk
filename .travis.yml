@@ -7,7 +7,7 @@ jobs:
       script:
         - npm run test
         - npm run coverage
-    - stage: test
+    -
       language: node_js
       node_js:
         - "node"
