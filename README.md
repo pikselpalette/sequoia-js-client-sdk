@@ -15,6 +15,10 @@ The sequoia-js-client-sdk provides convenient access to the Sequoia RESTful serv
 
 ## Usage
 
+More in depth instructions can be found in our [docs].
+
+[docs]: https://pikselpalette.github.io/sequoia-js-client-sdk/generated/@pikselpalette/sequoia-js-client-sdk/1.0.1/
+
 ### Web
 
 ```javascript
