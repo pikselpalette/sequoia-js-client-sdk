@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.piksel.com:product-ignite/sequoia-js-client-sdk.git"
+    "url": "git@github.com:pikselpalette/sequoia-js-client-sdk.git"
   },
   "keywords": [
     "sequoia",
