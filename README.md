@@ -1,7 +1,8 @@
 # Sequoia Javascript Client SDK
 
 [![Build Status](https://travis-ci.org/pikselpalette/sequoia-js-client-sdk.svg?branch=master)](https://travis-ci.org/pikselpalette/sequoia-js-client-sdk)
-[![coverage report](https://gitlab.piksel.com/product-ignite/sequoia-js-client-sdk/badges/master/coverage.svg)](https://gitlab.piksel.com/product-ignite/sequoia-js-client-sdk/commits/master)
+[![codecov](https://codecov.io/gh/pikselpalette/sequoia-js-client-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/pikselpalette/sequoia-js-client-sdk)
+[![david-dm](https://david-dm.org/pikselpalette/sequoia-js-client-sdk.svg)(https://david-dm.org/pikselpalette/sequoia-js-client-sdk)]
 
 The sequoia-js-client-sdk provides convenient access to the Sequoia RESTful services through a set of JS abstractions. The JavaScript SDK lets you easily integrate Sequoia services into your website, webapp or node.js app.
 
