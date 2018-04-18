@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Sequoia Javascript Client SDK Source: query.js</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.cosmo.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">Sequoia Javascript Client SDK</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="Service.html">Service</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="tutorials.list.html" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="tutorial-getting_started.html">Getting Started</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="global.html#ValidationError">ValidationError</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-12">
+	
+		<div id="main">
+			
+
+		<h1 class="page-title">Source: query.js</h1>
+    
+<section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">import Predications from './predications';
+
+/**
+ * A fluent interace for creating queries against resourceful endpoints
+ *
+ * @param {string?} query - (private) Initial query string to append to.
+ * @param {string?} sort - (private) What to sort the query on
+ * @param {string} [sortModifier=''] - (private) Sort modifier. Either empty string or '-'
+ *
+ * @requires {@link Predications}
+ *
+ * @example
+ * import { where, field } from '@pikselpalette/sequoia-js-client-sdk/lib/query';
+ *
+ * endpoint.browse(where(field('startedAt').greaterThanOrEqualTo(2015))
+ *                 .and(field('tags').equalTo('showcase'))
+ *                 .fields('title', 'mediumSynopsis','duration', 'ref')
+ *                 .include('assets').page(1).perPage(24).orderByUpdatedAt().desc().count())
+ *         .then(json => { ... });
+ *
+ */
+class Query {
+  constructor(query) {
+    this.query = query || '';
+    this.sort = null;
+    this.sortModifier = '';
+  }
+
+  /**
+   * Concatenate a new query with the previous one
+   *
+   * @param {string} query - A query string to append (without leading ampersand).
+   * Usually returned from a call to `field`
+   *
+   * @example
+   * where(field('startedAt').greaterThanOrEqualTo(2015))
+   * .and(field('tags').equalTo('showcase'))
+   *
+   * @since 0.0.2
+   *
+   * @returns {Query}
+   */
+  and(query) {
+    this.query += `&amp;${query}`;
+    return this;
+  }
+
+  /**
+   * Will return `totalCount` on the payload
+   *
+   * @returns {Query}
+   */
+  count() {
+    this.query += '&amp;count=true';
+    return this;
+  }
+
+  /**
+   * Appends `include=value1,value2` to the query
+   *
+   * @param {...string} includes - includes(s) (linked resources) to return in the json response
+   *
+   * @example
+   * where().include('assets', 'categories')
+   * // appends `include=assets,categories` to the query
+   *
+   * @returns {Query}
+   */
+  include(...includes) {
+    this.query += `&amp;include=${includes.join(',')}`;
+    return this;
+  }
+
+  /**
+   * Appends `lang=value` to the query
+   *
+   * @param {string} value - ISO 639-1 code for the language you want results returned in
+   *
+   * @example
+   * where().lang('de')
+   * // appends `lang=de` to the query
+   *
+   * @returns {Query}
+   */
+  lang(value) {
+    this.query += `&amp;lang=${value}`;
+    return this;
+  }
+
+  /**
+   * Appends `fields=value1,value2` to the query
+   *
+   * @param {...string} fieldName - field(s) to return in the json response
+   *
+   * @example
+   * where().fields('title', 'mediumSynopsis','duration', 'ref')
+   * // appends `fields=title,mediumSynopsis,duration,ref` to the query
+   *
+   * @returns {Query}
+   */
+  fields(...fieldName) {
+    this.query += `&amp;fields=${fieldName.join(',')}`;
+    return this;
+  }
+
+  /**
+   * Appends `page=value` to the query
+   *
+   * @param {(string|number)} value - page of results to request
+   *
+   * @example
+   * where().page(9)
+   * // appends `page=9` to the query
+   *
+   * @returns {Query}
+   */
+  page(value) {
+    this.query += `&amp;page=${value}`;
+    return this;
+  }
+
+  /**
+   * Appends `perPage=value` to the query
+   *
+   * @param {(string|number)} value - how many items to return per page of results
+   *
+   * @example
+   * where().perPage(24)
+   * // appends `perPage=24` to the query
+   *
+   * @returns {Query}
+   */
+  perPage(value) {
+    this.query += `&amp;perPage=${value}`;
+    return this;
+  }
+
+  /**
+   * Set order to ascending
+   *
+   * @returns {Query}
+   */
+  asc() {
+    this.sortModifier = '';
+    return this;
+  }
+
+  /**
+   * Set order to descending
+   *
+   * @returns {Query}
+   */
+  desc() {
+    this.sortModifier = '-';
+    return this;
+  }
+
+  /**
+   * Appends `sort=[-]fieldName` to the query, where `[-]` is toggled
+   * depending on the call to {@link Query#asc} or {@link Query#desc}
+   *
+   * @see {@link Query#orderBy}
+   *
+   * @returns {Query}
+   */
+  orderBy(fieldName) {
+    this.sort = fieldName;
+    return this;
+  }
+
+  /**
+   * Convenience method for ordering by 'owner'
+   *
+   * @see {@link Query#orderBy}
+   *
+   * @returns {Query}
+   */
+  orderByOwner() {
+    return this.orderBy('owner');
+  }
+
+  /**
+   * Convenience method for ordering by 'name'
+   *
+   * @see {@link Query#orderBy}
+   *
+   * @returns {Query}
+   */
+  orderByName() {
+    return this.orderBy('name');
+  }
+
+  /**
+   * Convenience method for ordering by 'createdAt'
+   *
+   * @see {@link Query#orderBy}
+   *
+   * @returns {Query}
+   */
+  orderByCreatedAt() {
+    return this.orderBy('createdAt');
+  }
+
+  /**
+   * Convenience method for ordering by 'createdBy'
+   *
+   * @see {@link Query#orderBy}
+   *
+   * @returns {Query}
+   */
+  orderByCreatedBy() {
+    return this.orderBy('createdBy');
+  }
+
+  /**
+   * Convenience method for ordering by 'updatedAt'
+   *
+   * @see {@link Query#orderBy}
+   *
+   * @returns {Query}
+   */
+  orderByUpdatedAt() {
+    return this.orderBy('updatedAt');
+  }
+
+  /**
+   * Convenience method for ordering by 'updatedBy'
+   *
+   * @see {@link Query#orderBy}
+   *
+   * @returns {Query}
+   */
+  orderByUpdatedBy() {
+    return this.orderBy('updatedBy');
+  }
+
+  /**
+   * Turn the current Query into a string representation of a URI query
+   *
+   * @returns {string}
+   */
+  toQueryString() {
+    let { query } = this;
+
+    if (this.sort) {
+      query += `&amp;sort=${this.sortModifier}${this.sort}`;
+    }
+
+    return query;
+  }
+}
+
+export default Query;
+
+export function where(criteria) {
+  return new Query(criteria);
+}
+
+export function field(value) {
+  return new Predications(value);
+}
+
+export function param(value) {
+  return new Predications(value, true);
+}
+
+export function textSearch(value) {
+  return `q=${value}`;
+}
+</pre>
+    </article>
+</section>
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+
+</div>
+</div>
+
+
+    <div class="modal fade" id="searchResults">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search results</h4>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+
+<footer>
+
+
+	<span class="copyright">
+	Piksel Ltd Copyright © 2018
+	</span>
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+	
+		on Wed Apr 18th 2018
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+    <script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : true,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            SearcherDisplay.init();
+        });
+    </script>
+
+
+</body>
+</html>

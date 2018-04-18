@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Sequoia Javascript Client SDK Source: predications.js</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.cosmo.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">Sequoia Javascript Client SDK</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="Service.html">Service</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="tutorials.list.html" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="tutorial-getting_started.html">Getting Started</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="global.html#ValidationError">ValidationError</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-12">
+	
+		<div id="main">
+			
+
+		<h1 class="page-title">Source: predications.js</h1>
+    
+<section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">/**
+ * A fluent interace for creating queries against resourceful endpoints
+ * &lt;p>It is not intended that this class will be used on its own by end users.
+ * Instead, require it from {@link Query} as in the below example.
+ *
+ * @param {string} field - The field name to set criteria against
+ *
+ * @example
+ * import { where, field } from '@pikselpalette/sequoia-js-client-sdk/lib/query';
+ *
+ * where(field('title').notEqualTo('foo')).and(field("startedAt").lessThan("2014"))
+ */
+class Predications {
+  constructor(field, raw = false) {
+    if (raw) {
+      this.field = field;
+    } else {
+      this.field = `with${field.charAt(0).toUpperCase()}${field.slice(1)}`;
+    }
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=value`
+   *
+   * @param {string} value - value for this predicate
+   *
+   * @example
+   * field('engine').equalTo('diesel'); // returns 'engine=diesel'
+   *
+   * @returns {string}
+   */
+  equalTo(value) {
+    return `${this.field}=${value}`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=!value`
+   *
+   * @param {string} value - value for this predicate
+   *
+   * @example
+   * field('engine').notEqualTo('diesel'); // returns 'engine=!diesel'
+   *
+   * @returns {string}
+   */
+  notEqualTo(value) {
+    return `${this.field}=!${value}`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=value1||value2`
+   *
+   * @param {...string} value - value(s) for this predicate
+   *
+   * @example
+   * field('engine').oneOrMoreOf('diesel', 'petrol'); // returns 'engine=diesel||petrol'
+   *
+   * @returns {string}
+   */
+  oneOrMoreOf(...value) {
+    return `${this.field}=${value.join('||')}`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=value*`
+   *
+   * @param {string} value - value for this predicate
+   *
+   * @example
+   * field('engine').startsWith('diesel'); // returns 'engine=diesel*'
+   *
+   * @returns {string}
+   */
+  startsWith(value) {
+    return `${this.field}=${value}*`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=*`
+   *
+   * @example
+   * field('engine').exists(); // returns 'engine=*'
+   *
+   * @returns {string}
+   */
+  exists() {
+    return `${this.field}=*`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=!*`
+   *
+   * @example
+   * field('engine').notExists(); // returns 'engine=!*'
+   *
+   * @returns {string}
+   */
+  notExists() {
+    return `${this.field}=!*`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=start/end`
+   *
+   * @param {(string|number)} start - start value for this predicate
+   * @param {(string|number)} end - end value for this predicate
+   *
+   * @example
+   * field('startedAt').between('2014', '2015'); // returns 'startedAt=2014/2015'
+   *
+   * @returns {string}
+   */
+  between(start, end) {
+    return `${this.field}=${start}/${end}`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=!start/end`
+   *
+   * @param {(string|number)} start - start value for this predicate
+   * @param {(string|number)} end - end value for this predicate
+   *
+   * @example
+   * field('startedAt').notBetween('2014', '2015'); // returns 'startedAt=!2014/2015'
+   *
+   * @returns {string}
+   */
+  notBetween(start, end) {
+    return `${this.field}=!${start}/${end}`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=!value/`
+   *
+   * @param {(string|number)} value - value for this predicate
+   *
+   * @example
+   * field('startedAt').lessThan(2015); // returns 'engine=!2015/'
+   *
+   * @returns {string}
+   */
+  lessThan(value) {
+    return `${this.field}=!${value}/`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=/value`
+   *
+   * @param {(string|number)} value - value for this predicate
+   *
+   * @example
+   * field('startedAt').lessThanOrEqualTo(2015); // returns 'startedAt=/2015'
+   *
+   * @returns {string}
+   */
+  lessThanOrEqualTo(value) {
+    return `${this.field}=/${value}`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=!/value`
+   *
+   * @param {(string|number)} value - value for this predicate
+   *
+   * @example
+   * field('startedAt').greaterThan(2015); // returns 'startedAt=!/2015'
+   *
+   * @returns {string}
+   */
+  greaterThan(value) {
+    return `${this.field}=!/${value}`;
+  }
+
+  /**
+   * Generates a url encoded criteria expression equivalent to: `field=value/`
+   *
+   * @param {(string|number)} value - value for this predicate
+   *
+   * @example
+   * field('startedAt').greaterThanOrEqualTo(2015); // returns 'startedAt=2015/'
+   *
+   * @returns {string}
+   */
+  greaterThanOrEqualTo(value) {
+    return `${this.field}=${value}/`;
+  }
+}
+
+export default Predications;
+</pre>
+    </article>
+</section>
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+
+</div>
+</div>
+
+
+    <div class="modal fade" id="searchResults">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search results</h4>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+
+<footer>
+
+
+	<span class="copyright">
+	Piksel Ltd Copyright © 2018
+	</span>
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+	
+		on Wed Apr 18th 2018
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+    <script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : true,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            SearcherDisplay.init();
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Sequoia Javascript Client SDK Index</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.cosmo.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">Sequoia Javascript Client SDK</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="Service.html">Service</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="tutorials.list.html" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="tutorial-getting_started.html">Getting Started</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="global.html#ValidationError">ValidationError</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-8">
+	
+		<div id="main">
+			
+
+	
+	
+
+
+
+    <h3>@pikselpalette/sequoia-js-client-sdk 1.0.1</h3>
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+    <section class="readme-section">
+        <article><h1>Sequoia Javascript Client SDK</h1><p><a href="https://badge.fury.io/js/%40pikselpalette%2Fsequoia-js-client-sdk"><img src="https://badge.fury.io/js/%40pikselpalette%2Fsequoia-js-client-sdk.svg" alt="npm version"></a>
+<a href="https://travis-ci.org/pikselpalette/sequoia-js-client-sdk"><img src="https://travis-ci.org/pikselpalette/sequoia-js-client-sdk.svg?branch=master" alt="Build Status"></a>
+<a href="https://codecov.io/gh/pikselpalette/sequoia-js-client-sdk"><img src="https://codecov.io/gh/pikselpalette/sequoia-js-client-sdk/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://david-dm.org/pikselpalette/sequoia-js-client-sdk"><img src="https://david-dm.org/pikselpalette/sequoia-js-client-sdk.svg" alt="david-dm"></a>
+<a href="https://david-dm.org/pikselpalette/sequoia-js-client-sdk?type=dev"><img src="https://david-dm.org/pikselpalette/sequoia-js-client-sdk/dev-status.svg" alt="david-dm-dev"></a>
+<a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a></p>
+<p>The sequoia-js-client-sdk provides convenient access to the Sequoia RESTful services through a set of JS abstractions. The JavaScript SDK lets you easily integrate Sequoia services into your website, webapp or node.js app.</p>
+<h2>Install</h2><p><code>npm i @pikselpalette/sequoia-js-client-sdk</code></p>
+<h2>Usage</h2><h3>Web</h3><pre class="prettyprint source lang-javascript"><code>// point to @pikselpalette/sequoia-js-client-sdk/dist/web/sequoia-client for a minified bundle
+import Client from '@pikselpalette/sequoia-js-client-sdk/lib/client';
+import { where, field } from '@pikselpalette/sequoia-js-client-sdk/lib/query';
+
+// Create a client:
+const client = new Client({
+  directory: 'piksel',
+  registryUri: 'https://registry-sandbox.sequoia.piksel.com'
+});
+
+client
+  .login('username', 'password')
+  .then(session => {
+    // You can now query the session provided as the first argument (or
+    // client.session); e.g. `session.isActive()`
+
+    // Get a service::
+    client.service('metadata').then(service => {
+      // Get a resourceful endpoint (this is synchronous as the service passed
+      // all the necessary data):
+      const contents = service.resourcefulEndpoint('contents');
+
+      contents
+        .browse(
+          where()
+            .fields('title', 'mediumSynopsis', 'duration', 'ref')
+            .include('assets')
+            .page(1)
+            .perPage(24)
+            .orderByUpdatedAt()
+            .desc()
+            .count()
+        )
+        .then(collection => {
+          // Do something with the ResourceCollection returned
+        });
+    });
+  })
+  .catch(error => {
+    // Not logged in, inspect `error` to see why
+  });</code></pre><h3>In non-es6 module loader environments (e.g. node)</h3><pre class="prettyprint source lang-javascript"><code>// If you find a fetch alternative that works well with AWS, and is in active development, let us know.
+// Until then, we are using isomorphic-fetch.
+require('isomorphic-fetch');
+const Client = require('@pikselpalette/sequoia-js-client-sdk/dist/node/sequoia-client.js');
+const { where, field, param, textSearch } = Client;
+
+// Create a client:
+const client = new Client({
+  directory: 'piksel',
+  registryUri: 'https://registry-sandbox.sequoia.piksel.com',
+  token: bearerToken
+});
+
+(async function init() {
+  const service = await client.service('metadata');
+  const contents = service.resourcefulEndpoint('contents');
+  const collection = await contents.browse(
+    where()
+      .fields('title', 'mediumSynopsis', 'duration', 'ref')
+      .include('assets')
+      .page(1)
+      .perPage(24)
+      .orderByUpdatedAt()
+      .desc()
+      .count()
+  );
+
+  // Do something with the ResourceCollection returned
+})();</code></pre><h2>Development</h2><p>Building:</p>
+<pre class="prettyprint source lang-sh"><code>  npm run build</code></pre><p>Testing:</p>
+<pre class="prettyprint source lang-sh"><code>  npm run test
+  npm run test:watch</code></pre><p>Note, it is recommended to use node &gt;= 6.6 to have proper handling for Promise
+rejections in the tests</p>
+<p>Mutation testing:</p>
+<pre class="prettyprint source lang-sh"><code>  npm run test:mutate
+  npm run test:mutate -- --file=path/to/file/**/*.js</code></pre><p>Generate documentation (jsdoc):</p>
+<pre class="prettyprint source lang-sh"><code>  npm run doc</code></pre></article>
+    </section>
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+		<div class="col-md-3">
+			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
+		</div>
+	
+
+</div>
+</div>
+
+
+    <div class="modal fade" id="searchResults">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search results</h4>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+
+<footer>
+
+
+	<span class="copyright">
+	Piksel Ltd Copyright © 2018
+	</span>
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+	
+		on Wed Apr 18th 2018
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+    <script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : true,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            SearcherDisplay.init();
+        });
+    </script>
+
+
+</body>
+</html>

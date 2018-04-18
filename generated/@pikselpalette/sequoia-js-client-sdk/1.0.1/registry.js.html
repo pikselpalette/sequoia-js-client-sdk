@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Sequoia Javascript Client SDK Source: registry.js</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.cosmo.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">Sequoia Javascript Client SDK</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="Service.html">Service</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="tutorials.list.html" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="tutorial-getting_started.html">Getting Started</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="global.html#ValidationError">ValidationError</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-12">
+	
+		<div id="main">
+			
+
+		<h1 class="page-title">Source: registry.js</h1>
+    
+<section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">import BusinessEndpoint from './business_endpoint.js';
+import ResourcefulEndpoint from './resourceful_endpoint.js';
+
+/**
+ * Provides details of a Sequoia Service
+ *
+ * This class should not be used directly, but should instead be obtained
+ * from {@link Client#service}
+ *
+ * @param {Transport} transport - Transport instance to use for fetching
+ * @param {Object} data - JSON data returned from the service's raw description
+ * e.g. https://metadata-sandbox.sequoia.piksel.com/descriptor/raw?owner=demo
+ *
+ * @property {Object} data - JSON data returned from the service's raw description
+ * e.g. https://metadata-sandbox.sequoia.piksel.com/descriptor/raw?owner=demo
+ *
+ * @private
+ */
+class Service {
+  constructor(transport, data) {
+    this.transport = transport;
+    this.data = data;
+  }
+
+  /**
+   * Get a {@link ResourcefulEndpoint} from a Service
+   *
+   * @param {string} resourceName - e.g. 'contents' (the contents resourceful endpoint
+   * from the meatatdata service)
+   *
+   * @returns {ResourcefulEndpoint}
+   */
+  resourcefulEndpoint(resourceName) {
+    if (!this.data || !(resourceName in this.data.resourcefuls)) {
+      return null;
+    }
+
+    const resourceful = this.data.resourcefuls[resourceName];
+    resourceful.location = `${this.data.location}${resourceful.path}`;
+    resourceful.tenant = this.data.tenant;
+
+    return new ResourcefulEndpoint(this.transport, resourceful);
+  }
+
+  /**
+   * Get an array of {@link ResourcefulEndpoint}s from a Service
+   *
+   * @param {...string} resourceName - e.g. 'assets', 'contents' (the assets and contents resourceful endpoint
+   * from the meatatdata service)
+   *
+   * @example
+   * const [ assets, contents ] = service.resourcefulEndpoints('assets', 'contents');
+   *
+   * @returns {Array&lt;ResourcefulEndpoint>}
+   */
+  resourcefulEndpoints(...resourceName) {
+    const endpoints = resourceName.length ? resourceName : Object.keys(this.data.resourcefuls);
+
+    return endpoints.map(r => this.resourcefulEndpoint(r));
+  }
+
+  /**
+   * Get a {@link BusinessEndpoint} from a Service
+   *
+   * @param {string} name - e.g. 'feeds' (the feeds business endpoint
+   * from the gateway service)
+   *
+   * @returns {BusinessEndpoint}
+   */
+  businessEndpoint(endpointName, pathOptions) {
+    const data = Object.assign({}, this.data);
+    const { routes } = data;
+    const endpoint = routes.find(route => route.name === endpointName);
+
+    if (endpoint) {
+      endpoint.location = this.data.location;
+      endpoint.tenant = this.data.tenant;
+
+      return new BusinessEndpoint(this.transport, endpoint, pathOptions);
+    }
+
+    return null;
+  }
+
+  /**
+   * Get the list of resourcefuls for this Service
+   *
+   * @todo This method isn't used and also does not return an array - it is not advised to use yet
+   * @todo Should this return an array of ResourcefulEndpoints instead?
+   *
+   * @returns {Object[]} - a list of resourcefuls populated from the descriptor
+   */
+  resourcefuls() {
+    return this.data.resourcefuls;
+  }
+}
+
+/**
+ * Access the Sequoia Registry based on the access of the current user
+ *
+ * @param {Transport} transport - Transport instance to use for fetching
+ * @param {string} registryUri - URI of the Sequoia registry
+ * e.g. https://registry-reference.sequoia.piksel.com
+ *
+ * @property {string} registryUri - URI of the Sequoia registry
+ * e.g. https://registry-reference.sequoia.piksel.com
+ * @property {Object[]} services - JSON data returned from the service's raw description
+ * e.g. https://metadata-reference.sequoia.piksel.com/descriptor/raw?owner=demo
+ * @property {string} tenant - The name of the current tenancy being used e.g. 'demo'
+ *
+ * See the {@link https://registry-reference.sequoia.piksel.com/docs|Registry docs} for more info
+ *
+ */
+class Registry {
+  constructor(transport, registryUri) {
+    this.transport = transport;
+    this.registryUri = registryUri;
+    this.services = [];
+  }
+
+  /**
+   * Fetch the registry for this user in this tenancy
+   *
+   * @param {string} tenant - The name of the tenancy to use e.g. 'demo'
+   *
+   * @returns {Promise}
+   */
+  fetch(tenant) {
+    this.tenant = tenant;
+
+    return this.transport.get(`${this.registryUri}/services/${this.tenant}`).then((json) => {
+      this.services = json.services;
+
+      return json;
+    });
+  }
+
+  getServiceLocation(serviceName) {
+    const service = this.services.find(item => item.name === serviceName);
+
+    if (service) {
+      return service.location;
+    }
+
+    return null;
+  }
+
+  /**
+   * Get Service information from the registry.
+   *
+   * Rejects the Promise if a service is requested that doesn't exist for this user
+   * (or at all)
+   *
+   * @param {string} serviceName - The name of the service to use e.g. 'metadata'
+   *
+   * @returns {Promise}
+   */
+  getService(serviceName) {
+    const service = this.services.find(item => item.name === serviceName);
+
+    if (service) {
+      return this.transport.get(`${service.location}/descriptor/raw?owner=${this.tenant}`).then((json) => {
+        json.location = service.location;
+        json.owner = service.owner;
+        json.tenant = this.tenant;
+
+        return new Service(this.transport, json);
+      });
+    }
+
+    return Promise.reject(new Error(`No service with name ${serviceName} exists`));
+  }
+
+  /**
+   * Get multiple Service information from the registry.
+   *
+   * Rejects the Promise if a service is requested that doesn't exist for this user
+   * (or at all)
+   *
+   * @param {...string} serviceName - The name of the service to use e.g. 'metadata'
+   *
+   * @returns {Promise}
+   */
+  getServices(...serviceName) {
+    const services = serviceName.length ? serviceName : this.services.map(s => s.name);
+
+    return Promise.all(services.map(s => this.getService(s)));
+  }
+}
+
+export default Registry;
+
+export { Service };
+</pre>
+    </article>
+</section>
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+
+</div>
+</div>
+
+
+    <div class="modal fade" id="searchResults">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search results</h4>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+
+<footer>
+
+
+	<span class="copyright">
+	Piksel Ltd Copyright © 2018
+	</span>
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+	
+		on Wed Apr 18th 2018
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+    <script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : true,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            SearcherDisplay.init();
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Sequoia Javascript Client SDK Source: business_endpoint.js</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.cosmo.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">Sequoia Javascript Client SDK</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="Service.html">Service</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="tutorials.list.html" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="tutorial-getting_started.html">Getting Started</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="global.html#ValidationError">ValidationError</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-12">
+	
+		<div id="main">
+			
+
+		<h1 class="page-title">Source: business_endpoint.js</h1>
+    
+<section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">import queryString from 'query-string';
+import Query from './query';
+
+export function InvalidCriteriaException(message) {
+  this.message = message;
+  this.name = 'InvalidCriteriaException';
+}
+
+/**
+ * BusinessEndpoint is the main interaction class against non-resourceful sequoia endpoints.
+ *
+ * Business endpoints are simple rest-like endpoints. Due to the nature of them, this SDK
+ * is not (currently) intending to provide anything other than simple validation for
+ * paths and query strings. Objects are just the plain JSON returned from the service,
+ * unlike {@link ResourcefulEndpoint} which will send back {@link ResourceCollection} and
+ * {@link Resource}s.
+ *
+ * See {@link https://productdocs.piksel.com/components/foundations/registry/#business-endpoints} and
+ * {@link https://productdocs.piksel.com/components/foundations/gateway/#business-endpoint} for more information.
+ *
+ * This class should not be used directly, but should instead be obtained
+ * from {@link Service#businessEndpoint}
+ *
+ * @param {Transport} transport - Transport instance to use for fetching
+ * @param {Object} business - JSON object describing this business endpoint
+ * (fetched from sequoia services 'descriptor')
+ *
+ * @example
+ * // `contents` is used in the rest of the examples as our reference
+ * // to a ResourcefulEndpoint
+ * let feeds;
+ *
+ * client.generate().then(() => {
+ *   client.service('gateway').then((service) => {
+ *     // Get a business endpoint (this is synchronous as the service passed
+ *     // all the necessary data):
+ *     feeds = service.businessEndpoint('feeds', { name: 'UTV-15246' });
+ *     // whatever
+ *   });
+ * });
+ *
+ * @private
+ */
+class BusinessEndpoint {
+  constructor(transport, endpoint, pathOptions) {
+    this.transport = transport;
+    this.endpoint = endpoint;
+
+    let { path } = endpoint;
+    const errors = [];
+    const pathParams = Object.assign({ owner: endpoint.tenant }, pathOptions);
+
+    (path.match(/([^{]*?).(?=\})/gmi) || []).forEach((pathParam) => {
+      if (!(pathParam in pathParams) &amp;&amp; !pathParam.endsWith('?')) {
+        errors.push(`Required path parameter '${pathParam}' was not supplied`);
+      }
+    });
+
+    if (errors.length) {
+      throw new Error(errors.join('\n'));
+    }
+
+    Object.keys(pathParams).forEach((key) => {
+      path = path.replace(new RegExp(`{${key}[?]?}`), pathParams[key]);
+    });
+
+    // Strip out any optional params:
+    path = path.replace(/{[^?]+\?}/g, '');
+    this.endpoint.location = `${this.endpoint.location}${path}`;
+  }
+
+  /**
+   * Perform an action against the business endpoint. Note, the HTTP method comes from
+   * the `routes['name'].method` portion of the descriptor
+   *
+   * @param {(string|Query)} criteria - A query string to append to the request
+   * @param {object} options - [fetch options]{@link https://github.github.io/fetch/#options}
+   *
+   * @see {@link Transport#fetchWithDefaults}
+   *
+   * @throws InvalidCriteriaException
+   *
+   * @returns {Promise} - JSON returned from the endpoint
+   */
+  fetch(criteria, options) {
+    const { method } = this.endpoint;
+    const fetchOptions = Object.assign({ method }, options);
+
+    return this.transport.fetchWithDefaults(this.endPointUrl(criteria), fetchOptions);
+  }
+
+  /**
+   * Required query parameters for the business endpoint from the
+   * `routes['name'].inputs.query` portion of the descriptor
+   *
+   * Returns the raw objects
+   *
+   * @example
+   * // Returns e.g.
+   * [{
+   *   "type": "name",
+   *   "meta": [{
+   *     "sequoiaType": "name"
+   *     }],
+   *   "invalids": ["" ],
+   *   "name": "count",
+   *   "required": false
+   *  },
+   *  {
+   *    "type": "string",
+   *    "description": "language to localise response to",
+   *    "invalids": [""],
+   *    "name": "lang",
+   *    "required": false
+   *  }]
+   *
+   * @type {object[]}
+   */
+  get requiredQueryParameters() {
+    const { inputs } = this.endpoint;
+
+    if (inputs &amp;&amp; inputs.query) {
+      return inputs.query.filter(query => query.required === true);
+    }
+
+    return [];
+  }
+
+  /**
+   * Returns an array of query parameter names
+   *
+   * @example
+   * // Returns e.g.
+   * ['currency', 'price']
+   *
+   * @type {string[]}
+   */
+  get requiredQueryParameterNames() {
+    return this.requiredQueryParameters.map(q => q.name);
+  }
+
+  // Private methods
+
+  /**
+   * Return a query string to append to the HTTP call. Will default to appending
+   * `?owner=&lt;owner>`
+   *
+   * @param {(string|Query)?} criteria - A (potential) query string to append to the request
+   *
+   * @private
+   *
+   * @throws InvalidCriteriaException
+   *
+   * @returns {string}
+   */
+  criteriaToQuery(criteria) {
+    let query = '';
+
+    if (typeof criteria === 'string') {
+      if (criteria !== '') {
+        query += `?${criteria}`;
+      }
+    } else if (criteria instanceof Query) {
+      query += `?${criteria.toQueryString()}`;
+    }
+
+    const requestQueryParams = Object.keys(queryString.parse(query));
+
+    this.requiredQueryParameterNames.forEach((requiredValue) => {
+      if (!requestQueryParams.includes(requiredValue)) {
+        throw new InvalidCriteriaException(`Required query parameter '${requiredValue}' was not passed`);
+      }
+    });
+
+    return query;
+  }
+
+  /**
+   * Get the full URL to the business endpoint/item we will send the request to
+   *
+   * @param {(string|Query)?} criteria - A (potential) query string to append to the request
+   *
+   * @see {@link BusinessEndpoint#criteriaToQuery}
+   *
+   * @private
+   *
+   * @throws InvalidCriteriaException
+   *
+   * @returns {string}
+   */
+  endPointUrl(criteria) {
+    return `${this.endpoint.location}${this.criteriaToQuery(criteria)}`;
+  }
+}
+
+export default BusinessEndpoint;
+</pre>
+    </article>
+</section>
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+
+</div>
+</div>
+
+
+    <div class="modal fade" id="searchResults">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search results</h4>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+
+<footer>
+
+
+	<span class="copyright">
+	Piksel Ltd Copyright © 2018
+	</span>
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+	
+		on Wed Apr 18th 2018
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+    <script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : true,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            SearcherDisplay.init();
+        });
+    </script>
+
+
+</body>
+</html>
