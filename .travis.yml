@@ -7,7 +7,7 @@ script:
   - npm run coverage
   - npm run doc
 deploy:
-  local-dir: './doc'
+  local-dir: './doc/generated/@pikselpalette/sequoia-js-client-sdk/*/*'
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
