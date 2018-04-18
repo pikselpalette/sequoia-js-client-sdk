@@ -13,10 +13,10 @@ This SDK provides convenient access to the [Piksel Palette](https://docs.sequoia
 
 ## Documentation
 
-In depth instructions can be found in our developer [docs].
-[docs]: https://pikselpalette.github.io/sequoia-js-client-sdk/
+In depth instructions and the full API can be found in our [developer
+documentation](https://pikselpalette.github.io/sequoia-js-client-sdk/).
 
-More information about Piksel Palette services is available in the [Piksel Palette docs](https://docs.sequoia.piksel.com)
+More information about Piksel Palette services is available in the [Piksel website](https://docs.sequoia.piksel.com).
 
 ## Install
 
@@ -70,7 +70,7 @@ client
   });
 ```
 
-### Node/React-Native
+### Node/React Native
 
 ```javascript
 // If you find a fetch alternative that works well with AWS, and is in active development, let us know.
