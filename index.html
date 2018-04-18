@@ -102,16 +102,19 @@
 
 
     <section class="readme-section">
-        <article><h1>Sequoia Javascript Client SDK</h1><p><a href="https://badge.fury.io/js/%40pikselpalette%2Fsequoia-js-client-sdk"><img src="https://badge.fury.io/js/%40pikselpalette%2Fsequoia-js-client-sdk.svg" alt="npm version"></a>
+        <article><p><a href="https://piksel.com/product/piksel-palette/"><img src="https://pikselgroup.com/broadcast/wp-content/uploads/sites/3/2017/09/P-P.png" alt="Piksel Palette"></a></p>
+<h1>Javascript Client SDK</h1><p><a href="https://badge.fury.io/js/%40pikselpalette%2Fsequoia-js-client-sdk"><img src="https://badge.fury.io/js/%40pikselpalette%2Fsequoia-js-client-sdk.svg" alt="npm version"></a>
 <a href="https://travis-ci.org/pikselpalette/sequoia-js-client-sdk"><img src="https://travis-ci.org/pikselpalette/sequoia-js-client-sdk.svg?branch=master" alt="Build Status"></a>
 <a href="https://codecov.io/gh/pikselpalette/sequoia-js-client-sdk"><img src="https://codecov.io/gh/pikselpalette/sequoia-js-client-sdk/branch/master/graph/badge.svg" alt="codecov"></a>
 <a href="https://david-dm.org/pikselpalette/sequoia-js-client-sdk"><img src="https://david-dm.org/pikselpalette/sequoia-js-client-sdk.svg" alt="david-dm"></a>
 <a href="https://david-dm.org/pikselpalette/sequoia-js-client-sdk?type=dev"><img src="https://david-dm.org/pikselpalette/sequoia-js-client-sdk/dev-status.svg" alt="david-dm-dev"></a>
 <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a></p>
-<p>The sequoia-js-client-sdk provides convenient access to the Sequoia RESTful services through a set of JS abstractions. The JavaScript SDK lets you easily integrate Sequoia services into your website, webapp or node.js app.</p>
+<p>This SDK provides convenient access to the <a href="https://docs.sequoia.piksel.com">Piksel Palette</a> RESTful services through a set of easy to use JS abstractions. You easily integrate Piksel Palette services into your website, webapp or node.js app and be running in no time.</p>
+<h2>Documentation</h2><p>In depth instructions can be found in our developer [docs].
+[docs]: https://pikselpalette.github.io/sequoia-js-client-sdk/</p>
+<p>More information about Piksel Palette services is available in the <a href="https://docs.sequoia.piksel.com">Piksel Palette docs</a></p>
 <h2>Install</h2><p><code>npm i @pikselpalette/sequoia-js-client-sdk</code></p>
-<h2>Usage</h2><p>More in depth instructions can be found in our <a href="https://pikselpalette.github.io/sequoia-js-client-sdk/">docs</a>.</p>
-<h3>Web</h3><pre class="prettyprint source lang-javascript"><code>// point to @pikselpalette/sequoia-js-client-sdk/dist/web/sequoia-client for a minified bundle
+<h2>Usage</h2><h3>ES6 Web bundle (using webpack/browserify)</h3><pre class="prettyprint source lang-javascript"><code>// point to @pikselpalette/sequoia-js-client-sdk/dist/web/sequoia-client for a minified bundle
 import Client from '@pikselpalette/sequoia-js-client-sdk/lib/client';
 import { where, field } from '@pikselpalette/sequoia-js-client-sdk/lib/query';
 
@@ -151,10 +154,10 @@ client
   })
   .catch(error => {
     // Not logged in, inspect `error` to see why
-  });</code></pre><h3>In non-es6 module loader environments (e.g. node)</h3><pre class="prettyprint source lang-javascript"><code>// If you find a fetch alternative that works well with AWS, and is in active development, let us know.
+  });</code></pre><h3>Node/React-Native</h3><pre class="prettyprint source lang-javascript"><code>// If you find a fetch alternative that works well with AWS, and is in active development, let us know.
 // Until then, we are using isomorphic-fetch.
 require('isomorphic-fetch');
-const Client = require('@pikselpalette/sequoia-js-client-sdk/dist/node/sequoia-client.js');
+const Client = require('@pikselpalette/sequoia-js-client-sdk/dist/node/sequoia-client');
 const { where, field, param, textSearch } = Client;
 
 // Create a client:
@@ -179,15 +182,24 @@ const client = new Client({
   );
 
   // Do something with the ResourceCollection returned
-})();</code></pre><h2>Development</h2><p>Building:</p>
+})();</code></pre><h3>A note on fetch()</h3><p>The SDK uses the <a href="https://fetch.spec.whatwg.org/"><code>WHATWG fetch() standard</code></a> which is available in most modern browsers, and in React Native. In order to use the SDK in older browsers, or in a Node environment where <code>fetch()</code> is not available, you need to supply your own <code>fetch()</code> polyfill.</p>
+<p>Some choices are:</p>
+<ul>
+<li><a href="https://www.npmjs.com/package/isomorphic-fetch">Isomorphic fetch</a> - Web &amp; Node</li>
+<li><a href="https://www.npmjs.com/package/cross-fetch">Cross Fetch</a> - Web &amp; Node</li>
+<li><a href="https://www.npmjs.com/package/whatwg-fetch">WHATWG Fetch</a> - Web only</li>
+</ul>
+<h2>Development</h2><p>Built using Node 9. Use <a href="https://github.com/wbyoung/avn">avn</a> to handle auto switching node versions.</p>
+<p>Building:</p>
 <pre class="prettyprint source lang-sh"><code>  npm run build</code></pre><p>Testing:</p>
 <pre class="prettyprint source lang-sh"><code>  npm run test
-  npm run test:watch</code></pre><p>Note, it is recommended to use node &gt;= 6.6 to have proper handling for Promise
-rejections in the tests</p>
-<p>Mutation testing:</p>
+  npm run test:watch</code></pre><p>Mutation testing:</p>
 <pre class="prettyprint source lang-sh"><code>  npm run test:mutate
   npm run test:mutate -- --file=path/to/file/**/*.js</code></pre><p>Generate documentation (jsdoc):</p>
-<pre class="prettyprint source lang-sh"><code>  npm run doc</code></pre></article>
+<pre class="prettyprint source lang-sh"><code>  npm run doc</code></pre><h2>Samples</h2><p>Here are some samples which make use of the SDK:</p>
+<ul>
+<li><a href="https://github.com/pikselpalette/sequoia-js-client-sdk-sample-aws-lambda">AWS Lambda function running on the <code>nodejs8.10</code> runtime.</a></li>
+</ul></article>
     </section>
 
 
