@@ -13,32 +13,21 @@
     "test:mutate": "NODE_ENV=test stryker run"
   },
   "jest": {
-    "testMatch": [
-      "**/test/spec/**/*.js"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/node_modules/",
-      "<rootDir>/.stryker-tmp/"
-    ],
+    "testMatch": ["**/test/spec/**/*.js"],
+    "testPathIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/.stryker-tmp/"],
     "transform": {
       "^.+\\.js$": "babel-jest"
     },
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
-    "setupFiles": [
-      "./test/setup.js"
-    ]
+    "setupFiles": ["./test/setup.js"]
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.piksel.com:product-ignite/sequoia-js-client-sdk.git"
+    "url": "git@github.com:pikselpalette/sequoia-js-client-sdk.git"
   },
-  "keywords": [
-    "sequoia",
-    "es6",
-    "javascript",
-    "sdk"
-  ],
+  "homepage": "https://github.com/pikselpalette/sequoia-js-client-sdk",
+  "keywords": ["sequoia", "es6", "javascript", "sdk"],
   "author": "Piksel Product",
   "license": "Apache-2.0",
   "devDependencies": {
