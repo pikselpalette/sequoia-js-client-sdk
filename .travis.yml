@@ -4,11 +4,17 @@ jobs:
       language: node_js
       node_js:
         - "lts/*"
+      script:
+        - npm run test
+        - npm run coverage
+    - stage: test
+      language: node_js
+      node_js:
         - "node"
       script:
         - npm run test
         - npm run coverage
-    - stage: docs
+- stage: docs
       language: node_js
       node_js:
         - "node"
