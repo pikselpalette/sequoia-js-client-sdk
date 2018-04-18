@@ -1,5 +1,29 @@
 jobs:
   include:
+    - stage: build
+      language: node_js
+      node_js:
+        - "lts/*"
+      script:
+        - NODE_ENV=production npm run build
+    -
+      language: node_js
+      node_js:
+        - "node"
+      script:
+        - NODE_ENV=production npm run build
+    - stage: lint
+      language: node_js
+      node_js:
+        - "lts/*"
+      script:
+        - npm run lint
+    -
+      language: node_js
+      node_js:
+        - "node"
+      script:
+        - npm run lint
     - stage: test
       language: node_js
       node_js:
@@ -7,6 +31,7 @@ jobs:
       script:
         - npm run test
         - npm run coverage
+        - npm run test:mutate
     -
       language: node_js
       node_js:
@@ -14,6 +39,7 @@ jobs:
       script:
         - npm run test
         - npm run coverage
+        - npm run test:mutate
     - stage: docs
       language: node_js
       node_js:
