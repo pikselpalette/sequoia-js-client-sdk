@@ -9,14 +9,14 @@
 [![david-dm-dev](https://david-dm.org/pikselpalette/sequoia-js-client-sdk/dev-status.svg)](https://david-dm.org/pikselpalette/sequoia-js-client-sdk?type=dev)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This SDK provides convenient access to the [Piksel Palette](https://docs.sequoia.piksel.com) RESTful services through a set of easy to use JS abstractions. You easily integrate Piksel Palette services into your website, webapp or node.js app and be running in no time.
+This SDK provides convenient access to the [Piksel Palette](http://developer.pikselpalette.com/) RESTful services through a set of easy to use JS abstractions. You easily integrate Piksel Palette services into your website, webapp or node.js app and be running in no time.
 
 ## Documentation
 
 In depth instructions and the full API can be found in our [developer
 documentation](https://pikselpalette.github.io/sequoia-js-client-sdk/).
 
-More information about Piksel Palette services is available in the [Piksel website](https://docs.sequoia.piksel.com).
+More information about Piksel Palette services is available in the [Piksel website](http://developer.pikselpalette.com/).
 
 ## Install
 
