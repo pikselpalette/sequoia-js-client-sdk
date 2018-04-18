@@ -8,7 +8,8 @@
     "build": "webpack --bail --progress --profile",
     "doc": "jsdoc -c jsdoc.conf.json -r lib -p -R README.md -P package.json --verbose --pedantic",
     "lint": "eslint lib && eslint test/spec",
-    "test": "NODE_ENV=test jest --coverage && codecov",
+    "test": "NODE_ENV=test jest --coverage",
+    "coverage": "codecov",
     "test:watch": "NODE_ENV=test jest --watch",
     "test:mutate": "NODE_ENV=test stryker run"
   },
