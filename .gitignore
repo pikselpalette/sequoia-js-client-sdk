@@ -1,0 +1,8 @@
+.DS_Store
+dist
+doc/generated
+node_modules
+npm-debug.log
+test/results
+public
+.stryker-tmp

@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "fetch": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "max-len": [1, 150],
+    "no-confusing-arrow": 0,
+    "no-plusplus": 0,
+    "no-prototype-builtins": 0,
+    "no-param-reassign": ["error", { "props": false }],
+    "import/extensions": 0
+  },
+  "plugins": [
+    "jest"
+  ]
+}
