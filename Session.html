@@ -105,7 +105,7 @@
         
 <hr>
 <dt>
-    <h4 class="name" id="Session"><span class="type-signature"></span>new Session(transport, directory, registry, identityUri, expiryThreshold)</h4>
+    <h4 class="name" id="Session"><span class="type-signature"></span>new Session(transport, directory, registry, identityUri)</h4>
     
     
 </dt>
@@ -271,40 +271,6 @@ This is prepended to the username on login requests (POSTs to /pauth/token)</p><
             
 
             <td class="description last"><p>The endpoint URI for the sequoia identity service e.g. https://identity-sandbox.sequoia.piksel.com</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>expiryThreshold</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Number</span>
-
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-                    &lt;nullable><br>
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last"><p>The number of milliseconds before token expiry to trigger the onExpiryWarning callback. Default 60000.</p></td>
         </tr>
 
     
@@ -537,7 +503,7 @@ See the <a href="https://identity-reference.sequoia.piksel.com/docs/routes/pauth
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-40">line 40</a>
+				 <a href="session.js.html#sunlight-1-line-39">line 39</a>
 			</li>
 		</ul>
 	</dd>
@@ -658,7 +624,7 @@ if this property has not been explicitly set</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-266">line 266</a>
+				 <a href="session.js.html#sunlight-1-line-298">line 298</a>
 			</li>
 		</ul>
 	</dd>
@@ -870,7 +836,7 @@ if this property has not been explicitly set</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-94">line 94</a>
+				 <a href="session.js.html#sunlight-1-line-92">line 92</a>
 			</li>
 		</ul>
 	</dd>
@@ -1037,7 +1003,7 @@ i.e. an existing oauth mechanism for Sequoia</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-156">line 156</a>
+				 <a href="session.js.html#sunlight-1-line-154">line 154</a>
 			</li>
 		</ul>
 	</dd>
@@ -1082,6 +1048,94 @@ i.e. an existing oauth mechanism for Sequoia</p>
 
 
         
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="clearExpiryWarning"><span class="type-signature"></span>clearExpiryWarning()</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Clear the expiry warning callback and cancel any timers.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="session.js.html">session.js</a>,
+				 <a href="session.js.html#sunlight-1-line-189">line 189</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 </dd>
@@ -1145,7 +1199,7 @@ i.e. an existing oauth mechanism for Sequoia</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-283">line 283</a>
+				 <a href="session.js.html#sunlight-1-line-315">line 315</a>
 			</li>
 		</ul>
 	</dd>
@@ -1253,7 +1307,7 @@ i.e. an existing oauth mechanism for Sequoia</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-294">line 294</a>
+				 <a href="session.js.html#sunlight-1-line-326">line 326</a>
 			</li>
 		</ul>
 	</dd>
@@ -1368,7 +1422,7 @@ i.e. an existing oauth mechanism for Sequoia</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-253">line 253</a>
+				 <a href="session.js.html#sunlight-1-line-285">line 285</a>
 			</li>
 		</ul>
 	</dd>
@@ -1476,7 +1530,7 @@ i.e. an existing oauth mechanism for Sequoia</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-244">line 244</a>
+				 <a href="session.js.html#sunlight-1-line-276">line 276</a>
 			</li>
 		</ul>
 	</dd>
@@ -1585,7 +1639,7 @@ data returned from Sequoia.</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-218">line 218</a>
+				 <a href="session.js.html#sunlight-1-line-250">line 250</a>
 			</li>
 		</ul>
 	</dd>
@@ -1694,7 +1748,7 @@ data returned from Sequoia.</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-197">line 197</a>
+				 <a href="session.js.html#sunlight-1-line-229">line 229</a>
 			</li>
 		</ul>
 	</dd>
@@ -1739,6 +1793,290 @@ data returned from Sequoia.</p>
 
 
         
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="setOnExpiryWarning"><span class="type-signature"></span>setOnExpiryWarning(callback, threshold)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Set the expiry warning callback and threshold.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+                    &lt;nullable><br>
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Callback invoked when token is expiring</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>threshold</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+                    &lt;nullable><br>
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    60000
+                
+                </td>
+            
+
+            <td class="description last"><p>Threshold before expiry on which to invoke the callback, default 60000ms</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="session.js.html">session.js</a>,
+				 <a href="session.js.html#sunlight-1-line-175">line 175</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="startOnExpiryWarningTimer"><span class="type-signature"></span>startOnExpiryWarningTimer()</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Start the expiry warning timer.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="session.js.html">session.js</a>,
+				 <a href="session.js.html#sunlight-1-line-203">line 203</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 </dd>
@@ -1853,7 +2191,7 @@ Calls the callback if registered.</p>
 		<ul class="dummy">
 			<li>
 				<a href="session.js.html">session.js</a>,
-				 <a href="session.js.html#sunlight-1-line-183">line 183</a>
+				 <a href="session.js.html#sunlight-1-line-215">line 215</a>
 			</li>
 		</ul>
 	</dd>
@@ -1936,7 +2274,7 @@ Calls the callback if registered.</p>
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Wed Apr 18th 2018
+		on Mon Apr 23rd 2018
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
