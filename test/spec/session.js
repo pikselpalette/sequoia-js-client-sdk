@@ -28,7 +28,8 @@ describe('session', () => {
   beforeEach(() => {
     transport = new Transport();
 
-    fetchMock.mock(accessUri, accessFixture)
+    fetchMock
+      .mock(accessUri, accessFixture)
       .mock(accessWithTenantUri, accessFixture)
       .mock(servicesUri, servicesFixture)
       .mock(tenantsUri, tenantsFixture)
@@ -43,6 +44,7 @@ describe('session', () => {
   afterEach(() => {
     fetchMock.restore();
     session.destroy();
+    session.access = null;
     jest.clearAllTimers();
     clearTimeout.mockClear();
   });
@@ -66,8 +68,7 @@ describe('session', () => {
 
     it('should "POST" to identity', async () => {
       expect(session.isActive()).toBe(false);
-      await expect(session.authenticateWithCredentials('test', 'password'))
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithCredentials('test', 'password')).resolves.toEqual(session);
 
       expect(fetchMock.called(tokenUri)).toBe(true);
       expect(session.authenticateWithToken).toHaveBeenCalledWith(tokenFixture.access_token);
@@ -76,8 +77,7 @@ describe('session', () => {
     });
 
     it('should default to the "pauth" strategy', async () => {
-      await expect(session.authenticateWithCredentials('test', 'password'))
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithCredentials('test', 'password')).resolves.toEqual(session);
 
       expect(fetchMock.called(tokenUri)).toBe(true);
       expect(fetchMock.lastOptions(tokenUri).body).toEqual('{"username":"test\\\\test","password":"password"}');
@@ -87,8 +87,7 @@ describe('session', () => {
     });
 
     it('should support the "oauth" strategy with end user grant', async () => {
-      await expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth', secret }))
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth', secret })).resolves.toEqual(session);
 
       expect(fetchMock.called(oauthTokenUri)).toBe(true);
       const { body, headers } = fetchMock.lastOptions(oauthTokenUri);
@@ -101,8 +100,7 @@ describe('session', () => {
     });
 
     it('should support the "oauth" strategy with client credentials grant when no username or password is supplied', async () => {
-      await expect(session.authenticateWithCredentials(null, null, { strategy: 'oauth', secret }))
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithCredentials(null, null, { strategy: 'oauth', secret })).resolves.toEqual(session);
 
       expect(fetchMock.called(oauthTokenUri)).toBe(true);
       const { body, headers } = fetchMock.lastOptions(oauthTokenUri);
@@ -115,8 +113,7 @@ describe('session', () => {
     });
 
     it('should allow the url for the endpoint to be overridden', async () => {
-      await expect(session.authenticateWithCredentials('test', 'password', { url: customTokenUri }))
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithCredentials('test', 'password', { url: customTokenUri })).resolves.toEqual(session);
 
       expect(fetchMock.called(customTokenUri)).toBe(true);
 
@@ -132,8 +129,7 @@ describe('session', () => {
     });
 
     it('should reject when no secret is provided for oauth login', async () =>
-      expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth' }))
-        .rejects.toEqual(NO_OAUTH_SECRET_PROVIDED));
+      expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth' })).rejects.toEqual(NO_OAUTH_SECRET_PROVIDED));
   });
 
   describe('authenticateWithToken', () => {
@@ -146,8 +142,7 @@ describe('session', () => {
 
       expect(session.isActive()).toBe(false);
 
-      await expect(session.authenticateWithToken(testToken))
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithToken(testToken)).resolves.toEqual(session);
 
       expect(session.transport.defaults.headers).toEqual(expect.objectContaining({ authorization: `Bearer ${testToken}` }));
       expect(session.populateTenants).toHaveBeenCalled();
@@ -159,8 +154,7 @@ describe('session', () => {
     it('should not add the authorization header if no token is passed', async () => {
       expect(session.isActive()).toBe(false);
 
-      await expect(session.authenticateWithToken())
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithToken()).resolves.toEqual(session);
 
       expect(session.transport.defaults.headers).toEqual({
         Accept: 'application/json',
@@ -178,19 +172,20 @@ describe('session', () => {
       session.token = 'token';
       expect(session.tenants).toEqual([]);
 
-      await expect(session.populateTenants())
-        .resolves.toBeFalsy();
+      await expect(session.populateTenants()).resolves.toBeFalsy();
 
       expect(fetchMock.called(tenantsUri)).toBe(true);
 
       expect(session.tenants).not.toEqual([]);
-      expect(session.tenants).toEqual(expect.arrayContaining([expect.objectContaining({
-        ref: 'root:showcase-demo1',
-        owner: 'root',
-        name: 'showcase-demo1',
-        title: 'Showcase Demo 1 Account',
-        description: 'Showcase Account for Demo 1'
-      })]));
+      expect(session.tenants).toEqual(expect.arrayContaining([
+        expect.objectContaining({
+          ref: 'root:showcase-demo1',
+          owner: 'root',
+          name: 'showcase-demo1',
+          title: 'Showcase Demo 1 Account',
+          description: 'Showcase Account for Demo 1'
+        })
+      ]));
     });
 
     it('should not populate the tenancy info when no token set', async () => {
@@ -202,14 +197,15 @@ describe('session', () => {
     });
 
     it('should cancel the expiry timer', async () => {
-      await expect(session.authenticateWithToken('testToken'))
-        .resolves.toEqual(session);
+      await expect(session.authenticateWithToken('testToken')).resolves.toEqual(session);
       expect(clearTimeout).not.toBeCalled();
+
+      session.setOnExpiryWarning(() => {});
 
       const { expiryWarningRef } = session;
       expect(expiryWarningRef).not.toBe(null);
 
-      session.authenticateWithToken('newtoken');
+      await session.authenticateWithToken('newtoken');
 
       expect(clearTimeout).toBeCalledWith(expiryWarningRef);
       expect(session.expiryWarningRef).not.toEqual(expiryWarningRef);

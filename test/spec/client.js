@@ -152,13 +152,13 @@ describe('Client', () => {
         expect(callback).toBeCalledWith(client.session.access);
       });
 
-      it('should cancel callback onExpiryWarning', () => {
+      it('should cancel callback onExpiryWarning', async () => {
         const callback = jest.fn();
         const expiry = differenceInMilliseconds(client.session.access.expiresAt, new Date());
-        client.onExpiryWarning(callback);
+        await client.onExpiryWarning(callback);
         expect(callback).not.toBeCalled();
-        client.onExpiryWarning(null);
 
+        await client.onExpiryWarning(null);
         jest.advanceTimersByTime(expiry);
 
         expect(callback).not.toBeCalled();
@@ -166,8 +166,10 @@ describe('Client', () => {
     });
 
     describe('logout', () => {
-      it('should return a destroyed session', () => {
+      it('should return a destroyed session', async () => {
         expect(client.session.isActive()).toBe(true);
+
+        await client.onExpiryWarning(() => {});
         const { expiryWarningRef } = client.session;
         expect(expiryWarningRef).not.toBeNull();
 
