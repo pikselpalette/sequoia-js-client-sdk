@@ -2,9 +2,10 @@ import fetchMock from 'fetch-mock';
 import differenceInMilliseconds from 'date-fns/difference_in_milliseconds';
 import Client from '../../lib/client.js';
 import Session from '../../lib/session.js';
-import Registry, { Service } from '../../lib/registry.js';
+import Registry, { ServiceDescriptor } from '../../lib/registry.js';
 import accessFixture from '../fixtures/access.js';
 import metadataDescriptorFixture from '../fixtures/metadata-descriptor.json';
+import paymentDescriptorFixture from '../fixtures/payment-descriptor.json';
 import servicesFixture from '../fixtures/services.json';
 import tenantsFixture from '../fixtures/tenants.json';
 import tokenFixture from '../fixtures/token.json';
@@ -25,6 +26,7 @@ describe('Client', () => {
   const tenantsUri = `${identityUri}/pauth/tenants`;
   const tokenUri = `${identityUri}/pauth/token`;
   const descriptorUri = 'https://metadata-euw1shared.sequoia.piksel.com/descriptor/raw?owner=fakeside-transavia';
+  const paymentDescriptorUri = 'https://payment-euw1shared.sequoia.piksel.com/descriptor/raw?owner=fakeside-transavia';
 
   beforeEach(() => {
     fetchMock
@@ -37,7 +39,8 @@ describe('Client', () => {
       .mock(`${prodAccessUri}?tenants=console`, accessFixture)
       .mock(tenantsUri, tenantsFixture)
       .mock(tokenUri, tokenFixture)
-      .mock(descriptorUri, metadataDescriptorFixture);
+      .mock(descriptorUri, metadataDescriptorFixture)
+      .mock(paymentDescriptorUri, paymentDescriptorFixture);
 
     client = new Client({
       directory,
@@ -122,15 +125,50 @@ describe('Client', () => {
 
     describe('service', () => {
       it('should resolve with a service from the registry', async () => {
-        jest.spyOn(client.registry, 'getService');
+        jest.spyOn(client.registry, 'getServiceDescriptor');
 
         const serviceName = 'metadata';
 
         await expect(client.service(serviceName)).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof Service && actual.data.name === serviceName
+          asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === serviceName
         });
 
-        expect(client.registry.getService).toHaveBeenCalledWith(serviceName);
+        expect(client.registry.getServiceDescriptor).toHaveBeenCalledWith(serviceName);
+      });
+
+      it("should reject when the service doesn't exist in the registry", async () => {
+        const serviceName = 'thisdoesnotexist';
+
+        return expect(client.serviceDescriptors(serviceName)).rejects.toEqual(new Error('No service with name thisdoesnotexist exists'));
+      });
+    });
+
+    describe('serviceDescriptors', () => {
+      it('should resolve with services from the registry', async () => {
+        jest.spyOn(client.registry, 'getServiceDescriptors');
+
+        await expect(client.serviceDescriptors('metadata')).resolves.toEqual([
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
+          }
+        ]);
+
+        expect(client.registry.getServiceDescriptors).toHaveBeenCalledWith('metadata');
+      });
+
+      it('should resolve with multiple service from the registry', async () => {
+        jest.spyOn(client.registry, 'getServiceDescriptors');
+
+        await expect(client.serviceDescriptors('metadata', 'payment')).resolves.toEqual([
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
+          },
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'payment'
+          }
+        ]);
+
+        expect(client.registry.getServiceDescriptors).toHaveBeenCalledWith('metadata', 'payment');
       });
 
       it("should reject when the service doesn't exist in the registry", async () => {
