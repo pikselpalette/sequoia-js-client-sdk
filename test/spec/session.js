@@ -132,6 +132,15 @@ describe('session', () => {
       expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth' })).rejects.toEqual(NO_OAUTH_SECRET_PROVIDED));
   });
 
+  describe('setDirectory', () => {
+    it('should set the directory of the session', () => {
+      const testDirectory = 'test2';
+      expect(session.directory).toEqual('test');
+      session.setDirectory(testDirectory);
+      expect(session.directory).toEqual(testDirectory);
+    });
+  });
+
   describe('authenticateWithToken', () => {
     beforeEach(() => {
       jest.spyOn(session, 'populateTenants');

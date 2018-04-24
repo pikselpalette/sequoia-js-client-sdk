@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+
+* Add setDirectory method on session to set the directory after client init.
+
 ## 1.2.0
 
 * Add serviceDescriptors method in Client, more semantically correct way of getting service descriptors. Can handle passing a single service, and multiple services.
