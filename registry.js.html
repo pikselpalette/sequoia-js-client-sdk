@@ -34,7 +34,7 @@
 			<li class="dropdown">
 				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="Service.html">Service</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
+					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="ServiceDescriptor.html">ServiceDescriptor</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
 				</ul>
 			</li>
 			
@@ -103,14 +103,14 @@ import ResourcefulEndpoint from './resourceful_endpoint.js';
  *
  * @private
  */
-class Service {
+class ServiceDescriptor {
   constructor(transport, data) {
     this.transport = transport;
     this.data = data;
   }
 
   /**
-   * Get a {@link ResourcefulEndpoint} from a Service
+   * Get a {@link ResourcefulEndpoint} from a ServiceDescriptor
    *
    * @param {string} resourceName - e.g. 'contents' (the contents resourceful endpoint
    * from the meatatdata service)
@@ -130,10 +130,10 @@ class Service {
   }
 
   /**
-   * Get an array of {@link ResourcefulEndpoint}s from a Service
+   * Get an array of {@link ResourcefulEndpoint}s from a ServiceDescriptor
    *
    * @param {...string} resourceName - e.g. 'assets', 'contents' (the assets and contents resourceful endpoint
-   * from the meatatdata service)
+   * from the metadata service)
    *
    * @example
    * const [ assets, contents ] = service.resourcefulEndpoints('assets', 'contents');
@@ -147,7 +147,7 @@ class Service {
   }
 
   /**
-   * Get a {@link BusinessEndpoint} from a Service
+   * Get a {@link BusinessEndpoint} from a ServiceDescriptor
    *
    * @param {string} name - e.g. 'feeds' (the feeds business endpoint
    * from the gateway service)
@@ -170,7 +170,7 @@ class Service {
   }
 
   /**
-   * Get the list of resourcefuls for this Service
+   * Get the list of resourcefuls for this ServiceDescriptor
    *
    * @todo This method isn't used and also does not return an array - it is not advised to use yet
    * @todo Should this return an array of ResourcefulEndpoints instead?
@@ -233,7 +233,9 @@ class Registry {
   }
 
   /**
-   * Get Service information from the registry.
+   * Get ServiceDescriptor information from the registry.
+   *
+   * @deprecated Deprecated since 1.2.0. Use {@link Registry#getServiceDescriptor}
    *
    * Rejects the Promise if a service is requested that doesn't exist for this user
    * (or at all)
@@ -243,6 +245,21 @@ class Registry {
    * @returns {Promise}
    */
   getService(serviceName) {
+    console.warn('registry.getService is depracated. Please use registry.getServiceDescriptor instead.');
+    return this.getServiceDescriptor(serviceName);
+  }
+
+  /**
+   * Get ServiceDescriptor information from the registry.
+   *
+   * Rejects the Promise if a service is requested that doesn't exist for this user
+   * (or at all)
+   *
+   * @param {string} serviceName - The name of the service to use e.g. 'metadata'
+   *
+   * @returns {Promise}
+   */
+  getServiceDescriptor(serviceName) {
     const service = this.services.find(item => item.name === serviceName);
 
     if (service) {
@@ -251,7 +268,7 @@ class Registry {
         json.owner = service.owner;
         json.tenant = this.tenant;
 
-        return new Service(this.transport, json);
+        return new ServiceDescriptor(this.transport, json);
       });
     }
 
@@ -259,7 +276,9 @@ class Registry {
   }
 
   /**
-   * Get multiple Service information from the registry.
+   * Get multiple ServiceDescriptor information from the registry.
+   *
+   * * @deprecated Deprecated since 1.2.0. Use {@link Registry#getServiceDescriptors}
    *
    * Rejects the Promise if a service is requested that doesn't exist for this user
    * (or at all)
@@ -269,15 +288,30 @@ class Registry {
    * @returns {Promise}
    */
   getServices(...serviceName) {
+    console.warn('registry.getServices is deprecated. Please use registry.getServiceDescriptors instead.');
+    return this.getServiceDescriptors(...serviceName);
+  }
+
+  /**
+   * Get multiple ServiceDescriptor information from the registry.
+   *
+   * Rejects the Promise if a service is requested that doesn't exist for this user
+   * (or at all)
+   *
+   * @param {...string} serviceName - The name of the service to use e.g. 'metadata'
+   *
+   * @returns {Promise}
+   */
+  getServiceDescriptors(...serviceName) {
     const services = serviceName.length ? serviceName : this.services.map(s => s.name);
 
-    return Promise.all(services.map(s => this.getService(s)));
+    return Promise.all(services.map(s => this.getServiceDescriptor(s)));
   }
 }
 
 export default Registry;
 
-export { Service };
+export { ServiceDescriptor };
 </pre>
     </article>
 </section>
@@ -323,7 +357,7 @@ export { Service };
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Mon Apr 23rd 2018
+		on Tue Apr 24th 2018
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>

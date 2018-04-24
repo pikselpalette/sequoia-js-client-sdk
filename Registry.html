@@ -34,7 +34,7 @@
 			<li class="dropdown">
 				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="Service.html">Service</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
+					<li><a href="BusinessEndpoint.html">BusinessEndpoint</a></li><li><a href="Client.html">Client</a></li><li><a href="Predications.html">Predications</a></li><li><a href="Query.html">Query</a></li><li><a href="Registry.html">Registry</a></li><li><a href="Resource.html">Resource</a></li><li><a href="ResourceCollection.html">ResourceCollection</a></li><li><a href="ResourcefulEndpoint.html">ResourcefulEndpoint</a></li><li><a href="ServiceDescriptor.html">ServiceDescriptor</a></li><li><a href="Session.html">Session</a></li><li><a href="Transport.html">Transport</a></li>
 				</ul>
 			</li>
 			
@@ -548,7 +548,177 @@ e.g. https://metadata-reference.sequoia.piksel.com/descriptor/raw?owner=demo</p>
 
     
     <div class="description">
-        <p>Get Service information from the registry.</p>
+        <p>Get ServiceDescriptor information from the registry.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>serviceName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The name of the service to use e.g. 'metadata'</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+	<dt class="important tag-deprecated method-doc-label method-doc-details-label">Deprecated:</dt>
+	
+    <dd>
+        <ul class="dummy">
+            <li>Deprecated since 1.2.0. Use <a href="Registry.html#getServiceDescriptor">Registry#getServiceDescriptor</a>
+
+Rejects the Promise if a service is requested that doesn't exist for this user
+(or at all)</li>
+        </ul>
+    </dd>
+    
+    
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="registry.js.html">registry.js</a>,
+				 <a href="registry.js.html#sunlight-1-line-160">line 160</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <h5>Returns:</h5>
+    
+            
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise</span>
+
+
+
+    </dd>
+</dl>
+
+
+        
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="getServiceDescriptor"><span class="type-signature"></span>getServiceDescriptor(serviceName)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Get ServiceDescriptor information from the registry.</p>
 <p>Rejects the Promise if a service is requested that doesn't exist for this user
 (or at all)</p>
     </div>
@@ -647,7 +817,7 @@ e.g. https://metadata-reference.sequoia.piksel.com/descriptor/raw?owner=demo</p>
 		<ul class="dummy">
 			<li>
 				<a href="registry.js.html">registry.js</a>,
-				 <a href="registry.js.html#sunlight-1-line-158">line 158</a>
+				 <a href="registry.js.html#sunlight-1-line-175">line 175</a>
 			</li>
 		</ul>
 	</dd>
@@ -700,7 +870,7 @@ e.g. https://metadata-reference.sequoia.piksel.com/descriptor/raw?owner=demo</p>
             
 <hr>
 <dt>
-    <h4 class="name" id="getServices"><span class="type-signature"></span>getServices(serviceName)</h4>
+    <h4 class="name" id="getServiceDescriptors"><span class="type-signature"></span>getServiceDescriptors(serviceName)</h4>
     
     
 </dt>
@@ -708,7 +878,7 @@ e.g. https://metadata-reference.sequoia.piksel.com/descriptor/raw?owner=demo</p>
 
     
     <div class="description">
-        <p>Get multiple Service information from the registry.</p>
+        <p>Get multiple ServiceDescriptor information from the registry.</p>
 <p>Rejects the Promise if a service is requested that doesn't exist for this user
 (or at all)</p>
     </div>
@@ -819,7 +989,182 @@ e.g. https://metadata-reference.sequoia.piksel.com/descriptor/raw?owner=demo</p>
 		<ul class="dummy">
 			<li>
 				<a href="registry.js.html">registry.js</a>,
-				 <a href="registry.js.html#sunlight-1-line-184">line 184</a>
+				 <a href="registry.js.html#sunlight-1-line-218">line 218</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <h5>Returns:</h5>
+    
+            
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise</span>
+
+
+
+    </dd>
+</dl>
+
+
+        
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="getServices"><span class="type-signature"></span>getServices(serviceName)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Get multiple ServiceDescriptor information from the registry.</p>
+<ul>
+<li>@deprecated Deprecated since 1.2.0. Use <a href="Registry.html#getServiceDescriptors">Registry#getServiceDescriptors</a></li>
+</ul>
+<p>Rejects the Promise if a service is requested that doesn't exist for this user
+(or at all)</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>serviceName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                    &lt;repeatable><br>
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The name of the service to use e.g. 'metadata'</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="registry.js.html">registry.js</a>,
+				 <a href="registry.js.html#sunlight-1-line-203">line 203</a>
 			</li>
 		</ul>
 	</dd>
@@ -922,7 +1267,7 @@ e.g. https://metadata-reference.sequoia.piksel.com/descriptor/raw?owner=demo</p>
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Mon Apr 23rd 2018
+		on Tue Apr 24th 2018
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
