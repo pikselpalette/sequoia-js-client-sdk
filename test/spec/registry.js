@@ -1,5 +1,5 @@
 import fetchMock from 'fetch-mock';
-import Registry, { Service } from '../../lib/registry.js';
+import Registry, { ServiceDescriptor } from '../../lib/registry.js';
 import BusinessEndpoint from '../../lib/business_endpoint.js';
 import ResourcefulEndpoint from '../../lib/resourceful_endpoint.js';
 import Transport from '../../lib/transport.js';
@@ -59,51 +59,71 @@ describe('Registry', () => {
   });
 
   describe('getService', () => {
+    it('should call getServiceDescriptor', () => {
+      jest.spyOn(registry, 'getServiceDescriptor');
+
+      registry.getService('metadata');
+
+      expect(registry.getServiceDescriptor).toHaveBeenCalledWith('metadata');
+    });
+  });
+
+  describe('getServiceDescriptor', () => {
     beforeEach(async () => registry.fetch(testTenant));
 
     it('should reject when it can\'t find a service with the supplied name', async () =>
-      expect(registry.getService('thisdoesnotexist')).rejects.toThrow());
+      expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow());
 
     it('should perform a GET on the services descriptor/raw endpoint', async () => {
-      await registry.getService('metadata');
+      await registry.getServiceDescriptor('metadata');
       expect(fetchMock.lastUrl()).toEqual(descriptorUri);
       expect(fetchMock.lastOptions()).toEqual(expect.objectContaining({ method: 'GET' }));
     });
 
     it('should resolve with a Service instance populated with the data from the descriptor endpoint', async () => {
-      await expect(registry.getService('metadata')).resolves.toEqual({
-        asymmetricMatch: actual => actual instanceof Service && actual.data.name === 'metadata'
+      await expect(registry.getServiceDescriptor('metadata')).resolves.toEqual({
+        asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
       });
     });
 
     it('should resolve with a Service instance with the location set to the services location', async () => {
-      await expect(registry.getService('metadata')).resolves.toEqual({
+      await expect(registry.getServiceDescriptor('metadata')).resolves.toEqual({
         asymmetricMatch: actual => actual.data.location === 'https://metadata-euw1shared.sequoia.piksel.com'
       });
     });
 
     it('should resolve with a Service instance with the owner set to the services owner', async () => {
-      await expect(registry.getService('metadata')).resolves.toEqual({
+      await expect(registry.getServiceDescriptor('metadata')).resolves.toEqual({
         asymmetricMatch: actual => actual.data.owner === 'root'
       });
     });
 
     it('should resolve with a Service instance with the tenant set to the registry\'s tenant', async () => {
-      await expect(registry.getService('metadata')).resolves.toEqual({
+      await expect(registry.getServiceDescriptor('metadata')).resolves.toEqual({
         asymmetricMatch: actual => actual.data.tenant === testTenant
       });
     });
   });
 
   describe('getServices', () => {
+    it('should call getServiceDescriptors', () => {
+      jest.spyOn(registry, 'getServiceDescriptors');
+
+      registry.getServices('metadata');
+
+      expect(registry.getServiceDescriptors).toHaveBeenCalledWith('metadata');
+    });
+  });
+
+  describe('getServiceDescriptors', () => {
     beforeEach(async () => {
-      jest.spyOn(registry, 'getService').mockImplementation(service => Promise.resolve(service));
+      jest.spyOn(registry, 'getServiceDescriptor').mockImplementation(service => Promise.resolve(service));
       return registry.fetch(testTenant);
     });
 
     it('should return a Service for each service specified', (done) => {
       const requestedServices = ['metadata', 'contents'];
-      registry.getServices(...requestedServices).then((services) => {
+      registry.getServiceDescriptors(...requestedServices).then((services) => {
         expect(services).toEqual(requestedServices);
         done();
       });
@@ -111,7 +131,7 @@ describe('Registry', () => {
 
     it('should return all Services when no services are specified', (done) => {
       const allServices = registry.services.map(s => s.name);
-      registry.getServices().then((services) => {
+      registry.getServiceDescriptors().then((services) => {
         expect(services).toEqual(allServices);
         done();
       });
@@ -123,7 +143,7 @@ describe('Registry', () => {
 
     beforeEach(async () => {
       await registry.fetch(testTenant);
-      service = await registry.getService('metadata');
+      service = await registry.getServiceDescriptor('metadata');
     });
 
     describe('constructor', () => {
@@ -131,15 +151,15 @@ describe('Registry', () => {
         const testData = { test: 'data' };
 
         expect(service.data).toBeDefined();
-        expect((new Service(transport)).data).not.toBeDefined();
-        expect((new Service(transport, testData)).data).toEqual(expect.objectContaining(testData));
+        expect((new ServiceDescriptor(transport)).data).not.toBeDefined();
+        expect((new ServiceDescriptor(transport, testData)).data).toEqual(expect.objectContaining(testData));
       });
     });
 
     describe('businessEndpoint', () => {
       let gatewayService;
 
-      beforeEach(done => registry.getService('gateway').then((fetchedService) => { gatewayService = fetchedService; }).then(done));
+      beforeEach(done => registry.getServiceDescriptor('gateway').then((fetchedService) => { gatewayService = fetchedService; }).then(done));
 
       it('should return null when no route has a name that matches', () => {
         expect(gatewayService.businessEndpoint('thisdoesnotexist')).toBeNull();
