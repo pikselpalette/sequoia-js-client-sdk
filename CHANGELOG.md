@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.0
+
+* Add refreshServices method to registry
+
 ## 1.3.0
 
 * Add setDirectory method on session to set the directory after client init.
