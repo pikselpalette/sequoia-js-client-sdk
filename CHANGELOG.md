@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+* Upgrade build to use Node 10
+
 ## 1.4.0
 
 * Add refreshServices method to registry
