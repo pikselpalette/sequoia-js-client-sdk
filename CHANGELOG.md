@@ -4,6 +4,7 @@
 
 * Upgrade build to use Node 10
 * Replace query-string dependency with qs
+* Add codacy badge to README.md
 
 ## 1.4.0
 
