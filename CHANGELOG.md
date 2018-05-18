@@ -3,6 +3,7 @@
 ## Unreleased
 
 * Upgrade build to use Node 10
+* Replace query-string dependency with qs
 
 ## 1.4.0
 
