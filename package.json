@@ -73,7 +73,7 @@
     "babel-runtime": "^6.26.0",
     "date-fns": "^1.29.0",
     "lodash.delay": "^4.1.1",
-    "query-string": "^6.1.0"
+    "qs": "^6.5.2"
   },
   "publishConfig": {
     "registry": "https://npmjs.org"
