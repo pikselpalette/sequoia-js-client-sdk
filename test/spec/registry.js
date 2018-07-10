@@ -71,8 +71,7 @@ describe('Registry', () => {
   describe('getServiceDescriptor', () => {
     beforeEach(async () => registry.fetch(testTenant));
 
-    it('should reject when it can\'t find a service with the supplied name', async () =>
-      expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow());
+    it('should reject when it can\'t find a service with the supplied name', async () => expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow());
 
     it('should perform a GET on the services descriptor/raw endpoint', async () => {
       await registry.getServiceDescriptor('metadata');
