@@ -1138,7 +1138,7 @@ to create a new Resource from</p></td>
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-361">line 361</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-363">line 363</a>
 			</li>
 		</ul>
 	</dd>
@@ -1255,7 +1255,7 @@ descriptor, multiple calls will be made to the backend</p>
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-340">line 340</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-342">line 342</a>
 			</li>
 		</ul>
 	</dd>
@@ -1797,7 +1797,7 @@ with the supplied <code>ref</code></p>
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-400">line 400</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-402">line 402</a>
 			</li>
 		</ul>
 	</dd>
@@ -1959,7 +1959,7 @@ to the local collection) a Resource from the supplied object</p>
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-412">line 412</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-414">line 414</a>
 			</li>
 		</ul>
 	</dd>
@@ -2117,7 +2117,7 @@ to the local collection) a Resource from the supplied object</p>
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-481">line 481</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-483">line 483</a>
 			</li>
 		</ul>
 	</dd>
@@ -2917,7 +2917,7 @@ Will return the found <a href="Resource.html">Resource</a> or null if it does no
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-381">line 381</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-383">line 383</a>
 			</li>
 		</ul>
 	</dd>
@@ -2970,7 +2970,7 @@ Will return the found <a href="Resource.html">Resource</a> or null if it does no
             
 <hr>
 <dt>
-    <h4 class="name" id="save"><span class="type-signature"></span>save()</h4>
+    <h4 class="name" id="save"><span class="type-signature"></span>save( [size])</h4>
     
     
 </dt>
@@ -2981,7 +2981,7 @@ Will return the found <a href="Resource.html">Resource</a> or null if it does no
         <p>Save (create or update) (POST/PUT) all the <a href="Resource.html">Resource</a>s in this
 ResourceCollection.
 If the ResourceCollection has more items than the batchSize specified in the
-descriptor, multiple calls will be made to the backend</p>
+descriptor (or supplied batchSize), multiple calls will be made to the backend</p>
     </div>
     
 
@@ -2990,6 +2990,76 @@ descriptor, multiple calls will be made to the backend</p>
     
 
     
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>size</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <a href="ResourcefulEndpoint.html#batchSize">ResourcefulEndpoint#batchSize</a>
+                
+                </td>
+            
+
+            <td class="description last"><p>The number of <a href="Resource.html">Resource</a>s to save in each request</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
     
 
     
@@ -3028,7 +3098,7 @@ descriptor, multiple calls will be made to the backend</p>
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-293">line 293</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-295">line 295</a>
 			</li>
 		</ul>
 	</dd>
@@ -3535,7 +3605,7 @@ will have <em>all</em> of the Customers avaliable as linked.customers[]</p>
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-323">line 323</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-325">line 325</a>
 			</li>
 		</ul>
 	</dd>
@@ -3713,7 +3783,7 @@ result of <code>client.service('metadata').then(s =&gt; s.resourcefulEndpoint('c
 		<ul class="dummy">
 			<li>
 				<a href="resource_collection.js.html">resource_collection.js</a>,
-				 <a href="resource_collection.js.html#sunlight-1-line-447">line 447</a>
+				 <a href="resource_collection.js.html#sunlight-1-line-449">line 449</a>
 			</li>
 		</ul>
 	</dd>
@@ -3837,7 +3907,7 @@ contents.where({ type: &#x27;show&#x27;, active: true })</pre>
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Fri May 18th 2018
+		on Tue Jul 10th 2018
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
