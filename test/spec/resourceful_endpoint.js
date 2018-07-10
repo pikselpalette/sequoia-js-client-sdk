@@ -243,10 +243,9 @@ describe('ResourcefulEndpoint', () => {
         expect(fetchMock.lastOptions()).toEqual(expect.objectContaining({ method: 'GET' }));
       });
 
-      it('should resolve with a ResourceCollection', async () =>
-        expect(resourcefulEndpoint.browse()).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof ResourceCollection
-        }));
+      it('should resolve with a ResourceCollection', async () => expect(resourcefulEndpoint.browse()).resolves.toEqual({
+        asymmetricMatch: actual => actual instanceof ResourceCollection
+      }));
     });
 
     describe('all', () => {
@@ -281,10 +280,9 @@ describe('ResourcefulEndpoint', () => {
         expect(resourcefulEndpoint.browse).toHaveBeenCalledTimes(12);
       });
 
-      it('should resolve with an Object', async () =>
-        expect(resourcefulEndpoint.all()).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof Object
-        }));
+      it('should resolve with an Object', async () => expect(resourcefulEndpoint.all()).resolves.toEqual({
+        asymmetricMatch: actual => actual instanceof Object
+      }));
 
       it('should return every value in the endpoint', async () => {
         const resourceCollection = await resourcefulEndpoint.all();
@@ -318,10 +316,9 @@ describe('ResourcefulEndpoint', () => {
         expect(fetchMock.lastOptions()).toEqual(expect.objectContaining({ method: 'GET' }));
       });
 
-      it('should resolve with a Resource', async () =>
-        expect(resourcefulEndpoint.readOne(testRef)).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof Resource
-        }));
+      it('should resolve with a Resource', async () => expect(resourcefulEndpoint.readOne(testRef)).resolves.toEqual({
+        asymmetricMatch: actual => actual instanceof Resource
+      }));
     });
 
     describe('readMany', () => {
@@ -332,10 +329,9 @@ describe('ResourcefulEndpoint', () => {
         expect(fetchMock.lastOptions()).toEqual(expect.objectContaining({ method: 'GET' }));
       });
 
-      it('should resolve with a Resource', async () =>
-        expect(resourcefulEndpoint.readMany([testRef])).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof ResourceCollection
-        }));
+      it('should resolve with a Resource', async () => expect(resourcefulEndpoint.readMany([testRef])).resolves.toEqual({
+        asymmetricMatch: actual => actual instanceof ResourceCollection
+      }));
     });
 
     describe('store', () => {

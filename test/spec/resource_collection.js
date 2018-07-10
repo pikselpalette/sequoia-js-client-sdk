@@ -183,8 +183,7 @@ describe('ResourceCollection', () => {
     });
 
     describe('nextPage', () => {
-      it('should call "fetch" when there is a next page of results', async () =>
-        expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch));
+      it('should call "fetch" when there is a next page of results', async () => expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch));
 
       it('should reject when there is no next page of results', async () => {
         delete resourceCollection.rawData.meta.next;
@@ -243,8 +242,7 @@ describe('ResourceCollection', () => {
 
     describe('save', () => {
       describe('without a resourceful collection', () => {
-        it('should reject', async () =>
-          expect(resourceCollection.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
+        it('should reject', async () => expect(resourceCollection.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
       });
 
       describe('with a resourceful collection', () => {
@@ -261,8 +259,20 @@ describe('ResourceCollection', () => {
           return expect(saver).resolves.toBeTruthy();
         });
 
+        it('should explode the collection and call store() on each batch based on supplied batchSize', async () => {
+          resourceCollection = new ResourceCollection(mediaItemFixture, null, resourcefulEndpoint);
+
+          jest.spyOn(resourceCollection, 'explode').mockImplementation(() => [1, 2]);
+          jest.spyOn(resourcefulEndpoint, 'store').mockImplementation(() => Promise.resolve());
+
+          const saver = resourceCollection.save(2);
+          expect(resourceCollection.explode).toHaveBeenCalled();
+          expect(resourcefulEndpoint.store).toHaveBeenCalledTimes(2);
+
+          return expect(saver).resolves.toBeTruthy();
+        });
+
         it('should throw an error if saving to the store fails', () => {
-          resourcefulEndpoint.store.mockRestore();
           resourceCollection = new ResourceCollection(mediaItemFixture, null, resourcefulEndpoint);
 
           jest.spyOn(resourceCollection, 'explode').mockImplementation(() => [1, 2, 3, 4]);
@@ -274,13 +284,16 @@ describe('ResourceCollection', () => {
 
           return expect(saver).rejects.toBeTruthy();
         });
+
+        afterEach(() => {
+          jest.restoreAllMocks();
+        });
       });
     });
 
     describe('destroy', () => {
       describe('without a resourceful collection', () => {
-        it('should reject', async () =>
-          expect(resourceCollection.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
+        it('should reject', async () => expect(resourceCollection.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
       });
 
       describe('with a resourceful collection', () => {
@@ -335,8 +348,7 @@ describe('ResourceCollection', () => {
 
   describe('fetch', () => {
     describe('without a resourceful collection', () => {
-      it('should reject', async () =>
-        expect(resourceCollection.fetch()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
+      it('should reject', async () => expect(resourceCollection.fetch()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
     });
 
     describe('with a resourceful collection', () => {
@@ -347,8 +359,7 @@ describe('ResourceCollection', () => {
         resourceCollection = new ResourceCollection(mediaItemFixture, null, resourcefulEndpoint);
       });
 
-      it('should resolve', async () =>
-        expect(resourceCollection.fetch()).resolves.toBeTruthy());
+      it('should resolve', async () => expect(resourceCollection.fetch()).resolves.toBeTruthy());
 
       it('should call resourcefulEndpoint.browse with the initially set criteria', async () => {
         await expect(resourceCollection.fetch()).resolves.toBeTruthy();
