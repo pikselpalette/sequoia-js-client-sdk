@@ -261,8 +261,20 @@ describe('ResourceCollection', () => {
           return expect(saver).resolves.toBeTruthy();
         });
 
+        it('should explode the collection and call store() on each batch based on supplied batchSize', async () => {
+          resourceCollection = new ResourceCollection(mediaItemFixture, null, resourcefulEndpoint);
+
+          jest.spyOn(resourceCollection, 'explode').mockImplementation(() => [1, 2]);
+          jest.spyOn(resourcefulEndpoint, 'store').mockImplementation(() => Promise.resolve());
+
+          const saver = resourceCollection.save(2);
+          expect(resourceCollection.explode).toHaveBeenCalled();
+          expect(resourcefulEndpoint.store).toHaveBeenCalledTimes(2);
+
+          return expect(saver).resolves.toBeTruthy();
+        });
+
         it('should throw an error if saving to the store fails', () => {
-          resourcefulEndpoint.store.mockRestore();
           resourceCollection = new ResourceCollection(mediaItemFixture, null, resourcefulEndpoint);
 
           jest.spyOn(resourceCollection, 'explode').mockImplementation(() => [1, 2, 3, 4]);
@@ -273,6 +285,10 @@ describe('ResourceCollection', () => {
           expect(resourcefulEndpoint.store).toHaveBeenCalledTimes(4);
 
           return expect(saver).rejects.toBeTruthy();
+        });
+
+        afterEach(() => {
+          jest.restoreAllMocks();
         });
       });
     });

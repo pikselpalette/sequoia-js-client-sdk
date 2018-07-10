@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.6.0
+
+* Add ability to specify a batchSize when calling ResourceCollection.save()
+
 ## 1.5.0
 
 * Upgrade build to use Node 10
