@@ -121,6 +121,38 @@ describe('ResourcefulEndpoint', () => {
     it('should return a new Resource instance', () => {
       expect(resourcefulEndpoint.newResourceCollection() instanceof ResourceCollection).toBe(true);
     });
+
+
+    it('should take an array of items', () => {
+      const collection = resourcefulEndpoint.newResourceCollection([
+        { name: 'foo' },
+        { name: 'bar' }
+      ]);
+
+      expect(collection.collection).toEqual([
+        new Resource({ name: 'foo' }, resourcefulEndpoint),
+        new Resource({ name: 'bar' }, resourcefulEndpoint)
+      ]);
+    });
+
+    it('should take an object but issue a deprecation warning', () => {
+      jest.spyOn(console, 'warn');
+
+      const collection = resourcefulEndpoint.newResourceCollection({
+        [resourcefulEndpoint.resourceful.pluralName]: [
+          { name: 'foo' },
+          { name: 'bar' }
+        ]
+      });
+
+      expect(collection.collection).toEqual([
+        new Resource({ name: 'foo' }, resourcefulEndpoint),
+        new Resource({ name: 'bar' }, resourcefulEndpoint)
+      ]);
+
+      expect(console.warn)
+        .toHaveBeenCalledWith('Using newResourceCollection with an object is deprecated - pass an array instead');
+    });
   });
 
   describe('relationships', () => {
