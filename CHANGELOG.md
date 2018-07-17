@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.7.0
+
+* Added ability to pass an array of records to ResourcefulEndpoint.newResourceCollection()
+* Deprecated passing an object with pluralName to ResourcefulEndpoint.newResourceCollection()
+
 ## 1.6.0
 
 * Add ability to specify a batchSize when calling ResourceCollection.save()
