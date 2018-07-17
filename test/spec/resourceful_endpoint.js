@@ -121,6 +121,18 @@ describe('ResourcefulEndpoint', () => {
     it('should return a new Resource instance', () => {
       expect(resourcefulEndpoint.newResourceCollection() instanceof ResourceCollection).toBe(true);
     });
+
+    it('should take an array of items', () => {
+      const collection = resourcefulEndpoint.newResourceCollection([
+        { name: 'foo' },
+        { name: 'bar' }
+      ]);
+
+      expect(collection.collection).toEqual([
+        new Resource({ name: 'foo' }, resourcefulEndpoint),
+        new Resource({ name: 'bar' }, resourcefulEndpoint)
+      ]);
+    });
   });
 
   describe('relationships', () => {
