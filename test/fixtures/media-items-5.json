@@ -13,25 +13,25 @@
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15043%7C%7Csa-team%3AUTV-15142%7C%7Csa-team%3AUTV-15044%7C%7Csa-team%3AUTV-15240&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15043%7C%7Csa-team%3AUTV-15142%7C%7Csa-team%3AUTV-15044%7C%7Csa-team%3AUTV-15240&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15043%7C%7Csa-team%3AUTV-15142%7C%7Csa-team%3AUTV-15044%7C%7Csa-team%3AUTV-15240"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15043%7C%7Csa-team%3AUTV-15142%7C%7Csa-team%3AUTV-15044%7C%7Csa-team%3AUTV-15240&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15043%7C%7Csa-team%3AUTV-15142%7C%7Csa-team%3AUTV-15044%7C%7Csa-team%3AUTV-15240&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15043%7C%7Csa-team%3AUTV-15142%7C%7Csa-team%3AUTV-15044%7C%7Csa-team%3AUTV-15240"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15031%7C%7Csa-team%3AUTV-BOX-15029%7C%7Csa-team%3AUTV-15237%7C%7Csa-team%3AUTV-15039%7C%7Csa-team%3AUTV-15074%7C%7Csa-team%3AUTV-15177%7C%7Csa-team%3AUTV-15013%7C%7Csa-team%3AUTV-15238%7C%7Csa-team%3AUTV-15140%7C%7Csa-team%3AUTV-15075&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15031%7C%7Csa-team%3AUTV-BOX-15029%7C%7Csa-team%3AUTV-15237%7C%7Csa-team%3AUTV-15039%7C%7Csa-team%3AUTV-15074%7C%7Csa-team%3AUTV-15177%7C%7Csa-team%3AUTV-15013%7C%7Csa-team%3AUTV-15238%7C%7Csa-team%3AUTV-15140%7C%7Csa-team%3AUTV-15075&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15031%7C%7Csa-team%3AUTV-BOX-15029%7C%7Csa-team%3AUTV-15237%7C%7Csa-team%3AUTV-15039%7C%7Csa-team%3AUTV-15074%7C%7Csa-team%3AUTV-15177%7C%7Csa-team%3AUTV-15013%7C%7Csa-team%3AUTV-15238%7C%7Csa-team%3AUTV-15140%7C%7Csa-team%3AUTV-15075"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15031%7C%7Csa-team%3AUTV-BOX-15029%7C%7Csa-team%3AUTV-15237%7C%7Csa-team%3AUTV-15039%7C%7Csa-team%3AUTV-15074%7C%7Csa-team%3AUTV-15177%7C%7Csa-team%3AUTV-15013%7C%7Csa-team%3AUTV-15238%7C%7Csa-team%3AUTV-15140%7C%7Csa-team%3AUTV-15075&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15031%7C%7Csa-team%3AUTV-BOX-15029%7C%7Csa-team%3AUTV-15237%7C%7Csa-team%3AUTV-15039%7C%7Csa-team%3AUTV-15074%7C%7Csa-team%3AUTV-15177%7C%7Csa-team%3AUTV-15013%7C%7Csa-team%3AUTV-15238%7C%7Csa-team%3AUTV-15140%7C%7Csa-team%3AUTV-15075&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15031%7C%7Csa-team%3AUTV-BOX-15029%7C%7Csa-team%3AUTV-15237%7C%7Csa-team%3AUTV-15039%7C%7Csa-team%3AUTV-15074%7C%7Csa-team%3AUTV-15177%7C%7Csa-team%3AUTV-15013%7C%7Csa-team%3AUTV-15238%7C%7Csa-team%3AUTV-15140%7C%7Csa-team%3AUTV-15075"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15014%7C%7Csa-team%3AUTV-15076%7C%7Csa-team%3AUTV-15040%7C%7Csa-team%3AUTV-BOX-15046%7C%7Csa-team%3AUTV-15041%7C%7Csa-team%3AUTV-15178%7C%7Csa-team%3AUTV-BOX-15003%7C%7Csa-team%3AUTV-15015%7C%7Csa-team%3AUTV-BOX-15045%7C%7Csa-team%3AUTV-15141&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15014%7C%7Csa-team%3AUTV-15076%7C%7Csa-team%3AUTV-15040%7C%7Csa-team%3AUTV-BOX-15046%7C%7Csa-team%3AUTV-15041%7C%7Csa-team%3AUTV-15178%7C%7Csa-team%3AUTV-BOX-15003%7C%7Csa-team%3AUTV-15015%7C%7Csa-team%3AUTV-BOX-15045%7C%7Csa-team%3AUTV-15141&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15014%7C%7Csa-team%3AUTV-15076%7C%7Csa-team%3AUTV-15040%7C%7Csa-team%3AUTV-BOX-15046%7C%7Csa-team%3AUTV-15041%7C%7Csa-team%3AUTV-15178%7C%7Csa-team%3AUTV-BOX-15003%7C%7Csa-team%3AUTV-15015%7C%7Csa-team%3AUTV-BOX-15045%7C%7Csa-team%3AUTV-15141"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15014%7C%7Csa-team%3AUTV-15076%7C%7Csa-team%3AUTV-15040%7C%7Csa-team%3AUTV-BOX-15046%7C%7Csa-team%3AUTV-15041%7C%7Csa-team%3AUTV-15178%7C%7Csa-team%3AUTV-BOX-15003%7C%7Csa-team%3AUTV-15015%7C%7Csa-team%3AUTV-BOX-15045%7C%7Csa-team%3AUTV-15141&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15014%7C%7Csa-team%3AUTV-15076%7C%7Csa-team%3AUTV-15040%7C%7Csa-team%3AUTV-BOX-15046%7C%7Csa-team%3AUTV-15041%7C%7Csa-team%3AUTV-15178%7C%7Csa-team%3AUTV-BOX-15003%7C%7Csa-team%3AUTV-15015%7C%7Csa-team%3AUTV-BOX-15045%7C%7Csa-team%3AUTV-15141&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15014%7C%7Csa-team%3AUTV-15076%7C%7Csa-team%3AUTV-15040%7C%7Csa-team%3AUTV-BOX-15046%7C%7Csa-team%3AUTV-15041%7C%7Csa-team%3AUTV-15178%7C%7Csa-team%3AUTV-BOX-15003%7C%7Csa-team%3AUTV-15015%7C%7Csa-team%3AUTV-BOX-15045%7C%7Csa-team%3AUTV-15141"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1450/UTV-15240-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Mission: Impossible III",
@@ -324,7 +324,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15240-LI.jpg",
         "fileFormat": "jpg",
         "title": "Mission: Impossible III",
@@ -338,7 +338,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15142-PI.jpg",
         "fileFormat": "jpg",
         "title": "Michael Jackson's This Is It",
@@ -351,7 +351,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0821/UTV-15044-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Mission: Impossible - Ghost Protocol",
@@ -364,7 +364,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15142-LI.jpg",
         "fileFormat": "jpg",
         "title": "Michael Jackson's This Is It",
@@ -377,7 +377,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15044-LI.jpg",
         "fileFormat": "jpg",
         "title": "Mission: Impossible - Ghost Protocol",
@@ -391,7 +391,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15043-PI.jpg",
         "fileFormat": "jpg",
         "title": "Men in Black III",
@@ -404,7 +404,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15043-LI.jpg",
         "fileFormat": "jpg",
         "title": "Men in Black III",
@@ -417,7 +417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0818/UTV-15043-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Men in Black III",
@@ -430,7 +430,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1013/UTV-15142-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Michael Jackson's This Is It",
@@ -443,7 +443,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838120544417/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Michael Jackson's This Is It",
@@ -456,7 +456,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870995973495/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Michael Jackson's This Is It",
@@ -469,7 +469,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567861400407/pikselss.ism",
         "fileFormat": "ism",
         "title": "Michael Jackson's This Is It",
@@ -482,7 +482,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577209485356/pikselss.ism",
         "fileFormat": "ism",
         "title": "Mission: Impossible III",
@@ -495,7 +495,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879747972514/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Mission: Impossible III",
@@ -508,7 +508,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846471530430/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Mission: Impossible III",
@@ -521,7 +521,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829753947256/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Mission: Impossible - Ghost Protocol",
@@ -534,7 +534,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829663139730/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Men in Black III",
@@ -547,7 +547,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559232304004/pikselss.ism",
         "fileFormat": "ism",
         "title": "Men in Black III",
@@ -560,7 +560,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559598485086/pikselss.ism",
         "fileFormat": "ism",
         "title": "Mission: Impossible - Ghost Protocol",
@@ -573,7 +573,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862013125266/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Mission: Impossible - Ghost Protocol",
@@ -587,7 +587,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15240-PI.jpg",
         "fileFormat": "jpg",
         "title": "Mission: Impossible III",
@@ -601,7 +601,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15044-PI.jpg",
         "fileFormat": "jpg",
         "title": "Mission: Impossible - Ghost Protocol",
@@ -614,7 +614,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861798858107/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Men in Black III",
@@ -627,7 +627,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0805/UTV-15039-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "John Carter",
@@ -641,7 +641,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15039-PI.jpg",
         "fileFormat": "jpg",
         "title": "John Carter",
@@ -654,7 +654,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15039-LI.jpg",
         "fileFormat": "jpg",
         "title": "John Carter",
@@ -667,7 +667,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15031-LI.jpg",
         "fileFormat": "jpg",
         "title": "Jack Ryan: Shadow Recruit",
@@ -680,7 +680,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15238-LI.jpg",
         "fileFormat": "jpg",
         "title": "King Kong",
@@ -693,7 +693,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15013-LI.jpg",
         "fileFormat": "jpg",
         "title": "Kick-Ass 2",
@@ -707,7 +707,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15238-PI.jpg",
         "fileFormat": "jpg",
         "title": "King Kong",
@@ -720,7 +720,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1604/UTV-15013-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Kick-Ass 2",
@@ -733,7 +733,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15074-LI.jpg",
         "fileFormat": "jpg",
         "title": "Johnny English Reborn",
@@ -746,7 +746,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0730/UTV-15074-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Johnny English Reborn",
@@ -760,7 +760,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15074-PI.jpg",
         "fileFormat": "jpg",
         "title": "Johnny English Reborn",
@@ -773,7 +773,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1400/UTV-BOX-15031-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Jack Ryan: Shadow Recruit",
@@ -787,7 +787,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15031-PI.jpg",
         "fileFormat": "jpg",
         "title": "Jack Ryan: Shadow Recruit",
@@ -801,7 +801,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15029-PI.jpg",
         "fileFormat": "jpg",
         "title": "Jack The Giant Slayer",
@@ -814,7 +814,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1447/UTV-15237-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Jarhead",
@@ -827,7 +827,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15029-LI.jpg",
         "fileFormat": "jpg",
         "title": "Jack The Giant Slayer",
@@ -840,7 +840,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1357/UTV-BOX-15029-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Jack The Giant Slayer",
@@ -854,7 +854,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15237-PI.jpg",
         "fileFormat": "jpg",
         "title": "Jarhead",
@@ -867,7 +867,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15237-LI.jpg",
         "fileFormat": "jpg",
         "title": "Jarhead",
@@ -881,7 +881,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15075-PI.jpg",
         "fileFormat": "jpg",
         "title": "Kung Fu Panda 2",
@@ -894,7 +894,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15075-LI.jpg",
         "fileFormat": "jpg",
         "title": "Kung Fu Panda 2",
@@ -907,7 +907,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0732/UTV-15075-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Kung Fu Panda 2",
@@ -921,7 +921,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15177-PI.jpg",
         "fileFormat": "jpg",
         "title": "Jumper",
@@ -934,7 +934,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15140-LI.jpg",
         "fileFormat": "jpg",
         "title": "Knowing",
@@ -947,7 +947,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15177-LI.jpg",
         "fileFormat": "jpg",
         "title": "Jumper",
@@ -960,7 +960,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1307/UTV-15177-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Jumper",
@@ -973,7 +973,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829015431407/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "John Carter",
@@ -986,7 +986,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861444692540/piksel.mpd",
         "fileFormat": "mpd",
         "title": "John Carter",
@@ -999,7 +999,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864527470462/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Johnny English Reborn",
@@ -1012,7 +1012,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846392545836/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "King Kong",
@@ -1025,7 +1025,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562060038284/pikselss.ism",
         "fileFormat": "ism",
         "title": "Johnny English Reborn",
@@ -1038,7 +1038,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556398045832/pikselss.ism",
         "fileFormat": "ism",
         "title": "Kick-Ass 2",
@@ -1051,7 +1051,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826325741221/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Kick-Ass 2",
@@ -1064,7 +1064,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879670478388/piksel.mpd",
         "fileFormat": "mpd",
         "title": "King Kong",
@@ -1077,7 +1077,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577136029526/pikselss.ism",
         "fileFormat": "ism",
         "title": "King Kong",
@@ -1090,7 +1090,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121832288117480/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Johnny English Reborn",
@@ -1103,7 +1103,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846317852736/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Jarhead",
@@ -1116,7 +1116,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577816692206/pikselss.ism",
         "fileFormat": "ism",
         "title": "Jarhead",
@@ -1129,7 +1129,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567623338140/pikselss.ism",
         "fileFormat": "ism",
         "title": "Knowing",
@@ -1142,7 +1142,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837833363764/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Knowing",
@@ -1155,7 +1155,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841306230329/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Jumper",
@@ -1168,7 +1168,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571756555730/pikselss.ism",
         "fileFormat": "ism",
         "title": "Jumper",
@@ -1181,7 +1181,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864615495382/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Kung Fu Panda 2",
@@ -1194,7 +1194,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121832397228996/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Kung Fu Panda 2",
@@ -1207,7 +1207,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562336521176/pikselss.ism",
         "fileFormat": "ism",
         "title": "Kung Fu Panda 2",
@@ -1220,7 +1220,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879454219043/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Jarhead",
@@ -1233,7 +1233,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883598135471/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Jack Ryan: Shadow Recruit",
@@ -1246,7 +1246,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581744875682/pikselss.ism",
         "fileFormat": "ism",
         "title": "Jack Ryan: Shadow Recruit",
@@ -1259,7 +1259,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850464870922/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Jack The Giant Slayer",
@@ -1273,7 +1273,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15013-PI.jpg",
         "fileFormat": "jpg",
         "title": "Kick-Ass 2",
@@ -1286,7 +1286,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1449/UTV-15238-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "King Kong",
@@ -1300,7 +1300,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15140-PI.jpg",
         "fileFormat": "jpg",
         "title": "Knowing",
@@ -1313,7 +1313,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858851616354/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Kick-Ass 2",
@@ -1326,7 +1326,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558181529065/pikselss.ism",
         "fileFormat": "ism",
         "title": "John Carter",
@@ -1339,7 +1339,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870819404160/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Knowing",
@@ -1352,7 +1352,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874198686388/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Jumper",
@@ -1365,7 +1365,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850653166165/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Jack Ryan: Shadow Recruit",
@@ -1378,7 +1378,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581279479162/pikselss.ism",
         "fileFormat": "ism",
         "title": "Jack The Giant Slayer",
@@ -1391,7 +1391,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883441820505/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Jack The Giant Slayer",
@@ -1404,7 +1404,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15041-LI.jpg",
         "fileFormat": "jpg",
         "title": "Madagascar 3: Europe's Most Wanted",
@@ -1417,7 +1417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0841/UTV-BOX-15045-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Mandela: Long Walk to Freedom",
@@ -1430,7 +1430,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1319/UTV-15178-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Madagascar: Escape 2 Africa",
@@ -1444,7 +1444,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15014-PI.jpg",
         "fileFormat": "jpg",
         "title": "Les Miserables - The Movie",
@@ -1457,7 +1457,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15014-LI.jpg",
         "fileFormat": "jpg",
         "title": "Les Miserables - The Movie",
@@ -1471,7 +1471,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15041-PI.jpg",
         "fileFormat": "jpg",
         "title": "Madagascar 3: Europe's Most Wanted",
@@ -1484,7 +1484,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0733/UTV-15076-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Limitless",
@@ -1498,7 +1498,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15076-PI.jpg",
         "fileFormat": "jpg",
         "title": "Limitless",
@@ -1511,7 +1511,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15015-LI.jpg",
         "fileFormat": "jpg",
         "title": "Man of Steel",
@@ -1525,7 +1525,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15015-PI.jpg",
         "fileFormat": "jpg",
         "title": "Man of Steel",
@@ -1539,7 +1539,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15046-PI.jpg",
         "fileFormat": "jpg",
         "title": "Machete Kills",
@@ -1552,7 +1552,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15076-LI.jpg",
         "fileFormat": "jpg",
         "title": "Limitless",
@@ -1565,7 +1565,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0843/UTV-BOX-15046-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Machete Kills",
@@ -1579,7 +1579,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15040-PI.jpg",
         "fileFormat": "jpg",
         "title": "Looper",
@@ -1592,7 +1592,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0808/UTV-15040-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Looper",
@@ -1605,7 +1605,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15040-LI.jpg",
         "fileFormat": "jpg",
         "title": "Looper",
@@ -1618,7 +1618,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1011/UTV-15141-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Marley & Me",
@@ -1631,7 +1631,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15141-LI.jpg",
         "fileFormat": "jpg",
         "title": "Marley & Me",
@@ -1644,7 +1644,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1313/UTV-BOX-15003-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Maleficent",
@@ -1658,7 +1658,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15003-PI.jpg",
         "fileFormat": "jpg",
         "title": "Maleficent",
@@ -1671,7 +1671,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558561086274/pikselss.ism",
         "fileFormat": "ism",
         "title": "Madagascar 3: Europe's Most Wanted",
@@ -1684,7 +1684,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861627404092/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Madagascar 3: Europe's Most Wanted",
@@ -1697,7 +1697,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556636686339/pikselss.ism",
         "fileFormat": "ism",
         "title": "Les Miserables - The Movie",
@@ -1710,7 +1710,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858940767180/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Les Miserables - The Movie",
@@ -1723,7 +1723,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829414576394/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Madagascar 3: Europe's Most Wanted",
@@ -1736,7 +1736,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859050763760/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Man of Steel",
@@ -1749,7 +1749,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864693086517/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Limitless",
@@ -1762,7 +1762,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870908442480/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Marley & Me",
@@ -1775,7 +1775,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121832495922166/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Limitless",
@@ -1788,7 +1788,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556724178687/pikselss.ism",
         "fileFormat": "ism",
         "title": "Man of Steel",
@@ -1801,7 +1801,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826543805732/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Man of Steel",
@@ -1814,7 +1814,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837910633119/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Marley & Me",
@@ -1827,7 +1827,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567697358171/pikselss.ism",
         "fileFormat": "ism",
         "title": "Marley & Me",
@@ -1840,7 +1840,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861544220906/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Looper",
@@ -1853,7 +1853,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829124757685/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Looper",
@@ -1866,7 +1866,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558357375704/pikselss.ism",
         "fileFormat": "ism",
         "title": "Looper",
@@ -1879,7 +1879,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841401663295/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Madagascar: Escape 2 Africa",
@@ -1892,7 +1892,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874282876883/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Madagascar: Escape 2 Africa",
@@ -1905,7 +1905,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847901983829/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Maleficent",
@@ -1918,7 +1918,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881017890432/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Maleficent",
@@ -1931,7 +1931,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578651207977/pikselss.ism",
         "fileFormat": "ism",
         "title": "Maleficent",
@@ -1944,7 +1944,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582564283874/pikselss.ism",
         "fileFormat": "ism",
         "title": "Mandela: Long Walk to Freedom",
@@ -1957,7 +1957,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884809399183/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Machete Kills",
@@ -1970,7 +1970,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851889228659/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Mandela: Long Walk to Freedom",
@@ -1983,7 +1983,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582637845585/pikselss.ism",
         "fileFormat": "ism",
         "title": "Machete Kills",
@@ -1996,7 +1996,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0812/UTV-15041-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Madagascar 3: Europe's Most Wanted",
@@ -2010,7 +2010,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15178-PI.jpg",
         "fileFormat": "jpg",
         "title": "Madagascar: Escape 2 Africa",
@@ -2023,7 +2023,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15178-LI.jpg",
         "fileFormat": "jpg",
         "title": "Madagascar: Escape 2 Africa",
@@ -2037,7 +2037,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15045-PI.jpg",
         "fileFormat": "jpg",
         "title": "Mandela: Long Walk to Freedom",
@@ -2050,7 +2050,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15045-LI.jpg",
         "fileFormat": "jpg",
         "title": "Mandela: Long Walk to Freedom",
@@ -2063,7 +2063,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15046-LI.jpg",
         "fileFormat": "jpg",
         "title": "Machete Kills",
@@ -2076,7 +2076,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1608/UTV-15015-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Man of Steel",
@@ -2090,7 +2090,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15141-PI.jpg",
         "fileFormat": "jpg",
         "title": "Marley & Me",
@@ -2103,7 +2103,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15003-LI.jpg",
         "fileFormat": "jpg",
         "title": "Maleficent",
@@ -2116,7 +2116,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562549795584/pikselss.ism",
         "fileFormat": "ism",
         "title": "Limitless",
@@ -2129,7 +2129,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826414163515/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Les Miserables - The Movie",
@@ -2142,7 +2142,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570980653714/pikselss.ism",
         "fileFormat": "ism",
         "title": "Madagascar: Escape 2 Africa",
@@ -2155,7 +2155,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884725300124/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Mandela: Long Walk to Freedom",
@@ -2168,7 +2168,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851966423272/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Machete Kills",

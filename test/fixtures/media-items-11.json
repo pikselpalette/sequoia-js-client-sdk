@@ -13,25 +13,25 @@
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15194%7C%7Csa-team%3AUTV-15031%7C%7Csa-team%3AUTV-15195%7C%7Csa-team%3AUTV-15158&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15194%7C%7Csa-team%3AUTV-15031%7C%7Csa-team%3AUTV-15195%7C%7Csa-team%3AUTV-15158&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15194%7C%7Csa-team%3AUTV-15031%7C%7Csa-team%3AUTV-15195%7C%7Csa-team%3AUTV-15158"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15194%7C%7Csa-team%3AUTV-15031%7C%7Csa-team%3AUTV-15195%7C%7Csa-team%3AUTV-15158&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15194%7C%7Csa-team%3AUTV-15031%7C%7Csa-team%3AUTV-15195%7C%7Csa-team%3AUTV-15158&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15194%7C%7Csa-team%3AUTV-15031%7C%7Csa-team%3AUTV-15195%7C%7Csa-team%3AUTV-15158"
         },
         {
           "totalCount": 60,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15021%7C%7Csa-team%3AUTV-15092%7C%7Csa-team%3AUTV-15030%7C%7Csa-team%3AUTV-15093%7C%7Csa-team%3AUTV-15062%7C%7Csa-team%3AUTV-15123%7C%7Csa-team%3AUTV-BOX-15002%7C%7Csa-team%3AUTV-15094%7C%7Csa-team%3AUTV-15157%7C%7Csa-team%3AUTV-15124&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15021%7C%7Csa-team%3AUTV-15092%7C%7Csa-team%3AUTV-15030%7C%7Csa-team%3AUTV-15093%7C%7Csa-team%3AUTV-15062%7C%7Csa-team%3AUTV-15123%7C%7Csa-team%3AUTV-BOX-15002%7C%7Csa-team%3AUTV-15094%7C%7Csa-team%3AUTV-15157%7C%7Csa-team%3AUTV-15124&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15021%7C%7Csa-team%3AUTV-15092%7C%7Csa-team%3AUTV-15030%7C%7Csa-team%3AUTV-15093%7C%7Csa-team%3AUTV-15062%7C%7Csa-team%3AUTV-15123%7C%7Csa-team%3AUTV-BOX-15002%7C%7Csa-team%3AUTV-15094%7C%7Csa-team%3AUTV-15157%7C%7Csa-team%3AUTV-15124"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15021%7C%7Csa-team%3AUTV-15092%7C%7Csa-team%3AUTV-15030%7C%7Csa-team%3AUTV-15093%7C%7Csa-team%3AUTV-15062%7C%7Csa-team%3AUTV-15123%7C%7Csa-team%3AUTV-BOX-15002%7C%7Csa-team%3AUTV-15094%7C%7Csa-team%3AUTV-15157%7C%7Csa-team%3AUTV-15124&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15021%7C%7Csa-team%3AUTV-15092%7C%7Csa-team%3AUTV-15030%7C%7Csa-team%3AUTV-15093%7C%7Csa-team%3AUTV-15062%7C%7Csa-team%3AUTV-15123%7C%7Csa-team%3AUTV-BOX-15002%7C%7Csa-team%3AUTV-15094%7C%7Csa-team%3AUTV-15157%7C%7Csa-team%3AUTV-15124&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15021%7C%7Csa-team%3AUTV-15092%7C%7Csa-team%3AUTV-15030%7C%7Csa-team%3AUTV-15093%7C%7Csa-team%3AUTV-15062%7C%7Csa-team%3AUTV-15123%7C%7Csa-team%3AUTV-BOX-15002%7C%7Csa-team%3AUTV-15094%7C%7Csa-team%3AUTV-15157%7C%7Csa-team%3AUTV-15124"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15010%7C%7Csa-team%3AUTV-15223%7C%7Csa-team%3AUTV-BOX-15035%7C%7Csa-team%3AUTV-15224%7C%7Csa-team%3AUTV-15028%7C%7Csa-team%3AUTV-15155%7C%7Csa-team%3AUTV-15091%7C%7Csa-team%3AUTV-15059%7C%7Csa-team%3AUTV-15122%7C%7Csa-team%3AUTV-15144&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15010%7C%7Csa-team%3AUTV-15223%7C%7Csa-team%3AUTV-BOX-15035%7C%7Csa-team%3AUTV-15224%7C%7Csa-team%3AUTV-15028%7C%7Csa-team%3AUTV-15155%7C%7Csa-team%3AUTV-15091%7C%7Csa-team%3AUTV-15059%7C%7Csa-team%3AUTV-15122%7C%7Csa-team%3AUTV-15144&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15010%7C%7Csa-team%3AUTV-15223%7C%7Csa-team%3AUTV-BOX-15035%7C%7Csa-team%3AUTV-15224%7C%7Csa-team%3AUTV-15028%7C%7Csa-team%3AUTV-15155%7C%7Csa-team%3AUTV-15091%7C%7Csa-team%3AUTV-15059%7C%7Csa-team%3AUTV-15122%7C%7Csa-team%3AUTV-15144"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15010%7C%7Csa-team%3AUTV-15223%7C%7Csa-team%3AUTV-BOX-15035%7C%7Csa-team%3AUTV-15224%7C%7Csa-team%3AUTV-15028%7C%7Csa-team%3AUTV-15155%7C%7Csa-team%3AUTV-15091%7C%7Csa-team%3AUTV-15059%7C%7Csa-team%3AUTV-15122%7C%7Csa-team%3AUTV-15144&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15010%7C%7Csa-team%3AUTV-15223%7C%7Csa-team%3AUTV-BOX-15035%7C%7Csa-team%3AUTV-15224%7C%7Csa-team%3AUTV-15028%7C%7Csa-team%3AUTV-15155%7C%7Csa-team%3AUTV-15091%7C%7Csa-team%3AUTV-15059%7C%7Csa-team%3AUTV-15122%7C%7Csa-team%3AUTV-15144&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15010%7C%7Csa-team%3AUTV-15223%7C%7Csa-team%3AUTV-BOX-15035%7C%7Csa-team%3AUTV-15224%7C%7Csa-team%3AUTV-15028%7C%7Csa-team%3AUTV-15155%7C%7Csa-team%3AUTV-15091%7C%7Csa-team%3AUTV-15059%7C%7Csa-team%3AUTV-15122%7C%7Csa-team%3AUTV-15144"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0731/UTV-15031-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Turbo",
@@ -324,7 +324,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15031-LI.jpg",
         "fileFormat": "jpg",
         "title": "Turbo",
@@ -338,7 +338,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15031-PI.jpg",
         "fileFormat": "jpg",
         "title": "Turbo",
@@ -351,7 +351,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15194-LI.jpg",
         "fileFormat": "jpg",
         "title": "Tropic Thunder",
@@ -364,7 +364,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15195-LI.jpg",
         "fileFormat": "jpg",
         "title": "Twilight",
@@ -377,7 +377,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1349/UTV-15195-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Twilight",
@@ -391,7 +391,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15195-PI.jpg",
         "fileFormat": "jpg",
         "title": "Twilight",
@@ -405,7 +405,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15194-PI.jpg",
         "fileFormat": "jpg",
         "title": "Tropic Thunder",
@@ -418,7 +418,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1041/UTV-15158-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Up",
@@ -432,7 +432,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15158-PI.jpg",
         "fileFormat": "jpg",
         "title": "Up",
@@ -445,7 +445,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572506489733/pikselss.ism",
         "fileFormat": "ism",
         "title": "Tropic Thunder",
@@ -458,7 +458,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872692385189/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Up",
@@ -471,7 +471,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875468576351/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Tropic Thunder",
@@ -484,7 +484,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572666433271/pikselss.ism",
         "fileFormat": "ism",
         "title": "Twilight",
@@ -497,7 +497,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842701779544/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Twilight",
@@ -510,7 +510,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875546032663/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Twilight",
@@ -523,7 +523,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839475648864/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Up",
@@ -536,7 +536,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828199964616/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Turbo",
@@ -549,7 +549,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860661510557/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Turbo",
@@ -562,7 +562,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1347/UTV-15194-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Tropic Thunder",
@@ -575,7 +575,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15158-LI.jpg",
         "fileFormat": "jpg",
         "title": "Up",
@@ -588,7 +588,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842622337452/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Tropic Thunder",
@@ -601,7 +601,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569687282626/pikselss.ism",
         "fileFormat": "ism",
         "title": "Up",
@@ -614,7 +614,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173557734710881/pikselss.ism",
         "fileFormat": "ism",
         "title": "Turbo",
@@ -627,7 +627,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15124-LI.jpg",
         "fileFormat": "jpg",
         "title": "Tron: Legacy",
@@ -640,7 +640,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0904/UTV-15124-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Tron: Legacy",
@@ -654,7 +654,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15124-PI.jpg",
         "fileFormat": "jpg",
         "title": "Tron: Legacy",
@@ -668,7 +668,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15021-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Wolf of Wall Street",
@@ -681,7 +681,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1707/UTV-BOX-15021-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Wolf of Wall Street",
@@ -694,7 +694,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15021-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Wolf of Wall Street",
@@ -708,7 +708,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15002-PI.jpg",
         "fileFormat": "jpg",
         "title": "Transformers: Age Of Extinction",
@@ -721,7 +721,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15002-LI.jpg",
         "fileFormat": "jpg",
         "title": "Transformers: Age Of Extinction",
@@ -734,7 +734,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15094-LI.jpg",
         "fileFormat": "jpg",
         "title": "Transformers: Dark of the Moon",
@@ -748,7 +748,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15092-PI.jpg",
         "fileFormat": "jpg",
         "title": "Thor",
@@ -762,7 +762,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15094-PI.jpg",
         "fileFormat": "jpg",
         "title": "Transformers: Dark of the Moon",
@@ -775,7 +775,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0803/UTV-15094-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Transformers: Dark of the Moon",
@@ -788,7 +788,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15092-LI.jpg",
         "fileFormat": "jpg",
         "title": "Thor",
@@ -802,7 +802,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15123-PI.jpg",
         "fileFormat": "jpg",
         "title": "Toy Story 3",
@@ -815,7 +815,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15123-LI.jpg",
         "fileFormat": "jpg",
         "title": "Toy Story 3",
@@ -828,7 +828,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15030-LI.jpg",
         "fileFormat": "jpg",
         "title": "Thor: The Dark World",
@@ -841,7 +841,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0721/UTV-15030-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Thor: The Dark World",
@@ -855,7 +855,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15157-PI.jpg",
         "fileFormat": "jpg",
         "title": "Transformers: Revenge Of The Fallen",
@@ -868,7 +868,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1039/UTV-15157-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Transformers: Revenge Of The Fallen",
@@ -882,7 +882,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15093-PI.jpg",
         "fileFormat": "jpg",
         "title": "Tinker, Tailor, Soldier, Spy",
@@ -895,7 +895,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15093-LI.jpg",
         "fileFormat": "jpg",
         "title": "Tinker, Tailor, Soldier, Spy",
@@ -908,7 +908,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0801/UTV-15093-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Tinker, Tailor, Soldier, Spy",
@@ -921,7 +921,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0714/UTV-15062-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Total Recall",
@@ -934,7 +934,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15157-LI.jpg",
         "fileFormat": "jpg",
         "title": "Transformers: Revenge Of The Fallen",
@@ -948,7 +948,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15062-PI.jpg",
         "fileFormat": "jpg",
         "title": "Total Recall",
@@ -961,7 +961,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869222141856/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Tron: Legacy",
@@ -974,7 +974,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836367039377/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Tron: Legacy",
@@ -987,7 +987,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565785997119/pikselss.ism",
         "fileFormat": "ism",
         "title": "Tron: Legacy",
@@ -1000,7 +1000,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569438156744/pikselss.ism",
         "fileFormat": "ism",
         "title": "Transformers: Revenge Of The Fallen",
@@ -1013,7 +1013,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563825697207/pikselss.ism",
         "fileFormat": "ism",
         "title": "Transformers: Dark of the Moon",
@@ -1026,7 +1026,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869143851042/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Toy Story 3",
@@ -1039,7 +1039,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834107790222/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Transformers: Dark of the Moon",
@@ -1052,7 +1052,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106866084598084/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Transformers: Dark of the Moon",
@@ -1065,7 +1065,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566805436915/pikselss.ism",
         "fileFormat": "ism",
         "title": "Toy Story 3",
@@ -1078,7 +1078,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833943078355/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Thor",
@@ -1091,7 +1091,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828091104541/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Thor: The Dark World",
@@ -1104,7 +1104,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860584206712/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Thor: The Dark World",
@@ -1117,7 +1117,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173557659952097/pikselss.ism",
         "fileFormat": "ism",
         "title": "Thor: The Dark World",
@@ -1130,7 +1130,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880921797473/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Transformers: Age Of Extinction",
@@ -1143,7 +1143,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578544846334/pikselss.ism",
         "fileFormat": "ism",
         "title": "Transformers: Age Of Extinction",
@@ -1156,7 +1156,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563448881443/pikselss.ism",
         "fileFormat": "ism",
         "title": "Tinker, Tailor, Soldier, Spy",
@@ -1169,7 +1169,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865995624802/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Tinker, Tailor, Soldier, Spy",
@@ -1182,7 +1182,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563335753139/pikselss.ism",
         "fileFormat": "ism",
         "title": "Thor",
@@ -1195,7 +1195,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865773634143/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Thor",
@@ -1208,7 +1208,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834027852594/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Tinker, Tailor, Soldier, Spy",
@@ -1221,7 +1221,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863421248741/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Total Recall",
@@ -1234,7 +1234,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882788055642/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Wolf of Wall Street",
@@ -1247,7 +1247,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849655034929/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Wolf of Wall Street",
@@ -1260,7 +1260,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0902/UTV-15123-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Toy Story 3",
@@ -1273,7 +1273,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0759/UTV-15092-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Thor",
@@ -1286,7 +1286,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1311/UTV-BOX-15002-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Transformers: Age Of Extinction",
@@ -1300,7 +1300,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15030-PI.jpg",
         "fileFormat": "jpg",
         "title": "Thor: The Dark World",
@@ -1313,7 +1313,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15062-LI.jpg",
         "fileFormat": "jpg",
         "title": "Total Recall",
@@ -1326,7 +1326,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872600130712/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Transformers: Revenge Of The Fallen",
@@ -1339,7 +1339,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839384973286/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Transformers: Revenge Of The Fallen",
@@ -1352,7 +1352,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836286078544/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Toy Story 3",
@@ -1365,7 +1365,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830974396066/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Total Recall",
@@ -1378,7 +1378,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561023040161/pikselss.ism",
         "fileFormat": "ism",
         "title": "Total Recall",
@@ -1391,7 +1391,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847694826505/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Transformers: Age Of Extinction",
@@ -1404,7 +1404,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580832541008/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Wolf of Wall Street",
@@ -1418,7 +1418,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15224-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Simpsons Movie",
@@ -1431,7 +1431,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0714/UTV-15028-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Smurfs 2 ",
@@ -1445,7 +1445,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15028-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Smurfs 2 ",
@@ -1458,7 +1458,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15224-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Simpsons Movie",
@@ -1472,7 +1472,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15122-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: Eclipse",
@@ -1485,7 +1485,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15122-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: Eclipse",
@@ -1498,7 +1498,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15028-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Smurfs 2 ",
@@ -1511,7 +1511,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1328/UTV-BOX-15010-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Purge: Anarchy",
@@ -1524,7 +1524,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15010-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Purge: Anarchy",
@@ -1538,7 +1538,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15010-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Purge: Anarchy",
@@ -1551,7 +1551,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15091-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: Breaking Dawn, Part 1",
@@ -1564,7 +1564,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1045/UTV-15155-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Time Traveler's Wife",
@@ -1577,7 +1577,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15155-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Time Traveler's Wife",
@@ -1591,7 +1591,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15035-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Raid 2: Berandal",
@@ -1604,7 +1604,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0959/UTV-15091-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Twilight Saga: Breaking Dawn, Part 1",
@@ -1618,7 +1618,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15091-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: Breaking Dawn, Part 1",
@@ -1631,7 +1631,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15059-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: Breaking Dawn, Part 2",
@@ -1645,7 +1645,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15059-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: Breaking Dawn, Part 2",
@@ -1658,7 +1658,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15144-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: New Moon",
@@ -1671,7 +1671,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1035/UTV-15144-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Twilight Saga: New Moon",
@@ -1684,7 +1684,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15035-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Raid 2: Berandal",
@@ -1697,7 +1697,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1431/UTV-15223-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Pursuit Of Happyness",
@@ -1711,7 +1711,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15223-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Pursuit Of Happyness",
@@ -1724,7 +1724,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827881323182/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Smurfs 2 ",
@@ -1737,7 +1737,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845223096251/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Simpsons Movie",
@@ -1750,7 +1750,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173557060340018/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Smurfs 2 ",
@@ -1763,7 +1763,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860293903359/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Smurfs 2 ",
@@ -1776,7 +1776,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173568392763502/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Twilight Saga: New Moon",
@@ -1789,7 +1789,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838282822967/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Twilight Saga: New Moon",
@@ -1802,7 +1802,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871316379624/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Twilight Saga: New Moon",
@@ -1815,7 +1815,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869051146017/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Twilight Saga: Eclipse",
@@ -1828,7 +1828,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836082861262/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Twilight Saga: Eclipse",
@@ -1841,7 +1841,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566717772665/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Twilight Saga: Eclipse",
@@ -1854,7 +1854,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833862958867/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Twilight Saga: Breaking Dawn, Part 1",
@@ -1867,7 +1867,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563080840931/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Twilight Saga: Breaking Dawn, Part 1",
@@ -1880,7 +1880,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872478148361/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Time Traveler's Wife",
@@ -1893,7 +1893,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839296301696/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Time Traveler's Wife",
@@ -1906,7 +1906,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173560618836967/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Twilight Saga: Breaking Dawn, Part 2",
@@ -1919,7 +1919,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881935290376/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Purge: Anarchy",
@@ -1932,7 +1932,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576792059677/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Pursuit Of Happyness",
@@ -1945,7 +1945,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878237791761/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Pursuit Of Happyness",
@@ -1958,7 +1958,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883876470779/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Raid 2: Berandal",
@@ -1971,7 +1971,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850925694145/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Raid 2: Berandal",
@@ -1984,7 +1984,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1432/UTV-15224-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Simpsons Movie",
@@ -1997,7 +1997,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0900/UTV-15122-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Twilight Saga: Eclipse",
@@ -2010,7 +2010,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0712/UTV-15059-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Twilight Saga: Breaking Dawn, Part 2",
@@ -2024,7 +2024,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15144-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Twilight Saga: New Moon",
@@ -2038,7 +2038,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15155-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Time Traveler's Wife",
@@ -2051,7 +2051,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15223-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Pursuit Of Happyness",
@@ -2064,7 +2064,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569360919443/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Time Traveler's Wife",
@@ -2077,7 +2077,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173575442074469/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Simpsons Movie",
@@ -2090,7 +2090,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878312205306/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Simpsons Movie",
@@ -2103,7 +2103,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865674954974/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Twilight Saga: Breaking Dawn, Part 1",
@@ -2116,7 +2116,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863248731528/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Twilight Saga: Breaking Dawn, Part 2",
@@ -2129,7 +2129,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830820069058/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Twilight Saga: Breaking Dawn, Part 2",
@@ -2142,7 +2142,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848589501945/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Purge: Anarchy",
@@ -2155,7 +2155,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578933289004/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Purge: Anarchy",
@@ -2168,7 +2168,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845145193954/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Pursuit Of Happyness",
@@ -2181,7 +2181,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581072710989/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Raid 2: Berandal",

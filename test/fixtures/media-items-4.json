@@ -13,25 +13,25 @@
           "totalCount": 60,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15206%7C%7Csa-team%3AUTV-15173%7C%7Csa-team%3AUTV-BOX-15014%7C%7Csa-team%3AUTV-15174%7C%7Csa-team%3AUTV-15235%7C%7Csa-team%3AUTV-15138%7C%7Csa-team%3AUTV-15073%7C%7Csa-team%3AUTV-15106%7C%7Csa-team%3AUTV-15175%7C%7Csa-team%3AUTV-15139&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15206%7C%7Csa-team%3AUTV-15173%7C%7Csa-team%3AUTV-BOX-15014%7C%7Csa-team%3AUTV-15174%7C%7Csa-team%3AUTV-15235%7C%7Csa-team%3AUTV-15138%7C%7Csa-team%3AUTV-15073%7C%7Csa-team%3AUTV-15106%7C%7Csa-team%3AUTV-15175%7C%7Csa-team%3AUTV-15139&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15206%7C%7Csa-team%3AUTV-15173%7C%7Csa-team%3AUTV-BOX-15014%7C%7Csa-team%3AUTV-15174%7C%7Csa-team%3AUTV-15235%7C%7Csa-team%3AUTV-15138%7C%7Csa-team%3AUTV-15073%7C%7Csa-team%3AUTV-15106%7C%7Csa-team%3AUTV-15175%7C%7Csa-team%3AUTV-15139"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15206%7C%7Csa-team%3AUTV-15173%7C%7Csa-team%3AUTV-BOX-15014%7C%7Csa-team%3AUTV-15174%7C%7Csa-team%3AUTV-15235%7C%7Csa-team%3AUTV-15138%7C%7Csa-team%3AUTV-15073%7C%7Csa-team%3AUTV-15106%7C%7Csa-team%3AUTV-15175%7C%7Csa-team%3AUTV-15139&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15206%7C%7Csa-team%3AUTV-15173%7C%7Csa-team%3AUTV-BOX-15014%7C%7Csa-team%3AUTV-15174%7C%7Csa-team%3AUTV-15235%7C%7Csa-team%3AUTV-15138%7C%7Csa-team%3AUTV-15073%7C%7Csa-team%3AUTV-15106%7C%7Csa-team%3AUTV-15175%7C%7Csa-team%3AUTV-15139&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15206%7C%7Csa-team%3AUTV-15173%7C%7Csa-team%3AUTV-BOX-15014%7C%7Csa-team%3AUTV-15174%7C%7Csa-team%3AUTV-15235%7C%7Csa-team%3AUTV-15138%7C%7Csa-team%3AUTV-15073%7C%7Csa-team%3AUTV-15106%7C%7Csa-team%3AUTV-15175%7C%7Csa-team%3AUTV-15139"
         },
         {
           "totalCount": 58,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15010%7C%7Csa-team%3AUTV-15234%7C%7Csa-team%3AUTV-15105%7C%7Csa-team%3AUTV-15071%7C%7Csa-team%3AUTV-15137%7C%7Csa-team%3AUTV-15205%7C%7Csa-team%3AUTV-BOX-15015%7C%7Csa-team%3AUTV-15170%7C%7Csa-team%3AUTV-15171%7C%7Csa-team%3AUTV-15072&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15010%7C%7Csa-team%3AUTV-15234%7C%7Csa-team%3AUTV-15105%7C%7Csa-team%3AUTV-15071%7C%7Csa-team%3AUTV-15137%7C%7Csa-team%3AUTV-15205%7C%7Csa-team%3AUTV-BOX-15015%7C%7Csa-team%3AUTV-15170%7C%7Csa-team%3AUTV-15171%7C%7Csa-team%3AUTV-15072&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15010%7C%7Csa-team%3AUTV-15234%7C%7Csa-team%3AUTV-15105%7C%7Csa-team%3AUTV-15071%7C%7Csa-team%3AUTV-15137%7C%7Csa-team%3AUTV-15205%7C%7Csa-team%3AUTV-BOX-15015%7C%7Csa-team%3AUTV-15170%7C%7Csa-team%3AUTV-15171%7C%7Csa-team%3AUTV-15072"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15010%7C%7Csa-team%3AUTV-15234%7C%7Csa-team%3AUTV-15105%7C%7Csa-team%3AUTV-15071%7C%7Csa-team%3AUTV-15137%7C%7Csa-team%3AUTV-15205%7C%7Csa-team%3AUTV-BOX-15015%7C%7Csa-team%3AUTV-15170%7C%7Csa-team%3AUTV-15171%7C%7Csa-team%3AUTV-15072&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15010%7C%7Csa-team%3AUTV-15234%7C%7Csa-team%3AUTV-15105%7C%7Csa-team%3AUTV-15071%7C%7Csa-team%3AUTV-15137%7C%7Csa-team%3AUTV-15205%7C%7Csa-team%3AUTV-BOX-15015%7C%7Csa-team%3AUTV-15170%7C%7Csa-team%3AUTV-15171%7C%7Csa-team%3AUTV-15072&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15010%7C%7Csa-team%3AUTV-15234%7C%7Csa-team%3AUTV-15105%7C%7Csa-team%3AUTV-15071%7C%7Csa-team%3AUTV-15137%7C%7Csa-team%3AUTV-15205%7C%7Csa-team%3AUTV-BOX-15015%7C%7Csa-team%3AUTV-15170%7C%7Csa-team%3AUTV-15171%7C%7Csa-team%3AUTV-15072"
         },
         {
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15011%7C%7Csa-team%3AUTV-15176%7C%7Csa-team%3AUTV-15107%7C%7Csa-team%3AUTV-15012&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15011%7C%7Csa-team%3AUTV-15176%7C%7Csa-team%3AUTV-15107%7C%7Csa-team%3AUTV-15012&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15011%7C%7Csa-team%3AUTV-15176%7C%7Csa-team%3AUTV-15107%7C%7Csa-team%3AUTV-15012"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15011%7C%7Csa-team%3AUTV-15176%7C%7Csa-team%3AUTV-15107%7C%7Csa-team%3AUTV-15012&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15011%7C%7Csa-team%3AUTV-15176%7C%7Csa-team%3AUTV-15107%7C%7Csa-team%3AUTV-15012&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15011%7C%7Csa-team%3AUTV-15176%7C%7Csa-team%3AUTV-15107%7C%7Csa-team%3AUTV-15012"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15235-LI.jpg",
         "fileFormat": "jpg",
         "title": "Ice Age The Meltdown",
@@ -324,7 +324,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1409/UTV-15206-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Hot Fuzz",
@@ -338,7 +338,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15206-PI.jpg",
         "fileFormat": "jpg",
         "title": "Hot Fuzz",
@@ -351,7 +351,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1446/UTV-15235-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Ice Age The Meltdown",
@@ -365,7 +365,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15235-PI.jpg",
         "fileFormat": "jpg",
         "title": "Ice Age The Meltdown",
@@ -378,7 +378,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15175-LI.jpg",
         "fileFormat": "jpg",
         "title": "Indiana Jones And The Kingdom Of The Crystal Skull",
@@ -391,7 +391,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15106-LI.jpg",
         "fileFormat": "jpg",
         "title": "Inception",
@@ -404,7 +404,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0828/UTV-15106-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Inception",
@@ -417,7 +417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1302/UTV-15175-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Indiana Jones And The Kingdom Of The Crystal Skull",
@@ -431,7 +431,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15106-PI.jpg",
         "fileFormat": "jpg",
         "title": "Inception",
@@ -444,7 +444,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1336/UTV-BOX-15014-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "How to Train Your Dragon 2",
@@ -457,7 +457,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15014-LI.jpg",
         "fileFormat": "jpg",
         "title": "How to Train Your Dragon 2",
@@ -471,7 +471,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15014-PI.jpg",
         "fileFormat": "jpg",
         "title": "How to Train Your Dragon 2",
@@ -484,7 +484,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0948/UTV-15073-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Immortals",
@@ -498,7 +498,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15073-PI.jpg",
         "fileFormat": "jpg",
         "title": "Immortals",
@@ -512,7 +512,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15138-PI.jpg",
         "fileFormat": "jpg",
         "title": "Ice Age: Dawn Of The Dinosaurs",
@@ -525,7 +525,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15073-LI.jpg",
         "fileFormat": "jpg",
         "title": "Immortals",
@@ -538,7 +538,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1258/UTV-15174-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "I Am Legend",
@@ -551,7 +551,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15174-LI.jpg",
         "fileFormat": "jpg",
         "title": "I Am Legend",
@@ -565,7 +565,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15174-PI.jpg",
         "fileFormat": "jpg",
         "title": "I Am Legend",
@@ -578,7 +578,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1007/UTV-15139-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Inglourious Basterds",
@@ -591,7 +591,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15139-LI.jpg",
         "fileFormat": "jpg",
         "title": "Inglourious Basterds",
@@ -604,7 +604,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15138-LI.jpg",
         "fileFormat": "jpg",
         "title": "Ice Age: Dawn Of The Dinosaurs",
@@ -617,7 +617,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1256/UTV-15173-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "How To Lose Friends & Alienate People",
@@ -630,7 +630,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1004/UTV-15138-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Ice Age: Dawn Of The Dinosaurs",
@@ -643,7 +643,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15173-LI.jpg",
         "fileFormat": "jpg",
         "title": "How To Lose Friends & Alienate People",
@@ -657,7 +657,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15173-PI.jpg",
         "fileFormat": "jpg",
         "title": "How To Lose Friends & Alienate People",
@@ -670,7 +670,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573728585886/pikselss.ism",
         "fileFormat": "ism",
         "title": "Hot Fuzz",
@@ -683,7 +683,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843550569065/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Hot Fuzz",
@@ -696,7 +696,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106876817442984/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Hot Fuzz",
@@ -709,7 +709,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834796937224/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Inception",
@@ -722,7 +722,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867482329131/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Inception",
@@ -735,7 +735,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837667452022/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Ice Age: Dawn Of The Dinosaurs",
@@ -748,7 +748,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870667889687/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Ice Age: Dawn Of The Dinosaurs",
@@ -761,7 +761,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837753059704/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Inglourious Basterds",
@@ -774,7 +774,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565049765308/pikselss.ism",
         "fileFormat": "ism",
         "title": "Inception",
@@ -787,7 +787,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874049469357/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Indiana Jones And The Kingdom Of The Crystal Skull",
@@ -800,7 +800,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571430321614/pikselss.ism",
         "fileFormat": "ism",
         "title": "Indiana Jones And The Kingdom Of The Crystal Skull",
@@ -813,7 +813,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567140619346/pikselss.ism",
         "fileFormat": "ism",
         "title": "Ice Age: Dawn Of The Dinosaurs",
@@ -826,7 +826,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870743128687/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Inglourious Basterds",
@@ -839,7 +839,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873875332174/piksel.mpd",
         "fileFormat": "mpd",
         "title": "How To Lose Friends & Alienate People",
@@ -852,7 +852,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561969857456/pikselss.ism",
         "fileFormat": "ism",
         "title": "Immortals",
@@ -865,7 +865,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873963505502/piksel.mpd",
         "fileFormat": "mpd",
         "title": "I Am Legend",
@@ -878,7 +878,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846241684273/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Ice Age The Meltdown",
@@ -891,7 +891,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121832190809771/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Immortals",
@@ -904,7 +904,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864436787012/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Immortals",
@@ -917,7 +917,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567213631961/pikselss.ism",
         "fileFormat": "ism",
         "title": "Inglourious Basterds",
@@ -930,7 +930,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879367108342/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Ice Age The Meltdown",
@@ -943,7 +943,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571135998063/pikselss.ism",
         "fileFormat": "ism",
         "title": "I Am Legend",
@@ -956,7 +956,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15206-LI.jpg",
         "fileFormat": "jpg",
         "title": "Hot Fuzz",
@@ -970,7 +970,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15175-PI.jpg",
         "fileFormat": "jpg",
         "title": "Indiana Jones And The Kingdom Of The Crystal Skull",
@@ -984,7 +984,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15139-PI.jpg",
         "fileFormat": "jpg",
         "title": "Inglourious Basterds",
@@ -997,7 +997,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840890229524/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "How To Lose Friends & Alienate People",
@@ -1010,7 +1010,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570892948968/pikselss.ism",
         "fileFormat": "ism",
         "title": "How To Lose Friends & Alienate People",
@@ -1023,7 +1023,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577576153915/pikselss.ism",
         "fileFormat": "ism",
         "title": "Ice Age The Meltdown",
@@ -1036,7 +1036,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841106157194/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Indiana Jones And The Kingdom Of The Crystal Skull",
@@ -1049,7 +1049,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840993720407/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "I Am Legend",
@@ -1062,7 +1062,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848969810519/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "How to Train Your Dragon 2",
@@ -1075,7 +1075,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882175721354/piksel.mpd",
         "fileFormat": "mpd",
         "title": "How to Train Your Dragon 2",
@@ -1088,7 +1088,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579331063919/pikselss.ism",
         "fileFormat": "ism",
         "title": "How to Train Your Dragon 2",
@@ -1101,7 +1101,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15071-LI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter And The Deathly Hallows, Part 2",
@@ -1114,7 +1114,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0727/UTV-15071-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Harry Potter And The Deathly Hallows, Part 2",
@@ -1128,7 +1128,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15071-PI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter And The Deathly Hallows, Part 2",
@@ -1141,7 +1141,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15015-LI.jpg",
         "fileFormat": "jpg",
         "title": "Hector and the Search for Happiness",
@@ -1155,7 +1155,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15015-PI.jpg",
         "fileFormat": "jpg",
         "title": "Hector and the Search for Happiness",
@@ -1168,7 +1168,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1445/UTV-15234-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Happy Feet",
@@ -1181,7 +1181,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1559/UTV-15010-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Hansel and Gretel: Witch Hunters",
@@ -1194,7 +1194,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15010-LI.jpg",
         "fileFormat": "jpg",
         "title": "Hansel and Gretel: Witch Hunters",
@@ -1208,7 +1208,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15105-PI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter And The Deathly Hallows, Part 1",
@@ -1222,7 +1222,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15170-PI.jpg",
         "fileFormat": "jpg",
         "title": "Hellboy II: The Golden Army",
@@ -1235,7 +1235,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15171-LI.jpg",
         "fileFormat": "jpg",
         "title": "High School Musical 3: Senior Year",
@@ -1249,7 +1249,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15205-PI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter and the Order of the Phoenix",
@@ -1263,7 +1263,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15072-PI.jpg",
         "fileFormat": "jpg",
         "title": "Hop",
@@ -1276,7 +1276,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15137-LI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter And The Half Blood Prince",
@@ -1289,7 +1289,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1000/UTV-15137-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Harry Potter And The Half Blood Prince",
@@ -1302,7 +1302,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15170-LI.jpg",
         "fileFormat": "jpg",
         "title": "Hellboy II: The Golden Army",
@@ -1315,7 +1315,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15072-LI.jpg",
         "fileFormat": "jpg",
         "title": "Hop",
@@ -1329,7 +1329,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15171-PI.jpg",
         "fileFormat": "jpg",
         "title": "High School Musical 3: Senior Year",
@@ -1342,7 +1342,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849049734629/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Hector and the Search for Happiness",
@@ -1355,7 +1355,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882250633977/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Hector and the Search for Happiness",
@@ -1368,7 +1368,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579586531932/pikselss.ism",
         "fileFormat": "ism",
         "title": "Hector and the Search for Happiness",
@@ -1381,7 +1381,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864279398360/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Harry Potter And The Deathly Hallows, Part 2",
@@ -1394,7 +1394,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867278682633/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Harry Potter And The Deathly Hallows, Part 1",
@@ -1407,7 +1407,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834718831720/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Harry Potter And The Deathly Hallows, Part 1",
@@ -1420,7 +1420,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577482886109/pikselss.ism",
         "fileFormat": "ism",
         "title": "Happy Feet",
@@ -1433,7 +1433,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846041929268/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Happy Feet",
@@ -1446,7 +1446,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840780925088/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "High School Musical 3: Senior Year",
@@ -1459,7 +1459,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573439705488/pikselss.ism",
         "fileFormat": "ism",
         "title": "Harry Potter and the Order of the Phoenix",
@@ -1472,7 +1472,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873718443068/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Hellboy II: The Golden Army",
@@ -1485,7 +1485,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106876340143815/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Harry Potter and the Order of the Phoenix",
@@ -1498,7 +1498,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570613516994/pikselss.ism",
         "fileFormat": "ism",
         "title": "Hellboy II: The Golden Army",
@@ -1511,7 +1511,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826028051418/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Hansel and Gretel: Witch Hunters",
@@ -1524,7 +1524,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555987457048/pikselss.ism",
         "fileFormat": "ism",
         "title": "Hansel and Gretel: Witch Hunters",
@@ -1537,7 +1537,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843472332289/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Harry Potter and the Order of the Phoenix",
@@ -1550,7 +1550,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561648822753/pikselss.ism",
         "fileFormat": "ism",
         "title": "Hop",
@@ -1563,7 +1563,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873797543919/piksel.mpd",
         "fileFormat": "mpd",
         "title": "High School Musical 3: Senior Year",
@@ -1576,7 +1576,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837557932660/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Harry Potter And The Half Blood Prince",
@@ -1589,7 +1589,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1338/UTV-BOX-15015-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Hector and the Search for Happiness",
@@ -1603,7 +1603,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15234-PI.jpg",
         "fileFormat": "jpg",
         "title": "Happy Feet",
@@ -1616,7 +1616,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15234-LI.jpg",
         "fileFormat": "jpg",
         "title": "Happy Feet",
@@ -1630,7 +1630,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15010-PI.jpg",
         "fileFormat": "jpg",
         "title": "Hansel and Gretel: Witch Hunters",
@@ -1643,7 +1643,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0826/UTV-15105-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Harry Potter And The Deathly Hallows, Part 1",
@@ -1656,7 +1656,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15105-LI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter And The Deathly Hallows, Part 1",
@@ -1669,7 +1669,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1408/UTV-15205-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Harry Potter and the Order of the Phoenix",
@@ -1682,7 +1682,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1253/UTV-15171-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "High School Musical 3: Senior Year",
@@ -1695,7 +1695,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15205-LI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter and the Order of the Phoenix",
@@ -1709,7 +1709,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15137-PI.jpg",
         "fileFormat": "jpg",
         "title": "Harry Potter And The Half Blood Prince",
@@ -1722,7 +1722,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831847499714/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Harry Potter And The Deathly Hallows, Part 2",
@@ -1735,7 +1735,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561573696099/pikselss.ism",
         "fileFormat": "ism",
         "title": "Harry Potter And The Deathly Hallows, Part 2",
@@ -1748,7 +1748,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879267488113/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Happy Feet",
@@ -1761,7 +1761,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173564894866069/pikselss.ism",
         "fileFormat": "ism",
         "title": "Harry Potter And The Deathly Hallows, Part 1",
@@ -1774,7 +1774,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858489695255/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Hansel and Gretel: Witch Hunters",
@@ -1787,7 +1787,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870440069404/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Harry Potter And The Half Blood Prince",
@@ -1800,7 +1800,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570726070280/pikselss.ism",
         "fileFormat": "ism",
         "title": "High School Musical 3: Senior Year",
@@ -1813,7 +1813,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566897261718/pikselss.ism",
         "fileFormat": "ism",
         "title": "Harry Potter And The Half Blood Prince",
@@ -1826,7 +1826,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831963132978/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Hop",
@@ -1839,7 +1839,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864360989530/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Hop",
@@ -1852,7 +1852,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840632314527/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Hellboy II: The Golden Army",
@@ -1865,7 +1865,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1602/UTV-15012-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Iron Man 3",
@@ -1878,7 +1878,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15012-LI.jpg",
         "fileFormat": "jpg",
         "title": "Iron Man 3",
@@ -1891,7 +1891,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0830/UTV-15107-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Iron Man 2",
@@ -1904,7 +1904,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1059/UTV-15176-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Iron Man",
@@ -1917,7 +1917,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15176-LI.jpg",
         "fileFormat": "jpg",
         "title": "Iron Man",
@@ -1931,7 +1931,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15176-PI.jpg",
         "fileFormat": "jpg",
         "title": "Iron Man",
@@ -1944,7 +1944,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15011-LI.jpg",
         "fileFormat": "jpg",
         "title": "Insidious: Chapter 2",
@@ -1958,7 +1958,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15011-PI.jpg",
         "fileFormat": "jpg",
         "title": "Insidious: Chapter 2",
@@ -1971,7 +1971,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1600/UTV-15011-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Insidious: Chapter 2",
@@ -1984,7 +1984,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565287466428/pikselss.ism",
         "fileFormat": "ism",
         "title": "Iron Man 2",
@@ -1997,7 +1997,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834877540716/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Iron Man 2",
@@ -2010,7 +2010,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556311473857/pikselss.ism",
         "fileFormat": "ism",
         "title": "Iron Man 3",
@@ -2023,7 +2023,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858570210053/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Insidious: Chapter 2",
@@ -2036,7 +2036,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841199702964/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Iron Man",
@@ -2049,7 +2049,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571520423400/pikselss.ism",
         "fileFormat": "ism",
         "title": "Iron Man",
@@ -2062,7 +2062,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858774873845/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Iron Man 3",
@@ -2075,7 +2075,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826226353205/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Iron Man 3",
@@ -2088,7 +2088,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556070326356/pikselss.ism",
         "fileFormat": "ism",
         "title": "Insidious: Chapter 2",
@@ -2101,7 +2101,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15107-LI.jpg",
         "fileFormat": "jpg",
         "title": "Iron Man 2",
@@ -2115,7 +2115,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15107-PI.jpg",
         "fileFormat": "jpg",
         "title": "Iron Man 2",
@@ -2129,7 +2129,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15012-PI.jpg",
         "fileFormat": "jpg",
         "title": "Iron Man 3",
@@ -2142,7 +2142,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867561742523/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Iron Man 2",
@@ -2155,7 +2155,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874123600391/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Iron Man",
@@ -2168,7 +2168,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826110158479/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Insidious: Chapter 2",

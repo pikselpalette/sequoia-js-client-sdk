@@ -13,25 +13,25 @@
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15033%7C%7Csa-team%3AUTV-15078%7C%7Csa-team%3AUTV-BOX-15026%7C%7Csa-team%3AUTV-15181&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15033%7C%7Csa-team%3AUTV-15078%7C%7Csa-team%3AUTV-BOX-15026%7C%7Csa-team%3AUTV-15181&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15033%7C%7Csa-team%3AUTV-15078%7C%7Csa-team%3AUTV-BOX-15026%7C%7Csa-team%3AUTV-15181"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15033%7C%7Csa-team%3AUTV-15078%7C%7Csa-team%3AUTV-BOX-15026%7C%7Csa-team%3AUTV-15181&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15033%7C%7Csa-team%3AUTV-15078%7C%7Csa-team%3AUTV-BOX-15026%7C%7Csa-team%3AUTV-15181&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15033%7C%7Csa-team%3AUTV-15078%7C%7Csa-team%3AUTV-BOX-15026%7C%7Csa-team%3AUTV-15181"
         },
         {
           "totalCount": 60,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15017%7C%7Csa-team%3AUTV-15212%7C%7Csa-team%3AUTV-15018%7C%7Csa-team%3AUTV-15019%7C%7Csa-team%3AUTV-15242%7C%7Csa-team%3AUTV-15020%7C%7Csa-team%3AUTV-BOX-15025%7C%7Csa-team%3AUTV-15111%7C%7Csa-team%3AUTV-15146%7C%7Csa-team%3AUTV-15077&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15017%7C%7Csa-team%3AUTV-15212%7C%7Csa-team%3AUTV-15018%7C%7Csa-team%3AUTV-15019%7C%7Csa-team%3AUTV-15242%7C%7Csa-team%3AUTV-15020%7C%7Csa-team%3AUTV-BOX-15025%7C%7Csa-team%3AUTV-15111%7C%7Csa-team%3AUTV-15146%7C%7Csa-team%3AUTV-15077&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15017%7C%7Csa-team%3AUTV-15212%7C%7Csa-team%3AUTV-15018%7C%7Csa-team%3AUTV-15019%7C%7Csa-team%3AUTV-15242%7C%7Csa-team%3AUTV-15020%7C%7Csa-team%3AUTV-BOX-15025%7C%7Csa-team%3AUTV-15111%7C%7Csa-team%3AUTV-15146%7C%7Csa-team%3AUTV-15077"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15017%7C%7Csa-team%3AUTV-15212%7C%7Csa-team%3AUTV-15018%7C%7Csa-team%3AUTV-15019%7C%7Csa-team%3AUTV-15242%7C%7Csa-team%3AUTV-15020%7C%7Csa-team%3AUTV-BOX-15025%7C%7Csa-team%3AUTV-15111%7C%7Csa-team%3AUTV-15146%7C%7Csa-team%3AUTV-15077&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15017%7C%7Csa-team%3AUTV-15212%7C%7Csa-team%3AUTV-15018%7C%7Csa-team%3AUTV-15019%7C%7Csa-team%3AUTV-15242%7C%7Csa-team%3AUTV-15020%7C%7Csa-team%3AUTV-BOX-15025%7C%7Csa-team%3AUTV-15111%7C%7Csa-team%3AUTV-15146%7C%7Csa-team%3AUTV-15077&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15017%7C%7Csa-team%3AUTV-15212%7C%7Csa-team%3AUTV-15018%7C%7Csa-team%3AUTV-15019%7C%7Csa-team%3AUTV-15242%7C%7Csa-team%3AUTV-15020%7C%7Csa-team%3AUTV-BOX-15025%7C%7Csa-team%3AUTV-15111%7C%7Csa-team%3AUTV-15146%7C%7Csa-team%3AUTV-15077"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15016%7C%7Csa-team%3AUTV-15143%7C%7Csa-team%3AUTV-BOX-15042%7C%7Csa-team%3AUTV-15207%7C%7Csa-team%3AUTV-15208%7C%7Csa-team%3AUTV-15110%7C%7Csa-team%3AUTV-15180%7C%7Csa-team%3AUTV-15210%7C%7Csa-team%3AUTV-15241%7C%7Csa-team%3AUTV-15145&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15016%7C%7Csa-team%3AUTV-15143%7C%7Csa-team%3AUTV-BOX-15042%7C%7Csa-team%3AUTV-15207%7C%7Csa-team%3AUTV-15208%7C%7Csa-team%3AUTV-15110%7C%7Csa-team%3AUTV-15180%7C%7Csa-team%3AUTV-15210%7C%7Csa-team%3AUTV-15241%7C%7Csa-team%3AUTV-15145&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15016%7C%7Csa-team%3AUTV-15143%7C%7Csa-team%3AUTV-BOX-15042%7C%7Csa-team%3AUTV-15207%7C%7Csa-team%3AUTV-15208%7C%7Csa-team%3AUTV-15110%7C%7Csa-team%3AUTV-15180%7C%7Csa-team%3AUTV-15210%7C%7Csa-team%3AUTV-15241%7C%7Csa-team%3AUTV-15145"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15016%7C%7Csa-team%3AUTV-15143%7C%7Csa-team%3AUTV-BOX-15042%7C%7Csa-team%3AUTV-15207%7C%7Csa-team%3AUTV-15208%7C%7Csa-team%3AUTV-15110%7C%7Csa-team%3AUTV-15180%7C%7Csa-team%3AUTV-15210%7C%7Csa-team%3AUTV-15241%7C%7Csa-team%3AUTV-15145&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15016%7C%7Csa-team%3AUTV-15143%7C%7Csa-team%3AUTV-BOX-15042%7C%7Csa-team%3AUTV-15207%7C%7Csa-team%3AUTV-15208%7C%7Csa-team%3AUTV-15110%7C%7Csa-team%3AUTV-15180%7C%7Csa-team%3AUTV-15210%7C%7Csa-team%3AUTV-15241%7C%7Csa-team%3AUTV-15145&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15016%7C%7Csa-team%3AUTV-15143%7C%7Csa-team%3AUTV-BOX-15042%7C%7Csa-team%3AUTV-15207%7C%7Csa-team%3AUTV-15208%7C%7Csa-team%3AUTV-15110%7C%7Csa-team%3AUTV-15180%7C%7Csa-team%3AUTV-15210%7C%7Csa-team%3AUTV-15241%7C%7Csa-team%3AUTV-15145"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15026-LI.jpg",
         "fileFormat": "jpg",
         "title": "Percy Jackson: Sea Of Monsters 3D",
@@ -325,7 +325,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15033-PI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity: The Marked Ones",
@@ -339,7 +339,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15078-PI.jpg",
         "fileFormat": "jpg",
         "title": "Paul",
@@ -352,7 +352,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15078-LI.jpg",
         "fileFormat": "jpg",
         "title": "Paul",
@@ -365,7 +365,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1325/UTV-15181-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Pineapple Express",
@@ -379,7 +379,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15181-PI.jpg",
         "fileFormat": "jpg",
         "title": "Pineapple Express",
@@ -392,7 +392,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874450972623/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Pineapple Express",
@@ -405,7 +405,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571226786871/pikselss.ism",
         "fileFormat": "ism",
         "title": "Pineapple Express",
@@ -418,7 +418,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841581825948/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Pineapple Express",
@@ -431,7 +431,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561895229523/pikselss.ism",
         "fileFormat": "ism",
         "title": "Paul",
@@ -444,7 +444,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864845883347/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Paul",
@@ -457,7 +457,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121832874124034/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Paul",
@@ -470,7 +470,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580683480955/pikselss.ism",
         "fileFormat": "ism",
         "title": "Percy Jackson: Sea Of Monsters 3D",
@@ -483,7 +483,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850232356161/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Percy Jackson: Sea Of Monsters 3D",
@@ -496,7 +496,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883800443113/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Paranormal Activity: The Marked Ones",
@@ -509,7 +509,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850846164830/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Paranormal Activity: The Marked Ones",
@@ -522,7 +522,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1355/UTV-BOX-15026-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Percy Jackson: Sea Of Monsters 3D",
@@ -536,7 +536,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15026-PI.jpg",
         "fileFormat": "jpg",
         "title": "Percy Jackson: Sea Of Monsters 3D",
@@ -549,7 +549,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1403/UTV-BOX-15033-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Paranormal Activity: The Marked Ones",
@@ -562,7 +562,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15033-LI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity: The Marked Ones",
@@ -575,7 +575,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15181-LI.jpg",
         "fileFormat": "jpg",
         "title": "Pineapple Express",
@@ -588,7 +588,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0735/UTV-15078-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Paul",
@@ -601,7 +601,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883201194701/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Percy Jackson: Sea Of Monsters 3D",
@@ -614,7 +614,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580998630833/pikselss.ism",
         "fileFormat": "ism",
         "title": "Paranormal Activity: The Marked Ones",
@@ -627,7 +627,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15077-LI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity 3",
@@ -640,7 +640,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15019-LI.jpg",
         "fileFormat": "jpg",
         "title": "One Direction: This Is Us",
@@ -653,7 +653,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15242-LI.jpg",
         "fileFormat": "jpg",
         "title": "Over the Hedge",
@@ -666,7 +666,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1453/UTV-15242-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Over the Hedge",
@@ -679,7 +679,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0952/UTV-15077-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Paranormal Activity 3",
@@ -693,7 +693,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15146-PI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity",
@@ -706,7 +706,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1020/UTV-15146-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Paranormal Activity",
@@ -719,7 +719,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15146-LI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity",
@@ -732,7 +732,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1612/UTV-15017-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Oblivion",
@@ -745,7 +745,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15017-LI.jpg",
         "fileFormat": "jpg",
         "title": "Oblivion",
@@ -759,7 +759,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15019-PI.jpg",
         "fileFormat": "jpg",
         "title": "One Direction: This Is Us",
@@ -772,7 +772,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1614/UTV-15018-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Olympus Has Fallen",
@@ -786,7 +786,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15025-PI.jpg",
         "fileFormat": "jpg",
         "title": "Pacific Rim",
@@ -799,7 +799,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15212-LI.jpg",
         "fileFormat": "jpg",
         "title": "Ocean's Thirteen",
@@ -813,7 +813,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15212-PI.jpg",
         "fileFormat": "jpg",
         "title": "Ocean's Thirteen",
@@ -826,7 +826,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15025-LI.jpg",
         "fileFormat": "jpg",
         "title": "Pacific Rim",
@@ -839,7 +839,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1617/UTV-15020-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Oz: The Great And Powerful",
@@ -852,7 +852,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15020-LI.jpg",
         "fileFormat": "jpg",
         "title": "Oz: The Great And Powerful",
@@ -866,7 +866,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15020-PI.jpg",
         "fileFormat": "jpg",
         "title": "Oz: The Great And Powerful",
@@ -879,7 +879,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0835/UTV-15111-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Paranormal Activity",
@@ -893,7 +893,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15111-PI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity",
@@ -906,7 +906,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15111-LI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity",
@@ -919,7 +919,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556487064247/pikselss.ism",
         "fileFormat": "ism",
         "title": "One Direction: This Is Us",
@@ -932,7 +932,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826996366641/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "One Direction: This Is Us",
@@ -945,7 +945,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826786120259/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Oblivion",
@@ -958,7 +958,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864766990322/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Paranormal Activity 3",
@@ -971,7 +971,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562783337741/pikselss.ism",
         "fileFormat": "ism",
         "title": "Paranormal Activity 3",
@@ -984,7 +984,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859229603314/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Oblivion",
@@ -997,7 +997,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577666629097/pikselss.ism",
         "fileFormat": "ism",
         "title": "Over the Hedge",
@@ -1010,7 +1010,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565667348695/pikselss.ism",
         "fileFormat": "ism",
         "title": "Paranormal Activity",
@@ -1023,7 +1023,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173568711485941/pikselss.ism",
         "fileFormat": "ism",
         "title": "Paranormal Activity",
@@ -1036,7 +1036,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826900116529/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Olympus Has Fallen",
@@ -1049,7 +1049,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846773585558/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Over the Hedge",
@@ -1062,7 +1062,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835044318655/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Paranormal Activity",
@@ -1075,7 +1075,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879907474876/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Over the Hedge",
@@ -1088,7 +1088,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827111035598/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Oz: The Great And Powerful",
@@ -1101,7 +1101,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556235911683/pikselss.ism",
         "fileFormat": "ism",
         "title": "Olympus Has Fallen",
@@ -1114,7 +1114,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843994199753/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Ocean's Thirteen",
@@ -1127,7 +1127,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173574737787812/pikselss.ism",
         "fileFormat": "ism",
         "title": "Ocean's Thirteen",
@@ -1140,7 +1140,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859321731202/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Olympus Has Fallen",
@@ -1154,7 +1154,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15242-PI.jpg",
         "fileFormat": "jpg",
         "title": "Over the Hedge",
@@ -1167,7 +1167,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1616/UTV-15019-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "One Direction: This Is Us",
@@ -1181,7 +1181,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15077-PI.jpg",
         "fileFormat": "jpg",
         "title": "Paranormal Activity 3",
@@ -1195,7 +1195,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15017-PI.jpg",
         "fileFormat": "jpg",
         "title": "Oblivion",
@@ -1208,7 +1208,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0821/UTV-BOX-15025-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Pacific Rim",
@@ -1221,7 +1221,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15018-LI.jpg",
         "fileFormat": "jpg",
         "title": "Olympus Has Fallen",
@@ -1235,7 +1235,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15018-PI.jpg",
         "fileFormat": "jpg",
         "title": "Olympus Has Fallen",
@@ -1248,7 +1248,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1402/UTV-15212-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Ocean's Thirteen",
@@ -1261,7 +1261,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859538795591/piksel.mpd",
         "fileFormat": "mpd",
         "title": "One Direction: This Is Us",
@@ -1274,7 +1274,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121832748508257/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Paranormal Activity 3",
@@ -1287,7 +1287,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556159091879/pikselss.ism",
         "fileFormat": "ism",
         "title": "Oblivion",
@@ -1300,7 +1300,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867772628409/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Paranormal Activity",
@@ -1313,7 +1313,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871491360777/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Paranormal Activity",
@@ -1326,7 +1326,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877260014602/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Ocean's Thirteen",
@@ -1339,7 +1339,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838436651580/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Paranormal Activity",
@@ -1352,7 +1352,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556562077549/pikselss.ism",
         "fileFormat": "ism",
         "title": "Oz: The Great And Powerful",
@@ -1365,7 +1365,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859620120433/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Oz: The Great And Powerful",
@@ -1378,7 +1378,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850023593198/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Pacific Rim",
@@ -1391,7 +1391,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580382723912/pikselss.ism",
         "fileFormat": "ism",
         "title": "Pacific Rim",
@@ -1404,7 +1404,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883104385708/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Pacific Rim",
@@ -1417,7 +1417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1404/UTV-15210-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Night At The Museum",
@@ -1430,7 +1430,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1610/UTV-15016-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Monsters University",
@@ -1443,7 +1443,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15016-LI.jpg",
         "fileFormat": "jpg",
         "title": "Monsters University",
@@ -1457,7 +1457,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15016-PI.jpg",
         "fileFormat": "jpg",
         "title": "Monsters University",
@@ -1470,7 +1470,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15210-LI.jpg",
         "fileFormat": "jpg",
         "title": "Night At The Museum",
@@ -1483,7 +1483,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15180-LI.jpg",
         "fileFormat": "jpg",
         "title": "National Treasure 2: Book Of Secrets",
@@ -1497,7 +1497,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15145-PI.jpg",
         "fileFormat": "jpg",
         "title": "Night At The Museum: Battle of The Smithsonian",
@@ -1510,7 +1510,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15145-LI.jpg",
         "fileFormat": "jpg",
         "title": "Night At The Museum: Battle of The Smithsonian",
@@ -1523,7 +1523,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0833/UTV-15110-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Nanny McPhee & The Big Bang",
@@ -1537,7 +1537,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15110-PI.jpg",
         "fileFormat": "jpg",
         "title": "Nanny McPhee & The Big Bang",
@@ -1551,7 +1551,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15208-PI.jpg",
         "fileFormat": "jpg",
         "title": "Music And Lyrics",
@@ -1564,7 +1564,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1412/UTV-15208-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Music And Lyrics",
@@ -1578,7 +1578,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15207-PI.jpg",
         "fileFormat": "jpg",
         "title": "Mr. Bean's Holiday",
@@ -1591,7 +1591,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1411/UTV-15207-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Mr. Bean's Holiday",
@@ -1604,7 +1604,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15207-LI.jpg",
         "fileFormat": "jpg",
         "title": "Mr. Bean's Holiday",
@@ -1618,7 +1618,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15241-PI.jpg",
         "fileFormat": "jpg",
         "title": "Night At The Museum",
@@ -1632,7 +1632,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15143-PI.jpg",
         "fileFormat": "jpg",
         "title": "Monsters vs Aliens",
@@ -1645,7 +1645,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15143-LI.jpg",
         "fileFormat": "jpg",
         "title": "Monsters vs Aliens",
@@ -1658,7 +1658,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1451/UTV-15241-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Night At The Museum",
@@ -1671,7 +1671,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173568075527924/pikselss.ism",
         "fileFormat": "ism",
         "title": "Night At The Museum: Battle of The Smithsonian",
@@ -1684,7 +1684,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867685782683/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Nanny McPhee & The Big Bang",
@@ -1697,7 +1697,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838358744238/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Night At The Museum: Battle of The Smithsonian",
@@ -1710,7 +1710,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834957751095/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Nanny McPhee & The Big Bang",
@@ -1723,7 +1723,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571061848486/pikselss.ism",
         "fileFormat": "ism",
         "title": "National Treasure 2: Book Of Secrets",
@@ -1736,7 +1736,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874372522498/piksel.mpd",
         "fileFormat": "mpd",
         "title": "National Treasure 2: Book Of Secrets",
@@ -1749,7 +1749,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841500469453/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "National Treasure 2: Book Of Secrets",
@@ -1762,7 +1762,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859148550154/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Monsters University",
@@ -1775,7 +1775,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555913368169/pikselss.ism",
         "fileFormat": "ism",
         "title": "Monsters University",
@@ -1788,7 +1788,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843790095487/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Night At The Museum",
@@ -1801,7 +1801,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843626191163/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Mr. Bean's Holiday",
@@ -1814,7 +1814,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877020640495/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Mr. Bean's Holiday",
@@ -1827,7 +1827,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173568276143015/pikselss.ism",
         "fileFormat": "ism",
         "title": "Monsters vs Aliens",
@@ -1840,7 +1840,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173574046989169/pikselss.ism",
         "fileFormat": "ism",
         "title": "Mr. Bean's Holiday",
@@ -1853,7 +1853,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838197655257/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Monsters vs Aliens",
@@ -1866,7 +1866,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871200223456/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Monsters vs Aliens",
@@ -1879,7 +1879,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577407074285/pikselss.ism",
         "fileFormat": "ism",
         "title": "Night At The Museum",
@@ -1892,7 +1892,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573892848658/pikselss.ism",
         "fileFormat": "ism",
         "title": "Music And Lyrics",
@@ -1905,7 +1905,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846548498472/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Night At The Museum",
@@ -1918,7 +1918,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573967056415/pikselss.ism",
         "fileFormat": "ism",
         "title": "Night At The Museum",
@@ -1931,7 +1931,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879822283745/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Night At The Museum",
@@ -1944,7 +1944,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877094471892/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Music And Lyrics",
@@ -1957,7 +1957,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851457840713/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Mortal Instruments: City Of Bones",
@@ -1970,7 +1970,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581915854721/pikselss.ism",
         "fileFormat": "ism",
         "title": "Mortal Instruments: City Of Bones",
@@ -1983,7 +1983,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884478508271/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Mortal Instruments: City Of Bones",
@@ -1996,7 +1996,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15042-LI.jpg",
         "fileFormat": "jpg",
         "title": "Mortal Instruments: City Of Bones",
@@ -2009,7 +2009,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1416/UTV-BOX-15042-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Mortal Instruments: City Of Bones",
@@ -2023,7 +2023,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15042-PI.jpg",
         "fileFormat": "jpg",
         "title": "Mortal Instruments: City Of Bones",
@@ -2037,7 +2037,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15210-PI.jpg",
         "fileFormat": "jpg",
         "title": "Night At The Museum",
@@ -2051,7 +2051,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15180-PI.jpg",
         "fileFormat": "jpg",
         "title": "National Treasure 2: Book Of Secrets",
@@ -2064,7 +2064,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1321/UTV-15180-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "National Treasure 2: Book Of Secrets",
@@ -2077,7 +2077,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15208-LI.jpg",
         "fileFormat": "jpg",
         "title": "Music And Lyrics",
@@ -2090,7 +2090,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1017/UTV-15145-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Night At The Museum: Battle of The Smithsonian",
@@ -2103,7 +2103,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15110-LI.jpg",
         "fileFormat": "jpg",
         "title": "Nanny McPhee & The Big Bang",
@@ -2116,7 +2116,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15241-LI.jpg",
         "fileFormat": "jpg",
         "title": "Night At The Museum",
@@ -2129,7 +2129,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565531448119/pikselss.ism",
         "fileFormat": "ism",
         "title": "Nanny McPhee & The Big Bang",
@@ -2142,7 +2142,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871404291169/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Night At The Museum: Battle of The Smithsonian",
@@ -2155,7 +2155,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121826661507959/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Monsters University",
@@ -2168,7 +2168,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877181852198/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Night At The Museum",
@@ -2181,7 +2181,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843706745505/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Music And Lyrics",

@@ -13,25 +13,25 @@
           "totalCount": 57,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15017%7C%7Csa-team%3AUTV-15117%7C%7Csa-team%3AUTV-15186%7C%7Csa-team%3AUTV-15058%7C%7Csa-team%3AUTV-15049%7C%7Csa-team%3AUTV-15246%7C%7Csa-team%3AUTV-BOX-15036%7C%7Csa-team%3AUTV-15050%7C%7Csa-team%3AUTV-15151%7C%7Csa-team%3ATITL0000000000760859&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15017%7C%7Csa-team%3AUTV-15117%7C%7Csa-team%3AUTV-15186%7C%7Csa-team%3AUTV-15058%7C%7Csa-team%3AUTV-15049%7C%7Csa-team%3AUTV-15246%7C%7Csa-team%3AUTV-BOX-15036%7C%7Csa-team%3AUTV-15050%7C%7Csa-team%3AUTV-15151%7C%7Csa-team%3ATITL0000000000760859&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15017%7C%7Csa-team%3AUTV-15117%7C%7Csa-team%3AUTV-15186%7C%7Csa-team%3AUTV-15058%7C%7Csa-team%3AUTV-15049%7C%7Csa-team%3AUTV-15246%7C%7Csa-team%3AUTV-BOX-15036%7C%7Csa-team%3AUTV-15050%7C%7Csa-team%3AUTV-15151%7C%7Csa-team%3ATITL0000000000760859"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15017%7C%7Csa-team%3AUTV-15117%7C%7Csa-team%3AUTV-15186%7C%7Csa-team%3AUTV-15058%7C%7Csa-team%3AUTV-15049%7C%7Csa-team%3AUTV-15246%7C%7Csa-team%3AUTV-BOX-15036%7C%7Csa-team%3AUTV-15050%7C%7Csa-team%3AUTV-15151%7C%7Csa-team%3ATITL0000000000760859&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15017%7C%7Csa-team%3AUTV-15117%7C%7Csa-team%3AUTV-15186%7C%7Csa-team%3AUTV-15058%7C%7Csa-team%3AUTV-15049%7C%7Csa-team%3AUTV-15246%7C%7Csa-team%3AUTV-BOX-15036%7C%7Csa-team%3AUTV-15050%7C%7Csa-team%3AUTV-15151%7C%7Csa-team%3ATITL0000000000760859&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15017%7C%7Csa-team%3AUTV-15117%7C%7Csa-team%3AUTV-15186%7C%7Csa-team%3AUTV-15058%7C%7Csa-team%3AUTV-15049%7C%7Csa-team%3AUTV-15246%7C%7Csa-team%3AUTV-BOX-15036%7C%7Csa-team%3AUTV-15050%7C%7Csa-team%3AUTV-15151%7C%7Csa-team%3ATITL0000000000760859"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15051%7C%7Csa-team%3AUTV-BOX-15005%7C%7Csa-team%3AUTV-15042%7C%7Csa-team%3AUTV-15052%7C%7Csa-team%3AUTV-BOX-15049%7C%7Csa-team%3AUTV-15220%7C%7Csa-team%3AUTV-15188%7C%7Csa-team%3AUTV-15118%7C%7Csa-team%3AUTV-BOX-15023%7C%7Csa-team%3AUTV-15024&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15051%7C%7Csa-team%3AUTV-BOX-15005%7C%7Csa-team%3AUTV-15042%7C%7Csa-team%3AUTV-15052%7C%7Csa-team%3AUTV-BOX-15049%7C%7Csa-team%3AUTV-15220%7C%7Csa-team%3AUTV-15188%7C%7Csa-team%3AUTV-15118%7C%7Csa-team%3AUTV-BOX-15023%7C%7Csa-team%3AUTV-15024&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15051%7C%7Csa-team%3AUTV-BOX-15005%7C%7Csa-team%3AUTV-15042%7C%7Csa-team%3AUTV-15052%7C%7Csa-team%3AUTV-BOX-15049%7C%7Csa-team%3AUTV-15220%7C%7Csa-team%3AUTV-15188%7C%7Csa-team%3AUTV-15118%7C%7Csa-team%3AUTV-BOX-15023%7C%7Csa-team%3AUTV-15024"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15051%7C%7Csa-team%3AUTV-BOX-15005%7C%7Csa-team%3AUTV-15042%7C%7Csa-team%3AUTV-15052%7C%7Csa-team%3AUTV-BOX-15049%7C%7Csa-team%3AUTV-15220%7C%7Csa-team%3AUTV-15188%7C%7Csa-team%3AUTV-15118%7C%7Csa-team%3AUTV-BOX-15023%7C%7Csa-team%3AUTV-15024&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15051%7C%7Csa-team%3AUTV-BOX-15005%7C%7Csa-team%3AUTV-15042%7C%7Csa-team%3AUTV-15052%7C%7Csa-team%3AUTV-BOX-15049%7C%7Csa-team%3AUTV-15220%7C%7Csa-team%3AUTV-15188%7C%7Csa-team%3AUTV-15118%7C%7Csa-team%3AUTV-BOX-15023%7C%7Csa-team%3AUTV-15024&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15051%7C%7Csa-team%3AUTV-BOX-15005%7C%7Csa-team%3AUTV-15042%7C%7Csa-team%3AUTV-15052%7C%7Csa-team%3AUTV-BOX-15049%7C%7Csa-team%3AUTV-15220%7C%7Csa-team%3AUTV-15188%7C%7Csa-team%3AUTV-15118%7C%7Csa-team%3AUTV-BOX-15023%7C%7Csa-team%3AUTV-15024"
         },
         {
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15152%7C%7Csa-team%3AUTV-15189%7C%7Csa-team%3AUTV-15053%7C%7Csa-team%3AUTV-15190&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15152%7C%7Csa-team%3AUTV-15189%7C%7Csa-team%3AUTV-15053%7C%7Csa-team%3AUTV-15190&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15152%7C%7Csa-team%3AUTV-15189%7C%7Csa-team%3AUTV-15053%7C%7Csa-team%3AUTV-15190"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15152%7C%7Csa-team%3AUTV-15189%7C%7Csa-team%3AUTV-15053%7C%7Csa-team%3AUTV-15190&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15152%7C%7Csa-team%3AUTV-15189%7C%7Csa-team%3AUTV-15053%7C%7Csa-team%3AUTV-15190&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15152%7C%7Csa-team%3AUTV-15189%7C%7Csa-team%3AUTV-15053%7C%7Csa-team%3AUTV-15190"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1341/UTV-BOX-15017-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Step Up: All In",
@@ -325,7 +325,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15017-PI.jpg",
         "fileFormat": "jpg",
         "title": "Step Up: All In",
@@ -338,7 +338,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15049-LI.jpg",
         "fileFormat": "jpg",
         "title": "Taken 2",
@@ -351,7 +351,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15050-LI.jpg",
         "fileFormat": "jpg",
         "title": "Ted",
@@ -364,7 +364,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1335/UTV-15186-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Sweeney Todd: The Demon Barber Of Fleet Street",
@@ -377,7 +377,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0658/UTV-15049-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Taken 2",
@@ -391,7 +391,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15049-PI.jpg",
         "fileFormat": "jpg",
         "title": "Taken 2",
@@ -404,7 +404,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1410/UTV-BOX-15036-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Tammy And The Bachelor",
@@ -418,7 +418,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15151-PI.jpg",
         "fileFormat": "jpg",
         "title": "Terminator Salvation",
@@ -431,7 +431,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15151-LI.jpg",
         "fileFormat": "jpg",
         "title": "Terminator Salvation",
@@ -444,7 +444,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/TITL0000000000760859-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Adjustment Bureau",
@@ -458,7 +458,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/TITL0000000000760859-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Adjustment Bureau",
@@ -471,7 +471,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15246-LI.jpg",
         "fileFormat": "jpg",
         "title": "Talladega Nights: The Ballad Of Ricky Bobby",
@@ -485,7 +485,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15036-PI.jpg",
         "fileFormat": "jpg",
         "title": "Tammy And The Bachelor",
@@ -498,7 +498,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15036-LI.jpg",
         "fileFormat": "jpg",
         "title": "Tammy And The Bachelor",
@@ -511,7 +511,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1458/UTV-15246-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Talladega Nights: The Ballad Of Ricky Bobby",
@@ -524,7 +524,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0857/UTV-15058-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Sweeney!",
@@ -537,7 +537,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0850/UTV-15117-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "StreetDance",
@@ -550,7 +550,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15117-LI.jpg",
         "fileFormat": "jpg",
         "title": "StreetDance",
@@ -563,7 +563,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15058-LI.jpg",
         "fileFormat": "jpg",
         "title": "Sweeney!",
@@ -576,7 +576,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862347693922/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Ted",
@@ -589,7 +589,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559070334285/pikselss.ism",
         "fileFormat": "ism",
         "title": "Taken 2",
@@ -602,7 +602,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882410476333/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Step Up: All In",
@@ -615,7 +615,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849211815369/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Step Up: All In",
@@ -628,7 +628,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838970539080/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Terminator Salvation",
@@ -641,7 +641,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2014/12/03/0758/pikselcorporate.ism",
         "fileFormat": "ism",
         "title": "The Adjustment Bureau",
@@ -654,7 +654,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872013976036/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Terminator Salvation",
@@ -667,7 +667,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569601701101/pikselss.ism",
         "fileFormat": "ism",
         "title": "Terminator Salvation",
@@ -680,7 +680,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830740350768/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Sweeney!",
@@ -693,7 +693,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863173992087/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Sweeney!",
@@ -706,7 +706,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880361847858/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Talladega Nights: The Ballad Of Ricky Bobby",
@@ -719,7 +719,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847118054843/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Talladega Nights: The Ballad Of Ricky Bobby",
@@ -732,7 +732,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572336058591/pikselss.ism",
         "fileFormat": "ism",
         "title": "Sweeney Todd: The Demon Barber Of Fleet Street",
@@ -745,7 +745,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874855205616/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Sweeney Todd: The Demon Barber Of Fleet Street",
@@ -758,7 +758,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841984781428/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Sweeney Todd: The Demon Barber Of Fleet Street",
@@ -771,7 +771,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851000603722/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Tammy And The Bachelor",
@@ -784,7 +784,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883950932423/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Tammy And The Bachelor",
@@ -797,7 +797,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581464211628/pikselss.ism",
         "fileFormat": "ism",
         "title": "Tammy And The Bachelor",
@@ -810,7 +810,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15017-LI.jpg",
         "fileFormat": "jpg",
         "title": "Step Up: All In",
@@ -823,7 +823,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15186-LI.jpg",
         "fileFormat": "jpg",
         "title": "Sweeney Todd: The Demon Barber Of Fleet Street",
@@ -837,7 +837,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15186-PI.jpg",
         "fileFormat": "jpg",
         "title": "Sweeney Todd: The Demon Barber Of Fleet Street",
@@ -851,7 +851,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15050-PI.jpg",
         "fileFormat": "jpg",
         "title": "Ted",
@@ -864,7 +864,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0700/UTV-15050-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Ted",
@@ -878,7 +878,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15246-PI.jpg",
         "fileFormat": "jpg",
         "title": "Talladega Nights: The Ballad Of Ricky Bobby",
@@ -891,7 +891,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1030/UTV-15151-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Terminator Salvation",
@@ -905,7 +905,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15058-PI.jpg",
         "fileFormat": "jpg",
         "title": "Sweeney!",
@@ -919,7 +919,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15117-PI.jpg",
         "fileFormat": "jpg",
         "title": "StreetDance",
@@ -932,7 +932,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862271200708/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Taken 2",
@@ -945,7 +945,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829999316623/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Taken 2",
@@ -958,7 +958,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830075127757/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Ted",
@@ -971,7 +971,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559322101111/pikselss.ism",
         "fileFormat": "ism",
         "title": "Ted",
@@ -984,7 +984,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579856700273/pikselss.ism",
         "fileFormat": "ism",
         "title": "Step Up: All In",
@@ -997,7 +997,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578374656656/pikselss.ism",
         "fileFormat": "ism",
         "title": "Talladega Nights: The Ballad Of Ricky Bobby",
@@ -1010,7 +1010,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868360217641/piksel.mpd",
         "fileFormat": "mpd",
         "title": "StreetDance",
@@ -1023,7 +1023,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835584604316/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "StreetDance",
@@ -1036,7 +1036,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565456375470/pikselss.ism",
         "fileFormat": "ism",
         "title": "StreetDance",
@@ -1049,7 +1049,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173560208633388/pikselss.ism",
         "fileFormat": "ism",
         "title": "Sweeney!",
@@ -1062,7 +1062,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15042-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Avengers",
@@ -1075,7 +1075,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15024-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Croods",
@@ -1089,7 +1089,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15042-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Avengers",
@@ -1102,7 +1102,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1631/UTV-15024-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Croods",
@@ -1116,7 +1116,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15024-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Croods",
@@ -1129,7 +1129,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1319/UTV-BOX-15005-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Amazing Spider-Man 2",
@@ -1143,7 +1143,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15005-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Amazing Spider-Man 2",
@@ -1156,7 +1156,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0848/UTV-BOX-15049-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Book Thief",
@@ -1170,7 +1170,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15049-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Book Thief",
@@ -1183,7 +1183,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15049-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Book Thief",
@@ -1196,7 +1196,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0701/UTV-15051-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Amazing Spider-Man",
@@ -1209,7 +1209,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0704/UTV-15052-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Best Exotic Marigold Hotel",
@@ -1222,7 +1222,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15023-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Conjuring",
@@ -1236,7 +1236,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15052-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Best Exotic Marigold Hotel",
@@ -1249,7 +1249,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15052-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Best Exotic Marigold Hotel",
@@ -1262,7 +1262,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15220-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Bourne Ultimatum",
@@ -1275,7 +1275,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15118-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
@@ -1288,7 +1288,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0852/UTV-15118-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
@@ -1301,7 +1301,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1427/UTV-15220-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Bourne Ultimatum",
@@ -1315,7 +1315,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15188-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Chronicles of Narnia: Prince Caspian",
@@ -1328,7 +1328,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1337/UTV-15188-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Chronicles of Narnia: Prince Caspian",
@@ -1341,7 +1341,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15188-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Chronicles of Narnia: Prince Caspian",
@@ -1354,7 +1354,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827365627270/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Croods",
@@ -1367,7 +1367,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559144829359/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Avengers",
@@ -1380,7 +1380,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556964587588/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Croods",
@@ -1393,7 +1393,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859797098631/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Croods",
@@ -1406,7 +1406,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861710915853/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Avengers",
@@ -1419,7 +1419,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829541398408/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Avengers",
@@ -1432,7 +1432,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559523299884/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Amazing Spider-Man",
@@ -1445,7 +1445,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830151805590/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Amazing Spider-Man",
@@ -1458,7 +1458,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862424073605/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Amazing Spider-Man",
@@ -1471,7 +1471,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842063433102/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Chronicles of Narnia: Prince Caspian",
@@ -1484,7 +1484,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572421539543/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Chronicles of Narnia: Prince Caspian",
@@ -1497,7 +1497,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874943824544/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Chronicles of Narnia: Prince Caspian",
@@ -1510,7 +1510,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173560043525655/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Best Exotic Marigold Hotel",
@@ -1523,7 +1523,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566068601675/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
@@ -1536,7 +1536,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835708044130/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
@@ -1549,7 +1549,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844776625753/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Bourne Ultimatum",
@@ -1562,7 +1562,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862654750005/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Best Exotic Marigold Hotel",
@@ -1575,7 +1575,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877977940307/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Bourne Ultimatum",
@@ -1588,7 +1588,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849859200218/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Conjuring",
@@ -1601,7 +1601,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882950324703/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Conjuring",
@@ -1614,7 +1614,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580017026689/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Conjuring",
@@ -1627,7 +1627,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121852320309351/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Book Thief",
@@ -1640,7 +1640,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15051-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Amazing Spider-Man",
@@ -1654,7 +1654,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15051-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Amazing Spider-Man",
@@ -1667,7 +1667,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15005-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Amazing Spider-Man 2",
@@ -1681,7 +1681,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15023-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Conjuring",
@@ -1694,7 +1694,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1709/UTV-BOX-15023-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Conjuring",
@@ -1708,7 +1708,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15220-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Bourne Ultimatum",
@@ -1722,7 +1722,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15118-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
@@ -1735,7 +1735,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868588070440/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
@@ -1748,7 +1748,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576189710830/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Bourne Ultimatum",
@@ -1761,7 +1761,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830234341272/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Best Exotic Marigold Hotel",
@@ -1774,7 +1774,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881332169365/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Amazing Spider-Man 2",
@@ -1787,7 +1787,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579083957482/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Amazing Spider-Man 2",
@@ -1800,7 +1800,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848058331277/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Amazing Spider-Man 2",
@@ -1813,7 +1813,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106885054522568/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Book Thief",
@@ -1826,7 +1826,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173583237740523/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Book Thief",
@@ -1839,7 +1839,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15053-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Dark Knight Rises",
@@ -1853,7 +1853,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15053-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Dark Knight Rises",
@@ -1866,7 +1866,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0706/UTV-15053-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Dark Knight Rises",
@@ -1879,7 +1879,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15189-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Dark Knight",
@@ -1892,7 +1892,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1339/UTV-15189-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Dark Knight",
@@ -1905,7 +1905,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15152-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Curious Case Of Benjamin Button",
@@ -1919,7 +1919,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15152-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Curious Case Of Benjamin Button",
@@ -1932,7 +1932,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1033/UTV-15152-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Curious Case Of Benjamin Button",
@@ -1945,7 +1945,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1340/UTV-15190-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Day The Earth Stood Still",
@@ -1958,7 +1958,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872088752664/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Curious Case Of Benjamin Button",
@@ -1971,7 +1971,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569841597494/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Curious Case Of Benjamin Button",
@@ -1984,7 +1984,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572581113637/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Dark Knight",
@@ -1997,7 +1997,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875031097414/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Dark Knight",
@@ -2010,7 +2010,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842144256864/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Dark Knight",
@@ -2023,7 +2023,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862779836907/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Dark Knight Rises",
@@ -2036,7 +2036,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572740314773/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Day The Earth Stood Still",
@@ -2050,7 +2050,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15189-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Dark Knight",
@@ -2063,7 +2063,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15190-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Day The Earth Stood Still",
@@ -2077,7 +2077,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15190-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Day The Earth Stood Still",
@@ -2090,7 +2090,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839052098536/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Curious Case Of Benjamin Button",
@@ -2103,7 +2103,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173560122980385/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Dark Knight Rises",
@@ -2116,7 +2116,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830313957619/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Dark Knight Rises",
@@ -2129,7 +2129,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842226205124/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Day The Earth Stood Still",
@@ -2142,7 +2142,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875108105933/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Day The Earth Stood Still",

@@ -13,25 +13,25 @@
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15037%7C%7Csa-team%3AUTV-BOX-15030%7C%7Csa-team%3AUTV-15070%7C%7Csa-team%3AUTV-15169&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15037%7C%7Csa-team%3AUTV-BOX-15030%7C%7Csa-team%3AUTV-15070%7C%7Csa-team%3AUTV-15169&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15037%7C%7Csa-team%3AUTV-BOX-15030%7C%7Csa-team%3AUTV-15070%7C%7Csa-team%3AUTV-15169"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15037%7C%7Csa-team%3AUTV-BOX-15030%7C%7Csa-team%3AUTV-15070%7C%7Csa-team%3AUTV-15169&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15037%7C%7Csa-team%3AUTV-BOX-15030%7C%7Csa-team%3AUTV-15070%7C%7Csa-team%3AUTV-15169&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15037%7C%7Csa-team%3AUTV-BOX-15030%7C%7Csa-team%3AUTV-15070%7C%7Csa-team%3AUTV-15169"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15200%7C%7Csa-team%3AUTV-15037%7C%7Csa-team%3AUTV-15102%7C%7Csa-team%3AUTV-BOX-15009%7C%7Csa-team%3AUTV-15201%7C%7Csa-team%3AUTV-BOX-15027%7C%7Csa-team%3AUTV-15135%7C%7Csa-team%3AUTV-15202%7C%7Csa-team%3AUTV-15136%7C%7Csa-team%3AUTV-15007&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15200%7C%7Csa-team%3AUTV-15037%7C%7Csa-team%3AUTV-15102%7C%7Csa-team%3AUTV-BOX-15009%7C%7Csa-team%3AUTV-15201%7C%7Csa-team%3AUTV-BOX-15027%7C%7Csa-team%3AUTV-15135%7C%7Csa-team%3AUTV-15202%7C%7Csa-team%3AUTV-15136%7C%7Csa-team%3AUTV-15007&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15200%7C%7Csa-team%3AUTV-15037%7C%7Csa-team%3AUTV-15102%7C%7Csa-team%3AUTV-BOX-15009%7C%7Csa-team%3AUTV-15201%7C%7Csa-team%3AUTV-BOX-15027%7C%7Csa-team%3AUTV-15135%7C%7Csa-team%3AUTV-15202%7C%7Csa-team%3AUTV-15136%7C%7Csa-team%3AUTV-15007"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15200%7C%7Csa-team%3AUTV-15037%7C%7Csa-team%3AUTV-15102%7C%7Csa-team%3AUTV-BOX-15009%7C%7Csa-team%3AUTV-15201%7C%7Csa-team%3AUTV-BOX-15027%7C%7Csa-team%3AUTV-15135%7C%7Csa-team%3AUTV-15202%7C%7Csa-team%3AUTV-15136%7C%7Csa-team%3AUTV-15007&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15200%7C%7Csa-team%3AUTV-15037%7C%7Csa-team%3AUTV-15102%7C%7Csa-team%3AUTV-BOX-15009%7C%7Csa-team%3AUTV-15201%7C%7Csa-team%3AUTV-BOX-15027%7C%7Csa-team%3AUTV-15135%7C%7Csa-team%3AUTV-15202%7C%7Csa-team%3AUTV-15136%7C%7Csa-team%3AUTV-15007&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15200%7C%7Csa-team%3AUTV-15037%7C%7Csa-team%3AUTV-15102%7C%7Csa-team%3AUTV-BOX-15009%7C%7Csa-team%3AUTV-15201%7C%7Csa-team%3AUTV-BOX-15027%7C%7Csa-team%3AUTV-15135%7C%7Csa-team%3AUTV-15202%7C%7Csa-team%3AUTV-15136%7C%7Csa-team%3AUTV-15007"
         },
         {
           "totalCount": 58,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15153%7C%7Csa-team%3AUTV-15167%7C%7Csa-team%3AUTV-15168%7C%7Csa-team%3AUTV-15203%7C%7Csa-team%3AUTV-15008%7C%7Csa-team%3AUTV-15233%7C%7Csa-team%3AUTV-BOX-15024%7C%7Csa-team%3AUTV-15068%7C%7Csa-team%3AUTV-15204%7C%7Csa-team%3AUTV-15069&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15153%7C%7Csa-team%3AUTV-15167%7C%7Csa-team%3AUTV-15168%7C%7Csa-team%3AUTV-15203%7C%7Csa-team%3AUTV-15008%7C%7Csa-team%3AUTV-15233%7C%7Csa-team%3AUTV-BOX-15024%7C%7Csa-team%3AUTV-15068%7C%7Csa-team%3AUTV-15204%7C%7Csa-team%3AUTV-15069&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15153%7C%7Csa-team%3AUTV-15167%7C%7Csa-team%3AUTV-15168%7C%7Csa-team%3AUTV-15203%7C%7Csa-team%3AUTV-15008%7C%7Csa-team%3AUTV-15233%7C%7Csa-team%3AUTV-BOX-15024%7C%7Csa-team%3AUTV-15068%7C%7Csa-team%3AUTV-15204%7C%7Csa-team%3AUTV-15069"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15153%7C%7Csa-team%3AUTV-15167%7C%7Csa-team%3AUTV-15168%7C%7Csa-team%3AUTV-15203%7C%7Csa-team%3AUTV-15008%7C%7Csa-team%3AUTV-15233%7C%7Csa-team%3AUTV-BOX-15024%7C%7Csa-team%3AUTV-15068%7C%7Csa-team%3AUTV-15204%7C%7Csa-team%3AUTV-15069&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15153%7C%7Csa-team%3AUTV-15167%7C%7Csa-team%3AUTV-15168%7C%7Csa-team%3AUTV-15203%7C%7Csa-team%3AUTV-15008%7C%7Csa-team%3AUTV-15233%7C%7Csa-team%3AUTV-BOX-15024%7C%7Csa-team%3AUTV-15068%7C%7Csa-team%3AUTV-15204%7C%7Csa-team%3AUTV-15069&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15153%7C%7Csa-team%3AUTV-15167%7C%7Csa-team%3AUTV-15168%7C%7Csa-team%3AUTV-15203%7C%7Csa-team%3AUTV-15008%7C%7Csa-team%3AUTV-15233%7C%7Csa-team%3AUTV-BOX-15024%7C%7Csa-team%3AUTV-15068%7C%7Csa-team%3AUTV-15204%7C%7Csa-team%3AUTV-15069"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883519813480/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Guardians Of The Galaxy",
@@ -324,7 +324,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581374492101/pikselss.ism",
         "fileFormat": "ism",
         "title": "Guardians Of The Galaxy",
@@ -337,7 +337,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1358/UTV-BOX-15030-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Guardians Of The Galaxy",
@@ -351,7 +351,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15030-PI.jpg",
         "fileFormat": "jpg",
         "title": "Guardians Of The Galaxy",
@@ -364,7 +364,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15030-LI.jpg",
         "fileFormat": "jpg",
         "title": "Guardians Of The Galaxy",
@@ -378,7 +378,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15037-PI.jpg",
         "fileFormat": "jpg",
         "title": "Grown Ups 2",
@@ -391,7 +391,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15037-LI.jpg",
         "fileFormat": "jpg",
         "title": "Grown Ups 2",
@@ -404,7 +404,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15070-LI.jpg",
         "fileFormat": "jpg",
         "title": "Gulliver's Travels",
@@ -418,7 +418,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15070-PI.jpg",
         "fileFormat": "jpg",
         "title": "Gulliver's Travels",
@@ -431,7 +431,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0726/UTV-15070-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Gulliver's Travels",
@@ -445,7 +445,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15169-PI.jpg",
         "fileFormat": "jpg",
         "title": "Hancock",
@@ -458,7 +458,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1100/UTV-15169-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Hancock",
@@ -471,7 +471,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873618707905/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Hancock",
@@ -484,7 +484,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570347911341/pikselss.ism",
         "fileFormat": "ism",
         "title": "Hancock",
@@ -497,7 +497,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864057623491/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Gulliver's Travels",
@@ -510,7 +510,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851078676906/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Grown Ups 2",
@@ -523,7 +523,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581663362631/pikselss.ism",
         "fileFormat": "ism",
         "title": "Grown Ups 2",
@@ -536,7 +536,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0826/UTV-BOX-15037-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Grown Ups 2",
@@ -549,7 +549,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15169-LI.jpg",
         "fileFormat": "jpg",
         "title": "Hancock",
@@ -562,7 +562,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561195570987/pikselss.ism",
         "fileFormat": "ism",
         "title": "Gulliver's Travels",
@@ -575,7 +575,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831759209833/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Gulliver's Travels",
@@ -588,7 +588,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840524616131/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Hancock",
@@ -601,7 +601,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850541060349/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Guardians Of The Galaxy",
@@ -614,7 +614,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884041158586/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Grown Ups 2",
@@ -628,7 +628,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15201-PI.jpg",
         "fileFormat": "jpg",
         "title": "Enchanted",
@@ -641,7 +641,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0823/UTV-BOX-15027-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Ender's Game: The IMAX Experience",
@@ -654,7 +654,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15027-LI.jpg",
         "fileFormat": "jpg",
         "title": "Ender's Game: The IMAX Experience",
@@ -668,7 +668,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15200-PI.jpg",
         "fileFormat": "jpg",
         "title": "Dreamgirls",
@@ -682,7 +682,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15009-PI.jpg",
         "fileFormat": "jpg",
         "title": "Edge Of Tomorrow",
@@ -695,7 +695,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1327/UTV-BOX-15009-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Edge Of Tomorrow",
@@ -708,7 +708,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15037-LI.jpg",
         "fileFormat": "jpg",
         "title": "Dredd",
@@ -722,7 +722,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15037-PI.jpg",
         "fileFormat": "jpg",
         "title": "Dredd",
@@ -735,7 +735,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0653/UTV-15037-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Dredd",
@@ -748,7 +748,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1116/UTV-15200-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Dreamgirls",
@@ -761,7 +761,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15200-LI.jpg",
         "fileFormat": "jpg",
         "title": "Dreamgirls",
@@ -774,7 +774,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15009-LI.jpg",
         "fileFormat": "jpg",
         "title": "Edge Of Tomorrow",
@@ -787,7 +787,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15202-LI.jpg",
         "fileFormat": "jpg",
         "title": "Fantastic 4: Rise Of The Silver Surfer",
@@ -800,7 +800,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1359/UTV-15202-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Fantastic 4: Rise Of The Silver Surfer",
@@ -814,7 +814,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15202-PI.jpg",
         "fileFormat": "jpg",
         "title": "Fantastic 4: Rise Of The Silver Surfer",
@@ -827,7 +827,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15102-LI.jpg",
         "fileFormat": "jpg",
         "title": "Due Date",
@@ -840,7 +840,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0824/UTV-15102-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Due Date",
@@ -853,7 +853,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15136-LI.jpg",
         "fileFormat": "jpg",
         "title": "Fast & Furious",
@@ -866,7 +866,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1552/UTV-15007-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Fast & Furious 6",
@@ -879,7 +879,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0950/UTV-15135-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Fame",
@@ -892,7 +892,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15007-LI.jpg",
         "fileFormat": "jpg",
         "title": "Fast & Furious 6",
@@ -906,7 +906,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15135-PI.jpg",
         "fileFormat": "jpg",
         "title": "Fame",
@@ -920,7 +920,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15007-PI.jpg",
         "fileFormat": "jpg",
         "title": "Fast & Furious 6",
@@ -933,7 +933,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867180949427/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Due Date",
@@ -946,7 +946,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567538102057/pikselss.ism",
         "fileFormat": "ism",
         "title": "Fame",
@@ -959,7 +959,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828899945683/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Dredd",
@@ -972,7 +972,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861345030197/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Dredd",
@@ -985,7 +985,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558106291511/pikselss.ism",
         "fileFormat": "ism",
         "title": "Dredd",
@@ -998,7 +998,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875891945205/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Dreamgirls",
@@ -1011,7 +1011,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573805657738/pikselss.ism",
         "fileFormat": "ism",
         "title": "Enchanted",
@@ -1024,7 +1024,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843050294725/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Dreamgirls",
@@ -1037,7 +1037,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843137471266/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Enchanted",
@@ -1050,7 +1050,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843229251257/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Fantastic 4: Rise Of The Silver Surfer",
@@ -1063,7 +1063,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106876066829376/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Fantastic 4: Rise Of The Silver Surfer",
@@ -1076,7 +1076,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837315076339/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Fast & Furious",
@@ -1089,7 +1089,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875979000753/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Enchanted",
@@ -1102,7 +1102,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870348759460/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Fast & Furious",
@@ -1115,7 +1115,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881848141542/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Edge Of Tomorrow",
@@ -1128,7 +1128,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579735853560/pikselss.ism",
         "fileFormat": "ism",
         "title": "Edge Of Tomorrow",
@@ -1141,7 +1141,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848508282346/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Edge Of Tomorrow",
@@ -1154,7 +1154,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573642052924/pikselss.ism",
         "fileFormat": "ism",
         "title": "Dreamgirls",
@@ -1167,7 +1167,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121825772053807/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Fast & Furious 6",
@@ -1180,7 +1180,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858336277631/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Fast & Furious 6",
@@ -1193,7 +1193,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850311887181/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Ender's Game: The IMAX Experience",
@@ -1206,7 +1206,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580758690069/pikselss.ism",
         "fileFormat": "ism",
         "title": "Ender's Game: The IMAX Experience",
@@ -1219,7 +1219,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15201-LI.jpg",
         "fileFormat": "jpg",
         "title": "Enchanted",
@@ -1233,7 +1233,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15027-PI.jpg",
         "fileFormat": "jpg",
         "title": "Ender's Game: The IMAX Experience",
@@ -1247,7 +1247,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15102-PI.jpg",
         "fileFormat": "jpg",
         "title": "Due Date",
@@ -1260,7 +1260,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15135-LI.jpg",
         "fileFormat": "jpg",
         "title": "Fame",
@@ -1273,7 +1273,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0955/UTV-15136-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Fast & Furious",
@@ -1287,7 +1287,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15136-PI.jpg",
         "fileFormat": "jpg",
         "title": "Fast & Furious",
@@ -1300,7 +1300,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173564700766072/pikselss.ism",
         "fileFormat": "ism",
         "title": "Due Date",
@@ -1313,7 +1313,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834624836693/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Due Date",
@@ -1326,7 +1326,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837238624495/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Fame",
@@ -1339,7 +1339,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870244777330/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Fame",
@@ -1352,7 +1352,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567773599491/pikselss.ism",
         "fileFormat": "ism",
         "title": "Fast & Furious",
@@ -1365,7 +1365,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572923205941/pikselss.ism",
         "fileFormat": "ism",
         "title": "Fantastic 4: Rise Of The Silver Surfer",
@@ -1378,7 +1378,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555394214032/pikselss.ism",
         "fileFormat": "ism",
         "title": "Fast & Furious 6",
@@ -1391,7 +1391,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883276442585/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Ender's Game: The IMAX Experience",
@@ -1404,7 +1404,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15204-LI.jpg",
         "fileFormat": "jpg",
         "title": "Good Luck Chuck",
@@ -1417,7 +1417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1352/UTV-BOX-15024-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "G.I. Joe: Retaliation",
@@ -1431,7 +1431,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15024-PI.jpg",
         "fileFormat": "jpg",
         "title": "G.I. Joe: Retaliation",
@@ -1444,7 +1444,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15024-LI.jpg",
         "fileFormat": "jpg",
         "title": "G.I. Joe: Retaliation",
@@ -1458,7 +1458,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15204-PI.jpg",
         "fileFormat": "jpg",
         "title": "Good Luck Chuck",
@@ -1471,7 +1471,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0722/UTV-15068-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Gnomeo and Juliet",
@@ -1485,7 +1485,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15068-PI.jpg",
         "fileFormat": "jpg",
         "title": "Gnomeo and Juliet",
@@ -1499,7 +1499,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15069-PI.jpg",
         "fileFormat": "jpg",
         "title": "Green Lantern",
@@ -1512,7 +1512,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15153-LI.jpg",
         "fileFormat": "jpg",
         "title": "Final Destination",
@@ -1525,7 +1525,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1405/UTV-15203-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Fred Claus",
@@ -1538,7 +1538,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15203-LI.jpg",
         "fileFormat": "jpg",
         "title": "Fred Claus",
@@ -1552,7 +1552,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15203-PI.jpg",
         "fileFormat": "jpg",
         "title": "Fred Claus",
@@ -1565,7 +1565,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1554/UTV-15008-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Frozen",
@@ -1579,7 +1579,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15008-PI.jpg",
         "fileFormat": "jpg",
         "title": "Frozen",
@@ -1592,7 +1592,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15167-LI.jpg",
         "fileFormat": "jpg",
         "title": "Forgetting Sarah Marshall",
@@ -1605,7 +1605,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15168-LI.jpg",
         "fileFormat": "jpg",
         "title": "Four Christmases",
@@ -1618,7 +1618,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1058/UTV-15168-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Four Christmases",
@@ -1632,7 +1632,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15233-PI.jpg",
         "fileFormat": "jpg",
         "title": "Fun With Dick And Jane",
@@ -1645,7 +1645,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1444/UTV-15233-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Fun With Dick And Jane",
@@ -1658,7 +1658,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15233-LI.jpg",
         "fileFormat": "jpg",
         "title": "Fun With Dick And Jane",
@@ -1671,7 +1671,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573238767278/pikselss.ism",
         "fileFormat": "ism",
         "title": "Good Luck Chuck",
@@ -1684,7 +1684,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106876217571671/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Good Luck Chuck",
@@ -1697,7 +1697,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840408859520/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Four Christmases",
@@ -1710,7 +1710,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570095796580/pikselss.ism",
         "fileFormat": "ism",
         "title": "Four Christmases",
@@ -1723,7 +1723,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873539822254/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Four Christmases",
@@ -1736,7 +1736,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173560732030937/pikselss.ism",
         "fileFormat": "ism",
         "title": "Gnomeo and Juliet",
@@ -1749,7 +1749,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863827538397/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Gnomeo and Juliet",
@@ -1762,7 +1762,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831390672975/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Gnomeo and Juliet",
@@ -1775,7 +1775,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873464353889/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Forgetting Sarah Marshall",
@@ -1788,7 +1788,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121825926781641/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Frozen",
@@ -1801,7 +1801,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561114085793/pikselss.ism",
         "fileFormat": "ism",
         "title": "Green Lantern",
@@ -1814,7 +1814,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840263301483/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Forgetting Sarah Marshall",
@@ -1827,7 +1827,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570014749125/pikselss.ism",
         "fileFormat": "ism",
         "title": "Forgetting Sarah Marshall",
@@ -1840,7 +1840,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863910450697/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Green Lantern",
@@ -1853,7 +1853,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879190834544/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Fun With Dick And Jane",
@@ -1866,7 +1866,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843311991275/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Fred Claus",
@@ -1879,7 +1879,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106876142877834/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Fred Claus",
@@ -1892,7 +1892,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573081469199/pikselss.ism",
         "fileFormat": "ism",
         "title": "Fred Claus",
@@ -1905,7 +1905,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577319814419/pikselss.ism",
         "fileFormat": "ism",
         "title": "Fun With Dick And Jane",
@@ -1918,7 +1918,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858410984675/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Frozen",
@@ -1931,7 +1931,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883025742444/piksel.mpd",
         "fileFormat": "mpd",
         "title": "G.I. Joe: Retaliation",
@@ -1944,7 +1944,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580309693889/pikselss.ism",
         "fileFormat": "ism",
         "title": "G.I. Joe: Retaliation",
@@ -1957,7 +1957,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1406/UTV-15204-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Good Luck Chuck",
@@ -1970,7 +1970,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15068-LI.jpg",
         "fileFormat": "jpg",
         "title": "Gnomeo and Juliet",
@@ -1984,7 +1984,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15167-PI.jpg",
         "fileFormat": "jpg",
         "title": "Forgetting Sarah Marshall",
@@ -1997,7 +1997,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1056/UTV-15167-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Forgetting Sarah Marshall",
@@ -2010,7 +2010,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15069-LI.jpg",
         "fileFormat": "jpg",
         "title": "Green Lantern",
@@ -2024,7 +2024,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15153-PI.jpg",
         "fileFormat": "jpg",
         "title": "Final Destination",
@@ -2038,7 +2038,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15168-PI.jpg",
         "fileFormat": "jpg",
         "title": "Four Christmases",
@@ -2051,7 +2051,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15008-LI.jpg",
         "fileFormat": "jpg",
         "title": "Frozen",
@@ -2064,7 +2064,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121843393347511/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Good Luck Chuck",
@@ -2077,7 +2077,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831660223958/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Green Lantern",
@@ -2090,7 +2090,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839131175222/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Final Destination",
@@ -2103,7 +2103,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173568918276584/pikselss.ism",
         "fileFormat": "ism",
         "title": "Final Destination",
@@ -2116,7 +2116,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872328179880/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Final Destination",
@@ -2129,7 +2129,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555834230821/pikselss.ism",
         "fileFormat": "ism",
         "title": "Frozen",
@@ -2142,7 +2142,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845963305364/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Fun With Dick And Jane",
@@ -2155,7 +2155,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849947190634/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "G.I. Joe: Retaliation",
