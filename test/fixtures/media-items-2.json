@@ -13,25 +13,25 @@
           "totalCount": 53,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15066%7C%7Csa-team%3AUTV-15132%7C%7Csa-team%3AUTV-15165%7C%7Csa-team%3AUTV-BOX-15000%7C%7Csa-team%3ADEMO-123%7C%7Csa-team%3AUTV-15227%7C%7Csa-team%3AUTV-15228%7C%7Csa-team%3AUTV-15229%7C%7Csa-team%3AUTV-15230%7C%7Csa-team%3AUTV-15036&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15066%7C%7Csa-team%3AUTV-15132%7C%7Csa-team%3AUTV-15165%7C%7Csa-team%3AUTV-BOX-15000%7C%7Csa-team%3ADEMO-123%7C%7Csa-team%3AUTV-15227%7C%7Csa-team%3AUTV-15228%7C%7Csa-team%3AUTV-15229%7C%7Csa-team%3AUTV-15230%7C%7Csa-team%3AUTV-15036&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15066%7C%7Csa-team%3AUTV-15132%7C%7Csa-team%3AUTV-15165%7C%7Csa-team%3AUTV-BOX-15000%7C%7Csa-team%3ADEMO-123%7C%7Csa-team%3AUTV-15227%7C%7Csa-team%3AUTV-15228%7C%7Csa-team%3AUTV-15229%7C%7Csa-team%3AUTV-15230%7C%7Csa-team%3AUTV-15036"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15066%7C%7Csa-team%3AUTV-15132%7C%7Csa-team%3AUTV-15165%7C%7Csa-team%3AUTV-BOX-15000%7C%7Csa-team%3ADEMO-123%7C%7Csa-team%3AUTV-15227%7C%7Csa-team%3AUTV-15228%7C%7Csa-team%3AUTV-15229%7C%7Csa-team%3AUTV-15230%7C%7Csa-team%3AUTV-15036&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15066%7C%7Csa-team%3AUTV-15132%7C%7Csa-team%3AUTV-15165%7C%7Csa-team%3AUTV-BOX-15000%7C%7Csa-team%3ADEMO-123%7C%7Csa-team%3AUTV-15227%7C%7Csa-team%3AUTV-15228%7C%7Csa-team%3AUTV-15229%7C%7Csa-team%3AUTV-15230%7C%7Csa-team%3AUTV-15036&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15066%7C%7Csa-team%3AUTV-15132%7C%7Csa-team%3AUTV-15165%7C%7Csa-team%3AUTV-BOX-15000%7C%7Csa-team%3ADEMO-123%7C%7Csa-team%3AUTV-15227%7C%7Csa-team%3AUTV-15228%7C%7Csa-team%3AUTV-15229%7C%7Csa-team%3AUTV-15230%7C%7Csa-team%3AUTV-15036"
         },
         {
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15005%7C%7Csa-team%3AUTV-15134%7C%7Csa-team%3AUTV-BOX-15007%7C%7Csa-team%3AUTV-BOX-15013&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15005%7C%7Csa-team%3AUTV-15134%7C%7Csa-team%3AUTV-BOX-15007%7C%7Csa-team%3AUTV-BOX-15013&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15005%7C%7Csa-team%3AUTV-15134%7C%7Csa-team%3AUTV-BOX-15007%7C%7Csa-team%3AUTV-BOX-15013"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15005%7C%7Csa-team%3AUTV-15134%7C%7Csa-team%3AUTV-BOX-15007%7C%7Csa-team%3AUTV-BOX-15013&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15005%7C%7Csa-team%3AUTV-15134%7C%7Csa-team%3AUTV-BOX-15007%7C%7Csa-team%3AUTV-BOX-15013&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15005%7C%7Csa-team%3AUTV-15134%7C%7Csa-team%3AUTV-BOX-15007%7C%7Csa-team%3AUTV-BOX-15013"
         },
         {
           "totalCount": 57,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3ACaracol-001%7C%7Csa-team%3AUTV-15098%7C%7Csa-team%3AUTV-15133%7C%7Csa-team%3AUTV-15004%7C%7Csa-team%3AUTV-15166%7C%7Csa-team%3AUTV-BOX-15043%7C%7Csa-team%3AUTV-BOX-15044%7C%7Csa-team%3AUTV-15232%7C%7Csa-team%3AUTV-15099%7C%7Csa-team%3AUTV-15101&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3ACaracol-001%7C%7Csa-team%3AUTV-15098%7C%7Csa-team%3AUTV-15133%7C%7Csa-team%3AUTV-15004%7C%7Csa-team%3AUTV-15166%7C%7Csa-team%3AUTV-BOX-15043%7C%7Csa-team%3AUTV-BOX-15044%7C%7Csa-team%3AUTV-15232%7C%7Csa-team%3AUTV-15099%7C%7Csa-team%3AUTV-15101&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3ACaracol-001%7C%7Csa-team%3AUTV-15098%7C%7Csa-team%3AUTV-15133%7C%7Csa-team%3AUTV-15004%7C%7Csa-team%3AUTV-15166%7C%7Csa-team%3AUTV-BOX-15043%7C%7Csa-team%3AUTV-BOX-15044%7C%7Csa-team%3AUTV-15232%7C%7Csa-team%3AUTV-15099%7C%7Csa-team%3AUTV-15101"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3ACaracol-001%7C%7Csa-team%3AUTV-15098%7C%7Csa-team%3AUTV-15133%7C%7Csa-team%3AUTV-15004%7C%7Csa-team%3AUTV-15166%7C%7Csa-team%3AUTV-BOX-15043%7C%7Csa-team%3AUTV-BOX-15044%7C%7Csa-team%3AUTV-15232%7C%7Csa-team%3AUTV-15099%7C%7Csa-team%3AUTV-15101&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3ACaracol-001%7C%7Csa-team%3AUTV-15098%7C%7Csa-team%3AUTV-15133%7C%7Csa-team%3AUTV-15004%7C%7Csa-team%3AUTV-15166%7C%7Csa-team%3AUTV-BOX-15043%7C%7Csa-team%3AUTV-BOX-15044%7C%7Csa-team%3AUTV-15232%7C%7Csa-team%3AUTV-15099%7C%7Csa-team%3AUTV-15101&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3ACaracol-001%7C%7Csa-team%3AUTV-15098%7C%7Csa-team%3AUTV-15133%7C%7Csa-team%3AUTV-15004%7C%7Csa-team%3AUTV-15166%7C%7Csa-team%3AUTV-BOX-15043%7C%7Csa-team%3AUTV-BOX-15044%7C%7Csa-team%3AUTV-15232%7C%7Csa-team%3AUTV-15099%7C%7Csa-team%3AUTV-15101"
         }
       ]
     }
@@ -310,7 +310,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/9/21/landscape/UTV-15095-LI.jpg",
         "fileFormat": "jpg",
         "title": "capturedvideo-21stSep2015-5-04pm",
@@ -324,7 +324,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15229-PI.jpg",
         "fileFormat": "jpg",
         "title": "Chicken Little",
@@ -337,7 +337,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0651/UTV-15036-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Chronicle",
@@ -351,7 +351,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15036-PI.jpg",
         "fileFormat": "jpg",
         "title": "Chronicle",
@@ -364,7 +364,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15066-LI.jpg",
         "fileFormat": "jpg",
         "title": "Bridesmaids",
@@ -378,7 +378,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15066-PI.jpg",
         "fileFormat": "jpg",
         "title": "Bridesmaids",
@@ -391,7 +391,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15000-LI.jpg",
         "fileFormat": "jpg",
         "title": "Captain America: The Winter Soldier",
@@ -404,7 +404,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1219/UTV-BOX-15000-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Captain America: The Winter Soldier",
@@ -417,7 +417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0720/UTV-15066-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Bridesmaids",
@@ -430,7 +430,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1052/UTV-15165-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Burn After Reading",
@@ -444,7 +444,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15165-PI.jpg",
         "fileFormat": "jpg",
         "title": "Burn After Reading",
@@ -458,7 +458,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15132-PI.jpg",
         "fileFormat": "jpg",
         "title": "Brüno",
@@ -471,7 +471,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0946/UTV-15132-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Brüno",
@@ -484,7 +484,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15132-LI.jpg",
         "fileFormat": "jpg",
         "title": "Brüno",
@@ -498,7 +498,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15228-PI.jpg",
         "fileFormat": "jpg",
         "title": "Casino Royale",
@@ -511,7 +511,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15165-LI.jpg",
         "fileFormat": "jpg",
         "title": "Burn After Reading",
@@ -524,7 +524,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567056036645/pikselss.ism",
         "fileFormat": "ism",
         "title": "Brüno",
@@ -537,7 +537,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576391806141/pikselss.ism",
         "fileFormat": "ism",
         "title": "Cars",
@@ -550,7 +550,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845375567214/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Cars",
@@ -563,7 +563,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/09/21/1605/capturedvideo-21stSep2015-5-04pm.ism",
         "fileFormat": "ism",
         "title": "capturedvideo-21stSep2015-5-04pm",
@@ -576,7 +576,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576713591543/pikselss.ism",
         "fileFormat": "ism",
         "title": "Chicken Little",
@@ -589,7 +589,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873288769246/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Burn After Reading",
@@ -602,7 +602,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840060401211/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Burn After Reading",
@@ -615,7 +615,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861259527222/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Chronicle",
@@ -628,7 +628,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570524753756/pikselss.ism",
         "fileFormat": "ism",
         "title": "Burn After Reading",
@@ -641,7 +641,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577904627279/pikselss.ism",
         "fileFormat": "ism",
         "title": "Captain America: The Winter Soldier",
@@ -654,7 +654,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863750116816/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Bridesmaids",
@@ -667,7 +667,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847539746533/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Captain America: The Winter Soldier",
@@ -680,7 +680,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880744877912/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Captain America: The Winter Soldier",
@@ -693,7 +693,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878850599395/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Children Of Men",
@@ -706,7 +706,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845654471925/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Chicken Little",
@@ -719,7 +719,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878773954633/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Chicken Little",
@@ -732,7 +732,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558778554415/pikselss.ism",
         "fileFormat": "ism",
         "title": "Chronicle",
@@ -745,7 +745,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869947896198/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Brüno",
@@ -758,7 +758,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828786820677/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Chronicle",
@@ -771,7 +771,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845791917611/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Children Of Men",
@@ -784,7 +784,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878695813569/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Casino Royale",
@@ -797,7 +797,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576638941751/pikselss.ism",
         "fileFormat": "ism",
         "title": "Casino Royale",
@@ -811,7 +811,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15230-PI.jpg",
         "fileFormat": "jpg",
         "title": "Children Of Men",
@@ -824,7 +824,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15229-LI.jpg",
         "fileFormat": "jpg",
         "title": "Chicken Little",
@@ -837,7 +837,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15230-LI.jpg",
         "fileFormat": "jpg",
         "title": "Children Of Men",
@@ -850,7 +850,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1441/UTV-15230-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Children Of Men",
@@ -864,7 +864,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15000-PI.jpg",
         "fileFormat": "jpg",
         "title": "Captain America: The Winter Soldier",
@@ -877,7 +877,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15227-LI.jpg",
         "fileFormat": "jpg",
         "title": "Cars",
@@ -890,7 +890,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15036-LI.jpg",
         "fileFormat": "jpg",
         "title": "Chronicle",
@@ -904,7 +904,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15227-PI.jpg",
         "fileFormat": "jpg",
         "title": "Cars",
@@ -917,7 +917,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15228-LI.jpg",
         "fileFormat": "jpg",
         "title": "Casino Royale",
@@ -930,7 +930,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831307246774/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Bridesmaids",
@@ -943,7 +943,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837068636647/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Brüno",
@@ -956,7 +956,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576878934069/pikselss.ism",
         "fileFormat": "ism",
         "title": "Children Of Men",
@@ -969,7 +969,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561812179021/pikselss.ism",
         "fileFormat": "ism",
         "title": "Bridesmaids",
@@ -982,7 +982,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878608582179/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Cars",
@@ -995,7 +995,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845450176238/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Casino Royale",
@@ -1008,7 +1008,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1027/UTV-15134-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "District 9",
@@ -1021,7 +1021,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15134-LI.jpg",
         "fileFormat": "jpg",
         "title": "District 9",
@@ -1035,7 +1035,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15134-PI.jpg",
         "fileFormat": "jpg",
         "title": "District 9",
@@ -1048,7 +1048,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1700/UTV-BOX-15013-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Dracula Untold",
@@ -1061,7 +1061,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15013-LI.jpg",
         "fileFormat": "jpg",
         "title": "Dracula Untold",
@@ -1075,7 +1075,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15013-PI.jpg",
         "fileFormat": "jpg",
         "title": "Dracula Untold",
@@ -1089,7 +1089,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15007-PI.jpg",
         "fileFormat": "jpg",
         "title": "Divergent",
@@ -1102,7 +1102,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15007-LI.jpg",
         "fileFormat": "jpg",
         "title": "Divergent",
@@ -1115,7 +1115,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15005-LI.jpg",
         "fileFormat": "jpg",
         "title": "Despicable Me 2",
@@ -1128,7 +1128,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/26/12/11/pikselss.ism",
         "fileFormat": "ism",
         "title": "District 9",
@@ -1141,7 +1141,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/26/11/33/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "District 9",
@@ -1154,7 +1154,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/11/10/piksel.mpd",
         "fileFormat": "mpd",
         "title": "District 9",
@@ -1167,7 +1167,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848763672063/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Dracula Untold",
@@ -1180,7 +1180,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848217191815/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Divergent",
@@ -1193,7 +1193,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858261386735/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Despicable Me 2",
@@ -1206,7 +1206,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555319108926/pikselss.ism",
         "fileFormat": "ism",
         "title": "Despicable Me 2",
@@ -1219,7 +1219,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121825616960561/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Despicable Me 2",
@@ -1232,7 +1232,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579256133911/pikselss.ism",
         "fileFormat": "ism",
         "title": "Dracula Untold",
@@ -1245,7 +1245,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0852/UTV-BOX-15007-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Divergent",
@@ -1258,7 +1258,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1550/UTV-15005-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Despicable Me 2",
@@ -1272,7 +1272,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15005-PI.jpg",
         "fileFormat": "jpg",
         "title": "Despicable Me 2",
@@ -1285,7 +1285,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882089275595/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Dracula Untold",
@@ -1298,7 +1298,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881549181779/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Divergent",
@@ -1311,7 +1311,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579404553292/pikselss.ism",
         "fileFormat": "ism",
         "title": "Divergent",
@@ -1324,7 +1324,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0840/UTV-BOX-15043-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Dallas Buyers Club",
@@ -1338,7 +1338,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15043-PI.jpg",
         "fileFormat": "jpg",
         "title": "Dallas Buyers Club",
@@ -1352,7 +1352,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15101-PI.jpg",
         "fileFormat": "jpg",
         "title": "Despicable Me",
@@ -1366,7 +1366,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15232-PI.jpg",
         "fileFormat": "jpg",
         "title": "Date Movie",
@@ -1379,7 +1379,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0822/UTV-15101-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Despicable Me",
@@ -1392,7 +1392,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15101-LI.jpg",
         "fileFormat": "jpg",
         "title": "Despicable Me",
@@ -1405,7 +1405,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1442/UTV-15232-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Date Movie",
@@ -1418,7 +1418,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15232-LI.jpg",
         "fileFormat": "jpg",
         "title": "Date Movie",
@@ -1431,7 +1431,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1418/UTV-BOX-15044-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Dark Skies",
@@ -1445,7 +1445,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15099-PI.jpg",
         "fileFormat": "jpg",
         "title": "Date Night",
@@ -1458,7 +1458,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1054/UTV-15166-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Cloverfield",
@@ -1471,7 +1471,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/Caracol-001-LI.jpg",
         "fileFormat": "jpg",
         "title": "Ciudad Delirio",
@@ -1485,7 +1485,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/Caracol-001-PI.jpg",
         "fileFormat": "jpg",
         "title": "Ciudad Delirio",
@@ -1498,7 +1498,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0820/UTV-15099-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Date Night",
@@ -1511,7 +1511,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1549/UTV-15004-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Cloudy With A Chance Of Meatballs 2",
@@ -1524,7 +1524,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15004-LI.jpg",
         "fileFormat": "jpg",
         "title": "Cloudy With A Chance Of Meatballs 2",
@@ -1537,7 +1537,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15133-LI.jpg",
         "fileFormat": "jpg",
         "title": "Cloudy With A Chance Of Meatballs",
@@ -1551,7 +1551,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15133-PI.jpg",
         "fileFormat": "jpg",
         "title": "Cloudy With A Chance Of Meatballs",
@@ -1564,7 +1564,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0947/UTV-15133-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Cloudy With A Chance Of Meatballs",
@@ -1577,7 +1577,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173564625989200/pikselss.ism",
         "fileFormat": "ism",
         "title": "Despicable Me",
@@ -1590,7 +1590,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867098364288/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Despicable Me",
@@ -1603,7 +1603,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2014/10/29/1552/caracolSSShowcase.ism",
         "fileFormat": "ism",
         "title": "Ciudad Delirio",
@@ -1616,7 +1616,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173567326090945/pikselss.ism",
         "fileFormat": "ism",
         "title": "Cloudy With A Chance Of Meatballs",
@@ -1629,7 +1629,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173564777272730/pikselss.ism",
         "fileFormat": "ism",
         "title": "Clash of the Titans",
@@ -1642,7 +1642,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106866332994621/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Clash of the Titans",
@@ -1655,7 +1655,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106870164132900/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Cloudy With A Chance Of Meatballs",
@@ -1668,7 +1668,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845884024436/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Date Movie",
@@ -1681,7 +1681,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570806693680/pikselss.ism",
         "fileFormat": "ism",
         "title": "Cloverfield",
@@ -1694,7 +1694,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873376207272/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Cloverfield",
@@ -1707,7 +1707,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121840159276590/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Cloverfield",
@@ -1720,7 +1720,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555149997977/pikselss.ism",
         "fileFormat": "ism",
         "title": "Cloudy With A Chance Of Meatballs 2",
@@ -1733,7 +1733,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834458675536/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Date Night",
@@ -1746,7 +1746,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121825509214392/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Cloudy With A Chance Of Meatballs 2",
@@ -1759,7 +1759,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851596469763/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Dallas Buyers Club",
@@ -1772,7 +1772,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851672173190/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Dark Skies",
@@ -1785,7 +1785,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582270881104/pikselss.ism",
         "fileFormat": "ism",
         "title": "Dark Skies",
@@ -1798,7 +1798,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884649069814/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Dark Skies",
@@ -1811,7 +1811,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15043-LI.jpg",
         "fileFormat": "jpg",
         "title": "Dallas Buyers Club",
@@ -1825,7 +1825,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15044-PI.jpg",
         "fileFormat": "jpg",
         "title": "Dark Skies",
@@ -1838,7 +1838,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15099-LI.jpg",
         "fileFormat": "jpg",
         "title": "Date Night",
@@ -1851,7 +1851,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15044-LI.jpg",
         "fileFormat": "jpg",
         "title": "Dark Skies",
@@ -1865,7 +1865,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15166-PI.jpg",
         "fileFormat": "jpg",
         "title": "Cloverfield",
@@ -1878,7 +1878,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15166-LI.jpg",
         "fileFormat": "jpg",
         "title": "Cloverfield",
@@ -1892,7 +1892,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15098-PI.jpg",
         "fileFormat": "jpg",
         "title": "Clash of the Titans",
@@ -1906,7 +1906,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15004-PI.jpg",
         "fileFormat": "jpg",
         "title": "Cloudy With A Chance Of Meatballs 2",
@@ -1919,7 +1919,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0812/UTV-15098-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Clash of the Titans",
@@ -1932,7 +1932,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15098-LI.jpg",
         "fileFormat": "jpg",
         "title": "Clash of the Titans",
@@ -1945,7 +1945,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834542991976/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Despicable Me",
@@ -1958,7 +1958,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121837161376564/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Cloudy With A Chance Of Meatballs",
@@ -1971,7 +1971,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106866893741885/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Date Night",
@@ -1984,7 +1984,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563901364957/pikselss.ism",
         "fileFormat": "ism",
         "title": "Date Night",
@@ -1997,7 +1997,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834357154126/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Clash of the Titans",
@@ -2010,7 +2010,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577046923642/pikselss.ism",
         "fileFormat": "ism",
         "title": "Date Movie",
@@ -2023,7 +2023,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106879104423232/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Date Movie",
@@ -2036,7 +2036,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106858170840324/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Cloudy With A Chance Of Meatballs 2",
@@ -2049,7 +2049,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884568134790/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Dallas Buyers Club",
@@ -2062,7 +2062,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582196865017/pikselss.ism",
         "fileFormat": "ism",
         "title": "Dallas Buyers Club",

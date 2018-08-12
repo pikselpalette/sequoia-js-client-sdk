@@ -10,7 +10,7 @@
  "updatedAt": "2016-09-30T08:00:26.662Z",
  "updatedBy": "demo:demo-admin",
  "version": "7a1e1092fd4a2a24c39dc733ccbc36599b169b95",
- "mediaType": "image",
+ "type": "image",
  "fullMediaType": "application/octet-stream",
  "url": "https://s3-eu-west-1.amazonaws.com/demo.datasets.sequoia.piksel.com/images/viacom/BlackInk0516HD-00DDDE0000111630681304.jpg",
  "contentRef": "demo:XPTL0000000000444282"

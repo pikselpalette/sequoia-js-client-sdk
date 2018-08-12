@@ -12,17 +12,17 @@
           "totalCount": 23,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15160%7C%7Csa-team%3AUTV-BOX-15004%7C%7Csa-team%3AUTV-15095%7C%7Csa-team%3AUTV-15197&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15160%7C%7Csa-team%3AUTV-BOX-15004%7C%7Csa-team%3AUTV-15095%7C%7Csa-team%3AUTV-15197&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15160%7C%7Csa-team%3AUTV-BOX-15004%7C%7Csa-team%3AUTV-15095%7C%7Csa-team%3AUTV-15197"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15160%7C%7Csa-team%3AUTV-BOX-15004%7C%7Csa-team%3AUTV-15095%7C%7Csa-team%3AUTV-15197&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15160%7C%7Csa-team%3AUTV-BOX-15004%7C%7Csa-team%3AUTV-15095%7C%7Csa-team%3AUTV-15197&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15160%7C%7Csa-team%3AUTV-BOX-15004%7C%7Csa-team%3AUTV-15095%7C%7Csa-team%3AUTV-15197"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15018%7C%7Csa-team%3AUTV-15196%7C%7Csa-team%3AUTV-15126%7C%7Csa-team%3AUTV-15063%7C%7Csa-team%3AUTV-BOX-15039%7C%7Csa-team%3AUTV-15159%7C%7Csa-team%3AUTV-15225%7C%7Csa-team%3AUTV-15029%7C%7Csa-team%3AUTV-BOX-15022%7C%7Csa-team%3AUTV-15032&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15018%7C%7Csa-team%3AUTV-15196%7C%7Csa-team%3AUTV-15126%7C%7Csa-team%3AUTV-15063%7C%7Csa-team%3AUTV-BOX-15039%7C%7Csa-team%3AUTV-15159%7C%7Csa-team%3AUTV-15225%7C%7Csa-team%3AUTV-15029%7C%7Csa-team%3AUTV-BOX-15022%7C%7Csa-team%3AUTV-15032&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15018%7C%7Csa-team%3AUTV-15196%7C%7Csa-team%3AUTV-15126%7C%7Csa-team%3AUTV-15063%7C%7Csa-team%3AUTV-BOX-15039%7C%7Csa-team%3AUTV-15159%7C%7Csa-team%3AUTV-15225%7C%7Csa-team%3AUTV-15029%7C%7Csa-team%3AUTV-BOX-15022%7C%7Csa-team%3AUTV-15032"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15018%7C%7Csa-team%3AUTV-15196%7C%7Csa-team%3AUTV-15126%7C%7Csa-team%3AUTV-15063%7C%7Csa-team%3AUTV-BOX-15039%7C%7Csa-team%3AUTV-15159%7C%7Csa-team%3AUTV-15225%7C%7Csa-team%3AUTV-15029%7C%7Csa-team%3AUTV-BOX-15022%7C%7Csa-team%3AUTV-15032&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15018%7C%7Csa-team%3AUTV-15196%7C%7Csa-team%3AUTV-15126%7C%7Csa-team%3AUTV-15063%7C%7Csa-team%3AUTV-BOX-15039%7C%7Csa-team%3AUTV-15159%7C%7Csa-team%3AUTV-15225%7C%7Csa-team%3AUTV-15029%7C%7Csa-team%3AUTV-BOX-15022%7C%7Csa-team%3AUTV-15032&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15018%7C%7Csa-team%3AUTV-15196%7C%7Csa-team%3AUTV-15126%7C%7Csa-team%3AUTV-15063%7C%7Csa-team%3AUTV-BOX-15039%7C%7Csa-team%3AUTV-15159%7C%7Csa-team%3AUTV-15225%7C%7Csa-team%3AUTV-15029%7C%7Csa-team%3AUTV-BOX-15022%7C%7Csa-team%3AUTV-15032"
         }
       ]
     }
@@ -191,7 +191,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1354/UTV-15197-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Yes Man",
@@ -205,7 +205,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15004-PI.jpg",
         "fileFormat": "jpg",
         "title": "X-Men: Days Of Future Past",
@@ -218,7 +218,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15160-LI.jpg",
         "fileFormat": "jpg",
         "title": "X-Men Origins: Wolverine",
@@ -232,7 +232,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15095-PI.jpg",
         "fileFormat": "jpg",
         "title": "X-Men: First class",
@@ -245,7 +245,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0804/UTV-15095-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "X-Men: First class",
@@ -258,7 +258,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573155750163/pikselss.ism",
         "fileFormat": "ism",
         "title": "Yes Man",
@@ -271,7 +271,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875724628686/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Yes Man",
@@ -284,7 +284,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842872951252/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Yes Man",
@@ -297,7 +297,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847980281499/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "X-Men: Days Of Future Past",
@@ -310,7 +310,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872972797390/piksel.mpd",
         "fileFormat": "mpd",
         "title": "X-Men Origins: Wolverine",
@@ -323,7 +323,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563975964640/pikselss.ism",
         "fileFormat": "ism",
         "title": "X-Men: First class",
@@ -336,7 +336,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839702024422/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "X-Men Origins: Wolverine",
@@ -349,7 +349,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569925052426/pikselss.ism",
         "fileFormat": "ism",
         "title": "X-Men Origins: Wolverine",
@@ -362,7 +362,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106866162756180/piksel.mpd",
         "fileFormat": "mpd",
         "title": "X-Men: First class",
@@ -375,7 +375,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834190856261/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "X-Men: First class",
@@ -388,7 +388,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15197-LI.jpg",
         "fileFormat": "jpg",
         "title": "Yes Man",
@@ -402,7 +402,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15197-PI.jpg",
         "fileFormat": "jpg",
         "title": "Yes Man",
@@ -415,7 +415,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1318/UTV-BOX-15004-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "X-Men: Days Of Future Past",
@@ -428,7 +428,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15004-LI.jpg",
         "fileFormat": "jpg",
         "title": "X-Men: Days Of Future Past",
@@ -441,7 +441,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1047/UTV-15160-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "X-Men Origins: Wolverine",
@@ -455,7 +455,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15160-PI.jpg",
         "fileFormat": "jpg",
         "title": "X-Men Origins: Wolverine",
@@ -468,7 +468,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881225723572/piksel.mpd",
         "fileFormat": "mpd",
         "title": "X-Men: Days Of Future Past",
@@ -481,7 +481,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578847338821/pikselss.ism",
         "fileFormat": "ism",
         "title": "X-Men: Days Of Future Past",
@@ -494,7 +494,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1350/UTV-BOX-15022-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "World War Z",
@@ -508,7 +508,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15022-PI.jpg",
         "fileFormat": "jpg",
         "title": "World War Z",
@@ -521,7 +521,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15022-LI.jpg",
         "fileFormat": "jpg",
         "title": "World War Z",
@@ -534,7 +534,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15032-LI.jpg",
         "fileFormat": "jpg",
         "title": "Wreck-It Ralph",
@@ -547,7 +547,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0831/UTV-BOX-15039-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Warm Bodies",
@@ -560,7 +560,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15063-LI.jpg",
         "fileFormat": "jpg",
         "title": "War Horse",
@@ -574,7 +574,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15063-PI.jpg",
         "fileFormat": "jpg",
         "title": "War Horse",
@@ -587,7 +587,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0931/UTV-15063-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "War Horse",
@@ -600,7 +600,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1702/UTV-BOX-15018-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Vampire Academy: Blood Sisters",
@@ -613,7 +613,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15196-LI.jpg",
         "fileFormat": "jpg",
         "title": "Vantage Point",
@@ -626,7 +626,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1351/UTV-15196-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Vantage Point",
@@ -640,7 +640,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15039-PI.jpg",
         "fileFormat": "jpg",
         "title": "Warm Bodies",
@@ -654,7 +654,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15032-PI.jpg",
         "fileFormat": "jpg",
         "title": "Wreck-It Ralph",
@@ -667,7 +667,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0738/UTV-15032-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Wreck-It Ralph",
@@ -681,7 +681,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15159-PI.jpg",
         "fileFormat": "jpg",
         "title": "Watchmen",
@@ -694,7 +694,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15159-LI.jpg",
         "fileFormat": "jpg",
         "title": "Watchmen",
@@ -707,7 +707,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1042/UTV-15159-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Watchmen",
@@ -721,7 +721,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15225-PI.jpg",
         "fileFormat": "jpg",
         "title": "Wild Hogs",
@@ -734,7 +734,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15225-LI.jpg",
         "fileFormat": "jpg",
         "title": "Wild Hogs",
@@ -747,7 +747,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15126-LI.jpg",
         "fileFormat": "jpg",
         "title": "Wall Street: Money Never Sleeps",
@@ -761,7 +761,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15126-PI.jpg",
         "fileFormat": "jpg",
         "title": "Wall Street: Money Never Sleeps",
@@ -774,7 +774,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0719/UTV-15029-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Wolverine",
@@ -787,7 +787,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15029-LI.jpg",
         "fileFormat": "jpg",
         "title": "Wolverine",
@@ -801,7 +801,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15029-PI.jpg",
         "fileFormat": "jpg",
         "title": "Wolverine",
@@ -814,7 +814,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173557809642066/pikselss.ism",
         "fileFormat": "ism",
         "title": "Wreck-It Ralph",
@@ -827,7 +827,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860751126912/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Wreck-It Ralph",
@@ -840,7 +840,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565993912468/pikselss.ism",
         "fileFormat": "ism",
         "title": "Wall Street: Money Never Sleeps",
@@ -853,7 +853,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561272580779/pikselss.ism",
         "fileFormat": "ism",
         "title": "War Horse",
@@ -866,7 +866,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831050470788/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "War Horse",
@@ -879,7 +879,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849291176994/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Vampire Academy: Blood Sisters",
@@ -892,7 +892,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882538791937/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Vampire Academy: Blood Sisters",
@@ -905,7 +905,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863497266314/piksel.mpd",
         "fileFormat": "mpd",
         "title": "War Horse",
@@ -918,7 +918,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836450085092/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Wall Street: Money Never Sleeps",
@@ -931,7 +931,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878392786640/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Wild Hogs",
@@ -944,7 +944,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845300110090/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Wild Hogs",
@@ -957,7 +957,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576280580121/pikselss.ism",
         "fileFormat": "ism",
         "title": "Wild Hogs",
@@ -970,7 +970,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569764659466/pikselss.ism",
         "fileFormat": "ism",
         "title": "Watchmen",
@@ -983,7 +983,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572996720365/pikselss.ism",
         "fileFormat": "ism",
         "title": "Vantage Point",
@@ -996,7 +996,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875636203582/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Vantage Point",
@@ -1009,7 +1009,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872897594053/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Watchmen",
@@ -1022,7 +1022,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173557263610213/pikselss.ism",
         "fileFormat": "ism",
         "title": "Wolverine",
@@ -1035,7 +1035,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860509013432/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Wolverine",
@@ -1048,7 +1048,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827977969472/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Wolverine",
@@ -1061,7 +1061,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579942008616/pikselss.ism",
         "fileFormat": "ism",
         "title": "World War Z",
@@ -1074,7 +1074,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851229629420/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Warm Bodies",
@@ -1087,7 +1087,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884212783969/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Warm Bodies",
@@ -1101,7 +1101,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15018-PI.jpg",
         "fileFormat": "jpg",
         "title": "Vampire Academy: Blood Sisters",
@@ -1114,7 +1114,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15018-LI.jpg",
         "fileFormat": "jpg",
         "title": "Vampire Academy: Blood Sisters",
@@ -1127,7 +1127,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15039-LI.jpg",
         "fileFormat": "jpg",
         "title": "Warm Bodies",
@@ -1141,7 +1141,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15196-PI.jpg",
         "fileFormat": "jpg",
         "title": "Vantage Point",
@@ -1154,7 +1154,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0927/UTV-15126-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Wall Street: Money Never Sleeps",
@@ -1167,7 +1167,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580097806809/pikselss.ism",
         "fileFormat": "ism",
         "title": "Vampire Academy: Blood Sisters",
@@ -1180,7 +1180,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869301860147/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Wall Street: Money Never Sleeps",
@@ -1193,7 +1193,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828303529928/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Wreck-It Ralph",
@@ -1206,7 +1206,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839561562667/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Watchmen",
@@ -1219,7 +1219,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842791658049/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Vantage Point",
@@ -1232,7 +1232,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582089015118/pikselss.ism",
         "fileFormat": "ism",
         "title": "Warm Bodies",
@@ -1245,7 +1245,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882874092138/piksel.mpd",
         "fileFormat": "mpd",
         "title": "World War Z",
@@ -1258,7 +1258,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849746166153/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "World War Z",

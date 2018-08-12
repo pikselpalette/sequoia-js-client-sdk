@@ -13,25 +13,25 @@
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15050%7C%7Csa-team%3AUTV-BOX-15001%7C%7Csa-team%3AUTV-15193%7C%7Csa-team%3AUTV-15121&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15050%7C%7Csa-team%3AUTV-BOX-15001%7C%7Csa-team%3AUTV-15193%7C%7Csa-team%3AUTV-15121&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15050%7C%7Csa-team%3AUTV-BOX-15001%7C%7Csa-team%3AUTV-15193%7C%7Csa-team%3AUTV-15121"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15050%7C%7Csa-team%3AUTV-BOX-15001%7C%7Csa-team%3AUTV-15193%7C%7Csa-team%3AUTV-15121&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15050%7C%7Csa-team%3AUTV-BOX-15001%7C%7Csa-team%3AUTV-15193%7C%7Csa-team%3AUTV-15121&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15050%7C%7Csa-team%3AUTV-BOX-15001%7C%7Csa-team%3AUTV-15193%7C%7Csa-team%3AUTV-15121"
         },
         {
           "totalCount": 60,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15054%7C%7Csa-team%3AUTV-15249%7C%7Csa-team%3AUTV-15055%7C%7Csa-team%3AUTV-15119%7C%7Csa-team%3AUTV-BOX-15016%7C%7Csa-team%3AUTV-15250%7C%7Csa-team%3AUTV-15221%7C%7Csa-team%3AUTV-BOX-15020%7C%7Csa-team%3AUTV-15154%7C%7Csa-team%3AUTV-15088&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15054%7C%7Csa-team%3AUTV-15249%7C%7Csa-team%3AUTV-15055%7C%7Csa-team%3AUTV-15119%7C%7Csa-team%3AUTV-BOX-15016%7C%7Csa-team%3AUTV-15250%7C%7Csa-team%3AUTV-15221%7C%7Csa-team%3AUTV-BOX-15020%7C%7Csa-team%3AUTV-15154%7C%7Csa-team%3AUTV-15088&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15054%7C%7Csa-team%3AUTV-15249%7C%7Csa-team%3AUTV-15055%7C%7Csa-team%3AUTV-15119%7C%7Csa-team%3AUTV-BOX-15016%7C%7Csa-team%3AUTV-15250%7C%7Csa-team%3AUTV-15221%7C%7Csa-team%3AUTV-BOX-15020%7C%7Csa-team%3AUTV-15154%7C%7Csa-team%3AUTV-15088"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15054%7C%7Csa-team%3AUTV-15249%7C%7Csa-team%3AUTV-15055%7C%7Csa-team%3AUTV-15119%7C%7Csa-team%3AUTV-BOX-15016%7C%7Csa-team%3AUTV-15250%7C%7Csa-team%3AUTV-15221%7C%7Csa-team%3AUTV-BOX-15020%7C%7Csa-team%3AUTV-15154%7C%7Csa-team%3AUTV-15088&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15054%7C%7Csa-team%3AUTV-15249%7C%7Csa-team%3AUTV-15055%7C%7Csa-team%3AUTV-15119%7C%7Csa-team%3AUTV-BOX-15016%7C%7Csa-team%3AUTV-15250%7C%7Csa-team%3AUTV-15221%7C%7Csa-team%3AUTV-BOX-15020%7C%7Csa-team%3AUTV-15154%7C%7Csa-team%3AUTV-15088&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15054%7C%7Csa-team%3AUTV-15249%7C%7Csa-team%3AUTV-15055%7C%7Csa-team%3AUTV-15119%7C%7Csa-team%3AUTV-BOX-15016%7C%7Csa-team%3AUTV-15250%7C%7Csa-team%3AUTV-15221%7C%7Csa-team%3AUTV-BOX-15020%7C%7Csa-team%3AUTV-15154%7C%7Csa-team%3AUTV-15088"
         },
         {
           "totalCount": 60,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15025%7C%7Csa-team%3AUTV-15222%7C%7Csa-team%3AUTV-15056%7C%7Csa-team%3AUTV-15026%7C%7Csa-team%3AUTV-15191%7C%7Csa-team%3AUTV-15057%7C%7Csa-team%3AUTV-15027%7C%7Csa-team%3AUTV-15089%7C%7Csa-team%3AUTV-15192%7C%7Csa-team%3AUTV-15120&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15025%7C%7Csa-team%3AUTV-15222%7C%7Csa-team%3AUTV-15056%7C%7Csa-team%3AUTV-15026%7C%7Csa-team%3AUTV-15191%7C%7Csa-team%3AUTV-15057%7C%7Csa-team%3AUTV-15027%7C%7Csa-team%3AUTV-15089%7C%7Csa-team%3AUTV-15192%7C%7Csa-team%3AUTV-15120&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15025%7C%7Csa-team%3AUTV-15222%7C%7Csa-team%3AUTV-15056%7C%7Csa-team%3AUTV-15026%7C%7Csa-team%3AUTV-15191%7C%7Csa-team%3AUTV-15057%7C%7Csa-team%3AUTV-15027%7C%7Csa-team%3AUTV-15089%7C%7Csa-team%3AUTV-15192%7C%7Csa-team%3AUTV-15120"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15025%7C%7Csa-team%3AUTV-15222%7C%7Csa-team%3AUTV-15056%7C%7Csa-team%3AUTV-15026%7C%7Csa-team%3AUTV-15191%7C%7Csa-team%3AUTV-15057%7C%7Csa-team%3AUTV-15027%7C%7Csa-team%3AUTV-15089%7C%7Csa-team%3AUTV-15192%7C%7Csa-team%3AUTV-15120&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15025%7C%7Csa-team%3AUTV-15222%7C%7Csa-team%3AUTV-15056%7C%7Csa-team%3AUTV-15026%7C%7Csa-team%3AUTV-15191%7C%7Csa-team%3AUTV-15057%7C%7Csa-team%3AUTV-15027%7C%7Csa-team%3AUTV-15089%7C%7Csa-team%3AUTV-15192%7C%7Csa-team%3AUTV-15120&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15025%7C%7Csa-team%3AUTV-15222%7C%7Csa-team%3AUTV-15056%7C%7Csa-team%3AUTV-15026%7C%7Csa-team%3AUTV-15191%7C%7Csa-team%3AUTV-15057%7C%7Csa-team%3AUTV-15027%7C%7Csa-team%3AUTV-15089%7C%7Csa-team%3AUTV-15192%7C%7Csa-team%3AUTV-15120"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0837/UTV-BOX-15001-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Lego Movie",
@@ -324,7 +324,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15001-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Lego Movie",
@@ -337,7 +337,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1346/UTV-15193-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Mummy: Tomb Of The Dragon Emperor",
@@ -350,7 +350,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15121-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Other Guys",
@@ -363,7 +363,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0858/UTV-15121-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Other Guys",
@@ -377,7 +377,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15001-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Lego Movie",
@@ -390,7 +390,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0850/UTV-BOX-15050-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Last Exorcism Part II",
@@ -403,7 +403,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15050-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Last Exorcism Part II",
@@ -417,7 +417,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15050-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Last Exorcism Part II",
@@ -430,7 +430,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868841879192/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Other Guys",
@@ -443,7 +443,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578301290489/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Lego Movie",
@@ -456,7 +456,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880833518654/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Lego Movie",
@@ -469,7 +469,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847618580813/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Lego Movie",
@@ -482,7 +482,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106885143792166/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Last Exorcism Part II",
@@ -495,7 +495,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121852396441296/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Last Exorcism Part II",
@@ -508,7 +508,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15193-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Mummy: Tomb Of The Dragon Emperor",
@@ -522,7 +522,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15193-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Mummy: Tomb Of The Dragon Emperor",
@@ -536,7 +536,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15121-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Other Guys",
@@ -549,7 +549,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836002099563/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Other Guys",
@@ -562,7 +562,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566481717910/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Other Guys",
@@ -575,7 +575,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842485816838/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Mummy: Tomb Of The Dragon Emperor",
@@ -588,7 +588,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875392259669/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Mummy: Tomb Of The Dragon Emperor",
@@ -601,7 +601,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572224395803/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Mummy: Tomb Of The Dragon Emperor",
@@ -614,7 +614,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173583088416234/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Last Exorcism Part II",
@@ -627,7 +627,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15020-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Grand Budapest Hotel",
@@ -640,7 +640,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15055-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Dictator",
@@ -653,7 +653,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1339/UTV-BOX-15016-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Expendables 3",
@@ -667,7 +667,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15055-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Dictator",
@@ -680,7 +680,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1428/UTV-15221-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Golden Compass",
@@ -694,7 +694,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15221-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Golden Compass",
@@ -707,7 +707,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/1210/UTV-BOX-15020-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Grand Budapest Hotel",
@@ -720,7 +720,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0708/UTV-15054-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Devil Inside",
@@ -733,7 +733,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15054-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Devil Inside",
@@ -746,7 +746,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1501/UTV-15249-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Devil Wears Prada",
@@ -760,7 +760,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15119-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Expendables",
@@ -773,7 +773,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0753/UTV-15088-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Hangover Part II",
@@ -787,7 +787,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15088-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Hangover Part II",
@@ -801,7 +801,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15054-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Devil Inside",
@@ -815,7 +815,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15249-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Devil Wears Prada",
@@ -828,7 +828,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0853/UTV-15119-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Expendables",
@@ -841,7 +841,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15250-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Fast And The Furious: Tokyo Drift",
@@ -855,7 +855,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15250-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Fast And The Furious: Tokyo Drift",
@@ -868,7 +868,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15154-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Hangover",
@@ -882,7 +882,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15154-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Hangover",
@@ -895,7 +895,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1037/UTV-15154-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Hangover",
@@ -908,7 +908,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862933245691/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Dictator",
@@ -921,7 +921,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173560531825853/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Dictator",
@@ -934,7 +934,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849133414928/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Expendables 3",
@@ -947,7 +947,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882323654471/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Expendables 3",
@@ -960,7 +960,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579661116275/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Expendables 3",
@@ -973,7 +973,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878054119021/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Golden Compass",
@@ -986,7 +986,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576467136834/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Golden Compass",
@@ -999,7 +999,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868676092368/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Expendables",
@@ -1012,7 +1012,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847420583147/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Fast And The Furious: Tokyo Drift",
@@ -1025,7 +1025,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880667026690/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Fast And The Furious: Tokyo Drift",
@@ -1038,7 +1038,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847336222829/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Devil Wears Prada",
@@ -1051,7 +1051,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880448753823/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Devil Wears Prada",
@@ -1064,7 +1064,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862859943173/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Devil Inside",
@@ -1077,7 +1077,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578459664530/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Devil Wears Prada",
@@ -1090,7 +1090,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569110479027/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Hangover",
@@ -1103,7 +1103,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173560442948295/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Devil Inside",
@@ -1116,7 +1116,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833704981815/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Hangover Part II",
@@ -1129,7 +1129,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106872402533444/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Hangover",
@@ -1142,7 +1142,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849575752988/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Grand Budapest Hotel",
@@ -1155,7 +1155,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882695860640/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Grand Budapest Hotel",
@@ -1169,7 +1169,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15016-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Expendables 3",
@@ -1182,7 +1182,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15221-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Golden Compass",
@@ -1195,7 +1195,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0847/UTV-15055-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Dictator",
@@ -1209,7 +1209,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15020-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Grand Budapest Hotel",
@@ -1222,7 +1222,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15016-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Expendables 3",
@@ -1235,7 +1235,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15249-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Devil Wears Prada",
@@ -1248,7 +1248,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15119-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Expendables",
@@ -1261,7 +1261,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15088-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Hangover Part II",
@@ -1274,7 +1274,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1502/UTV-15250-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Fast And The Furious: Tokyo Drift",
@@ -1287,7 +1287,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844863537654/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Golden Compass",
@@ -1300,7 +1300,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830474051175/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Dictator",
@@ -1313,7 +1313,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830393197563/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Devil Inside",
@@ -1326,7 +1326,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566160408705/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Expendables",
@@ -1339,7 +1339,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563523076841/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Hangover Part II",
@@ -1352,7 +1352,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835787955118/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Expendables",
@@ -1365,7 +1365,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865506238738/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Hangover Part II",
@@ -1378,7 +1378,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839214600814/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Hangover",
@@ -1391,7 +1391,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578762742250/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Fast And The Furious: Tokyo Drift",
@@ -1404,7 +1404,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580546847404/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Grand Budapest Hotel",
@@ -1417,7 +1417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1429/UTV-15222-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Heartbreak Kid",
@@ -1430,7 +1430,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15222-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Heartbreak Kid",
@@ -1444,7 +1444,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15222-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Heartbreak Kid",
@@ -1458,7 +1458,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15057-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Hunger Games",
@@ -1471,7 +1471,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15057-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Hunger Games",
@@ -1484,7 +1484,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0710/UTV-15057-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Hunger Games",
@@ -1497,7 +1497,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0850/UTV-15056-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Hobbit: An Unexpected Journey",
@@ -1510,7 +1510,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15056-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Hobbit: An Unexpected Journey",
@@ -1523,7 +1523,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15026-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Hobbit: The Desolation Of Smaug",
@@ -1536,7 +1536,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0654/UTV-15026-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Hobbit: The Desolation Of Smaug",
@@ -1549,7 +1549,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0755/UTV-15089-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Inbetweeners Movie",
@@ -1563,7 +1563,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15089-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Inbetweeners Movie",
@@ -1577,7 +1577,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15191-PI.jpg",
         "fileFormat": "jpg",
         "title": "The House Bunny",
@@ -1590,7 +1590,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1342/UTV-15191-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The House Bunny",
@@ -1604,7 +1604,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15025-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Hangover, Part 3",
@@ -1617,7 +1617,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15025-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Hangover, Part 3",
@@ -1630,7 +1630,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15089-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Inbetweeners Movie",
@@ -1643,7 +1643,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15192-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Incredible Hulk",
@@ -1656,7 +1656,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15191-LI.jpg",
         "fileFormat": "jpg",
         "title": "The House Bunny",
@@ -1670,7 +1670,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15192-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Incredible Hulk",
@@ -1683,7 +1683,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0708/UTV-15027-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Hunger Games: Catching Fire",
@@ -1697,7 +1697,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15027-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Hunger Games: Catching Fire",
@@ -1711,7 +1711,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15120-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Last Exorcism Part II",
@@ -1724,7 +1724,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15120-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Last Exorcism Part II",
@@ -1737,7 +1737,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15027-LI.jpg",
         "fileFormat": "jpg",
         "title": "The Hunger Games: Catching Fire",
@@ -1750,7 +1750,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106878150841751/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Heartbreak Kid",
@@ -1763,7 +1763,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121845067729595/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Heartbreak Kid",
@@ -1776,7 +1776,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576552967783/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Heartbreak Kid",
@@ -1789,7 +1789,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833782312969/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Inbetweeners Movie",
@@ -1802,7 +1802,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875302866139/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Incredible Hulk",
@@ -1815,7 +1815,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830663835763/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Hunger Games",
@@ -1828,7 +1828,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863099637556/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Hunger Games",
@@ -1841,7 +1841,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566395778385/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Last Exorcism Part II",
@@ -1854,7 +1854,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875184007798/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The House Bunny",
@@ -1867,7 +1867,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842310900814/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The House Bunny",
@@ -1880,7 +1880,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572825128321/pikselss.ism",
         "fileFormat": "ism",
         "title": "The House Bunny",
@@ -1893,7 +1893,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563610458488/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Inbetweeners Movie",
@@ -1906,7 +1906,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863011812710/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Hobbit: An Unexpected Journey",
@@ -1919,7 +1919,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868763982960/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Last Exorcism Part II",
@@ -1932,7 +1932,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121830586317254/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Hobbit: An Unexpected Journey",
@@ -1945,7 +1945,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860130750134/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Hobbit: The Desolation Of Smaug",
@@ -1958,7 +1958,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173557546067138/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Hobbit: The Desolation Of Smaug",
@@ -1971,7 +1971,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827668825468/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Hobbit: The Desolation Of Smaug",
@@ -1984,7 +1984,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556885950120/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Hunger Games: Catching Fire",
@@ -1997,7 +1997,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827763683393/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Hunger Games: Catching Fire",
@@ -2010,7 +2010,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860052811542/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Hangover, Part 3",
@@ -2023,7 +2023,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827532571261/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Hangover, Part 3",
@@ -2036,7 +2036,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860206101087/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Hunger Games: Catching Fire",
@@ -2050,7 +2050,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15056-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Hobbit: An Unexpected Journey",
@@ -2064,7 +2064,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15026-PI.jpg",
         "fileFormat": "jpg",
         "title": "The Hobbit: The Desolation Of Smaug",
@@ -2077,7 +2077,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1633/UTV-15025-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Hangover, Part 3",
@@ -2090,7 +2090,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1344/UTV-15192-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Incredible Hulk",
@@ -2103,7 +2103,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0856/UTV-15120-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "The Last Exorcism Part II",
@@ -2116,7 +2116,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572149495526/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Incredible Hulk",
@@ -2129,7 +2129,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559891196531/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Hobbit: An Unexpected Journey",
@@ -2142,7 +2142,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559968080702/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Hunger Games",
@@ -2155,7 +2155,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842399946264/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Incredible Hulk",
@@ -2168,7 +2168,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865594561388/piksel.mpd",
         "fileFormat": "mpd",
         "title": "The Inbetweeners Movie",
@@ -2181,7 +2181,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835926035670/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "The Last Exorcism Part II",
@@ -2194,7 +2194,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173557339080706/pikselss.ism",
         "fileFormat": "ism",
         "title": "The Hangover, Part 3",

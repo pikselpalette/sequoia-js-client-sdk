@@ -13,25 +13,25 @@
           "totalCount": 58,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15184%7C%7Csa-team%3AUTV-15115%7C%7Csa-team%3AUTV-15085%7C%7Csa-team%3AUTV-15116%7C%7Csa-team%3AUTV-15218%7C%7Csa-team%3AUTV-BOX-15032%7C%7Csa-team%3AUTV-15048%7C%7Csa-team%3AUTV-15148%7C%7Csa-team%3AUTV-15245%7C%7Csa-team%3AUTV-15219&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15184%7C%7Csa-team%3AUTV-15115%7C%7Csa-team%3AUTV-15085%7C%7Csa-team%3AUTV-15116%7C%7Csa-team%3AUTV-15218%7C%7Csa-team%3AUTV-BOX-15032%7C%7Csa-team%3AUTV-15048%7C%7Csa-team%3AUTV-15148%7C%7Csa-team%3AUTV-15245%7C%7Csa-team%3AUTV-15219&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15184%7C%7Csa-team%3AUTV-15115%7C%7Csa-team%3AUTV-15085%7C%7Csa-team%3AUTV-15116%7C%7Csa-team%3AUTV-15218%7C%7Csa-team%3AUTV-BOX-15032%7C%7Csa-team%3AUTV-15048%7C%7Csa-team%3AUTV-15148%7C%7Csa-team%3AUTV-15245%7C%7Csa-team%3AUTV-15219"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15184%7C%7Csa-team%3AUTV-15115%7C%7Csa-team%3AUTV-15085%7C%7Csa-team%3AUTV-15116%7C%7Csa-team%3AUTV-15218%7C%7Csa-team%3AUTV-BOX-15032%7C%7Csa-team%3AUTV-15048%7C%7Csa-team%3AUTV-15148%7C%7Csa-team%3AUTV-15245%7C%7Csa-team%3AUTV-15219&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15184%7C%7Csa-team%3AUTV-15115%7C%7Csa-team%3AUTV-15085%7C%7Csa-team%3AUTV-15116%7C%7Csa-team%3AUTV-15218%7C%7Csa-team%3AUTV-BOX-15032%7C%7Csa-team%3AUTV-15048%7C%7Csa-team%3AUTV-15148%7C%7Csa-team%3AUTV-15245%7C%7Csa-team%3AUTV-15219&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15184%7C%7Csa-team%3AUTV-15115%7C%7Csa-team%3AUTV-15085%7C%7Csa-team%3AUTV-15116%7C%7Csa-team%3AUTV-15218%7C%7Csa-team%3AUTV-BOX-15032%7C%7Csa-team%3AUTV-15048%7C%7Csa-team%3AUTV-15148%7C%7Csa-team%3AUTV-15245%7C%7Csa-team%3AUTV-15219"
         },
         {
           "totalCount": 15,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15047%7C%7Csa-team%3AssOmai22%7C%7Csa-team%3AssOmai23%7C%7Csa-team%3AssOmai24%7C%7Csa-team%3AssOmai25%7C%7Csa-team%3AssOmai26%7C%7Csa-team%3AssOmai27%7C%7Csa-team%3AssOmai28%7C%7Csa-team%3AssOmai29%7C%7Csa-team%3AssOmai9&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15047%7C%7Csa-team%3AssOmai22%7C%7Csa-team%3AssOmai23%7C%7Csa-team%3AssOmai24%7C%7Csa-team%3AssOmai25%7C%7Csa-team%3AssOmai26%7C%7Csa-team%3AssOmai27%7C%7Csa-team%3AssOmai28%7C%7Csa-team%3AssOmai29%7C%7Csa-team%3AssOmai9&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15047%7C%7Csa-team%3AssOmai22%7C%7Csa-team%3AssOmai23%7C%7Csa-team%3AssOmai24%7C%7Csa-team%3AssOmai25%7C%7Csa-team%3AssOmai26%7C%7Csa-team%3AssOmai27%7C%7Csa-team%3AssOmai28%7C%7Csa-team%3AssOmai29%7C%7Csa-team%3AssOmai9"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15047%7C%7Csa-team%3AssOmai22%7C%7Csa-team%3AssOmai23%7C%7Csa-team%3AssOmai24%7C%7Csa-team%3AssOmai25%7C%7Csa-team%3AssOmai26%7C%7Csa-team%3AssOmai27%7C%7Csa-team%3AssOmai28%7C%7Csa-team%3AssOmai29%7C%7Csa-team%3AssOmai9&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15047%7C%7Csa-team%3AssOmai22%7C%7Csa-team%3AssOmai23%7C%7Csa-team%3AssOmai24%7C%7Csa-team%3AssOmai25%7C%7Csa-team%3AssOmai26%7C%7Csa-team%3AssOmai27%7C%7Csa-team%3AssOmai28%7C%7Csa-team%3AssOmai29%7C%7Csa-team%3AssOmai9&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15047%7C%7Csa-team%3AssOmai22%7C%7Csa-team%3AssOmai23%7C%7Csa-team%3AssOmai24%7C%7Csa-team%3AssOmai25%7C%7Csa-team%3AssOmai26%7C%7Csa-team%3AssOmai27%7C%7Csa-team%3AssOmai28%7C%7Csa-team%3AssOmai29%7C%7Csa-team%3AssOmai9"
         },
         {
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15149%7C%7Csa-team%3AUTV-15023%7C%7Csa-team%3AUTV-15150%7C%7Csa-team%3AUTV-15185&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15149%7C%7Csa-team%3AUTV-15023%7C%7Csa-team%3AUTV-15150%7C%7Csa-team%3AUTV-15185&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15149%7C%7Csa-team%3AUTV-15023%7C%7Csa-team%3AUTV-15150%7C%7Csa-team%3AUTV-15185"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15149%7C%7Csa-team%3AUTV-15023%7C%7Csa-team%3AUTV-15150%7C%7Csa-team%3AUTV-15185&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15149%7C%7Csa-team%3AUTV-15023%7C%7Csa-team%3AUTV-15150%7C%7Csa-team%3AUTV-15185&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15149%7C%7Csa-team%3AUTV-15023%7C%7Csa-team%3AUTV-15150%7C%7Csa-team%3AUTV-15185"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1425/UTV-15219-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Spider-Man 3",
@@ -324,7 +324,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1402/UTV-BOX-15032-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Sin City: A Dame To Kill For",
@@ -337,7 +337,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1457/UTV-15245-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Snakes On A Plane",
@@ -350,7 +350,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15184-LI.jpg",
         "fileFormat": "jpg",
         "title": "Sex And The City",
@@ -363,7 +363,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15219-LI.jpg",
         "fileFormat": "jpg",
         "title": "Spider-Man 3",
@@ -377,7 +377,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15116-PI.jpg",
         "fileFormat": "jpg",
         "title": "Shrek Forever After",
@@ -391,7 +391,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15184-PI.jpg",
         "fileFormat": "jpg",
         "title": "Sex And The City",
@@ -405,7 +405,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15032-PI.jpg",
         "fileFormat": "jpg",
         "title": "Sin City: A Dame To Kill For",
@@ -418,7 +418,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15032-LI.jpg",
         "fileFormat": "jpg",
         "title": "Sin City: A Dame To Kill For",
@@ -432,7 +432,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15245-PI.jpg",
         "fileFormat": "jpg",
         "title": "Snakes On A Plane",
@@ -445,7 +445,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0846/UTV-15116-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Shrek Forever After",
@@ -459,7 +459,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15048-PI.jpg",
         "fileFormat": "jpg",
         "title": "Skyfall",
@@ -472,7 +472,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15048-LI.jpg",
         "fileFormat": "jpg",
         "title": "Skyfall",
@@ -485,7 +485,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1420/UTV-15218-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Shrek The Third",
@@ -498,7 +498,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15218-LI.jpg",
         "fileFormat": "jpg",
         "title": "Shrek The Third",
@@ -511,7 +511,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0829/UTV-15048-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Skyfall",
@@ -525,7 +525,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15085-PI.jpg",
         "fileFormat": "jpg",
         "title": "Sherlock Holmes: A Game of Shadows",
@@ -538,7 +538,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0748/UTV-15085-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Sherlock Holmes: A Game of Shadows",
@@ -551,7 +551,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15115-LI.jpg",
         "fileFormat": "jpg",
         "title": "Sex and the City 2",
@@ -565,7 +565,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15148-PI.jpg",
         "fileFormat": "jpg",
         "title": "Slumdog Millionaire",
@@ -578,7 +578,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15148-LI.jpg",
         "fileFormat": "jpg",
         "title": "Slumdog Millionaire",
@@ -592,7 +592,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15115-PI.jpg",
         "fileFormat": "jpg",
         "title": "Sex and the City 2",
@@ -605,7 +605,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1025/UTV-15148-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Slumdog Millionaire",
@@ -618,7 +618,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173576103337584/pikselss.ism",
         "fileFormat": "ism",
         "title": "Spider-Man 3",
@@ -631,7 +631,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868283363809/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Shrek Forever After",
@@ -644,7 +644,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835508133034/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Shrek Forever After",
@@ -657,7 +657,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829920510283/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Skyfall",
@@ -670,7 +670,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844689437275/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Spider-Man 3",
@@ -683,7 +683,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565211639778/pikselss.ism",
         "fileFormat": "ism",
         "title": "Sex and the City 2",
@@ -696,7 +696,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865417178365/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Sherlock Holmes: A Game of Shadows",
@@ -709,7 +709,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565381116956/pikselss.ism",
         "fileFormat": "ism",
         "title": "Shrek Forever After",
@@ -722,7 +722,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862180192244/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Skyfall",
@@ -735,7 +735,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844610034737/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Shrek The Third",
@@ -748,7 +748,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877806718740/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Shrek The Third",
@@ -761,7 +761,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880272844909/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Snakes On A Plane",
@@ -774,7 +774,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173578067591347/pikselss.ism",
         "fileFormat": "ism",
         "title": "Snakes On A Plane",
@@ -787,7 +787,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874705223702/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Sex And The City",
@@ -800,7 +800,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121847032148278/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Snakes On A Plane",
@@ -813,7 +813,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833624506601/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Sherlock Holmes: A Game of Shadows",
@@ -826,7 +826,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871771639649/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Slumdog Millionaire",
@@ -839,7 +839,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563249407590/pikselss.ism",
         "fileFormat": "ism",
         "title": "Sherlock Holmes: A Game of Shadows",
@@ -852,7 +852,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838735710638/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Slumdog Millionaire",
@@ -865,7 +865,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841825503832/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Sex And The City",
@@ -878,7 +878,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173575279269995/pikselss.ism",
         "fileFormat": "ism",
         "title": "Shrek The Third",
@@ -891,7 +891,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883694517553/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Sin City: A Dame To Kill For",
@@ -904,7 +904,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173581830284440/pikselss.ism",
         "fileFormat": "ism",
         "title": "Sin City: A Dame To Kill For",
@@ -917,7 +917,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15245-LI.jpg",
         "fileFormat": "jpg",
         "title": "Snakes On A Plane",
@@ -931,7 +931,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15219-PI.jpg",
         "fileFormat": "jpg",
         "title": "Spider-Man 3",
@@ -944,7 +944,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15116-LI.jpg",
         "fileFormat": "jpg",
         "title": "Shrek Forever After",
@@ -958,7 +958,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15218-PI.jpg",
         "fileFormat": "jpg",
         "title": "Shrek The Third",
@@ -971,7 +971,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15085-LI.jpg",
         "fileFormat": "jpg",
         "title": "Sherlock Holmes: A Game of Shadows",
@@ -984,7 +984,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877903720198/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Spider-Man 3",
@@ -997,7 +997,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835290563520/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Sex and the City 2",
@@ -1010,7 +1010,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868194298304/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Sex and the City 2",
@@ -1023,7 +1023,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558867279077/pikselss.ism",
         "fileFormat": "ism",
         "title": "Skyfall",
@@ -1036,7 +1036,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571847311383/pikselss.ism",
         "fileFormat": "ism",
         "title": "Sex And The City",
@@ -1049,7 +1049,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569187041174/pikselss.ism",
         "fileFormat": "ism",
         "title": "Slumdog Millionaire",
@@ -1062,7 +1062,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850768697853/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Sin City: A Dame To Kill For",
@@ -1075,7 +1075,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15047-LI.jpg",
         "fileFormat": "jpg",
         "title": "Spring Breakers",
@@ -1089,7 +1089,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15047-PI.jpg",
         "fileFormat": "jpg",
         "title": "Spring Breakers",
@@ -1102,7 +1102,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0845/UTV-BOX-15047-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Spring Breakers",
@@ -1115,7 +1115,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai24.ism",
         "fileFormat": "ism",
         "title": "ssOmai24",
@@ -1128,7 +1128,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai27.ism",
         "fileFormat": "ism",
         "title": "ssOmai27",
@@ -1141,7 +1141,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai22.ism",
         "fileFormat": "ism",
         "title": "ssOmai22",
@@ -1154,7 +1154,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai29.ism",
         "fileFormat": "ism",
         "title": "ssOmai29",
@@ -1167,7 +1167,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai26.ism",
         "fileFormat": "ism",
         "title": "ssOmai26",
@@ -1180,7 +1180,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai9.ism",
         "fileFormat": "ism",
         "title": "ssOmai9",
@@ -1193,7 +1193,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121852042400606/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Spring Breakers",
@@ -1206,7 +1206,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884898621199/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Spring Breakers",
@@ -1219,7 +1219,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582917396397/pikselss.ism",
         "fileFormat": "ism",
         "title": "Spring Breakers",
@@ -1232,7 +1232,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai28.ism",
         "fileFormat": "ism",
         "title": "ssOmai28",
@@ -1245,7 +1245,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai23.ism",
         "fileFormat": "ism",
         "title": "ssOmai23",
@@ -1258,7 +1258,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/2015/10/06/1430/ssOmai25.ism",
         "fileFormat": "ism",
         "title": "ssOmai25",
@@ -1271,7 +1271,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1027/UTV-15149-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Star Trek",
@@ -1284,7 +1284,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15149-LI.jpg",
         "fileFormat": "jpg",
         "title": "Star Trek",
@@ -1297,7 +1297,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15023-LI.jpg",
         "fileFormat": "jpg",
         "title": "Star Trek Into Darkness",
@@ -1310,7 +1310,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1333/UTV-15185-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Step Brothers",
@@ -1324,7 +1324,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15185-PI.jpg",
         "fileFormat": "jpg",
         "title": "Step Brothers",
@@ -1338,7 +1338,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15023-PI.jpg",
         "fileFormat": "jpg",
         "title": "Star Trek Into Darkness",
@@ -1352,7 +1352,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15150-PI.jpg",
         "fileFormat": "jpg",
         "title": "State Of Play",
@@ -1365,7 +1365,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1029/UTV-15150-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "State Of Play",
@@ -1378,7 +1378,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15150-LI.jpg",
         "fileFormat": "jpg",
         "title": "State Of Play",
@@ -1391,7 +1391,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871847788229/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Star Trek",
@@ -1404,7 +1404,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841908950140/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Step Brothers",
@@ -1417,7 +1417,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173572064651945/pikselss.ism",
         "fileFormat": "ism",
         "title": "Step Brothers",
@@ -1430,7 +1430,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173556810123979/pikselss.ism",
         "fileFormat": "ism",
         "title": "Star Trek Into Darkness",
@@ -1443,7 +1443,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569515882126/pikselss.ism",
         "fileFormat": "ism",
         "title": "State Of Play",
@@ -1456,7 +1456,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838891855130/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "State Of Play",
@@ -1470,7 +1470,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15149-PI.jpg",
         "fileFormat": "jpg",
         "title": "Star Trek",
@@ -1483,7 +1483,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15185-LI.jpg",
         "fileFormat": "jpg",
         "title": "Step Brothers",
@@ -1496,7 +1496,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1630/UTV-15023-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Star Trek Into Darkness",
@@ -1509,7 +1509,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871937126656/piksel.mpd",
         "fileFormat": "mpd",
         "title": "State Of Play",
@@ -1522,7 +1522,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838813596259/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Star Trek",
@@ -1535,7 +1535,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569273410559/pikselss.ism",
         "fileFormat": "ism",
         "title": "Star Trek",
@@ -1548,7 +1548,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874780632724/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Step Brothers",
@@ -1561,7 +1561,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106859694749421/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Star Trek Into Darkness",
@@ -1574,7 +1574,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121827226999074/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Star Trek Into Darkness",

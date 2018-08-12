@@ -12,25 +12,25 @@
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15065%7C%7Csa-team%3AUTV-15034%7C%7Csa-team%3AUTV-15131%7C%7Csa-team%3AUTV-15035&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15065%7C%7Csa-team%3AUTV-15034%7C%7Csa-team%3AUTV-15131%7C%7Csa-team%3AUTV-15035&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15065%7C%7Csa-team%3AUTV-15034%7C%7Csa-team%3AUTV-15131%7C%7Csa-team%3AUTV-15035"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15065%7C%7Csa-team%3AUTV-15034%7C%7Csa-team%3AUTV-15131%7C%7Csa-team%3AUTV-15035&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15065%7C%7Csa-team%3AUTV-15034%7C%7Csa-team%3AUTV-15131%7C%7Csa-team%3AUTV-15035&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15065%7C%7Csa-team%3AUTV-15034%7C%7Csa-team%3AUTV-15131%7C%7Csa-team%3AUTV-15035"
         },
         {
           "totalCount": 59,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15002%7C%7Csa-team%3AUTV-15003%7C%7Csa-team%3AUTV-15096%7C%7Csa-team%3AUTV-15164%7C%7Csa-team%3AUTV-15129%7C%7Csa-team%3AUTV-15199%7C%7Csa-team%3AUTV-BOX-15038%7C%7Csa-team%3AUTV-15130%7C%7Csa-team%3AUTV-15064%7C%7Csa-team%3AUTV-15061&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15002%7C%7Csa-team%3AUTV-15003%7C%7Csa-team%3AUTV-15096%7C%7Csa-team%3AUTV-15164%7C%7Csa-team%3AUTV-15129%7C%7Csa-team%3AUTV-15199%7C%7Csa-team%3AUTV-BOX-15038%7C%7Csa-team%3AUTV-15130%7C%7Csa-team%3AUTV-15064%7C%7Csa-team%3AUTV-15061&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15002%7C%7Csa-team%3AUTV-15003%7C%7Csa-team%3AUTV-15096%7C%7Csa-team%3AUTV-15164%7C%7Csa-team%3AUTV-15129%7C%7Csa-team%3AUTV-15199%7C%7Csa-team%3AUTV-BOX-15038%7C%7Csa-team%3AUTV-15130%7C%7Csa-team%3AUTV-15064%7C%7Csa-team%3AUTV-15061"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15002%7C%7Csa-team%3AUTV-15003%7C%7Csa-team%3AUTV-15096%7C%7Csa-team%3AUTV-15164%7C%7Csa-team%3AUTV-15129%7C%7Csa-team%3AUTV-15199%7C%7Csa-team%3AUTV-BOX-15038%7C%7Csa-team%3AUTV-15130%7C%7Csa-team%3AUTV-15064%7C%7Csa-team%3AUTV-15061&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15002%7C%7Csa-team%3AUTV-15003%7C%7Csa-team%3AUTV-15096%7C%7Csa-team%3AUTV-15164%7C%7Csa-team%3AUTV-15129%7C%7Csa-team%3AUTV-15199%7C%7Csa-team%3AUTV-BOX-15038%7C%7Csa-team%3AUTV-15130%7C%7Csa-team%3AUTV-15064%7C%7Csa-team%3AUTV-15061&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15002%7C%7Csa-team%3AUTV-15003%7C%7Csa-team%3AUTV-15096%7C%7Csa-team%3AUTV-15164%7C%7Csa-team%3AUTV-15129%7C%7Csa-team%3AUTV-15199%7C%7Csa-team%3AUTV-BOX-15038%7C%7Csa-team%3AUTV-15130%7C%7Csa-team%3AUTV-15064%7C%7Csa-team%3AUTV-15061"
         },
         {
           "totalCount": 60,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15162%7C%7Csa-team%3AUTV-BOX-15019%7C%7Csa-team%3AUTV-15127%7C%7Csa-team%3AUTV-BOX-15006%7C%7Csa-team%3AUTV-15163%7C%7Csa-team%3AUTV-BOX-15011%7C%7Csa-team%3AUTV-15128%7C%7Csa-team%3AUTV-15000%7C%7Csa-team%3AUTV-15001%7C%7Csa-team%3AUTV-15033&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15162%7C%7Csa-team%3AUTV-BOX-15019%7C%7Csa-team%3AUTV-15127%7C%7Csa-team%3AUTV-BOX-15006%7C%7Csa-team%3AUTV-15163%7C%7Csa-team%3AUTV-BOX-15011%7C%7Csa-team%3AUTV-15128%7C%7Csa-team%3AUTV-15000%7C%7Csa-team%3AUTV-15001%7C%7Csa-team%3AUTV-15033&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15162%7C%7Csa-team%3AUTV-BOX-15019%7C%7Csa-team%3AUTV-15127%7C%7Csa-team%3AUTV-BOX-15006%7C%7Csa-team%3AUTV-15163%7C%7Csa-team%3AUTV-BOX-15011%7C%7Csa-team%3AUTV-15128%7C%7Csa-team%3AUTV-15000%7C%7Csa-team%3AUTV-15001%7C%7Csa-team%3AUTV-15033"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15162%7C%7Csa-team%3AUTV-BOX-15019%7C%7Csa-team%3AUTV-15127%7C%7Csa-team%3AUTV-BOX-15006%7C%7Csa-team%3AUTV-15163%7C%7Csa-team%3AUTV-BOX-15011%7C%7Csa-team%3AUTV-15128%7C%7Csa-team%3AUTV-15000%7C%7Csa-team%3AUTV-15001%7C%7Csa-team%3AUTV-15033&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15162%7C%7Csa-team%3AUTV-BOX-15019%7C%7Csa-team%3AUTV-15127%7C%7Csa-team%3AUTV-BOX-15006%7C%7Csa-team%3AUTV-15163%7C%7Csa-team%3AUTV-BOX-15011%7C%7Csa-team%3AUTV-15128%7C%7Csa-team%3AUTV-15000%7C%7Csa-team%3AUTV-15001%7C%7Csa-team%3AUTV-15033&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15162%7C%7Csa-team%3AUTV-BOX-15019%7C%7Csa-team%3AUTV-15127%7C%7Csa-team%3AUTV-BOX-15006%7C%7Csa-team%3AUTV-15163%7C%7Csa-team%3AUTV-BOX-15011%7C%7Csa-team%3AUTV-15128%7C%7Csa-team%3AUTV-15000%7C%7Csa-team%3AUTV-15001%7C%7Csa-team%3AUTV-15033"
         }
       ]
     }
@@ -308,7 +308,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15035-LI.jpg",
         "fileFormat": "jpg",
         "title": "Brave",
@@ -321,7 +321,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0650/UTV-15035-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Brave",
@@ -335,7 +335,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15035-PI.jpg",
         "fileFormat": "jpg",
         "title": "Brave",
@@ -348,7 +348,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0648/UTV-15034-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Battleship",
@@ -361,7 +361,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0940/UTV-15131-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Bolt",
@@ -375,7 +375,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15131-PI.jpg",
         "fileFormat": "jpg",
         "title": "Bolt",
@@ -388,7 +388,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15131-LI.jpg",
         "fileFormat": "jpg",
         "title": "Bolt",
@@ -401,7 +401,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15065-LI.jpg",
         "fileFormat": "jpg",
         "title": "Battle: Los Angeles",
@@ -415,7 +415,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15034-PI.jpg",
         "fileFormat": "jpg",
         "title": "Battleship",
@@ -428,7 +428,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836992003025/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Bolt",
@@ -441,7 +441,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566971287429/pikselss.ism",
         "fileFormat": "ism",
         "title": "Bolt",
@@ -454,7 +454,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869851017493/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Bolt",
@@ -467,7 +467,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828566459997/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Battleship",
@@ -480,7 +480,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558654354725/pikselss.ism",
         "fileFormat": "ism",
         "title": "Brave",
@@ -493,7 +493,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106861168508474/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Brave",
@@ -506,7 +506,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863662829747/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Battle: Los Angeles",
@@ -519,7 +519,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15034-LI.jpg",
         "fileFormat": "jpg",
         "title": "Battleship",
@@ -532,7 +532,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0718/UTV-15065-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Battle: Los Angeles",
@@ -546,7 +546,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15065-PI.jpg",
         "fileFormat": "jpg",
         "title": "Battle: Los Angeles",
@@ -559,7 +559,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828666135192/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Brave",
@@ -572,7 +572,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860928273398/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Battleship",
@@ -585,7 +585,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558263728740/pikselss.ism",
         "fileFormat": "ism",
         "title": "Battleship",
@@ -598,7 +598,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561723747780/pikselss.ism",
         "fileFormat": "ism",
         "title": "Battle: Los Angeles",
@@ -611,7 +611,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831225257649/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Battle: Los Angeles",
@@ -624,7 +624,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1022/UTV-15130-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Angels & Demons",
@@ -638,7 +638,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15164-PI.jpg",
         "fileFormat": "jpg",
         "title": "Aliens vs. Predator 2: Requiem",
@@ -651,7 +651,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15164-LI.jpg",
         "fileFormat": "jpg",
         "title": "Aliens vs. Predator 2: Requiem",
@@ -665,7 +665,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15061-PI.jpg",
         "fileFormat": "jpg",
         "title": "Battle Royale",
@@ -678,7 +678,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15061-LI.jpg",
         "fileFormat": "jpg",
         "title": "Battle Royale",
@@ -691,7 +691,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0828/UTV-BOX-15038-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Anchorman 2: The Legend Continues",
@@ -704,7 +704,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/0903/UTV-15061-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Battle Royale",
@@ -718,7 +718,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15129-PI.jpg",
         "fileFormat": "jpg",
         "title": "Alvin and the Chipmunks: The Squeakquel",
@@ -731,7 +731,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0937/UTV-15129-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Alvin and the Chipmunks: The Squeakquel",
@@ -744,7 +744,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15129-LI.jpg",
         "fileFormat": "jpg",
         "title": "Alvin and the Chipmunks: The Squeakquel",
@@ -757,7 +757,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0716/UTV-15064-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Arthur Christmas",
@@ -771,7 +771,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15199-PI.jpg",
         "fileFormat": "jpg",
         "title": "American Gangster",
@@ -784,7 +784,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15199-LI.jpg",
         "fileFormat": "jpg",
         "title": "American Gangster",
@@ -797,7 +797,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1356/UTV-15199-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "American Gangster",
@@ -810,7 +810,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0806/UTV-15096-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Alice In Wonderland",
@@ -823,7 +823,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15096-LI.jpg",
         "fileFormat": "jpg",
         "title": "Alice In Wonderland",
@@ -836,7 +836,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1544/UTV-15002-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "After Earth",
@@ -849,7 +849,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15002-LI.jpg",
         "fileFormat": "jpg",
         "title": "After Earth",
@@ -862,7 +862,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/9/7/landscape/UTV-15003-LI.jpg",
         "fileFormat": "jpg",
         "title": "Alan Partridge: Alpha Papa",
@@ -876,7 +876,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/9/7/portrait/UTV-15003-PI.jpg",
         "fileFormat": "jpg",
         "title": "Alan Partridge: Alpha Papa",
@@ -889,7 +889,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869773341327/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Angels & Demons",
@@ -902,7 +902,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/smooth-vod/IBC/UTV-15061/pvptest.ism",
         "fileFormat": "ism",
         "title": "Battle Royale",
@@ -915,7 +915,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836810848278/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Alvin and the Chipmunks: The Squeakquel",
@@ -928,7 +928,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566566793775/pikselss.ism",
         "fileFormat": "ism",
         "title": "Alvin and the Chipmunks: The Squeakquel",
@@ -941,7 +941,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836898817637/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Angels & Demons",
@@ -954,7 +954,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566640799455/pikselss.ism",
         "fileFormat": "ism",
         "title": "Angels & Demons",
@@ -967,7 +967,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873209844087/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Aliens vs. Predator 2: Requiem",
@@ -980,7 +980,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106863571445477/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Arthur Christmas",
@@ -993,7 +993,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121834275303248/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Alice In Wonderland",
@@ -1006,7 +1006,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570431293898/pikselss.ism",
         "fileFormat": "ism",
         "title": "Aliens vs. Predator 2: Requiem",
@@ -1019,7 +1019,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173561488070435/pikselss.ism",
         "fileFormat": "ism",
         "title": "Arthur Christmas",
@@ -1032,7 +1032,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106857844368431/piksel.mpd",
         "fileFormat": "mpd",
         "title": "After Earth",
@@ -1045,7 +1045,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121825338935081/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Alan Partridge: Alpha Papa",
@@ -1058,7 +1058,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121825198575222/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "After Earth",
@@ -1070,7 +1070,7 @@
         "tags": [
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "2015/09/07/0652/ssManifest.ism",
         "title": "Alan Partridge: Alpha Papa",
         "contentRef": "sa-team:UTV-15003"
@@ -1081,7 +1081,7 @@
         "tags": [
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "2015/09/07/0652/Manifest.m3u8",
         "title": "Alan Partridge: Alpha Papa",
         "contentRef": "sa-team:UTV-15003"
@@ -1093,7 +1093,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884132761407/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Anchorman 2: The Legend Continues",
@@ -1106,7 +1106,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582002228884/pikselss.ism",
         "fileFormat": "ism",
         "title": "Anchorman 2: The Legend Continues",
@@ -1119,7 +1119,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1050/UTV-15164-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Aliens vs. Predator 2: Requiem",
@@ -1132,7 +1132,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15130-LI.jpg",
         "fileFormat": "jpg",
         "title": "Angels & Demons",
@@ -1146,7 +1146,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15130-PI.jpg",
         "fileFormat": "jpg",
         "title": "Angels & Demons",
@@ -1160,7 +1160,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15038-PI.jpg",
         "fileFormat": "jpg",
         "title": "Anchorman 2: The Legend Continues",
@@ -1173,7 +1173,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15038-LI.jpg",
         "fileFormat": "jpg",
         "title": "Anchorman 2: The Legend Continues",
@@ -1186,7 +1186,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15064-LI.jpg",
         "fileFormat": "jpg",
         "title": "Arthur Christmas",
@@ -1200,7 +1200,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15064-PI.jpg",
         "fileFormat": "jpg",
         "title": "Arthur Christmas",
@@ -1214,7 +1214,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15096-PI.jpg",
         "fileFormat": "jpg",
         "title": "Alice In Wonderland",
@@ -1228,7 +1228,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15002-PI.jpg",
         "fileFormat": "jpg",
         "title": "After Earth",
@@ -1241,7 +1241,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869695478410/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Alvin and the Chipmunks: The Squeakquel",
@@ -1254,7 +1254,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173564061987959/pikselss.ism",
         "fileFormat": "ism",
         "title": "Alice In Wonderland",
@@ -1267,7 +1267,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121842959197652/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "American Gangster",
@@ -1280,7 +1280,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106875816223403/piksel.mpd",
         "fileFormat": "mpd",
         "title": "American Gangster",
@@ -1293,7 +1293,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173573518657745/pikselss.ism",
         "fileFormat": "ism",
         "title": "American Gangster",
@@ -1306,7 +1306,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839974130555/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Aliens vs. Predator 2: Requiem",
@@ -1319,7 +1319,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106866244599926/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Alice In Wonderland",
@@ -1332,7 +1332,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121831135462024/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Arthur Christmas",
@@ -1345,7 +1345,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555706498614/pikselss.ism",
         "fileFormat": "ism",
         "title": "After Earth",
@@ -1358,7 +1358,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555074011806/pikselss.ism",
         "fileFormat": "ism",
         "title": "Alan Partridge: Alpha Papa",
@@ -1371,7 +1371,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106857918689335/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Alan Partridge: Alpha Papa",
@@ -1384,7 +1384,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851154874080/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Anchorman 2: The Legend Continues",
@@ -1397,7 +1397,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15011-LI.jpg",
         "fileFormat": "jpg",
         "title": "300: Rise of An Empire",
@@ -1410,7 +1410,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1436/UTV-BOX-15011-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "300: Rise of An Empire",
@@ -1423,7 +1423,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1053/UTV-15162-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "10,000 BC",
@@ -1436,7 +1436,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15019-LI.jpg",
         "fileFormat": "jpg",
         "title": "12 Years a Slave",
@@ -1450,7 +1450,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15000-PI.jpg",
         "fileFormat": "jpg",
         "title": "A Good Day To Die Hard",
@@ -1463,7 +1463,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1534/UTV-15000-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "A Good Day To Die Hard",
@@ -1476,7 +1476,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15000-LI.jpg",
         "fileFormat": "jpg",
         "title": "A Good Day To Die Hard",
@@ -1489,7 +1489,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1453/UTV-15033-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Abraham Lincoln: Vampire Hunter",
@@ -1502,7 +1502,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15127-LI.jpg",
         "fileFormat": "jpg",
         "title": "2012",
@@ -1515,7 +1515,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1541/UTV-15001-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "About Time",
@@ -1528,7 +1528,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15001-LI.jpg",
         "fileFormat": "jpg",
         "title": "About Time",
@@ -1541,7 +1541,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1322/UTV-BOX-15006-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "22 Jump Street",
@@ -1555,7 +1555,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15006-PI.jpg",
         "fileFormat": "jpg",
         "title": "22 Jump Street",
@@ -1568,7 +1568,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15006-LI.jpg",
         "fileFormat": "jpg",
         "title": "22 Jump Street",
@@ -1582,7 +1582,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15019-PI.jpg",
         "fileFormat": "jpg",
         "title": "12 Years a Slave",
@@ -1595,7 +1595,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1704/UTV-BOX-15019-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "12 Years a Slave",
@@ -1609,7 +1609,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15033-PI.jpg",
         "fileFormat": "jpg",
         "title": "Abraham Lincoln: Vampire Hunter",
@@ -1623,7 +1623,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15127-PI.jpg",
         "fileFormat": "jpg",
         "title": "2012",
@@ -1636,7 +1636,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0930/UTV-15127-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "2012",
@@ -1649,7 +1649,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15033-LI.jpg",
         "fileFormat": "jpg",
         "title": "Abraham Lincoln: Vampire Hunter",
@@ -1663,7 +1663,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15163-PI.jpg",
         "fileFormat": "jpg",
         "title": "27 Dresses",
@@ -1676,7 +1676,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0932/UTV-15128-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "A Christmas Carol",
@@ -1689,7 +1689,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1049/UTV-15163-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "27 Dresses",
@@ -1702,7 +1702,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15163-LI.jpg",
         "fileFormat": "jpg",
         "title": "27 Dresses",
@@ -1715,7 +1715,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882010514535/piksel.mpd",
         "fileFormat": "mpd",
         "title": "300: Rise of An Empire",
@@ -1728,7 +1728,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848678882224/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "300: Rise of An Empire",
@@ -1741,7 +1741,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566245914468/pikselss.ism",
         "fileFormat": "ism",
         "title": "2012",
@@ -1754,7 +1754,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848135301978/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "22 Jump Street",
@@ -1767,7 +1767,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106857689704594/piksel.mpd",
         "fileFormat": "mpd",
         "title": "A Good Day To Die Hard",
@@ -1780,7 +1780,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173558023923570/pikselss.ism",
         "fileFormat": "ism",
         "title": "Abraham Lincoln: Vampire Hunter",
@@ -1793,7 +1793,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555232851499/pikselss.ism",
         "fileFormat": "ism",
         "title": "A Good Day To Die Hard",
@@ -1806,7 +1806,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106860841843054/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Abraham Lincoln: Vampire Hunter",
@@ -1819,7 +1819,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873056840198/piksel.mpd",
         "fileFormat": "mpd",
         "title": "10,000 BC",
@@ -1832,7 +1832,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836603233682/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "A Christmas Carol",
@@ -1845,7 +1845,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173566320966671/pikselss.ism",
         "fileFormat": "ism",
         "title": "A Christmas Carol",
@@ -1858,7 +1858,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106857770254149/piksel.mpd",
         "fileFormat": "mpd",
         "title": "About Time",
@@ -1871,7 +1871,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839792292284/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "10,000 BC",
@@ -1884,7 +1884,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570172621416/pikselss.ism",
         "fileFormat": "ism",
         "title": "10,000 BC",
@@ -1897,7 +1897,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579170712705/pikselss.ism",
         "fileFormat": "ism",
         "title": "22 Jump Street",
@@ -1910,7 +1910,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121839881931961/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "27 Dresses",
@@ -1923,7 +1923,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106873133578707/piksel.mpd",
         "fileFormat": "mpd",
         "title": "27 Dresses",
@@ -1936,7 +1936,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173570259391805/pikselss.ism",
         "fileFormat": "ism",
         "title": "27 Dresses",
@@ -1949,7 +1949,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121849496369339/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "12 Years a Slave",
@@ -1962,7 +1962,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580455640168/pikselss.ism",
         "fileFormat": "ism",
         "title": "12 Years a Slave",
@@ -1976,7 +1976,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15011-PI.jpg",
         "fileFormat": "jpg",
         "title": "300: Rise of An Empire",
@@ -1989,7 +1989,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15162-LI.jpg",
         "fileFormat": "jpg",
         "title": "10,000 BC",
@@ -2003,7 +2003,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15162-PI.jpg",
         "fileFormat": "jpg",
         "title": "10,000 BC",
@@ -2017,7 +2017,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15001-PI.jpg",
         "fileFormat": "jpg",
         "title": "About Time",
@@ -2030,7 +2030,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15128-LI.jpg",
         "fileFormat": "jpg",
         "title": "A Christmas Carol",
@@ -2044,7 +2044,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15128-PI.jpg",
         "fileFormat": "jpg",
         "title": "A Christmas Carol",
@@ -2057,7 +2057,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121836525779196/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "2012",
@@ -2070,7 +2070,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869386805104/piksel.mpd",
         "fileFormat": "mpd",
         "title": "2012",
@@ -2083,7 +2083,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579008642425/pikselss.ism",
         "fileFormat": "ism",
         "title": "300: Rise of An Empire",
@@ -2096,7 +2096,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881419417325/piksel.mpd",
         "fileFormat": "mpd",
         "title": "22 Jump Street",
@@ -2109,7 +2109,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106869608616890/piksel.mpd",
         "fileFormat": "mpd",
         "title": "A Christmas Carol",
@@ -2122,7 +2122,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121824911979830/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "A Good Day To Die Hard",
@@ -2135,7 +2135,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121825026944282/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "About Time",
@@ -2148,7 +2148,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121828445685712/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Abraham Lincoln: Vampire Hunter",
@@ -2161,7 +2161,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173555469473992/pikselss.ism",
         "fileFormat": "ism",
         "title": "About Time",
@@ -2174,7 +2174,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106882619527754/piksel.mpd",
         "fileFormat": "mpd",
         "title": "12 Years a Slave",

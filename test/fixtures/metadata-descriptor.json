@@ -74,7 +74,7 @@
           "label": "title",
           "graphical": "url",
           "quickInfo": [
-            "mediaType",
+            "type",
             "fileFormat"
           ],
           "other": [
@@ -107,7 +107,7 @@
         },
         "singularName": "asset",
         "pluralName": "assets",
-        "grouping": "mediaType"
+        "grouping": "type"
       },
       "fields": {
         "ref": {
@@ -524,7 +524,7 @@
             }
           ]
         },
-        "mediaType": {
+        "type": {
           "description": "Asset media type",
           "type": "string",
           "primary": true,
@@ -569,8 +569,8 @@
             }
           ],
           "example": "video",
-          "fieldName": "mediaType",
-          "fieldNamePath": "mediaType",
+          "fieldName": "type",
+          "fieldNamePath": "type",
           "allowedValueMappings": {
             "application": "application",
             "audio": "audio",
@@ -585,15 +585,15 @@
             "name": "string"
           },
           "filteredBy": [
-            "withMediaType"
+            "withtype"
           ],
           "filters": [
             {
               "type": "with",
-              "label": "mediaType",
-              "description": "filter for mediaType",
-              "fieldNamePath": "mediaType",
-              "name": "withMediaType",
+              "label": "type",
+              "description": "filter for type",
+              "fieldNamePath": "type",
+              "name": "withtype",
               "and": true,
               "or": true,
               "valueType": "string"
@@ -601,7 +601,7 @@
           ]
         },
         "fullMediaType": {
-          "description": "The full media type for the asset. The value is determined dynamically based on mediaType and fileFormat",
+          "description": "The full media type for the asset. The value is determined dynamically based on type and fileFormat",
           "type": "string",
           "sort": true,
           "primary": true,
@@ -2329,12 +2329,12 @@
           "or": true,
           "valueType": "version"
         },
-        "withMediaType": {
+        "withtype": {
           "type": "with",
-          "label": "mediaType",
-          "description": "filter for mediaType",
-          "fieldNamePath": "mediaType",
-          "name": "withMediaType",
+          "label": "type",
+          "description": "filter for type",
+          "fieldNamePath": "type",
+          "name": "withtype",
           "and": true,
           "or": true,
           "valueType": "string"
@@ -2405,7 +2405,7 @@
       "description": "Represents an asset of a content",
       "singularName": "asset",
       "serviceName": "metadata",
-      "parameterisedBy": "mediaType",
+      "parameterisedBy": "type",
       "pluralName": "assets",
       "hyphenatedPluralName": "assets",
       "displaySingularName": "asset",
@@ -5811,13 +5811,13 @@
             "relationship": "assets",
             "rules": [
               {
-                "mediaType": "image",
+                "type": "image",
                 "tags": [
                   "console:primary"
                 ]
               },
               {
-                "mediaType": "image"
+                "type": "image"
               }
             ],
             "value": "url"
@@ -7749,7 +7749,7 @@
             "ref",
             "name",
             "contentRef",
-            "mediaType",
+            "type",
             "url",
             "fileFormat",
             "title",

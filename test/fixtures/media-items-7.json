@@ -13,25 +13,25 @@
           "totalCount": 24,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15244%7C%7Csa-team%3AUTV-15114%7C%7Csa-team%3AUTV-BOX-15041%7C%7Csa-team%3AUTV-15084&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15244%7C%7Csa-team%3AUTV-15114%7C%7Csa-team%3AUTV-BOX-15041%7C%7Csa-team%3AUTV-15084&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15244%7C%7Csa-team%3AUTV-15114%7C%7Csa-team%3AUTV-BOX-15041%7C%7Csa-team%3AUTV-15084"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15244%7C%7Csa-team%3AUTV-15114%7C%7Csa-team%3AUTV-BOX-15041%7C%7Csa-team%3AUTV-15084&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15244%7C%7Csa-team%3AUTV-15114%7C%7Csa-team%3AUTV-BOX-15041%7C%7Csa-team%3AUTV-15084&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15244%7C%7Csa-team%3AUTV-15114%7C%7Csa-team%3AUTV-BOX-15041%7C%7Csa-team%3AUTV-15084"
         },
         {
           "totalCount": 60,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15040%7C%7Csa-team%3AUTV-15082%7C%7Csa-team%3AUTV-BOX-15008%7C%7Csa-team%3AUTV-15083%7C%7Csa-team%3AUTV-15183%7C%7Csa-team%3AUTV-15215%7C%7Csa-team%3AUTV-15147%7C%7Csa-team%3AUTV-15216%7C%7Csa-team%3AUTV-BOX-15048%7C%7Csa-team%3AUTV-15217&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15040%7C%7Csa-team%3AUTV-15082%7C%7Csa-team%3AUTV-BOX-15008%7C%7Csa-team%3AUTV-15083%7C%7Csa-team%3AUTV-15183%7C%7Csa-team%3AUTV-15215%7C%7Csa-team%3AUTV-15147%7C%7Csa-team%3AUTV-15216%7C%7Csa-team%3AUTV-BOX-15048%7C%7Csa-team%3AUTV-15217&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15040%7C%7Csa-team%3AUTV-15082%7C%7Csa-team%3AUTV-BOX-15008%7C%7Csa-team%3AUTV-15083%7C%7Csa-team%3AUTV-15183%7C%7Csa-team%3AUTV-15215%7C%7Csa-team%3AUTV-15147%7C%7Csa-team%3AUTV-15216%7C%7Csa-team%3AUTV-BOX-15048%7C%7Csa-team%3AUTV-15217"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15040%7C%7Csa-team%3AUTV-15082%7C%7Csa-team%3AUTV-BOX-15008%7C%7Csa-team%3AUTV-15083%7C%7Csa-team%3AUTV-15183%7C%7Csa-team%3AUTV-15215%7C%7Csa-team%3AUTV-15147%7C%7Csa-team%3AUTV-15216%7C%7Csa-team%3AUTV-BOX-15048%7C%7Csa-team%3AUTV-15217&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15040%7C%7Csa-team%3AUTV-15082%7C%7Csa-team%3AUTV-BOX-15008%7C%7Csa-team%3AUTV-15083%7C%7Csa-team%3AUTV-15183%7C%7Csa-team%3AUTV-15215%7C%7Csa-team%3AUTV-15147%7C%7Csa-team%3AUTV-15216%7C%7Csa-team%3AUTV-BOX-15048%7C%7Csa-team%3AUTV-15217&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-BOX-15040%7C%7Csa-team%3AUTV-15082%7C%7Csa-team%3AUTV-BOX-15008%7C%7Csa-team%3AUTV-15083%7C%7Csa-team%3AUTV-15183%7C%7Csa-team%3AUTV-15215%7C%7Csa-team%3AUTV-15147%7C%7Csa-team%3AUTV-15216%7C%7Csa-team%3AUTV-BOX-15048%7C%7Csa-team%3AUTV-15217"
         },
         {
           "totalCount": 57,
           "page": 1,
           "perPage": 100,
-          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15213%7C%7Csa-team%3AUTV-15243%7C%7Csa-team%3AUTV-15079%7C%7Csa-team%3AUTV-15046%7C%7Csa-team%3AUTV-15080%7C%7Csa-team%3AUTV-15182%7C%7Csa-team%3AUTV-15081%7C%7Csa-team%3AUTV-15214%7C%7Csa-team%3AUTV-BOX-15028%7C%7Csa-team%3AUTV-15112&page=1&perPage=100",
-          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15213%7C%7Csa-team%3AUTV-15243%7C%7Csa-team%3AUTV-15079%7C%7Csa-team%3AUTV-15046%7C%7Csa-team%3AUTV-15080%7C%7Csa-team%3AUTV-15182%7C%7Csa-team%3AUTV-15081%7C%7Csa-team%3AUTV-15214%7C%7Csa-team%3AUTV-BOX-15028%7C%7Csa-team%3AUTV-15112&page=1&perPage=100",
-          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2CmediaType%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15213%7C%7Csa-team%3AUTV-15243%7C%7Csa-team%3AUTV-15079%7C%7Csa-team%3AUTV-15046%7C%7Csa-team%3AUTV-15080%7C%7Csa-team%3AUTV-15182%7C%7Csa-team%3AUTV-15081%7C%7Csa-team%3AUTV-15214%7C%7Csa-team%3AUTV-BOX-15028%7C%7Csa-team%3AUTV-15112"
+          "first": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15213%7C%7Csa-team%3AUTV-15243%7C%7Csa-team%3AUTV-15079%7C%7Csa-team%3AUTV-15046%7C%7Csa-team%3AUTV-15080%7C%7Csa-team%3AUTV-15182%7C%7Csa-team%3AUTV-15081%7C%7Csa-team%3AUTV-15214%7C%7Csa-team%3AUTV-BOX-15028%7C%7Csa-team%3AUTV-15112&page=1&perPage=100",
+          "last": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15213%7C%7Csa-team%3AUTV-15243%7C%7Csa-team%3AUTV-15079%7C%7Csa-team%3AUTV-15046%7C%7Csa-team%3AUTV-15080%7C%7Csa-team%3AUTV-15182%7C%7Csa-team%3AUTV-15081%7C%7Csa-team%3AUTV-15214%7C%7Csa-team%3AUTV-BOX-15028%7C%7Csa-team%3AUTV-15112&page=1&perPage=100",
+          "request": "/data/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=sa-team%3AUTV-15213%7C%7Csa-team%3AUTV-15243%7C%7Csa-team%3AUTV-15079%7C%7Csa-team%3AUTV-15046%7C%7Csa-team%3AUTV-15080%7C%7Csa-team%3AUTV-15182%7C%7Csa-team%3AUTV-15081%7C%7Csa-team%3AUTV-15214%7C%7Csa-team%3AUTV-BOX-15028%7C%7Csa-team%3AUTV-15112"
         }
       ]
     }
@@ -311,7 +311,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1455/UTV-15244-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Saw 3",
@@ -325,7 +325,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15244-PI.jpg",
         "fileFormat": "jpg",
         "title": "Saw 3",
@@ -338,7 +338,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15244-LI.jpg",
         "fileFormat": "jpg",
         "title": "Saw 3",
@@ -351,7 +351,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15041-LI.jpg",
         "fileFormat": "jpg",
         "title": "Scary Movie 5",
@@ -365,7 +365,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15041-PI.jpg",
         "fileFormat": "jpg",
         "title": "Scary Movie 5",
@@ -379,7 +379,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15084-PI.jpg",
         "fileFormat": "jpg",
         "title": "Scream 4",
@@ -392,7 +392,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15114-LI.jpg",
         "fileFormat": "jpg",
         "title": "Saw 3D",
@@ -405,7 +405,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0747/UTV-15084-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Scream 4",
@@ -419,7 +419,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15114-PI.jpg",
         "fileFormat": "jpg",
         "title": "Saw 3D",
@@ -432,7 +432,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15084-LI.jpg",
         "fileFormat": "jpg",
         "title": "Scream 4",
@@ -445,7 +445,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835200339317/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Saw 3D",
@@ -458,7 +458,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833544213929/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Scream 4",
@@ -471,7 +471,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106868066832490/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Saw 3D",
@@ -484,7 +484,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846945072981/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Saw 3",
@@ -497,7 +497,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577976801339/pikselss.ism",
         "fileFormat": "ism",
         "title": "Saw 3",
@@ -510,7 +510,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851379904407/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Scary Movie 5",
@@ -523,7 +523,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884388310547/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Scary Movie 5",
@@ -536,7 +536,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1414/UTV-BOX-15041-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Scary Movie 5",
@@ -549,7 +549,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1013/UTV-15114-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Saw 3D",
@@ -562,7 +562,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173565136928016/pikselss.ism",
         "fileFormat": "ism",
         "title": "Saw 3D",
@@ -575,7 +575,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173563161857485/pikselss.ism",
         "fileFormat": "ism",
         "title": "Scream 4",
@@ -588,7 +588,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880200221672/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Saw 3",
@@ -601,7 +601,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865338835169/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Scream 4",
@@ -614,7 +614,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582477475546/pikselss.ism",
         "fileFormat": "ism",
         "title": "Scary Movie 5",
@@ -627,7 +627,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1330/UTV-15183-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "RocknRolla",
@@ -641,7 +641,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15183-PI.jpg",
         "fileFormat": "jpg",
         "title": "RocknRolla",
@@ -654,7 +654,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15217-LI.jpg",
         "fileFormat": "jpg",
         "title": "Rush Hour 3",
@@ -668,7 +668,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15215-PI.jpg",
         "fileFormat": "jpg",
         "title": "Rocky Balboa",
@@ -681,7 +681,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1417/UTV-15215-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Rocky Balboa",
@@ -695,7 +695,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15217-PI.jpg",
         "fileFormat": "jpg",
         "title": "Rush Hour 3",
@@ -708,7 +708,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0847/UTV-BOX-15048-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Runner, Runner",
@@ -722,7 +722,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15048-PI.jpg",
         "fileFormat": "jpg",
         "title": "Runner, Runner",
@@ -735,7 +735,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15083-LI.jpg",
         "fileFormat": "jpg",
         "title": "Rise Of The Planet Of The Apes",
@@ -749,7 +749,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15083-PI.jpg",
         "fileFormat": "jpg",
         "title": "Rise Of The Planet Of The Apes",
@@ -762,7 +762,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15082-LI.jpg",
         "fileFormat": "jpg",
         "title": "Rio",
@@ -775,7 +775,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15008-LI.jpg",
         "fileFormat": "jpg",
         "title": "Rio 2",
@@ -789,7 +789,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15082-PI.jpg",
         "fileFormat": "jpg",
         "title": "Rio",
@@ -802,7 +802,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/04/1325/UTV-BOX-15008-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Rio 2",
@@ -815,7 +815,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0833/UTV-BOX-15040-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Riddick",
@@ -828,7 +828,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0742/UTV-15082-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Rio",
@@ -841,7 +841,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0744/UTV-15083-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Rise Of The Planet Of The Apes",
@@ -854,7 +854,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15040-LI.jpg",
         "fileFormat": "jpg",
         "title": "Riddick",
@@ -867,7 +867,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1124/UTV-15216-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Run Fatboy Run",
@@ -880,7 +880,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15147-LI.jpg",
         "fileFormat": "jpg",
         "title": "Role Models",
@@ -893,7 +893,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1023/UTV-15147-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Role Models",
@@ -906,7 +906,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562868186576/pikselss.ism",
         "fileFormat": "ism",
         "title": "Rise Of The Planet Of The Apes",
@@ -919,7 +919,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833467373178/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Rise Of The Planet Of The Apes",
@@ -932,7 +932,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865263030023/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Rise Of The Planet Of The Apes",
@@ -945,7 +945,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877721182340/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Rush Hour 3",
@@ -958,7 +958,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877648208770/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Run Fatboy Run",
@@ -971,7 +971,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841740408483/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "RocknRolla",
@@ -984,7 +984,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571682247713/pikselss.ism",
         "fileFormat": "ism",
         "title": "RocknRolla",
@@ -997,7 +997,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874617527805/piksel.mpd",
         "fileFormat": "mpd",
         "title": "RocknRolla",
@@ -1010,7 +1010,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865175359324/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Rio",
@@ -1023,7 +1023,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844231170444/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Rocky Balboa",
@@ -1036,7 +1036,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833391494155/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Rio",
@@ -1049,7 +1049,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106871566942301/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Role Models",
@@ -1062,7 +1062,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562708228256/pikselss.ism",
         "fileFormat": "ism",
         "title": "Rio",
@@ -1075,7 +1075,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844311208088/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Run Fatboy Run",
@@ -1088,7 +1088,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106881632859984/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Rio 2",
@@ -1101,7 +1101,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121848297082240/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Rio 2",
@@ -1114,7 +1114,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173579490056810/pikselss.ism",
         "fileFormat": "ism",
         "title": "Rio 2",
@@ -1127,7 +1127,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173582381001018/pikselss.ism",
         "fileFormat": "ism",
         "title": "Riddick",
@@ -1140,7 +1140,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884290893766/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Riddick",
@@ -1153,7 +1153,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121852119165931/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Runner, Runner",
@@ -1166,7 +1166,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173583002799293/pikselss.ism",
         "fileFormat": "ism",
         "title": "Runner, Runner",
@@ -1179,7 +1179,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106884977625551/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Runner, Runner",
@@ -1192,7 +1192,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15183-LI.jpg",
         "fileFormat": "jpg",
         "title": "RocknRolla",
@@ -1205,7 +1205,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15048-LI.jpg",
         "fileFormat": "jpg",
         "title": "Runner, Runner",
@@ -1218,7 +1218,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1418/UTV-15217-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Rush Hour 3",
@@ -1231,7 +1231,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15215-LI.jpg",
         "fileFormat": "jpg",
         "title": "Rocky Balboa",
@@ -1245,7 +1245,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15040-PI.jpg",
         "fileFormat": "jpg",
         "title": "Riddick",
@@ -1259,7 +1259,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15008-PI.jpg",
         "fileFormat": "jpg",
         "title": "Rio 2",
@@ -1273,7 +1273,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15216-PI.jpg",
         "fileFormat": "jpg",
         "title": "Run Fatboy Run",
@@ -1286,7 +1286,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15216-LI.jpg",
         "fileFormat": "jpg",
         "title": "Run Fatboy Run",
@@ -1300,7 +1300,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15147-PI.jpg",
         "fileFormat": "jpg",
         "title": "Role Models",
@@ -1313,7 +1313,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844399999639/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Rush Hour 3",
@@ -1326,7 +1326,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173575029263931/pikselss.ism",
         "fileFormat": "ism",
         "title": "Rush Hour 3",
@@ -1339,7 +1339,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173569033384427/pikselss.ism",
         "fileFormat": "ism",
         "title": "Role Models",
@@ -1352,7 +1352,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121838524627105/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Role Models",
@@ -1365,7 +1365,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173574952737118/pikselss.ism",
         "fileFormat": "ism",
         "title": "Run Fatboy Run",
@@ -1378,7 +1378,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877572964443/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Rocky Balboa",
@@ -1391,7 +1391,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173575355618104/pikselss.ism",
         "fileFormat": "ism",
         "title": "Rocky Balboa",
@@ -1404,7 +1404,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121851304584167/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Riddick",
@@ -1417,7 +1417,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/09/0825/UTV-BOX-15028-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Red 2",
@@ -1430,7 +1430,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15079-LI.jpg",
         "fileFormat": "jpg",
         "title": "Pirates of the Caribbean: On Stranger Tides",
@@ -1444,7 +1444,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15079-PI.jpg",
         "fileFormat": "jpg",
         "title": "Pirates of the Caribbean: On Stranger Tides",
@@ -1457,7 +1457,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0737/UTV-15079-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Pirates of the Caribbean: On Stranger Tides",
@@ -1471,7 +1471,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15046-PI.jpg",
         "fileFormat": "jpg",
         "title": "Prometheus",
@@ -1484,7 +1484,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0655/UTV-15046-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Prometheus",
@@ -1497,7 +1497,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15046-LI.jpg",
         "fileFormat": "jpg",
         "title": "Prometheus",
@@ -1511,7 +1511,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15214-PI.jpg",
         "fileFormat": "jpg",
         "title": "Ratatouille",
@@ -1524,7 +1524,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15112-LI.jpg",
         "fileFormat": "jpg",
         "title": "Resident Evil: Afterlife",
@@ -1537,7 +1537,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0738/UTV-15080-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Puss In Boots",
@@ -1550,7 +1550,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15182-LI.jpg",
         "fileFormat": "jpg",
         "title": "Quantum Of Solace",
@@ -1564,7 +1564,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15213-PI.jpg",
         "fileFormat": "jpg",
         "title": "Pirates of the Caribbean: At World's End",
@@ -1577,7 +1577,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15213-LI.jpg",
         "fileFormat": "jpg",
         "title": "Pirates of the Caribbean: At World's End",
@@ -1590,7 +1590,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15243-LI.jpg",
         "fileFormat": "jpg",
         "title": "Pirates Of The Caribbean: Dead Man's Chest",
@@ -1604,7 +1604,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15243-PI.jpg",
         "fileFormat": "jpg",
         "title": "Pirates Of The Caribbean: Dead Man's Chest",
@@ -1618,7 +1618,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15081-PI.jpg",
         "fileFormat": "jpg",
         "title": "Rango",
@@ -1631,7 +1631,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/0741/UTV-15081-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Rango",
@@ -1644,7 +1644,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121835119918758/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Resident Evil: Afterlife",
@@ -1657,7 +1657,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173564975171615/pikselss.ism",
         "fileFormat": "ism",
         "title": "Resident Evil: Afterlife",
@@ -1670,7 +1670,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106867987248933/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Resident Evil: Afterlife",
@@ -1683,7 +1683,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121829842827836/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Prometheus",
@@ -1696,7 +1696,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173559685302892/pikselss.ism",
         "fileFormat": "ism",
         "title": "Prometheus",
@@ -1709,7 +1709,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121832962655413/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Pirates of the Caribbean: On Stranger Tides",
@@ -1722,7 +1722,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106864933691646/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Pirates of the Caribbean: On Stranger Tides",
@@ -1735,7 +1735,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173575192446973/pikselss.ism",
         "fileFormat": "ism",
         "title": "Ratatouille",
@@ -1748,7 +1748,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877450130407/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Ratatouille",
@@ -1761,7 +1761,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173571608516549/pikselss.ism",
         "fileFormat": "ism",
         "title": "Quantum Of Solace",
@@ -1774,7 +1774,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173575103815444/pikselss.ism",
         "fileFormat": "ism",
         "title": "Pirates of the Caribbean: At World's End",
@@ -1787,7 +1787,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562223526738/pikselss.ism",
         "fileFormat": "ism",
         "title": "Puss In Boots",
@@ -1800,7 +1800,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562634708586/pikselss.ism",
         "fileFormat": "ism",
         "title": "Rango",
@@ -1813,7 +1813,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121841659134305/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Quantum Of Solace",
@@ -1826,7 +1826,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106877354073784/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Pirates of the Caribbean: At World's End",
@@ -1839,7 +1839,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121846866043419/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Pirates Of The Caribbean: Dead Man's Chest",
@@ -1852,7 +1852,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173577741354341/pikselss.ism",
         "fileFormat": "ism",
         "title": "Pirates Of The Caribbean: Dead Man's Chest",
@@ -1865,7 +1865,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106883354406904/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Red 2",
@@ -1878,7 +1878,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121850389125460/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Red 2",
@@ -1891,7 +1891,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173580912685555/pikselss.ism",
         "fileFormat": "ism",
         "title": "Red 2",
@@ -1905,7 +1905,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-BOX-15028-PI.jpg",
         "fileFormat": "jpg",
         "title": "Red 2",
@@ -1918,7 +1918,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-BOX-15028-LI.jpg",
         "fileFormat": "jpg",
         "title": "Red 2",
@@ -1931,7 +1931,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15214-LI.jpg",
         "fileFormat": "jpg",
         "title": "Ratatouille",
@@ -1945,7 +1945,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15112-PI.jpg",
         "fileFormat": "jpg",
         "title": "Resident Evil: Afterlife",
@@ -1958,7 +1958,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/05/1010/UTV-15112-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Resident Evil: Afterlife",
@@ -1972,7 +1972,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15182-PI.jpg",
         "fileFormat": "jpg",
         "title": "Quantum Of Solace",
@@ -1985,7 +1985,7 @@
           "trailerondemand",
           "showcase"
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn.pvp.piksel.com/trailers/2014/09/08/1328/UTV-15182-Trailer.mp4",
         "fileFormat": "mp4",
         "title": "Quantum Of Solace",
@@ -1998,7 +1998,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15080-LI.jpg",
         "fileFormat": "jpg",
         "title": "Puss In Boots",
@@ -2012,7 +2012,7 @@
           "console:primary",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/portrait/UTV-15080-PI.jpg",
         "fileFormat": "jpg",
         "title": "Puss In Boots",
@@ -2025,7 +2025,7 @@
           "landscape",
           "showcase"
         ],
-        "mediaType": "image",
+        "type": "image",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/images/2015/8/18/landscape/UTV-15081-LI.jpg",
         "fileFormat": "jpg",
         "title": "Rango",
@@ -2038,7 +2038,7 @@
           "showcase",
           "SS        "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/ss-vod/2016/08/31/09/173562150017029/pikselss.ism",
         "fileFormat": "ism",
         "title": "Pirates of the Caribbean: On Stranger Tides",
@@ -2051,7 +2051,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844149267071/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Ratatouille",
@@ -2064,7 +2064,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106862096638712/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Prometheus",
@@ -2077,7 +2077,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865087325351/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Rango",
@@ -2090,7 +2090,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833151992463/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Rango",
@@ -2103,7 +2103,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106865009307903/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Puss In Boots",
@@ -2116,7 +2116,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121833064240320/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Puss In Boots",
@@ -2129,7 +2129,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106874526614255/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Quantum Of Solace",
@@ -2142,7 +2142,7 @@
           "showcase",
           "HLS       "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/hls-vod/2016/08/30/19/121844069216713/piksel.m3u8",
         "fileFormat": "m3u8",
         "title": "Pirates of the Caribbean: At World's End",
@@ -2155,7 +2155,7 @@
           "showcase",
           "DASH      "
         ],
-        "mediaType": "video",
+        "type": "video",
         "url": "http://cdn-origin-demo.digitalshowcase.piksel.com/dash-vod/2016/08/30/14/106880123194145/piksel.mpd",
         "fileFormat": "mpd",
         "title": "Pirates Of The Caribbean: Dead Man's Chest",
