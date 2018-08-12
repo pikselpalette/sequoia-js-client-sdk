@@ -600,14 +600,14 @@
             }
           ]
         },
-        "fullType": {
+        "fullMediaType": {
           "description": "The full media type for the asset. The value is determined dynamically based on type and fileFormat",
           "type": "string",
           "sort": true,
           "primary": true,
           "example": "video/mp4",
-          "fieldName": "fullType",
-          "fieldNamePath": "fullType",
+          "fieldName": "fullMediaType",
+          "fieldNamePath": "fullMediaType",
           "typeInfo": {
             "desc": "string",
             "pattern": ".+",
