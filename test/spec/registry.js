@@ -35,6 +35,11 @@ describe('Registry', () => {
       expect(registry.services).toEqual(expect.any(Array));
       expect(registry.services.length).toBe(0);
     });
+
+    it('should initialise its descriptors property as an empty object', () => {
+      expect(registry.descriptors).toEqual(expect.any(Object));
+      expect(Object.keys(registry.descriptors).length).toBe(0);
+    });
   });
 
   describe('fetch', () => {
@@ -55,6 +60,12 @@ describe('Registry', () => {
 
     it('should resolve with the data returned from Sequoia', async () => {
       await expect(registry.fetch(testTenant)).resolves.toEqual(expect.objectContaining(servicesFixture));
+    });
+
+    it('should set the descriptors property to an empty object', async () => {
+      registry.descriptors = { metadata: {} };
+      await registry.fetch(testTenant);
+      expect(registry.descriptors).toEqual({});
     });
   });
 
@@ -100,6 +111,28 @@ describe('Registry', () => {
     it('should resolve with a Service instance with the tenant set to the registry\'s tenant', async () => {
       await expect(registry.getServiceDescriptor('metadata')).resolves.toEqual({
         asymmetricMatch: actual => actual.data.tenant === testTenant
+      });
+    });
+
+    it('should add the data from the descriptor endpoint to the descriptors property', async () => {
+      expect(registry.descriptors).toEqual({});
+      const result = await registry.getServiceDescriptor('metadata');
+      expect(registry.descriptors.metadata).toEqual(expect.objectContaining({ name: 'metadata' }));
+    });
+
+    describe('useCache option', () => {
+      it('should resolve with the data from the descriptor cache', async () => {
+        registry.descriptors.metadata = { name: 'foobar' };
+        await expect(registry.getServiceDescriptor('metadata', true)).resolves.toEqual({
+          asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'foobar'
+        });
+      });
+
+      it('should resolve with the data from the descriptor endpoint when the descriptor is not already cached', async () => {
+        expect(registry.descriptors).toEqual({});
+        await expect(registry.getServiceDescriptor('metadata', true)).resolves.toEqual({
+          asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
+        });
       });
     });
   });
