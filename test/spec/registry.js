@@ -21,7 +21,7 @@ describe('Registry', () => {
     fetchMock.mock(servicesUri, servicesFixture)
       .mock(descriptorUri, metadataDescriptorFixture)
       .mock(gatewayDescriptorUri, gatewayDescriptorFixture);
-    registry = new Registry(transport, registryUri);
+    registry = new Registry(transport, registryUri, true);
   });
 
   afterEach(fetchMock.restore);
@@ -120,6 +120,13 @@ describe('Registry', () => {
       expect(registry.descriptors).toEqual({});
       await registry.getServiceDescriptor('metadata');
       expect(registry.descriptors.metadata).toEqual(expect.objectContaining({ name: 'metadata' }));
+    });
+
+    it('should not add the data to the descriptors property if the cache property is false', async () => {
+      expect(registry.descriptors).toEqual({});
+      registry.cache = false;
+      await registry.getServiceDescriptor('metadata');
+      expect(registry.descriptors.metadata).not.toEqual(expect.objectContaining({ name: 'metadata' }));
     });
   });
 

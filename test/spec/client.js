@@ -66,7 +66,18 @@ describe('Client', () => {
       expect(client.transport).toBeDefined();
       expect(client.registry).toEqual(expect.any(Registry));
       expect(client.registry.registryUri).toEqual(registryUri);
+      expect(client.registry.cache).toBe(false);
       expect(client.session.registry).toEqual(expect.any(Registry));
+    });
+
+    it('should pass the enableCache value to registry', () => {
+      client = new Client({
+        directory,
+        registryUri,
+        identityUri,
+        enableCache: true
+      });
+      expect(client.registry.cache).toBe(true);
     });
 
     it('should accept an optional `identityUri`', () => {
