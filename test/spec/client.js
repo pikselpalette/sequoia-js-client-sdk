@@ -178,6 +178,45 @@ describe('Client', () => {
       });
     });
 
+    describe('cachedServiceDescriptors', () => {
+      beforeEach(() => {
+        client.registry.descriptors = {
+          metadata: { name: 'metadata' },
+          payment: { name: 'payment' }
+        };
+        jest.spyOn(client.registry, 'getCachedServiceDescriptors');
+      });
+
+      it('should resolve with services from the cache', async () => {
+        await expect(client.cachedServiceDescriptors('metadata')).resolves.toEqual([
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
+          }
+        ]);
+
+        expect(client.registry.getCachedServiceDescriptors).toHaveBeenCalledWith('metadata');
+      });
+
+      it('should resolve with multiple services from the cache', async () => {
+        await expect(client.cachedServiceDescriptors('metadata', 'payment')).resolves.toEqual([
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
+          },
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'payment'
+          }
+        ]);
+
+        expect(client.registry.getCachedServiceDescriptors).toHaveBeenCalledWith('metadata', 'payment');
+      });
+
+      it("should reject when the service doesn't exist in the registry", async () => {
+        const serviceName = 'thisdoesnotexist';
+
+        return expect(client.cachedServiceDescriptors(serviceName)).rejects.toEqual(new Error('No service with name thisdoesnotexist exists'));
+      });
+    });
+
     describe('onExpiryWarning', () => {
       it('should call onExpiryWarning when token about to expire', () => {
         const callback = jest.fn();

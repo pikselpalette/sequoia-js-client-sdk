@@ -116,24 +116,24 @@ describe('Registry', () => {
 
     it('should add the data from the descriptor endpoint to the descriptors property', async () => {
       expect(registry.descriptors).toEqual({});
-      const result = await registry.getServiceDescriptor('metadata');
+      await registry.getServiceDescriptor('metadata');
       expect(registry.descriptors.metadata).toEqual(expect.objectContaining({ name: 'metadata' }));
     });
+  });
 
-    describe('useCache option', () => {
-      it('should resolve with the data from the descriptor cache', async () => {
-        registry.descriptors.metadata = { name: 'foobar' };
-        await expect(registry.getServiceDescriptor('metadata', true)).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'foobar'
-        });
-      });
+  describe('getCachedServiceDescriptor', () => {
+    beforeEach(async () => registry.fetch(testTenant));
 
-      it('should resolve with the data from the descriptor endpoint when the descriptor is not already cached', async () => {
-        expect(registry.descriptors).toEqual({});
-        await expect(registry.getServiceDescriptor('metadata', true)).resolves.toEqual({
-          asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
-        });
-      });
+    it('should resolve with the data from the descriptor cache', async () => {
+      registry.descriptors.metadata = { name: 'foobar' };
+      await expect(registry.getCachedServiceDescriptor('metadata')).resolves.toEqual(expect.objectContaining({ data: { name: 'foobar' } }));
+    });
+
+    it('should reject when it can\'t find a service with the supplied name', async () => expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow());
+
+    it('should reject when it can\'t find a descriptor in the cache', async () => {
+      expect(registry.descriptors).toEqual({});
+      await expect(registry.getCachedServiceDescriptor('metadata')).rejects.toThrow();
     });
   });
 
@@ -162,6 +162,39 @@ describe('Registry', () => {
     });
 
     it('should return all Services when no services are specified', (done) => {
+      const allServices = registry.services.map(s => s.name);
+      registry.getServiceDescriptors().then((services) => {
+        expect(services).toEqual(allServices);
+        done();
+      });
+    });
+  });
+
+  describe('getCachedServiceDescriptors', () => {
+    beforeEach(async () => {
+      jest.spyOn(registry, 'getServiceDescriptor').mockImplementation(service => Promise.resolve(service));
+      jest.spyOn(registry, 'getCachedServiceDescriptor').mockImplementation(service => Promise.resolve(service));
+      return registry.fetch(testTenant);
+    });
+
+    it('should return a Service for each service specified', (done) => {
+      const requestedServices = ['metadata', 'contents'];
+      registry.getServiceDescriptors(...requestedServices).then((services) => {
+        expect(services).toEqual(requestedServices);
+        done();
+      });
+    });
+
+    it('should return all Services when no services are specified', (done) => {
+      const allServices = registry.services.map(s => s.name);
+      registry.getServiceDescriptors().then((services) => {
+        expect(services).toEqual(allServices);
+        done();
+      });
+    });
+
+    it('should fallback to the service endpoint if the descriptor is not in the cache', (done) => {
+      registry.getCachedServiceDescriptor.mockImplementation(() => Promise.reject());
       const allServices = registry.services.map(s => s.name);
       registry.getServiceDescriptors().then((services) => {
         expect(services).toEqual(allServices);
