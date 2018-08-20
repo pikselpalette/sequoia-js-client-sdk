@@ -82,7 +82,9 @@ describe('Registry', () => {
   describe('getServiceDescriptor', () => {
     beforeEach(async () => registry.fetch(testTenant));
 
-    it('should reject when it can\'t find a service with the supplied name', async () => expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow());
+    it('should reject when it can\'t find a service with the supplied name', async () => {
+      await expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow();
+    });
 
     it('should perform a GET on the services descriptor/raw endpoint', async () => {
       await registry.getServiceDescriptor('metadata');
@@ -129,7 +131,9 @@ describe('Registry', () => {
       await expect(registry.getCachedServiceDescriptor('metadata')).resolves.toEqual(expect.objectContaining({ data: { name: 'foobar' } }));
     });
 
-    it('should reject when it can\'t find a service with the supplied name', async () => expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow());
+    it('should reject when it can\'t find a service with the supplied name', async () => {
+      await expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow();
+    });
 
     it('should reject when it can\'t find a descriptor in the cache', async () => {
       expect(registry.descriptors).toEqual({});
