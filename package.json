@@ -63,7 +63,7 @@
     "jsdoc": "^3.5.5",
     "stryker": "^0.25.1",
     "stryker-api": "^0.18.0",
-    "stryker-babel-transpiler": "^0.6.0",
+    "stryker-babel-transpiler": "^0.7.0",
     "stryker-html-reporter": "^0.15.0",
     "stryker-javascript-mutator": "^0.9.0",
     "stryker-jest-runner": "^1.0.0",
