@@ -303,7 +303,7 @@
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-75">line 75</a>
+				 <a href="client.js.html#sunlight-1-line-78">line 78</a>
 			</li>
 		</ul>
 	</dd>
@@ -419,6 +419,183 @@ const client = new Client({ directory: &#x27;piksel&#x27;,
         <h3 class="subsection-title">Methods</h3>
 
         <dl>
+            
+<hr>
+<dt>
+    <h4 class="name" id="cachedServiceDescriptors"><span class="type-signature"></span>cachedServiceDescriptors(serviceNames)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Get a list of <a href="ServiceDescriptor.html">ServiceDescriptor</a>s from the SDK cache, falling back to the service endpoint</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>serviceNames</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                    &lt;repeatable><br>
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>service names</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="client.js.html">client.js</a>,
+				 <a href="client.js.html#sunlight-1-line-127">line 127</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+	<dt class="tag-see method-doc-label method-doc-details-label">See:</dt>
+	<dd class="tag-see">
+		<ul>
+			<li><a href="Registry.html#getCachedServiceDescriptors">Registry#getCachedServiceDescriptors</a></li>
+			</ul>
+	</dd>
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <h5>Returns:</h5>
+    
+            
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise</span>
+
+
+
+    </dd>
+</dl>
+
+
+        
+
+    
+</dd>
+
+        
             
 <hr>
 <dt>
@@ -544,7 +721,7 @@ See the below example for how to handle this currently.</p>
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-215">line 215</a>
+				 <a href="client.js.html#sunlight-1-line-231">line 231</a>
 			</li>
 		</ul>
 	</dd>
@@ -816,7 +993,7 @@ client.generate().catch((err) =&gt; {
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-168">line 168</a>
+				 <a href="client.js.html#sunlight-1-line-184">line 184</a>
 			</li>
 		</ul>
 	</dd>
@@ -980,7 +1157,7 @@ client.login(&#x27;test_username&#x27;, &#x27;test_password&#x27;, {
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-226">line 226</a>
+				 <a href="client.js.html#sunlight-1-line-242">line 242</a>
 			</li>
 		</ul>
 	</dd>
@@ -1176,7 +1353,7 @@ will be called before expiry based on the provided threshold</p>
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-303">line 303</a>
+				 <a href="client.js.html#sunlight-1-line-319">line 319</a>
 			</li>
 		</ul>
 	</dd>
@@ -1273,7 +1450,7 @@ will be called before expiry based on the provided threshold</p>
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-96">line 96</a>
+				 <a href="client.js.html#sunlight-1-line-99">line 99</a>
 			</li>
 		</ul>
 	</dd>
@@ -1341,7 +1518,7 @@ will be called before expiry based on the provided threshold</p>
 
     
     <div class="description">
-        <p>Get a list of <a href="ServiceDescriptor.html">ServiceDescriptor</a>s from the <a href="Registry.html">Registry</a></p>
+        <p>Get a list of <a href="ServiceDescriptor.html">ServiceDescriptor</a>s from the service endpoint</p>
     </div>
     
 
@@ -1450,7 +1627,7 @@ will be called before expiry based on the provided threshold</p>
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-111">line 111</a>
+				 <a href="client.js.html#sunlight-1-line-114">line 114</a>
 			</li>
 		</ul>
 	</dd>
@@ -1462,7 +1639,7 @@ will be called before expiry based on the provided threshold</p>
 	<dt class="tag-see method-doc-label method-doc-details-label">See:</dt>
 	<dd class="tag-see">
 		<ul>
-			<li><a href="Registry.html#getServices">Registry#getServices</a></li>
+			<li><a href="Registry.html#getServiceDescriptors">Registry#getServiceDescriptors</a></li>
 			</ul>
 	</dd>
 	
@@ -1567,7 +1744,7 @@ if the client is already authenticated, it will not do anything.</p>
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-290">line 290</a>
+				 <a href="client.js.html#sunlight-1-line-306">line 306</a>
 			</li>
 		</ul>
 	</dd>
@@ -1710,7 +1887,7 @@ example for more info.</p>
 		<ul class="dummy">
 			<li>
 				<a href="client.js.html">client.js</a>,
-				 <a href="client.js.html#sunlight-1-line-262">line 262</a>
+				 <a href="client.js.html#sunlight-1-line-278">line 278</a>
 			</li>
 		</ul>
 	</dd>
@@ -1836,7 +2013,7 @@ await usersEndpoint.browse() // https://&lt;endpoint&gt;/data/users?owner=produc
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Mon Aug 20th 2018
+		on Tue Aug 21st 2018
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
