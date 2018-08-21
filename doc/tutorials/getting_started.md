@@ -27,10 +27,10 @@ client
     // client.session); e.g. `session.isActive()`
 
     // Get a service::
-    client.serviceDescriptors('metadata').then(services => {
+    client.serviceDescriptors('metadata').then([metadata] => {
       // Get a resourceful endpoint (this is synchronous as the service passed
       // all the necessary data):
-      const contents = services[0].resourcefulEndpoint('contents');
+      const contents = metadata.resourcefulEndpoint('contents');
 
       contents
         .browse(
