@@ -66,7 +66,18 @@ describe('Client', () => {
       expect(client.transport).toBeDefined();
       expect(client.registry).toEqual(expect.any(Registry));
       expect(client.registry.registryUri).toEqual(registryUri);
+      expect(client.registry.cache).toBe(false);
       expect(client.session.registry).toEqual(expect.any(Registry));
+    });
+
+    it('should pass the enableCache value to registry', () => {
+      client = new Client({
+        directory,
+        registryUri,
+        identityUri,
+        enableCache: true
+      });
+      expect(client.registry.cache).toBe(true);
     });
 
     it('should accept an optional `identityUri`', () => {
@@ -175,6 +186,45 @@ describe('Client', () => {
         const serviceName = 'thisdoesnotexist';
 
         return expect(client.service(serviceName)).rejects.toEqual(new Error('No service with name thisdoesnotexist exists'));
+      });
+    });
+
+    describe('cachedServiceDescriptors', () => {
+      beforeEach(() => {
+        client.registry.descriptors = {
+          metadata: { name: 'metadata' },
+          payment: { name: 'payment' }
+        };
+        jest.spyOn(client.registry, 'getCachedServiceDescriptors');
+      });
+
+      it('should resolve with services from the cache', async () => {
+        await expect(client.cachedServiceDescriptors('metadata')).resolves.toEqual([
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
+          }
+        ]);
+
+        expect(client.registry.getCachedServiceDescriptors).toHaveBeenCalledWith('metadata');
+      });
+
+      it('should resolve with multiple services from the cache', async () => {
+        await expect(client.cachedServiceDescriptors('metadata', 'payment')).resolves.toEqual([
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'metadata'
+          },
+          {
+            asymmetricMatch: actual => actual instanceof ServiceDescriptor && actual.data.name === 'payment'
+          }
+        ]);
+
+        expect(client.registry.getCachedServiceDescriptors).toHaveBeenCalledWith('metadata', 'payment');
+      });
+
+      it("should reject when the service doesn't exist in the registry", async () => {
+        const serviceName = 'thisdoesnotexist';
+
+        return expect(client.cachedServiceDescriptors(serviceName)).rejects.toEqual(new Error('No service with name thisdoesnotexist exists'));
       });
     });
 

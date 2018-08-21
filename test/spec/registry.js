@@ -21,7 +21,7 @@ describe('Registry', () => {
     fetchMock.mock(servicesUri, servicesFixture)
       .mock(descriptorUri, metadataDescriptorFixture)
       .mock(gatewayDescriptorUri, gatewayDescriptorFixture);
-    registry = new Registry(transport, registryUri);
+    registry = new Registry(transport, registryUri, true);
   });
 
   afterEach(fetchMock.restore);
@@ -34,6 +34,11 @@ describe('Registry', () => {
     it('should initialise its services property as an empty array', () => {
       expect(registry.services).toEqual(expect.any(Array));
       expect(registry.services.length).toBe(0);
+    });
+
+    it('should initialise its descriptors property as an empty object', () => {
+      expect(registry.descriptors).toEqual(expect.any(Object));
+      expect(Object.keys(registry.descriptors).length).toBe(0);
     });
   });
 
@@ -56,6 +61,12 @@ describe('Registry', () => {
     it('should resolve with the data returned from Sequoia', async () => {
       await expect(registry.fetch(testTenant)).resolves.toEqual(expect.objectContaining(servicesFixture));
     });
+
+    it('should set the descriptors property to an empty object', async () => {
+      registry.descriptors = { metadata: {} };
+      await registry.fetch(testTenant);
+      expect(registry.descriptors).toEqual({});
+    });
   });
 
   describe('getService', () => {
@@ -71,7 +82,9 @@ describe('Registry', () => {
   describe('getServiceDescriptor', () => {
     beforeEach(async () => registry.fetch(testTenant));
 
-    it('should reject when it can\'t find a service with the supplied name', async () => expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow());
+    it('should reject when it can\'t find a service with the supplied name', async () => {
+      await expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow();
+    });
 
     it('should perform a GET on the services descriptor/raw endpoint', async () => {
       await registry.getServiceDescriptor('metadata');
@@ -102,6 +115,37 @@ describe('Registry', () => {
         asymmetricMatch: actual => actual.data.tenant === testTenant
       });
     });
+
+    it('should add the data from the descriptor endpoint to the descriptors property', async () => {
+      expect(registry.descriptors).toEqual({});
+      await registry.getServiceDescriptor('metadata');
+      expect(registry.descriptors.metadata).toEqual(expect.objectContaining({ name: 'metadata' }));
+    });
+
+    it('should not add the data to the descriptors property if the cache property is false', async () => {
+      expect(registry.descriptors).toEqual({});
+      registry.cache = false;
+      await registry.getServiceDescriptor('metadata');
+      expect(registry.descriptors.metadata).not.toEqual(expect.objectContaining({ name: 'metadata' }));
+    });
+  });
+
+  describe('getCachedServiceDescriptor', () => {
+    beforeEach(async () => registry.fetch(testTenant));
+
+    it('should resolve with the data from the descriptor cache', async () => {
+      registry.descriptors.metadata = { name: 'foobar' };
+      await expect(registry.getCachedServiceDescriptor('metadata')).resolves.toEqual(expect.objectContaining({ data: { name: 'foobar' } }));
+    });
+
+    it('should reject when it can\'t find a service with the supplied name', async () => {
+      await expect(registry.getServiceDescriptor('thisdoesnotexist')).rejects.toThrow();
+    });
+
+    it('should reject when it can\'t find a descriptor in the cache', async () => {
+      expect(registry.descriptors).toEqual({});
+      await expect(registry.getCachedServiceDescriptor('metadata')).rejects.toThrow();
+    });
   });
 
   describe('getServices', () => {
@@ -129,6 +173,39 @@ describe('Registry', () => {
     });
 
     it('should return all Services when no services are specified', (done) => {
+      const allServices = registry.services.map(s => s.name);
+      registry.getServiceDescriptors().then((services) => {
+        expect(services).toEqual(allServices);
+        done();
+      });
+    });
+  });
+
+  describe('getCachedServiceDescriptors', () => {
+    beforeEach(async () => {
+      jest.spyOn(registry, 'getServiceDescriptor').mockImplementation(service => Promise.resolve(service));
+      jest.spyOn(registry, 'getCachedServiceDescriptor').mockImplementation(service => Promise.resolve(service));
+      return registry.fetch(testTenant);
+    });
+
+    it('should return a Service for each service specified', (done) => {
+      const requestedServices = ['metadata', 'contents'];
+      registry.getServiceDescriptors(...requestedServices).then((services) => {
+        expect(services).toEqual(requestedServices);
+        done();
+      });
+    });
+
+    it('should return all Services when no services are specified', (done) => {
+      const allServices = registry.services.map(s => s.name);
+      registry.getServiceDescriptors().then((services) => {
+        expect(services).toEqual(allServices);
+        done();
+      });
+    });
+
+    it('should fallback to the service endpoint if the descriptor is not in the cache', (done) => {
+      registry.getCachedServiceDescriptor.mockImplementation(() => Promise.reject());
       const allServices = registry.services.map(s => s.name);
       registry.getServiceDescriptors().then((services) => {
         expect(services).toEqual(allServices);

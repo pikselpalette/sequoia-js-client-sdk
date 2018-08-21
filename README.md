@@ -45,10 +45,10 @@ client
     // client.session); e.g. `session.isActive()`
 
     // Get a service::
-    client.service('metadata').then(service => {
+    client.serviceDescriptors('metadata').then([metadata] => {
       // Get a resourceful endpoint (this is synchronous as the service passed
       // all the necessary data):
-      const contents = service.resourcefulEndpoint('contents');
+      const contents = metadata.resourcefulEndpoint('contents');
 
       contents
         .browse(
@@ -88,8 +88,8 @@ const client = new Client({
 });
 
 (async function init() {
-  const service = await client.service('metadata');
-  const contents = service.resourcefulEndpoint('contents');
+  const services = await client.serviceDescriptors('metadata');
+  const contents = services[0].resourcefulEndpoint('contents');
   const collection = await contents.browse(
     where()
       .fields('title', 'mediumSynopsis', 'duration', 'ref')
