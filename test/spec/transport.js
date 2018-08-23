@@ -51,6 +51,22 @@ describe('transport', () => {
       });
     });
 
+    it('should reject with statusText when response.json() promise is rejected', async () => {
+      const response = new Response();
+      response.json = () => Promise.reject();
+      response.status = 500;
+      response.ok = false;
+      response.statusText = 'status text';
+
+      fetchMock.mock('/', response);
+
+      return expect(transport.get('/')).rejects.toEqual({
+        asymmetricMatch: actual => actual.response.ok === false
+          && actual instanceof Error
+          && actual.message === 'status text'
+      });
+    });
+
     it('should reject on non-JSON responses', async () => {
       fetchMock.mock('/', { body: '<html>this is not json</html>' });
 
