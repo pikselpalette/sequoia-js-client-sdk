@@ -2,9 +2,13 @@
 
 ## Unreleased
 
-## 1.8.0
+## 1.9.0
 
 * Proper error message returned when a request is failed (taken from response.body.message)
+
+## 1.8.0
+
+* Add optional descriptor caching
 
 ## 1.7.0
 
