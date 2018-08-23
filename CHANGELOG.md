@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## 1.7.1
+## 1.8.0
 
 * Proper error message returned when a request is failed (taken from response.body.message)
 
