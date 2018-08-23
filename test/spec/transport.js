@@ -39,10 +39,31 @@ describe('transport', () => {
     });
 
     it('should reject with HTTP errors', async () => {
-      fetchMock.mock('/', 500);
+      fetchMock.mock('/', {
+        status: 500,
+        body: { message: 'test message' }
+      });
 
       return expect(transport.get('/')).rejects.toEqual({
-        asymmetricMatch: actual => actual.response.ok === false && actual instanceof Error
+        asymmetricMatch: actual => actual.response.ok === false
+          && actual instanceof Error
+          && actual.message === 'test message'
+      });
+    });
+
+    it('should reject with statusText when response.json() promise is rejected', async () => {
+      const response = new Response();
+      response.json = () => Promise.reject();
+      response.status = 500;
+      response.ok = false;
+      response.statusText = 'status text';
+
+      fetchMock.mock('/', response);
+
+      return expect(transport.get('/')).rejects.toEqual({
+        asymmetricMatch: actual => actual.response.ok === false
+          && actual instanceof Error
+          && actual.message === 'status text'
       });
     });
 

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.8.0
+
+* Proper error message returned when a request is failed (taken from response.body.message)
+
 ## 1.7.0
 
 * Added ability to pass an array of records to ResourcefulEndpoint.newResourceCollection()
