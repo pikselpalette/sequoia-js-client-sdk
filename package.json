@@ -69,7 +69,7 @@
     "stryker-api": "^0.21.0",
     "stryker-babel-transpiler": "^0.7.1",
     "stryker-html-reporter": "^0.16.1",
-    "stryker-javascript-mutator": "^0.9.0",
+    "stryker-javascript-mutator": "^0.10.0",
     "stryker-jest-runner": "^1.2.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
