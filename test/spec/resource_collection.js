@@ -183,7 +183,9 @@ describe('ResourceCollection', () => {
     });
 
     describe('nextPage', () => {
-      it('should call "fetch" when there is a next page of results', async () => expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch));
+      it('should call "fetch" when there is a next page of results', async () => {
+        expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch);
+      });
 
       it('should reject when there is no next page of results', async () => {
         delete resourceCollection.rawData.meta.next;
