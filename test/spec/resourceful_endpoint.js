@@ -353,12 +353,16 @@ describe('ResourcefulEndpoint', () => {
           expect(result.initialCriteria.query).toEqual('include=relatedMaterials');
         });
 
-        it('should return a query with fields if the relationship the query mentions is a through relationship, but the query does not mention fields', async () => {
-          const query = new Query('include=relatedMaterials.assets');
-          const result = await resourcefulEndpoint.browse(query);
-          expect(result.initialCriteria.query)
-            .toEqual('include=relatedMaterials.assets&fields=relatedMaterialRefs');
-        });
+        it(
+          `should return a query with fields if the relationship the query mentions
+          is a through relationship, but the query does not mention fields`,
+          async () => {
+            const query = new Query('include=relatedMaterials.assets');
+            const result = await resourcefulEndpoint.browse(query);
+            expect(result.initialCriteria.query)
+              .toEqual('include=relatedMaterials.assets&fields=relatedMaterialRefs');
+          }
+        );
 
         it('should append a field if the relationship the query mentions is a through relationship and mentions fields', async () => {
           const query = new Query('include=relatedMaterials.assets&fields=dave');
