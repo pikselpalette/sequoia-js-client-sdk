@@ -217,8 +217,8 @@ describe('ResourceCollection', () => {
         const itemWithRelatedMaterialRefs = collection[0];
 
         expect(
-          itemWithRelatedMaterialRefs &&
-          itemWithRelatedMaterialRefs.relatedMaterialRefs
+          itemWithRelatedMaterialRefs
+          && itemWithRelatedMaterialRefs.relatedMaterialRefs
         ).toBeDefined();
 
         expect(itemWithRelatedMaterialRefs.relatedMaterialRefs.length).toEqual(1);
@@ -232,7 +232,7 @@ describe('ResourceCollection', () => {
         beforeEach(() => {
           result = resourceCollection.setData(rawData);
           collection = result && result.collection;
-          itemWithRelatedMaterialRefs = collection[0];
+          [itemWithRelatedMaterialRefs] = collection;
         });
 
         it('has linked data', () => {
