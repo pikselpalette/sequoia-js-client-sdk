@@ -103,7 +103,7 @@ from <a href="ServiceDescriptor.html#resourcefulEndpoint">ServiceDescriptor#reso
         
 <hr>
 <dt>
-    <h4 class="name" id="Transport"><span class="type-signature"></span>new Transport(options)</h4>
+    <h4 class="name" id="Transport"><span class="type-signature"></span>new Transport(options, encodeUri)</h4>
     
     
 </dt>
@@ -172,6 +172,40 @@ from <a href="ServiceDescriptor.html#resourcefulEndpoint">ServiceDescriptor#reso
             
 
             <td class="description last"><p>The options to use with all fetch requests</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>encodeUri</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+                    &lt;nullable><br>
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Indicate whether to encode request URIs generated. Defaults <code>false</code></p></td>
         </tr>
 
     
@@ -279,7 +313,7 @@ from <a href="ServiceDescriptor.html#resourcefulEndpoint">ServiceDescriptor#reso
 		<ul class="dummy">
 			<li>
 				<a href="transport.js.html">transport.js</a>,
-				 <a href="transport.js.html#sunlight-1-line-18">line 18</a>
+				 <a href="transport.js.html#sunlight-1-line-21">line 21</a>
 			</li>
 		</ul>
 	</dd>
@@ -468,7 +502,7 @@ transport.fetchWithDefaults(&#x27;someurl&#x27;).then((response) =&gt; console.l
 		<ul class="dummy">
 			<li>
 				<a href="transport.js.html">transport.js</a>,
-				 <a href="transport.js.html#sunlight-1-line-119">line 119</a>
+				 <a href="transport.js.html#sunlight-1-line-138">line 138</a>
 			</li>
 		</ul>
 	</dd>
@@ -513,6 +547,144 @@ transport.fetchWithDefaults(&#x27;someurl&#x27;).then((response) =&gt; console.l
 
 
         
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="encodeUrl"><span class="type-signature"></span>encodeUrl(url)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Encodes the request url if <code>this.encodeUri</code> is true.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>url</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the url to potentially encode</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
+	<dd class="tag-source">
+		<ul class="dummy">
+			<li>
+				<a href="transport.js.html">transport.js</a>,
+				 <a href="transport.js.html#sunlight-1-line-51">line 51</a>
+			</li>
+		</ul>
+	</dd>
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 </dd>
@@ -650,7 +822,7 @@ transport.fetchWithDefaults(&#x27;someurl&#x27;).then((response) =&gt; console.l
 		<ul class="dummy">
 			<li>
 				<a href="transport.js.html">transport.js</a>,
-				 <a href="transport.js.html#sunlight-1-line-50">line 50</a>
+				 <a href="transport.js.html#sunlight-1-line-69">line 69</a>
 			</li>
 		</ul>
 	</dd>
@@ -832,7 +1004,7 @@ transport.fetchWithDefaults(&#x27;someurl&#x27;).then((response) =&gt; console.l
 		<ul class="dummy">
 			<li>
 				<a href="transport.js.html">transport.js</a>,
-				 <a href="transport.js.html#sunlight-1-line-83">line 83</a>
+				 <a href="transport.js.html#sunlight-1-line-102">line 102</a>
 			</li>
 		</ul>
 	</dd>
@@ -1014,7 +1186,7 @@ transport.fetchWithDefaults(&#x27;someurl&#x27;).then((response) =&gt; console.l
 		<ul class="dummy">
 			<li>
 				<a href="transport.js.html">transport.js</a>,
-				 <a href="transport.js.html#sunlight-1-line-95">line 95</a>
+				 <a href="transport.js.html#sunlight-1-line-114">line 114</a>
 			</li>
 		</ul>
 	</dd>
@@ -1196,7 +1368,7 @@ transport.fetchWithDefaults(&#x27;someurl&#x27;).then((response) =&gt; console.l
 		<ul class="dummy">
 			<li>
 				<a href="transport.js.html">transport.js</a>,
-				 <a href="transport.js.html#sunlight-1-line-107">line 107</a>
+				 <a href="transport.js.html#sunlight-1-line-126">line 126</a>
 			</li>
 		</ul>
 	</dd>
@@ -1299,7 +1471,7 @@ transport.fetchWithDefaults(&#x27;someurl&#x27;).then((response) =&gt; console.l
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Mon Sep 17th 2018
+		on Mon Sep 24th 2018
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
