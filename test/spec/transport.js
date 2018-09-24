@@ -72,6 +72,25 @@ describe('transport', () => {
 
       return expect(transport.get('/')).rejects.toEqual(expect.any(Object));
     });
+
+    it('should not encode request url when encodeUri not set', async () => {
+      fetchMock.mock('/%20|é%@', {
+        body: { test: 'response' }
+      });
+
+      return expect(transport.get('/%20|é%@')).resolves.toEqual(expect.objectContaining({ test: 'response' }));
+    });
+
+    it('should encode request url when encodeUri set', async () => {
+      // Only should encode unsafe chars, and should not double-encode already encoded sequences
+      transport = new Transport({}, true);
+
+      fetchMock.mock('/%20%7C%C3%A9%25@', {
+        body: { test: 'response' }
+      });
+
+      return expect(transport.get('/%20|é%@')).resolves.toEqual(expect.objectContaining({ test: 'response' }));
+    });
   });
 
   describe('public method', () => {

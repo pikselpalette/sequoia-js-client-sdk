@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Add `encodeUri` configuration option.  Will cause the client to automatically encode request urls it generates.
+
 ## 1.9.0
 
 * Proper error message returned when a request is failed (taken from response.body.message)
