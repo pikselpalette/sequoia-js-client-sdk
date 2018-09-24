@@ -216,10 +216,8 @@ describe('ResourceCollection', () => {
         const { collection } = result;
         const itemWithRelatedMaterialRefs = collection[0];
 
-        expect(
-          itemWithRelatedMaterialRefs
-          && itemWithRelatedMaterialRefs.relatedMaterialRefs
-        ).toBeDefined();
+        expect(itemWithRelatedMaterialRefs && itemWithRelatedMaterialRefs.relatedMaterialRefs)
+          .toBeDefined();
 
         expect(itemWithRelatedMaterialRefs.relatedMaterialRefs.length).toEqual(1);
       });
