@@ -3,6 +3,7 @@
 ## Unreleased
 
 * Add `encodeUri` configuration option.  Will cause the client to automatically encode request urls it generates.
+* Add addRelatedThroughFields to the Query class, update logic in resourceful_endpoint browse method to use this method to fetch additional fields required on included through relationships to support their use with graphical display descriptors for example.
 
 ## 1.9.0
 
