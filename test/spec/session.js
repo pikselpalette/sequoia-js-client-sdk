@@ -128,7 +128,9 @@ describe('session', () => {
       expect(fetchMock.called(customTokenUri)).toBe(true);
     });
 
-    it('should reject when no secret is provided for oauth login', async () => expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth' })).rejects.toEqual(NO_OAUTH_SECRET_PROVIDED));
+    it('should reject when no secret is provided for oauth login', async () => {
+      expect(session.authenticateWithCredentials('test', 'password', { strategy: 'oauth' })).rejects.toEqual(NO_OAUTH_SECRET_PROVIDED);
+    });
   });
 
   describe('setDirectory', () => {
