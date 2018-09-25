@@ -80,6 +80,16 @@ describe('Client', () => {
       expect(client.registry.cache).toBe(true);
     });
 
+    it('should pass the encodeUri value to Transport', () => {
+      client = new Client({
+        directory,
+        registryUri,
+        identityUri,
+        encodeUri: true
+      });
+      expect(client.transport.encodeUri).toBe(true);
+    });
+
     it('should accept an optional `identityUri`', () => {
       client = new Client({ directory, registryUri });
 
