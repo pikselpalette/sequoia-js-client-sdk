@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "totalCount": 440,
+    "page": 1,
+    "perPage": 24,
+    "first": "\/data\/people?count=true&fields=ref%2CfullName%2CgivenName%2CotherNames%2CfamilyName%2CyearOfDebut%2ChonorificPrefix%2Csuffix%2CplaceOfBirth%2CfullName%2CrelatedMaterialRefs&include=relatedMaterials.assets&owner=demo&page=1&perPage=24&sort=-updatedAt",
+    "last": "\/data\/people?count=true&fields=ref%2CfullName%2CgivenName%2CotherNames%2CfamilyName%2CyearOfDebut%2ChonorificPrefix%2Csuffix%2CplaceOfBirth%2CfullName%2CrelatedMaterialRefs&include=relatedMaterials.assets&owner=demo&page=19&perPage=24&sort=-updatedAt",
+    "next": "\/data\/people?count=true&fields=ref%2CfullName%2CgivenName%2CotherNames%2CfamilyName%2CyearOfDebut%2ChonorificPrefix%2Csuffix%2CplaceOfBirth%2CfullName%2CrelatedMaterialRefs&include=relatedMaterials.assets&owner=demo&page=2&perPage=24&sort=-updatedAt",
+    "linked": {
+      "relatedMaterials.assets": [
+        {
+          "totalCount": 1,
+          "page": 1,
+          "perPage": 100,
+          "first": "\/data\/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=demo%3Aimpastor&page=1&perPage=100",
+          "last": "\/data\/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=demo%3Aimpastor&page=1&perPage=100",
+          "request": "\/data\/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=demo%3Aimpastor"
+        }
+      ]
+    }
+  },
+  "people": [
+    {
+      "ref": "demo:gethin_anthony",
+      "fullName": "Gethin Anthony",
+      "relatedMaterialRefs": [
+        "demo:impastor"
+      ]
+    },
+    {
+      "ref": "demo:gwendoline_christie",
+      "fullName": "Gwendoline Christie"
+    },
+    {
+      "ref": "demo:harry_lloyd",
+      "fullName": "Harry Lloyd"
+    },
+    {
+      "ref": "demo:iain_glen",
+      "fullName": "Iain Glen"
+    },
+    {
+      "ref": "demo:ian_mc_elhinney",
+      "fullName": "Ian McElhinney"
+    },
+    {
+      "ref": "demo:isaac_hempstead_wright",
+      "fullName": "Isaac Hempstead-Wright"
+    },
+    {
+      "ref": "demo:iwan_rheon",
+      "fullName": "Iwan Rheon"
+    },
+    {
+      "ref": "demo:jack_gleeson",
+      "fullName": "Jack Gleeson"
+    },
+    {
+      "ref": "demo:jai_courtney",
+      "fullName": "Jai Courtney"
+    },
+    {
+      "ref": "demo:james_cosmo",
+      "fullName": "James Cosmo"
+    },
+    {
+      "ref": "demo:jerome_flynn",
+      "fullName": "Jerome Flynn"
+    },
+    {
+      "ref": "demo:john_moore",
+      "fullName": "John Moore"
+    },
+    {
+      "ref": "demo:jonathan_pryce",
+      "fullName": "Jonathan Pryce"
+    },
+    {
+      "ref": "demo:julian_glover",
+      "fullName": "Julian Glover"
+    },
+    {
+      "ref": "demo:kate_dickie",
+      "fullName": "Kate Dickie"
+    },
+    {
+      "ref": "demo:kerry_ingram",
+      "fullName": "Kerry Ingram"
+    },
+    {
+      "ref": "demo:lino_facioli",
+      "fullName": "Lino Facioli"
+    },
+    {
+      "ref": "demo:mackenzie_crook",
+      "fullName": "Mackenzie Crook"
+    },
+    {
+      "ref": "demo:maisie_williams",
+      "fullName": "Maisie Williams"
+    },
+    {
+      "ref": "demo:michael_mc_elhatton",
+      "fullName": "Michael McElhatton"
+    },
+    {
+      "ref": "demo:michelle_fairley",
+      "fullName": "Michelle Fairley"
+    },
+    {
+      "ref": "demo:michiel_huisman",
+      "fullName": "Michiel Huisman"
+    },
+    {
+      "ref": "demo:mila_kunis",
+      "fullName": "Mila Kunis"
+    },
+    {
+      "ref": "demo:natalia_tena",
+      "fullName": "Natalia Tena"
+    }
+  ],
+  "linked": {
+    "relatedMaterials.assets": [
+      {
+        "ref": "demo:impastor-image",
+        "name": "impastor-image",
+        "contentRef": "demo:impastor",
+        "type": "image",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/demo.datasets.sequoia.piksel.com\/images\/viacom\/Impastors1ep01HD-00DDDE0000112357351303.jpg",
+        "title": "impastor-image",
+        "tags": [
+          "viacom"
+        ]
+      }
+    ]
+  }
+}
