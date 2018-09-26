@@ -13188,6 +13188,43 @@
           ],
           "batchSize": 10,
           "name": "credits"
+        },
+        "relatedMaterials": {
+          "type": "direct",
+          "description": "The associated content folder containing materials related to this Person",
+          "resourceType": "contents",
+          "fieldNamePath": "relatedMaterialRefs",
+          "fields": [
+            "ref",
+            "title",
+            "parentRef",
+            "memberRefs",
+            "type"
+          ],
+          "batchSize": 10,
+          "name": "relatedMaterials",
+          "intersectable": false
+        },
+        "relatedMaterials.assets": {
+          "type": "indirect",
+          "description": "The associated assets through associated folders containing materials related to the Person",
+          "through": "relatedMaterials",
+          "resourceType": "assets",
+          "filterName": "withContentRef",
+          "fields": [
+            "ref",
+            "name",
+            "contentRef",
+            "type",
+            "url",
+            "fileFormat",
+            "title",
+            "fileSize",
+            "tags"
+          ],
+          "batchSize": 10,
+          "name": "relatedMaterials.assets",
+          "intersectable": false
         }
       },
       "description": "Represents a person",
