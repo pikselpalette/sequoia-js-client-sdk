@@ -2,9 +2,12 @@
 
 ## Unreleased
 
+## 1.10.1
+
 * Adjust through relationship logic to use the relationship filter name to determine the fieldNamePath which needs to be filtered against - this field will not always be present on the originating resource's fields
+
 ## 1.10.0
- 
+
 * Add `encodeUri` configuration option.  Will cause the client to automatically encode request urls it generates.
 * Add addRelatedThroughFields to the Query class, update logic in resourceful_endpoint browse method to use this method to fetch additional fields required on included through relationships to support their use with graphical display descriptors for example.
 
