@@ -6,6 +6,7 @@ import mediaItemFixture from '../fixtures/media-items.json';
 import lastMediaItemFixture from '../fixtures/media-items-12.json';
 import metadataDescriptorFixture from '../fixtures/metadata-descriptor.json';
 import creditsWithThroughFixture from '../fixtures/credits-with-through.json';
+import peopleWithThroughFixture from '../fixtures/people-with-through.json';
 
 describe('ResourceCollection', () => {
   let mockDescriptor;
@@ -180,78 +181,157 @@ describe('ResourceCollection', () => {
     });
 
     describe('through relationships', () => {
-      let rawData;
-      beforeEach(() => {
-        mockDescriptor = Object.assign(metadataDescriptorFixture.resourcefuls.credits, {
-          location: 'http://localhost/metadata',
-          tenant: 'test',
-          pluralName: 'credits'
-        });
-        resourcefulEndpoint = new ResourcefulEndpoint(new Transport(), mockDescriptor);
-        resourceCollection = new ResourceCollection(
-          mediaItemFixture,
-          null,
-          resourcefulEndpoint
-        );
-        rawData = creditsWithThroughFixture;
-      });
-
-      it('has a resourcefulEndpoint that has a relationship that has a through relationship', () => {
-        const relationship = resourcefulEndpoint.resourceful.relationships['relatedMaterials.assets'];
-        expect(relationship).toBeDefined();
-        expect(relationship.through).toBeDefined();
-      });
-
-      it('has rawData', () => {
-        expect(rawData).toBeDefined();
-      });
-
-      it('has a collection', () => {
-        const result = resourceCollection.setData(rawData);
-        expect(result && result.collection).toBeDefined();
-      });
-
-      it('has an item in collection that has values in relatedMaterialRefs', () => {
-        const result = resourceCollection.setData(rawData);
-        const { collection } = result;
-        const itemWithRelatedMaterialRefs = collection[0];
-
-        expect(itemWithRelatedMaterialRefs && itemWithRelatedMaterialRefs.relatedMaterialRefs)
-          .toBeDefined();
-
-        expect(itemWithRelatedMaterialRefs.relatedMaterialRefs.length).toEqual(1);
-      });
-
-      describe('item with relatedMaterialRefs', () => {
-        let result;
-        let collection;
-        let itemWithRelatedMaterialRefs;
-
+      describe('credits', () => {
+        let rawData;
         beforeEach(() => {
-          result = resourceCollection.setData(rawData);
-          collection = result && result.collection;
-          [itemWithRelatedMaterialRefs] = collection;
+          mockDescriptor = Object.assign(metadataDescriptorFixture.resourcefuls.credits, {
+            location: 'http://localhost/metadata',
+            tenant: 'test',
+            pluralName: 'credits'
+          });
+          resourcefulEndpoint = new ResourcefulEndpoint(new Transport(), mockDescriptor);
+          resourceCollection = new ResourceCollection(
+            mediaItemFixture,
+            null,
+            resourcefulEndpoint
+          );
+          rawData = creditsWithThroughFixture;
         });
 
-        it('has linked data', () => {
-          expect(itemWithRelatedMaterialRefs.linked).toBeDefined();
+        it('has a resourcefulEndpoint that has a relationship that has a through relationship', () => {
+          const relationship = resourcefulEndpoint.resourceful.relationships['relatedMaterials.assets'];
+          expect(relationship).toBeDefined();
+          expect(relationship.through).toBeDefined();
         });
 
-        it('has the same number of linked data the amount of relatedMaterialRefs', () => {
-          const refs = itemWithRelatedMaterialRefs.relatedMaterialRefs;
-          const linked = itemWithRelatedMaterialRefs.linked['relatedMaterials.assets'];
-          expect(refs.length).toEqual(linked.length);
+        it('has rawData', () => {
+          expect(rawData).toBeDefined();
         });
 
-        it('has matching linked data and relatedMaterialRefs', () => {
-          const refs = itemWithRelatedMaterialRefs.relatedMaterialRefs;
-          const linked = itemWithRelatedMaterialRefs.linked['relatedMaterials.assets'];
+        it('has a collection', () => {
+          const result = resourceCollection.setData(rawData);
+          expect(result && result.collection).toBeDefined();
+        });
 
-          linked
-            .map(l => l.contentRef)
-            .forEach((l) => {
-              expect(refs.includes(l));
-            });
+        it('has an item in collection that has values in relatedMaterialRefs', () => {
+          const result = resourceCollection.setData(rawData);
+          const { collection } = result;
+          const itemWithRelatedMaterialRefs = collection[0];
+
+          expect(itemWithRelatedMaterialRefs && itemWithRelatedMaterialRefs.relatedMaterialRefs)
+            .toBeDefined();
+
+          expect(itemWithRelatedMaterialRefs.relatedMaterialRefs.length).toEqual(1);
+        });
+
+        describe('item with relatedMaterialRefs', () => {
+          let result;
+          let collection;
+          let itemWithRelatedMaterialRefs;
+
+          beforeEach(() => {
+            result = resourceCollection.setData(rawData);
+            collection = result && result.collection;
+            [itemWithRelatedMaterialRefs] = collection;
+          });
+
+          it('has linked data', () => {
+            expect(itemWithRelatedMaterialRefs.linked).toBeDefined();
+          });
+
+          it('has the same number of linked data the amount of relatedMaterialRefs', () => {
+            const refs = itemWithRelatedMaterialRefs.relatedMaterialRefs;
+            const linked = itemWithRelatedMaterialRefs.linked['relatedMaterials.assets'];
+            expect(refs.length).toEqual(linked.length);
+          });
+
+          it('has matching linked data and relatedMaterialRefs', () => {
+            const refs = itemWithRelatedMaterialRefs.relatedMaterialRefs;
+            const linked = itemWithRelatedMaterialRefs.linked['relatedMaterials.assets'];
+
+            linked
+              .map(l => l.contentRef)
+              .forEach((l) => {
+                expect(refs.includes(l));
+              });
+          });
+        });
+      });
+
+      describe('people', () => {
+        let rawData;
+        beforeEach(() => {
+          mockDescriptor = Object.assign(metadataDescriptorFixture.resourcefuls.people, {
+            location: 'http://localhost/metadata',
+            tenant: 'test',
+            pluralName: 'people'
+          });
+          resourcefulEndpoint = new ResourcefulEndpoint(new Transport(), mockDescriptor);
+          resourceCollection = new ResourceCollection(
+            mediaItemFixture,
+            null,
+            resourcefulEndpoint
+          );
+          rawData = peopleWithThroughFixture;
+        });
+
+        it('has a resourcefulEndpoint that has a relationship that has a through relationship', () => {
+          const relationship = resourcefulEndpoint.resourceful.relationships['relatedMaterials.assets'];
+          expect(relationship).toBeDefined();
+          expect(relationship.through).toBeDefined();
+        });
+
+        it('has rawData', () => {
+          expect(rawData).toBeDefined();
+        });
+
+        it('has a collection', () => {
+          const result = resourceCollection.setData(rawData);
+          expect(result && result.collection).toBeDefined();
+        });
+
+        it('has an item in collection that has values in relatedMaterialRefs', () => {
+          const result = resourceCollection.setData(rawData);
+          const { collection } = result;
+          const itemWithRelatedMaterialRefs = collection[0];
+
+          expect(itemWithRelatedMaterialRefs && itemWithRelatedMaterialRefs.relatedMaterialRefs)
+            .toBeDefined();
+
+          expect(itemWithRelatedMaterialRefs.relatedMaterialRefs.length).toEqual(1);
+        });
+
+        describe('item with relatedMaterialRefs', () => {
+          let result;
+          let collection;
+          let itemWithRelatedMaterialRefs;
+
+          beforeEach(() => {
+            result = resourceCollection.setData(rawData);
+            collection = result && result.collection;
+            [itemWithRelatedMaterialRefs] = collection;
+          });
+
+          it('has linked data', () => {
+            expect(itemWithRelatedMaterialRefs.linked).toBeDefined();
+          });
+
+          it('has the same number of linked data the amount of relatedMaterialRefs', () => {
+            const refs = itemWithRelatedMaterialRefs.relatedMaterialRefs;
+            const linked = itemWithRelatedMaterialRefs.linked['relatedMaterials.assets'];
+            expect(refs.length).toEqual(linked.length);
+          });
+
+          it('has matching linked data and relatedMaterialRefs', () => {
+            const refs = itemWithRelatedMaterialRefs.relatedMaterialRefs;
+            const linked = itemWithRelatedMaterialRefs.linked['relatedMaterials.assets'];
+
+            linked
+              .map(l => l.contentRef)
+              .forEach((l) => {
+                expect(refs.includes(l));
+              });
+          });
         });
       });
     });
