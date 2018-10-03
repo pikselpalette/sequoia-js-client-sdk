@@ -5,12 +5,13 @@ import ResourcefulEndpoint from '../../lib/resourceful_endpoint.js';
 import Transport from '../../lib/transport.js';
 import ResourceCollection from '../../lib/resource_collection.js';
 import mediaItemsFixture from '../fixtures/media-items.json';
+import creditsWithThrough from '../fixtures/credits-with-through.json';
 
 const pluralName = 'contents';
 const singularName = 'content';
 const hyphenatedPluralName = 'contents';
 const serviceName = 'metadata';
-const relationships = { test: { desription: 'test', resourceType: 'test' } };
+const relationships = { test: { description: 'test', resourceType: 'test' } };
 
 const mockDescriptor = {
   location: 'http://localhost/metadata',
@@ -278,6 +279,98 @@ describe('ResourcefulEndpoint', () => {
       it('should resolve with a ResourceCollection', async () => expect(resourcefulEndpoint.browse()).resolves.toEqual({
         asymmetricMatch: actual => actual instanceof ResourceCollection
       }));
+
+      describe('related through field', () => {
+        beforeEach(() => {
+          fetchMock.mock('*', creditsWithThrough, { overwriteRoutes: true });
+          resourcefulEndpoint = new ResourcefulEndpoint(
+            transport,
+            {
+              location: 'http://localhost/metadata',
+              pluralName: 'credits',
+              singularName: 'credit',
+              hyphenatedPluralName: 'credits',
+              serviceName: 'metadata',
+              relationships: {
+                relatedMaterials: {
+                  type: 'direct',
+                  description: 'The associated content folder containing materials related to this Credit',
+                  resourceType: 'contents',
+                  fieldNamePath: 'relatedMaterialRefs',
+                  fields: [
+                    'ref',
+                    'title',
+                    'parentRef',
+                    'memberRefs',
+                    'type'
+                  ],
+                  batchSize: 10,
+                  name: 'relatedMaterials',
+                  intersectable: false
+                },
+                'relatedMaterials.assets': {
+                  type: 'indirect',
+                  description: 'The associated assets through associated folders containing materials related to the Credit',
+                  through: 'relatedMaterials',
+                  resourceType: 'assets',
+                  filterName: 'withContentRef',
+                  fields: [
+                    'ref',
+                    'name',
+                    'contentRef',
+                    'type',
+                    'url',
+                    'fileFormat',
+                    'title',
+                    'fileSize',
+                    'tags'
+                  ],
+                  batchSize: 10,
+                  name: 'relatedMaterials.assets',
+                  intersectable: false
+                }
+              },
+              tenant: 'test'
+            }
+          );
+        });
+
+        it('should return no query if passed no query', async () => {
+          const result = await resourcefulEndpoint.browse();
+
+          expect(result.initialCriteria).not.toBeDefined();
+        });
+
+        it('should return a query with an empty string if passed an empty string as a query', async () => {
+          const result = await resourcefulEndpoint.browse('');
+
+          expect(result.initialCriteria).toEqual('');
+        });
+
+        it('should return a query if the relationship the query mentions is not a through relationship', async () => {
+          const query = new Query('include=relatedMaterials');
+          const result = await resourcefulEndpoint.browse(query);
+          expect(result.initialCriteria.query).toEqual('include=relatedMaterials');
+        });
+
+        it(
+          `should return a query with fields if the relationship the query mentions
+          is a through relationship, but the query does not mention fields`,
+          async () => {
+            const query = new Query('include=relatedMaterials.assets');
+            const result = await resourcefulEndpoint.browse(query);
+            expect(result.initialCriteria.query)
+              .toEqual('include=relatedMaterials.assets&fields=relatedMaterialRefs');
+          }
+        );
+
+        it('should append a field if the relationship the query mentions is a through relationship and mentions fields', async () => {
+          const query = new Query('include=relatedMaterials.assets&fields=dave');
+          const result = await resourcefulEndpoint.browse(query);
+          expect(result.initialCriteria.query)
+            .toEqual('include=relatedMaterials.assets&fields=dave,relatedMaterialRefs');
+        });
+      });
     });
 
     describe('all', () => {

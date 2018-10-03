@@ -8858,7 +8858,8 @@
             "type"
           ],
           "batchSize": 10,
-          "name": "content"
+          "name": "content",
+          "intersectable": false
         },
         "person": {
           "type": "direct",
@@ -8870,7 +8871,8 @@
             "fullName"
           ],
           "batchSize": 10,
-          "name": "person"
+          "name": "person",
+          "intersectable": false
         },
         "role": {
           "type": "direct",
@@ -8882,7 +8884,59 @@
             "title"
           ],
           "batchSize": 10,
-          "name": "role"
+          "name": "role",
+          "intersectable": false
+        },
+        "character": {
+          "description": "The associated characters",
+          "type": "direct",
+          "resourceType": "characters",
+          "fieldNamePath": "characterRef",
+          "fields": [
+            "ref",
+            "title",
+            "type"
+          ],
+          "name": "character",
+          "intersectable": false,
+          "batchSize": 10
+        },
+        "relatedMaterials": {
+          "type": "direct",
+          "description": "The associated content folder containing materials related to this Credit",
+          "resourceType": "contents",
+          "fieldNamePath": "relatedMaterialRefs",
+          "fields": [
+            "ref",
+            "title",
+            "parentRef",
+            "memberRefs",
+            "type"
+          ],
+          "batchSize": 10,
+          "name": "relatedMaterials",
+          "intersectable": false
+        },
+        "relatedMaterials.assets": {
+          "type": "indirect",
+          "description": "The associated assets through associated folders containing materials related to the Credit",
+          "through": "relatedMaterials",
+          "resourceType": "assets",
+          "filterName": "withContentRef",
+          "fields": [
+            "ref",
+            "name",
+            "contentRef",
+            "type",
+            "url",
+            "fileFormat",
+            "title",
+            "fileSize",
+            "tags"
+          ],
+          "batchSize": 10,
+          "name": "relatedMaterials.assets",
+          "intersectable": false
         }
       },
       "description": "Represents a credit of a content",
@@ -13134,6 +13188,43 @@
           ],
           "batchSize": 10,
           "name": "credits"
+        },
+        "relatedMaterials": {
+          "type": "direct",
+          "description": "The associated content folder containing materials related to this Person",
+          "resourceType": "contents",
+          "fieldNamePath": "relatedMaterialRefs",
+          "fields": [
+            "ref",
+            "title",
+            "parentRef",
+            "memberRefs",
+            "type"
+          ],
+          "batchSize": 10,
+          "name": "relatedMaterials",
+          "intersectable": false
+        },
+        "relatedMaterials.assets": {
+          "type": "indirect",
+          "description": "The associated assets through associated folders containing materials related to the Person",
+          "through": "relatedMaterials",
+          "resourceType": "assets",
+          "filterName": "withContentRef",
+          "fields": [
+            "ref",
+            "name",
+            "contentRef",
+            "type",
+            "url",
+            "fileFormat",
+            "title",
+            "fileSize",
+            "tags"
+          ],
+          "batchSize": 10,
+          "name": "relatedMaterials.assets",
+          "intersectable": false
         }
       },
       "description": "Represents a person",

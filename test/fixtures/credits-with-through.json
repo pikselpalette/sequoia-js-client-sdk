@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "totalCount": 74,
+    "page": 1,
+    "perPage": 24,
+    "first": "\/data\/credits?count=true&fields=ref%2Ctype%2Cref%2Ctitle%2CrelatedMaterialRefs&include=relatedMaterials.assets&owner=demo&page=1&perPage=24&sort=createdAt",
+    "last": "\/data\/credits?count=true&fields=ref%2Ctype%2Cref%2Ctitle%2CrelatedMaterialRefs&include=relatedMaterials.assets&owner=demo&page=4&perPage=24&sort=createdAt",
+    "next": "\/data\/credits?count=true&fields=ref%2Ctype%2Cref%2Ctitle%2CrelatedMaterialRefs&include=relatedMaterials.assets&owner=demo&page=2&perPage=24&sort=createdAt",
+    "linked": {
+      "relatedMaterials.assets": [
+        {
+          "totalCount": 1,
+          "page": 1,
+          "perPage": 100,
+          "first": "\/data\/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=demo%3Aimpastor&page=1&perPage=100",
+          "last": "\/data\/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=demo%3Aimpastor&page=1&perPage=100",
+          "request": "\/data\/assets?fields=ref%2Cname%2CcontentRef%2Ctype%2Curl%2CfileFormat%2Ctitle%2CfileSize%2Ctags&count=true&withContentRef=demo%3Aimpastor"
+        }
+      ]
+    }
+  },
+  "credits": [
+    {
+      "ref": "demo:aidan_gillen_actor_petyr_littlefinger_baelish",
+      "title": "aidan_gillen_actor_petyr_littlefinger_baelish",
+      "type": "other",
+      "relatedMaterialRefs": [
+        "demo:impastor"
+      ]
+    },
+    {
+      "ref": "demo:aimee_richardson_actor_myrcella_baratheon_season_1_2",
+      "title": "aimee_richardson_actor_myrcella_baratheon_season_1_2",
+      "type": "other"
+    },
+    {
+      "ref": "demo:alexander_siddig_actor_doran_martell",
+      "title": "alexander_siddig_actor_doran_martell",
+      "type": "other"
+    },
+    {
+      "ref": "demo:alfie_allen_actor_theon_greyjoy",
+      "title": "alfie_allen_actor_theon_greyjoy",
+      "type": "other"
+    },
+    {
+      "ref": "demo:amrita_acharia_actor_irri",
+      "title": "amrita_acharia_actor_irri",
+      "type": "other"
+    },
+    {
+      "ref": "demo:art_parkinson_actor_rickon_stark",
+      "title": "art_parkinson_actor_rickon_stark",
+      "type": "other"
+    },
+    {
+      "ref": "demo:caricevan_houten_actor_melisandre_of_asshai",
+      "title": "caricevan_houten_actor_melisandre_of_asshai",
+      "type": "other"
+    },
+    {
+      "ref": "demo:charles_dance_actor_tywin_lannister",
+      "title": "charles_dance_actor_tywin_lannister",
+      "type": "other"
+    },
+    {
+      "ref": "demo:ciaran_hinds_actor_mance_rayder",
+      "title": "ciaran_hinds_actor_mance_rayder",
+      "type": "other"
+    },
+    {
+      "ref": "demo:conleth_hill_actor_lord_varys",
+      "title": "conleth_hill_actor_lord_varys",
+      "type": "other"
+    },
+    {
+      "ref": "demo:dean_charles_chapman_actor_tommen_baratheon",
+      "title": "dean_charles_chapman_actor_tommen_baratheon",
+      "type": "other"
+    },
+    {
+      "ref": "demo:diana_rigg_actor_olenna_tyrell",
+      "title": "diana_rigg_actor_olenna_tyrell",
+      "type": "other"
+    },
+    {
+      "ref": "demo:donald_sumpter_actor_maester_luwin",
+      "title": "donald_sumpter_actor_maester_luwin",
+      "type": "other"
+    },
+    {
+      "ref": "demo:ed_skrein_actor_daario_naharis_season_3",
+      "title": "ed_skrein_actor_daario_naharis_season_3",
+      "type": "other"
+    },
+    {
+      "ref": "demo:ellie_kendrick_actor_meera_reed",
+      "title": "ellie_kendrick_actor_meera_reed",
+      "type": "other"
+    },
+    {
+      "ref": "demo:emilia_clarke_actor_daenerys_targaryen",
+      "title": "emilia_clarke_actor_daenerys_targaryen",
+      "type": "other"
+    },
+    {
+      "ref": "demo:esme_bianco_actor_ros",
+      "title": "esme_bianco_actor_ros",
+      "type": "other"
+    },
+    {
+      "ref": "demo:eugene_simon_actor_lancel_lannister",
+      "title": "eugene_simon_actor_lancel_lannister",
+      "type": "other"
+    },
+    {
+      "ref": "demo:finn_jones_actor_loras_tyrell",
+      "title": "finn_jones_actor_loras_tyrell",
+      "type": "other"
+    },
+    {
+      "ref": "demo:gemma_whelan_actor_yara_greyjoy",
+      "title": "gemma_whelan_actor_yara_greyjoy",
+      "type": "other"
+    },
+    {
+      "ref": "demo:gethin_anthony_actor_renly_baratheon",
+      "title": "gethin_anthony_actor_renly_baratheon",
+      "type": "other"
+    },
+    {
+      "ref": "demo:gwendoline_christie_actor_brienne_of_tarth",
+      "title": "gwendoline_christie_actor_brienne_of_tarth",
+      "type": "other"
+    },
+    {
+      "ref": "demo:hannah_murray_actor_gilly",
+      "title": "hannah_murray_actor_gilly",
+      "type": "other"
+    },
+    {
+      "ref": "demo:harry_lloyd_actor_viserys_targaryen",
+      "title": "harry_lloyd_actor_viserys_targaryen",
+      "type": "other"
+    }
+  ],
+  "linked": {
+    "relatedMaterials.assets": [
+      {
+        "ref": "demo:impastor-image",
+        "name": "impastor-image",
+        "contentRef": "demo:impastor",
+        "type": "image",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/demo.datasets.sequoia.piksel.com\/images\/viacom\/Impastors1ep01HD-00DDDE0000112357351303.jpg",
+        "title": "impastor-image",
+        "tags": [
+          "viacom"
+        ]
+      }
+    ]
+  }
+}
