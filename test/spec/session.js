@@ -9,6 +9,7 @@ import tokenFixture from '../fixtures/token.json';
 
 jest.useFakeTimers();
 
+
 describe('session', () => {
   const directory = 'test';
   const registryUri = 'https://registry-sandbox.sequoia.piksel.com';
@@ -117,7 +118,7 @@ describe('session', () => {
 
       expect(fetchMock.called(customTokenUri)).toBe(true);
 
-      fetchMock.reset();
+      fetchMock.resetHistory();
 
       await expect(session.authenticateWithCredentials('test', 'password', {
         url: customTokenUri,
