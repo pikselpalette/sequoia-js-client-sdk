@@ -69,11 +69,15 @@ describe('Resource', () => {
     });
 
     describe('save', () => {
-      it('should reject with an error message as there is no endpoint to save to', async () => expect(resource.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
+      it('should reject with an error message as there is no endpoint to save to', async () => {
+        expect(resource.save()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR);
+      });
     });
 
     describe('destroy', () => {
-      it('should reject with an error message as there is no endpoint to delete to', async () => expect(resource.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR));
+      it('should reject with an error message as there is no endpoint to delete to', async () => {
+        expect(resource.destroy()).rejects.toEqual(NO_RESOURCEFUL_ENDPOINT_ERROR);
+      });
     });
   });
 
