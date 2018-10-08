@@ -59,7 +59,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.24.1",
-    "fetch-mock": "^6.5.2",
+    "fetch-mock": "^7.0.2",
     "ink-docstrap": "^1.3.2",
     "jest": "^23.6.0",
     "jest-fetch-mock": "^1.6.6",
@@ -69,7 +69,7 @@
     "stryker-api": "^0.21.2",
     "stryker-babel-transpiler": "^0.7.4",
     "stryker-html-reporter": "^0.16.4",
-    "stryker-javascript-mutator": "^0.10.2",
+    "stryker-javascript-mutator": "^0.11.0",
     "stryker-jest-runner": "^1.2.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
