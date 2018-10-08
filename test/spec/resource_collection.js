@@ -345,7 +345,18 @@ describe('ResourceCollection', () => {
     });
 
     describe('nextPage', () => {
+      afterEach(() => {
+        // rawData is the fixture, so persists between tests
+        delete resourceCollection.rawData.meta.continue;
+      });
+
       it('should call "fetch" when there is a next page of results', async () => {
+        expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch);
+      });
+
+      it('should call "fetch" when there is a continue page of results', async () => {
+        resourceCollection.rawData.meta.continue = resourceCollection.rawData.meta.next;
+        delete resourceCollection.rawData.meta.next;
         expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch);
       });
 
