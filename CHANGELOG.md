@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.11.0
+
 * When a Sequoia service returns `meta.continue` in the response, follow this for the next page if `meta.next` is not also present.
 
 ## 1.10.1
