@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import Resource from '../../lib/resource';
 import ResourceCollection, { NO_NEXT_PAGE_ERROR, NO_RESOURCEFUL_ENDPOINT_ERROR } from '../../lib/resource_collection';
 import ResourcefulEndpoint from '../../lib/resourceful_endpoint';
@@ -22,7 +23,8 @@ describe('ResourceCollection', () => {
 
     resourcefulEndpoint = new ResourcefulEndpoint(new Transport(), mockDescriptor);
 
-    resourceCollection = new ResourceCollection(mediaItemFixture);
+    // cloneDeep to ensure fixture is not persisted between tests.
+    resourceCollection = new ResourceCollection(_.cloneDeep(mediaItemFixture));
   });
 
   it('should keep the initial data as a "rawData" property', () => {
@@ -345,11 +347,6 @@ describe('ResourceCollection', () => {
     });
 
     describe('nextPage', () => {
-      afterEach(() => {
-        // rawData is the fixture, so persists between tests
-        delete resourceCollection.rawData.meta.continue;
-      });
-
       it('should call "fetch" when there is a next page of results', async () => {
         expect(resourceCollection.nextPage()).resolves.toEqual(successfulFetch);
       });
