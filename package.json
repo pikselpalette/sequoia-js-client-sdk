@@ -1,6 +1,6 @@
 {
   "name": "@pikselpalette/sequoia-js-client-sdk",
-  "version": "1.10.1",
+  "version": "1.11.0",
   "description": "Sequoia client SDK for Javascript",
   "main": "dist/web/sequoia-client.js",
   "scripts": {
@@ -61,6 +61,7 @@
     "jest": "^23.3.0",
     "jest-fetch-mock": "^1.6.5",
     "jsdoc": "^3.5.5",
+    "lodash": "^4.17.11",
     "stryker": "^0.25.1",
     "stryker-api": "^0.18.0",
     "stryker-babel-transpiler": "^0.7.0",

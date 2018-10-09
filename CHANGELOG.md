@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.11.0
+
+* When a Sequoia service returns `meta.continue` in the response, follow this for the next page if `meta.next` is not also present.
+
 ## 1.10.1
 
 * Adjust through relationship logic to use the relationship filter name to determine the fieldNamePath which needs to be filtered against - this field will not always be present on the originating resource's fields
