@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Fix through relationship handling, when no fields are specified this is the equivalent to returning all fields and must be honoured if a related through field is add to the browse query
+
 ## 1.11.0
 
 * When a Sequoia service returns `meta.continue` in the response, follow this for the next page if `meta.next` is not also present.
