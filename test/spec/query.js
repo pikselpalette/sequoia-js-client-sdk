@@ -55,6 +55,10 @@ describe('Query', () => {
       expect(query.count().query).toEqual('&count=true');
     });
 
+    it('"continue" should append "&continue=true" to the query', () => {
+      expect(query.continue().query).toEqual('&continue=true');
+    });
+
     it('"lang" should append "&lang=<value>" to the query', () => {
       expect(query.lang('en').query).toEqual('&lang=en');
     });
