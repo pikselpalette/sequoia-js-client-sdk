@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.12.0
+
 * Add `continue()` to `Query` to allow simple initiation of continuation paging.
 
 ## 1.11.1
