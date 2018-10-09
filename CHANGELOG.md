@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.11.1
+
 * Fix through relationship handling, when no fields are specified this is the equivalent to returning all fields and must be honoured if a related through field is add to the browse query
 
 ## 1.11.0
