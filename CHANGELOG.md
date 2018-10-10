@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.12.1
+
 * Reimplement `ResourcefulEndpoint.all()` to avoid Promise recursion memory issues.
 
 ## 1.12.0
