@@ -198,9 +198,7 @@ const client = new Client({
   npm run test:watch</code></pre><p>Mutation testing:</p>
 <pre class="prettyprint source lang-sh"><code>  npm run test:mutate
   npm run test:mutate -- --file=path/to/file/**/*.js</code></pre><p>Generate documentation (jsdoc):</p>
-<pre class="prettyprint source lang-sh"><code>  npm run doc</code></pre><h3>Upgrading from 1.1._ to 1.2._</h3><p>Calls to client.service are now deprecated. Be aware that you are now passed an array with service descriptors, rather than a single service descriptor.
-Calls to registry.getService and registry.getServices are deprecated in favour of registry.getServiceDescriptor and registry.getServiceDescriptors.</p>
-<h2>Samples</h2><p>Here are some samples which make use of the SDK:</p>
+<pre class="prettyprint source lang-sh"><code>  npm run doc</code></pre><h2>Samples</h2><p>Here are some samples which make use of the SDK:</p>
 <ul>
 <li><a href="https://github.com/pikselpalette/sequoia-js-client-sdk-sample-aws-lambda">AWS Lambda function running on the <code>nodejs8.10</code> runtime.</a></li>
 </ul></article>
