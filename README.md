@@ -145,11 +145,6 @@ Generate documentation (jsdoc):
   npm run doc
 ```
 
-### Upgrading from 1.1._ to 1.2._
-
-Calls to client.service are now deprecated. Be aware that you are now passed an array with service descriptors, rather than a single service descriptor.
-Calls to registry.getService and registry.getServices are deprecated in favour of registry.getServiceDescriptor and registry.getServiceDescriptors.
-
 ## Samples
 
 Here are some samples which make use of the SDK:
