@@ -171,7 +171,8 @@ describe('Query', () => {
           }
         };
         query.query = '&fields=ref,title&include=throughRelationship&relatedThrough.withTags=someTag';
-        expect(query.addRelatedThroughFields(relationships).query).toEqual('fields=ref,title,throughField&include=throughRelationship&relatedThrough.withTags=someTag');
+        expect(query.addRelatedThroughFields(relationships).query)
+          .toEqual('fields=ref,title,throughField&include=throughRelationship&relatedThrough.withTags=someTag');
       });
 
       describe('when there are no fields on the query, a through relationship is passed and that relationship is included in the query', () => {
