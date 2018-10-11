@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Fix an issue with nested queries where they would be transformed from `a.b=c` to `a[b]=c`.
+
 ## 1.12.1
 
 * Reimplement `ResourcefulEndpoint.all()` to avoid Promise recursion memory issues.
