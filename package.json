@@ -1,6 +1,6 @@
 {
   "name": "@pikselpalette/sequoia-js-client-sdk",
-  "version": "1.12.1",
+  "version": "1.12.2",
   "description": "Sequoia client SDK for Javascript",
   "main": "dist/web/sequoia-client.js",
   "scripts": {
