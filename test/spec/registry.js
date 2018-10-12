@@ -207,7 +207,7 @@ describe('Registry', () => {
     it('should fallback to the service endpoint if the descriptor is not in the cache', (done) => {
       registry.getCachedServiceDescriptor.mockImplementation(() => Promise.reject());
       const allServices = registry.services.map(s => s.name);
-      registry.getServiceDescriptors().then((services) => {
+      registry.getCachedServiceDescriptors().then((services) => {
         expect(services).toEqual(allServices);
         done();
       });
