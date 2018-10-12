@@ -156,55 +156,68 @@ class ResourceCollection {
   setData(rawData) {
     this.rawData = rawData;
     // Without a descriptor, we don't know truly know what to pick out
-    if (this.resourcefulEndpoint &amp;&amp; this.rawData &amp;&amp; this.rawData[this.resourcefulEndpoint.pluralName]) {
-      this.collection = this.rawData[this.resourcefulEndpoint.pluralName].map((content) => {
-        const resource = Object.assign({}, content); // Copy
-        if (this.rawData.linked) {
-          const linkByRefName = `${this.resourcefulEndpoint.singularName}Ref`;
-          resource.linked = {};
+    if (
+      this.resourcefulEndpoint
+      &amp;&amp; this.rawData
+      &amp;&amp; this.rawData[this.resourcefulEndpoint.pluralName]
+    ) {
+      this.collection = this.rawData[this.resourcefulEndpoint.pluralName].map(
+        (content) => {
+          const resource = Object.assign({}, content); // Copy
+          if (this.rawData.linked) {
+            const linkByRefName = `${this.resourcefulEndpoint.singularName}Ref`;
+            resource.linked = {};
 
-          Object.keys(this.rawData.linked).forEach((link) => {
-            resource.linked[link] = this.rawData.linked[link].filter((item) => {
-              // If a `linkByRefName` exists on this link, filter only those
-              // that are directly linked (this helps when `browsing()` a list of
-              // disparate content where links come back for every item in the list
-              // (e.g. metadata/contents -> linked assets).
+            Object.keys(this.rawData.linked).forEach((link) => {
+              resource.linked[link] = this.rawData.linked[link].filter((item) => {
+                // If a `linkByRefName` exists on this link, filter only those
+                // that are directly linked (this helps when `browsing()` a list of
+                // disparate content where links come back for every item in the list
+                // (e.g. metadata/contents -> linked assets).
 
-              // However, some resourcefuls have links without this explicitly set
-              // e.g. relationships like credits/relatedMaterials.assets that have
-              // a through, or payment/subscriptions -> linked customers
-              if (item[linkByRefName]) {
-                return item[linkByRefName] === resource.ref;
-              }
+                // However, some resourcefuls have links without this explicitly set
+                // e.g. relationships like credits/relatedMaterials.assets that have
+                // a through, or payment/subscriptions -> linked customers
+                if (item[linkByRefName]) {
+                  return item[linkByRefName] === resource.ref;
+                }
 
-              const relationship = (this.resourcefulEndpoint
-                &amp;&amp; this.resourcefulEndpoint.resourceful
-                &amp;&amp; this.resourcefulEndpoint.resourceful.relationships
-                &amp;&amp; this.resourcefulEndpoint.resourceful.relationships[link]) || {};
+                const relationship = (this.resourcefulEndpoint
+                    &amp;&amp; this.resourcefulEndpoint.resourceful
+                    &amp;&amp; this.resourcefulEndpoint.resourceful.relationships
+                    &amp;&amp; this.resourcefulEndpoint.resourceful.relationships[link])
+                  || {};
 
-              const { through, filterName } = relationship;
-              // if we do not have a through, we are handling payment/customers
-              // and we don't want to filter anything out
-              if (!through) return true;
+                const { through, filterName } = relationship;
+                // if we do not have a through, we are handling payment/customers
+                // and we don't want to filter anything out
+                if (!through) return true;
 
-              const { fieldNamePath } = this.resourcefulEndpoint.resourceful.relationships[through];
-              const throughFields = resource[fieldNamePath] || [];
+                const {
+                  fieldNamePath
+                } = this.resourcefulEndpoint.resourceful.relationships[through];
+                const throughFields = resource[fieldNamePath] || [];
 
-              // Our first attempt at getting the filter we need relied on what filters were in
-              // this.resourcefulEndpoint.filters. This worked fine for metadata/credits, but
-              // metadata/people does not have withContentRef. The following code is not pretty,
-              // but as the filters follow the same naming convention, deriving the filter we need
-              // from the filterName works fine.
-              let parsedFilterName = filterName.slice(4);
-              parsedFilterName = `${parsedFilterName.charAt(0).toLowerCase()}${parsedFilterName.slice(1)}`;
+                // Our first attempt at getting the filter we need relied on what filters were in
+                // this.resourcefulEndpoint.filters. This worked fine for metadata/credits, but
+                // metadata/people does not have withContentRef. The following code is not pretty,
+                // but as the filters follow the same naming convention, deriving the filter we need
+                // from the filterName works fine.
+                let parsedFilterName = filterName.slice(4);
+                parsedFilterName = `${parsedFilterName
+                  .charAt(0)
+                  .toLowerCase()}${parsedFilterName.slice(1)}`;
 
-              return throughFields.some(field => field === item[parsedFilterName]);
+                return throughFields.some(
+                  field => field === item[parsedFilterName]
+                );
+              });
             });
-          });
-        }
+          }
 
-        return new Resource(resource, this.resourcefulEndpoint);
-      });
+          return new Resource(resource, this.resourcefulEndpoint);
+        }
+      );
     }
 
     return this;
@@ -316,7 +329,9 @@ class ResourceCollection {
    * @returns {Promise}
    */
   getPage(pageNumber) {
-    return this.fetch(this.rawData.meta.first.replace(/&amp;page=\d+/, `&amp;page=${pageNumber}`));
+    return this.fetch(
+      this.rawData.meta.first.replace(/&amp;page=\d+/, `&amp;page=${pageNumber}`)
+    );
   }
 
   /**
@@ -371,9 +386,13 @@ class ResourceCollection {
    * @returns {string}
    */
   serialise() {
-    return JSON.stringify({
-      [this.resourcefulEndpoint.pluralName]: this.toJSON()
-    }, null, '  ');
+    return JSON.stringify(
+      {
+        [this.resourcefulEndpoint.pluralName]: this.toJSON()
+      },
+      null,
+      '  '
+    );
   }
 
   /**
@@ -394,13 +413,11 @@ class ResourceCollection {
     const batchSize = size !== undefined ? size : this.resourcefulEndpoint.batchSize;
     const numberOfPages = Math.ceil(this.totalCount / batchSize);
 
-    return Array.from(
-      new Array(numberOfPages),
-      (x, i) => this.resourcefulEndpoint.newResourceCollection(this.collection.slice(
-        i * batchSize,
-        (i * batchSize) + batchSize
-      ).map(r => r.toJSON()))
-    );
+    return Array.from(new Array(numberOfPages), (x, i) => this.resourcefulEndpoint.newResourceCollection(
+      this.collection
+        .slice(i * batchSize, i * batchSize + batchSize)
+        .map(r => r.toJSON())
+    ));
   }
 
   /**
@@ -418,13 +435,14 @@ class ResourceCollection {
    */
   save(batchSize) {
     if (this.resourcefulEndpoint) {
-      return Promise.all(this.explode(batchSize).map(c => this.resourcefulEndpoint.store(c)
-        .catch((e) => {
+      return Promise.all(
+        this.explode(batchSize).map(c => this.resourcefulEndpoint.store(c).catch((e) => {
           // Add the current collection to the error to allow
           // end users to inspect where the error occurred
           e.collection = c;
           throw e;
-        })));
+        }))
+      );
     }
 
     return Promise.reject(NO_RESOURCEFUL_ENDPOINT_ERROR);
@@ -447,7 +465,9 @@ class ResourceCollection {
    * @returns {Promise}
    */
   validate() {
-    return Promise.all(this.collection.map(resource => resource.validate())).then(() => this);
+    return Promise.all(
+      this.collection.map(resource => resource.validate())
+    ).then(() => this);
   }
 
   /**
@@ -465,7 +485,11 @@ class ResourceCollection {
    */
   destroy() {
     if (this.resourcefulEndpoint) {
-      return Promise.all(this.explode().map(c => this.resourcefulEndpoint.destroy(c.collection.map(r => r.ref).join(','))));
+      return Promise.all(
+        this.explode().map(c => this.resourcefulEndpoint.destroy(
+          c.collection.map(r => r.ref).join(',')
+        ))
+      );
     }
 
     return Promise.reject(NO_RESOURCEFUL_ENDPOINT_ERROR);
@@ -536,7 +560,9 @@ class ResourceCollection {
    * @returns {!Resource}
    */
   findOrCreate(resource) {
-    const existingResource = this.findWhere(resource instanceof Resource ? resource.toJSON() : resource);
+    const existingResource = this.findWhere(
+      resource instanceof Resource ? resource.toJSON() : resource
+    );
 
     if (existingResource) {
       return existingResource;
@@ -661,7 +687,7 @@ export default ResourceCollection;
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on Thu Oct 11th 2018
+		on Fri Oct 12th 2018
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
