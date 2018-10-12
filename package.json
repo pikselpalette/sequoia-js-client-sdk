@@ -1,6 +1,6 @@
 {
   "name": "@pikselpalette/sequoia-js-client-sdk",
-  "version": "1.10.1",
+  "version": "1.12.2",
   "description": "Sequoia client SDK for Javascript",
   "main": "dist/web/sequoia-client.js",
   "browser": "dist/web/sequoia-client.js",
@@ -14,6 +14,22 @@
     "coverage": "codecov",
     "test:watch": "NODE_ENV=test jest --watch",
     "test:mutate": "NODE_ENV=test stryker run"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "prettier --single-quote --write",
+      "npm run lint:fix",
+      "git add"
+    ],
+    "*.{json,css,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "jest": {
     "testMatch": [
@@ -60,10 +76,13 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.24.1",
     "fetch-mock": "^7.0.2",
+    "husky": "^1.1.2",
     "ink-docstrap": "^1.3.2",
     "jest": "^23.6.0",
     "jest-fetch-mock": "^1.6.6",
     "jsdoc": "^3.5.5",
+    "lint-staged": "^7.3.0",
+    "lodash": "^4.17.11",
     "regenerator-runtime": "^0.12.1",
     "stryker": "^0.29.5",
     "stryker-api": "^0.21.2",

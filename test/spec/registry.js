@@ -190,7 +190,7 @@ describe('Registry', () => {
 
     it('should return a Service for each service specified', (done) => {
       const requestedServices = ['metadata', 'contents'];
-      registry.getServiceDescriptors(...requestedServices).then((services) => {
+      registry.getCachedServiceDescriptors(...requestedServices).then((services) => {
         expect(services).toEqual(requestedServices);
         done();
       });
@@ -198,7 +198,7 @@ describe('Registry', () => {
 
     it('should return all Services when no services are specified', (done) => {
       const allServices = registry.services.map(s => s.name);
-      registry.getServiceDescriptors().then((services) => {
+      registry.getCachedServiceDescriptors().then((services) => {
         expect(services).toEqual(allServices);
         done();
       });
@@ -207,7 +207,7 @@ describe('Registry', () => {
     it('should fallback to the service endpoint if the descriptor is not in the cache', (done) => {
       registry.getCachedServiceDescriptor.mockImplementation(() => Promise.reject());
       const allServices = registry.services.map(s => s.name);
-      registry.getServiceDescriptors().then((services) => {
+      registry.getCachedServiceDescriptors().then((services) => {
         expect(services).toEqual(allServices);
         done();
       });

@@ -15,7 +15,10 @@
     "no-plusplus": 0,
     "no-prototype-builtins": 0,
     "no-param-reassign": ["error", { "props": false }],
-    "import/extensions": 0
+    "import/extensions": 0,
+    "function-paren-newline": 0,
+    "no-console": 0,
+    "no-mixed-operators": 0
   },
   "plugins": [
     "jest"

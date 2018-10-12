@@ -55,6 +55,10 @@ describe('Query', () => {
       expect(query.count().query).toEqual('&count=true');
     });
 
+    it('"continue" should append "&continue=true" to the query', () => {
+      expect(query.continue().query).toEqual('&continue=true');
+    });
+
     it('"lang" should append "&lang=<value>" to the query', () => {
       expect(query.lang('en').query).toEqual('&lang=en');
     });
@@ -123,6 +127,77 @@ describe('Query', () => {
     it('"orderByUpdatedBy" should call "orderBy" with "updatedBy"', () => {
       query.orderByUpdatedBy();
       expect(query.orderBy).toHaveBeenCalledWith('updatedBy');
+    });
+
+    describe('addRelatedThroughFields', () => {
+      it('leaves the query intact if passed no relationships or allField parameter', () => {
+        query.query = 'fields=ref,title';
+        expect(query.addRelatedThroughFields().query).toEqual('fields=ref,title');
+      });
+
+      it('leaves the query intact if a non-through relationship is passed anat the relationship is included in the query', () => {
+        const relationships = {
+          throughRelationship: {
+            through: 'relatedThrough'
+          },
+          relatedThrough: {
+            fieldNamePath: 'throughField'
+          }
+        };
+        query.query = '&fields=ref,title&include=relatedThrough';
+        expect(query.addRelatedThroughFields(relationships).query).toEqual('fields=ref,title&include=relatedThrough');
+      });
+
+      it('appends the through related field to the query if a through relationship is passed and that relationship is included in the query', () => {
+        const relationships = {
+          throughRelationship: {
+            through: 'relatedThrough'
+          },
+          relatedThrough: {
+            fieldNamePath: 'throughField'
+          }
+        };
+        query.query = '&fields=ref,title&include=throughRelationship';
+        expect(query.addRelatedThroughFields(relationships).query).toEqual('fields=ref,title,throughField&include=throughRelationship');
+      });
+
+      it('preserves nested query parts', () => {
+        const relationships = {
+          throughRelationship: {
+            through: 'relatedThrough'
+          },
+          relatedThrough: {
+            fieldNamePath: 'throughField'
+          }
+        };
+        query.query = '&fields=ref,title&include=throughRelationship&relatedThrough.withTags=someTag';
+        expect(query.addRelatedThroughFields(relationships).query)
+          .toEqual('fields=ref,title,throughField&include=throughRelationship&relatedThrough.withTags=someTag');
+      });
+
+      describe('when there are no fields on the query, a through relationship is passed and that relationship is included in the query', () => {
+        it('appends allFields to the query', () => {
+          const relationships = {
+            throughRelationship: {
+              through: 'relatedThrough'
+            },
+            relatedThrough: {
+              fieldNamePath: 'throughField'
+            }
+          };
+
+          const allFields = [
+            'ref',
+            'title',
+            'createdAt',
+            'updatedAt'
+          ];
+
+          query.query = 'include=throughRelationship';
+          expect(query.addRelatedThroughFields(relationships, allFields).query)
+            .toEqual('include=throughRelationship&fields=ref,title,createdAt,updatedAt,throughField');
+        });
+      });
     });
 
     describe('"toQueryString"', () => {
