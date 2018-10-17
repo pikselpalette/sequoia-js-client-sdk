@@ -4,7 +4,7 @@ const mode = process.env.NODE_ENV === 'production' ? 'production' : 'none';
 
 const config = target => ({
   mode,
-  entry: [path.resolve(__dirname, 'index.js')],
+  entry: ['./index.js'],
   target,
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -18,16 +18,12 @@ const config = target => ({
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['@babel/preset-env'],
+          presets: ['babel-preset-env'],
           plugins:
-            process.env.NODE_ENV === 'test' ? ['istanbul', '@babel/transform-runtime', 'add-module-exports']
-              : ['@babel/transform-runtime', 'add-module-exports']
+            process.env.NODE_ENV === 'test' ? ['istanbul', 'transform-runtime', 'add-module-exports'] : ['transform-runtime', 'add-module-exports']
         }
       }
     ]
-  },
-  resolveLoader: {
-    modules: [path.resolve(__dirname, 'node_modules')]
   },
   devtool: 'source-map'
 });
