@@ -9,16 +9,19 @@ module.exports = (config) => {
       'lib/**/*.js'
     ],
     timeoutFactor: 10,
-    timeoutMS: 60000,
+    timeoutMs: 60000,
     testRunner: 'jest',
     mutator: 'javascript',
     coverageAnalysis: 'off',
     plugins: [
       'stryker-jest-runner',
       'stryker-html-reporter',
+      'stryker-babel-transpiler',
       'stryker-javascript-mutator'
     ],
-    reporters: ['progress', 'dots', 'clear-text', 'html'],
+    babelrcFile: '.babelrc',
+    transpilers: ['babel'],
+    reporter: ['dots', 'clear-text', 'html'],
     htmlReporter: {
       baseDir: 'test/results/mutation/html'
     }

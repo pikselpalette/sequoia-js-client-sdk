@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Roll back Babel (and associated deps) to 6.x as they cause incompatibilities with users of the client running Babel 6.
+
 ## 1.12.3
 
 - Fix a bug with `ResourcefulEndpoint.all()` where it could miss the final page of results.
