@@ -39,7 +39,6 @@ jobs:
       script:
         - npm run test
         - npm run coverage
-        - npm run test:mutate
     -
       language: node_js
       node_js:
@@ -47,7 +46,6 @@ jobs:
       script:
         - npm run test
         - npm run coverage
-        - npm run test:mutate
     - stage: docs
       language: node_js
       node_js:
