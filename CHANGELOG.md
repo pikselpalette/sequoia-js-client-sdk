@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.12.4
+
 - Roll back Babel (and associated deps) to 6.x as they cause incompatibilities with users of the client running Babel 6.
 
 ## 1.12.3
