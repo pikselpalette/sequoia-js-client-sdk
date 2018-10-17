@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Fix a bug with `ResourcefulEndpoint.all()` where it could miss the final page of results.
+
 ## 1.12.2
 
 - Fix an issue with nested queries where they would be transformed from `a.b=c` to `a[b]=c`.
