@@ -10,6 +10,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1d9499002e9441818cc46996ee0fe90e)](https://www.codacy.com/app/pikselpalette/sequoia-js-client-sdk?utm_source=github.com&utm_medium=referral&utm_content=pikselpalette/sequoia-js-client-sdk&utm_campaign=Badge_Grade) [![Greenkeeper badge](https://badges.greenkeeper.io/pikselpalette/sequoia-js-client-sdk.svg)](https://greenkeeper.io/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Known Vulnerabilities](https://snyk.io/test/github/pikselpalette/sequoia-js-client-sdk/badge.svg?targetFile=package.json)](https://snyk.io/test/github/pikselpalette/sequoia-js-client-sdk?targetFile=package.json)
 
 This SDK provides convenient access to the [Piksel Palette](http://developer.pikselpalette.com/) RESTful services through a set of easy to use JS abstractions. You easily integrate Piksel Palette services into your website, webapp or node.js app and be running in no time.
 
