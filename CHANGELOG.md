@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.12.3
+
 - Fix a bug with `ResourcefulEndpoint.all()` where it could miss the final page of results.
 
 ## 1.12.2
