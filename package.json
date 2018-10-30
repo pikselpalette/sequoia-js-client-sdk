@@ -79,7 +79,7 @@
     "jest": "^23.3.0",
     "jest-fetch-mock": "^1.6.5",
     "jsdoc": "^3.5.5",
-    "lint-staged": "^8.0.1",
+    "lint-staged": "^8.0.3",
     "lodash": "^4.17.11",
     "stryker": "^0.25.1",
     "stryker-api": "^0.18.0",
