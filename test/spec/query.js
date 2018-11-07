@@ -131,8 +131,8 @@ describe('Query', () => {
 
     describe('addRelatedThroughFields', () => {
       it('leaves the query intact if passed no relationships or allField parameter', () => {
-        query.query = 'fields=ref,title';
-        expect(query.addRelatedThroughFields().query).toEqual('fields=ref,title');
+        query.query = 'fields=ref,title&withRef=!demo:foo&withRef=!demo:bar';
+        expect(query.addRelatedThroughFields().query).toEqual('fields=ref,title&withRef=!demo:foo&withRef=!demo:bar');
       });
 
       it('leaves the query intact if a non-through relationship is passed anat the relationship is included in the query', () => {
