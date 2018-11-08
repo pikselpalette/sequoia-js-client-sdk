@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Set indices to false when stringifying query in addRelatedThroughFields method in Query class as it was generating invalid API queries for arrays with more than 20 items.
+
 ## 1.12.4
 
 - Roll back Babel (and associated deps) to 6.x as they cause incompatibilities with users of the client running Babel 6.
