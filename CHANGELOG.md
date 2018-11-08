@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.12.5
+
 - Set indices to false when stringifying query in addRelatedThroughFields method in Query class as it was generating invalid API queries for arrays with more than 20 items.
 
 ## 1.12.4
