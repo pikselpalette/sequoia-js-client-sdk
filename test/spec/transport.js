@@ -52,11 +52,8 @@ describe('transport', () => {
     });
 
     it('should reject with statusText when response.json() promise is rejected', async () => {
-      const response = new Response();
+      const response = new Response(null, { status: 500, statusText: 'status text' });
       response.json = () => Promise.reject();
-      response.status = 500;
-      response.ok = false;
-      response.statusText = 'status text';
 
       fetchMock.mock('/', response);
 
