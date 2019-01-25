@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.14.0
+
+- Add `resetPassword()` to `Client`.
+
 ## 1.13.0
 
 - Add `changePassword()` to `Client`.
