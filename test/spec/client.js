@@ -330,4 +330,13 @@ describe('Client', () => {
       });
     });
   });
+
+  describe('resetPassword', () => {
+    it('should resolve with an active session', async () => {
+      jest.spyOn(client.session, 'getIdentityUri');
+      jest.spyOn(client.session.transport, 'post').mockImplementation(() => Promise.resolve({}));
+
+      await expect(client.resetPassword('tenant\\name')).resolves.toEqual({});
+    });
+  });
 });

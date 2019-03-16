@@ -325,4 +325,23 @@ describe('session', () => {
       expect(session.getIdentityUri()).resolves.toEqual('http://localhost');
     });
   });
+
+  describe('resetPassword', () => {
+    beforeEach(() => {
+      jest.spyOn(session, 'getIdentityUri');
+      jest.spyOn(session.transport, 'post').mockImplementation(() => Promise.resolve({}));
+    });
+
+    it('should call password reset with a username in the body', async () => {
+      const username = 'tenant\\name';
+
+      await expect(session.resetPassword(username)).resolves.toEqual({});
+
+      expect(session.getIdentityUri).toHaveBeenCalled();
+      expect(session.transport.post).toHaveBeenCalledWith(
+        'http://localhost/pauth/password-resets',
+        { body: JSON.stringify({ username: 'tenant\\name' }) }
+      );
+    });
+  });
 });
