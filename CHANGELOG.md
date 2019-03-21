@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.14.1
+
+- Fix bug with `through` relationships, allowing `string` types for related fields.
+
 ## 1.14.0
 
 - Add `resetPassword()` to `Client`.
