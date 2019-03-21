@@ -1,0 +1,31 @@
+{
+  "offers": [
+    {
+      "ref": "demo:test",
+      "title": "Test offer",
+      "descriptiveContentRef": "demo:content"
+    },
+    {
+      "ref": "demo:foo",
+      "title": "Foo offer"
+    },
+    {
+      "ref": "demo:bar",
+      "title": "Bar offer"
+    }
+  ],
+  "linked": {
+    "descriptiveContent.assets": [
+      {
+        "ref": "demo:impastor-image",
+        "name": "impastor-image",
+        "contentRef": "demo:content",
+        "type": "image",
+        "url":
+          "https://s3-eu-west-1.amazonaws.com/demo.datasets.sequoia.piksel.com/images/viacom/Impastors1ep01HD-00DDDE0000112357351303.jpg",
+        "title": "impastor-image",
+        "tags": ["viacom"]
+      }
+    ]
+  }
+}

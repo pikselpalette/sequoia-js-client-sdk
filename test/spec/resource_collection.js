@@ -8,6 +8,7 @@ import lastMediaItemFixture from '../fixtures/media-items-12.json';
 import metadataDescriptorFixture from '../fixtures/metadata-descriptor.json';
 import creditsWithThroughFixture from '../fixtures/credits-with-through.json';
 import peopleWithThroughFixture from '../fixtures/people-with-through.json';
+import offersWithThroughFixture from '../fixtures/offers-with-through.json';
 
 describe('ResourceCollection', () => {
   let mockDescriptor;
@@ -333,6 +334,72 @@ describe('ResourceCollection', () => {
               .forEach((l) => {
                 expect(refs.includes(l));
               });
+          });
+        });
+      });
+
+      describe('offers', () => {
+        let rawData;
+        beforeEach(() => {
+          mockDescriptor = Object.assign(metadataDescriptorFixture.resourcefuls.offers, {
+            location: 'http://localhost/metadata',
+            tenant: 'test',
+            pluralName: 'offers'
+          });
+          resourcefulEndpoint = new ResourcefulEndpoint(new Transport(), mockDescriptor);
+          resourceCollection = new ResourceCollection(
+            mediaItemFixture,
+            null,
+            resourcefulEndpoint
+          );
+          rawData = offersWithThroughFixture;
+        });
+
+        it('has a resourcefulEndpoint that has a relationship that has a through relationship', () => {
+          const relationship = resourcefulEndpoint.resourceful.relationships['descriptiveContent.assets'];
+          expect(relationship).toBeDefined();
+          expect(relationship.through).toBeDefined();
+        });
+
+        it('has rawData', () => {
+          expect(rawData).toBeDefined();
+        });
+
+        it('has a collection', () => {
+          const result = resourceCollection.setData(rawData);
+          expect(result && result.collection).toBeDefined();
+        });
+
+        it('has an item in collection that has values in descriptiveContentRef', () => {
+          const result = resourceCollection.setData(rawData);
+          const { collection } = result;
+          const itemWithdescriptiveContentRef = collection[0];
+
+          expect(itemWithdescriptiveContentRef && itemWithdescriptiveContentRef.descriptiveContentRef)
+            .toBeDefined();
+        });
+
+        describe('item with descriptiveContent', () => {
+          let result;
+          let collection;
+          let itemWithdescriptiveContentRef;
+
+          beforeEach(() => {
+            result = resourceCollection.setData(rawData);
+            collection = result && result.collection;
+            [itemWithdescriptiveContentRef] = collection;
+          });
+
+          it('has linked data', () => {
+            expect(itemWithdescriptiveContentRef.linked).toBeDefined();
+          });
+
+          it('has matching linked data and descriptiveContentRef', () => {
+            const ref = itemWithdescriptiveContentRef.descriptiveContentRef;
+            const linked = itemWithdescriptiveContentRef.linked['descriptiveContent.assets'];
+            const linkedItem = linked.find(l => l.contentRef === ref);
+
+            expect(linkedItem).toBeDefined();
           });
         });
       });
