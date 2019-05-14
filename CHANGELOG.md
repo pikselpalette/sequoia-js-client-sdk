@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.14.2
+
+- Fix bug with direct relationships containing `through` fields (`filterName` is only required in `indirect` relationships).
+
 ## 1.14.1
 
 - Fix bug with `through` relationships, allowing `string` types for related fields.
