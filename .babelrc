@@ -1,9 +1,8 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
-        "modules": false,
         "targets": {
           "browsers": ["last 2 versions", "safari >= 7"],
           "node": "6.10"
@@ -13,8 +12,8 @@
   ],
   "env": {
     "test": {
-      "presets": ["env"],
-      "plugins": ["istanbul"]
+      "presets": ["@babel/preset-env"],
+      "plugins": ["@babel/transform-runtime"]
     }
   }
 }
