@@ -21,11 +21,7 @@ const config = target => ({
           presets: ["@babel/preset-env"],
           plugins:
             process.env.NODE_ENV === "test"
-              ? [
-                  "istanbul",
-                  "@babel/plugin-transform-runtime",
-                  "add-module-exports"
-                ]
+              ? ["istanbul", "@babel/transform-runtime", "add-module-exports"]
               : ["@babel/plugin-transform-runtime", "add-module-exports"]
         }
       }
