@@ -1,34 +1,40 @@
-const path = require('path');
+const path = require("path");
 
-const mode = process.env.NODE_ENV === 'production' ? 'production' : 'none';
+const mode = process.env.NODE_ENV === "production" ? "production" : "none";
 
 const config = target => ({
   mode,
-  entry: ['./index.js'],
+  entry: ["./index.js"],
   target,
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, "dist"),
     filename: `${target}/sequoia-client.js`,
-    libraryTarget: 'umd'
+    libraryTarget: "umd"
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: "babel-loader",
         query: {
-          presets: ['babel-preset-env'],
+          presets: ["@babel/preset-env"],
           plugins:
-            process.env.NODE_ENV === 'test' ? ['istanbul', 'transform-runtime', 'add-module-exports'] : ['transform-runtime', 'add-module-exports']
+            process.env.NODE_ENV === "test"
+              ? [
+                  "istanbul",
+                  "@babel/plugin-transform-runtime",
+                  "add-module-exports"
+                ]
+              : ["@babel/plugin-transform-runtime", "add-module-exports"]
         }
       }
     ]
   },
-  devtool: 'source-map'
+  devtool: "source-map"
 });
 
-const web = config('web');
-const node = config('node');
+const web = config("web");
+const node = config("node");
 
 module.exports = [web, node];
