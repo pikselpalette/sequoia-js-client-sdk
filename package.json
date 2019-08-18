@@ -94,7 +94,7 @@
     "stryker-javascript-mutator": "^0.14.0",
     "stryker-jest-runner": "^1.0.0",
     "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.3.7"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
