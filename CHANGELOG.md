@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.15.0
+
+- Modified `resourceful_endpoint`'s `criteriaToQuery` function to accept an owner query param in criteria.
+
 ## 1.14.2
 
 - Fix bug with direct relationships containing `through` fields (`filterName` is only required in `indirect` relationships).
