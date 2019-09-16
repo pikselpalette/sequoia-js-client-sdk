@@ -229,6 +229,12 @@ describe('ResourcefulEndpoint', () => {
       expect(resourcefulEndpoint.criteriaToQuery(query)).toMatch(new RegExp(`&${criteria}$`));
       expect(query.toQueryString).toHaveBeenCalled();
     });
+
+    it('should not append the owner if there is already one in the query', () => {
+      const criteria = 'owner=foo';
+      expect(resourcefulEndpoint.criteriaToQuery(criteria)).not.toContain('?owner=test');
+      expect(resourcefulEndpoint.criteriaToQuery(criteria)).toContain('?owner=foo');
+    });
   });
 
   describe('endPointUrl', () => {
