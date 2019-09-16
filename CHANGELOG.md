@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## 1.14.3
+## 1.15.0
 
 - Modified `resourceful_endpoint`'s `criteriaToQuery` function to accept an owner query param in criteria.
 
