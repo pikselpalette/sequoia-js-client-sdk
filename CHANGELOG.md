@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.15.1
+
+- Reverted commit e52b5f5f529a122216faec4a171b23cc2fbe17ce since it was breaking some exports.
+
 ## 1.15.0
 
 - Modified `resourceful_endpoint`'s `criteriaToQuery` function to accept an owner query param in criteria.
