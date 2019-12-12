@@ -183,6 +183,22 @@ describe('ResourceCollection', () => {
       expect(result.collection).toEqual([]);
     });
 
+    it('should set linked data to the reference if the linkByRefName is an array field', () => {
+      expect(resourceCollection.collection.length).toEqual(0);
+      const rawData = Object.assign({}, lastMediaItemFixture);
+      const resource = { ref: 'Joe', categoryRefs: ['foo:category'] };
+      const item = { ref: 'foo:category' };
+
+      resourceCollection.resourcefulEndpoint = resourcefulEndpoint;
+      rawData.contents = [resource];
+      rawData.linked = {
+        categories: [item]
+      };
+
+      const result = resourceCollection.setData(rawData);
+      expect(result.collection[0].linked.categories.length).toEqual(1);
+    });
+
     describe('through relationships', () => {
       describe('credits', () => {
         let rawData;
