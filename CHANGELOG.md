@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.16.0
+
+- Improved setData method in resourceful_collection to properly filter linked data
+
 ## 1.15.1
 
 - Reverted commit e52b5f5f529a122216faec4a171b23cc2fbe17ce since it was breaking some exports.
