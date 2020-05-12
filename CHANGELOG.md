@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.16.1
+
+- Fixed some descriptor mutations
+
 ## 1.16.0
 
 - Improved setData method in resourceful_collection to properly filter linked data
