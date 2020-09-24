@@ -63,10 +63,6 @@ describe('Query', () => {
       expect(query.lang('en').query).toEqual('&lang=en');
     });
 
-    it('"page" should append "&page=<value>" to the query', () => {
-      expect(query.page(10).query).toEqual('&page=10');
-    });
-
     it('"perPage" should append "&perPage=<value>" to the query', () => {
       expect(query.perPage(99).query).toEqual('&perPage=99');
     });
@@ -212,11 +208,10 @@ describe('Query', () => {
 
       it('should return the query property in the order called with applied sorting at the end', () => {
         const queryOptions = '&fields=type,title,mediumSynopsis,availabilityStartAt,availabilityEndAt,duration,ref,title'
-          + '&include=assets&page=1&perPage=24&count=true&sort=-updatedAt';
+          + '&include=assets&perPage=24&count=true&sort=-updatedAt';
         const fluentQuery = where()
           .fields('type', 'title', 'mediumSynopsis', 'availabilityStartAt', 'availabilityEndAt', 'duration', 'ref', 'title')
           .include('assets')
-          .page(1)
           .perPage(24)
           .orderByUpdatedAt()
           .desc()
