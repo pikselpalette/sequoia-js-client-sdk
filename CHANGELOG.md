@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## 1.16.2
+## 1.17.0
 
 - Remove page and last methods in query and resource_collection
 
