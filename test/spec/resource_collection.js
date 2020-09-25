@@ -42,10 +42,6 @@ describe('ResourceCollection', () => {
     expect(spy).toHaveBeenCalled();
   });
 
-  it('"page" should return the value from the `meta` part of the response json', () => {
-    expect(resourceCollection.page).toBe(1);
-  });
-
   it('"perPage" should return the value from the `meta` part of the response json', () => {
     expect(resourceCollection.perPage).toBe(24);
   });
@@ -464,11 +460,6 @@ describe('ResourceCollection', () => {
     it('"firstPage" should call "fetch" with the first page of results from the feed', async () => {
       await resourceCollection.firstPage();
       expect(resourceCollection.fetch).toHaveBeenCalledWith(mediaItemFixture.meta.first);
-    });
-
-    it('"lastPage" should call "fetch" with the last page of results from the feed', async () => {
-      await resourceCollection.lastPage();
-      expect(resourceCollection.fetch).toHaveBeenCalledWith(mediaItemFixture.meta.last);
     });
 
     it('"getPage" should call "fetch" with the specified page of results', async () => {
