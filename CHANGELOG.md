@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.16.2
+
+- Remove page and last methods in query and resource_collection
+
 ## 1.16.1
 
 - Fixed some descriptor mutations
