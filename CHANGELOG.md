@@ -2,7 +2,11 @@
 
 ## Unreleased
 
-## 1.17.0
+## 2.0.1
+
+- Deep merge of options in transport
+
+## 2.0.0
 
 - Remove page and last methods in query and resource_collection
 

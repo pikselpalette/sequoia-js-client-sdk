@@ -1,6 +1,6 @@
 {
   "name": "@pikselpalette/sequoia-js-client-sdk",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Sequoia client SDK for Javascript",
   "main": "dist/web/sequoia-client.js",
   "browser": "dist/web/sequoia-client.js",
@@ -94,6 +94,7 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "date-fns": "^1.29.0",
+    "deepmerge": "^4.2.2",
     "encodeurl": "^1.0.2",
     "lodash.delay": "^4.1.1",
     "qs": "^6.5.2"
