@@ -106,6 +106,13 @@ describe('transport', () => {
       expect(fetchMock.lastOptions()).toEqual(expect.objectContaining(testOptions));
     });
 
+    it('"get" should merge its options whith new ones when sent', async () => {
+      jest.spyOn(global, 'fetch');
+      await transport.get('/', { headers: { 'Content-Type': 'newValue' } });
+      const expected = { headers: { Accept: 'application/json', 'Content-Type': 'newValue' }, method: 'GET', mode: 'cors' };
+      expect(fetch).toHaveBeenCalledWith('/', expected);
+    });
+
     it('"post" should set "method" in its options to "POST"', async () => {
       await expect(transport.post('/')).resolves.toEqual(expect.any(Object));
 
